@@ -1,0 +1,292 @@
+{
+  "false_negatives": [],
+  "false_positives": [],
+  "high_risk_benign": [
+    {
+      "attack_bucket": "",
+      "attack_subtype": "",
+      "fraud_score": 0.032136,
+      "label": 0,
+      "margin_to_threshold": -0.017864,
+      "prediction": 0,
+      "reason_codes": "session velocity lowers risk;high generated risk score lowers risk;merchant chargeback behavior lowers risk",
+      "transaction_id": "txn_d57b99a8cc53"
+    },
+    {
+      "attack_bucket": "",
+      "attack_subtype": "",
+      "fraud_score": 0.019281,
+      "label": 0,
+      "margin_to_threshold": -0.030719,
+      "prediction": 0,
+      "reason_codes": "session velocity lowers risk;high generated risk score lowers risk;device history lowers risk",
+      "transaction_id": "txn_06cdd8aa8d06"
+    },
+    {
+      "attack_bucket": "",
+      "attack_subtype": "",
+      "fraud_score": 0.014189,
+      "label": 0,
+      "margin_to_threshold": -0.035811,
+      "prediction": 0,
+      "reason_codes": "session velocity lowers risk;high generated risk score lowers risk;customer account age lowers risk",
+      "transaction_id": "txn_c88943d62494"
+    },
+    {
+      "attack_bucket": "",
+      "attack_subtype": "",
+      "fraud_score": 0.013825,
+      "label": 0,
+      "margin_to_threshold": -0.036175,
+      "prediction": 0,
+      "reason_codes": "session velocity lowers risk;high generated risk score lowers risk;device history lowers risk",
+      "transaction_id": "txn_34ac9ef571e6"
+    },
+    {
+      "attack_bucket": "",
+      "attack_subtype": "",
+      "fraud_score": 0.011589,
+      "label": 0,
+      "margin_to_threshold": -0.038411,
+      "prediction": 0,
+      "reason_codes": "session velocity lowers risk;device history lowers risk;high generated risk score lowers risk",
+      "transaction_id": "txn_affbd4c9c276"
+    },
+    {
+      "attack_bucket": "",
+      "attack_subtype": "",
+      "fraud_score": 0.011163,
+      "label": 0,
+      "margin_to_threshold": -0.038837,
+      "prediction": 0,
+      "reason_codes": "session velocity lowers risk;high generated risk score lowers risk;merchant chargeback behavior lowers risk",
+      "transaction_id": "txn_8a990305aa8c"
+    },
+    {
+      "attack_bucket": "",
+      "attack_subtype": "",
+      "fraud_score": 0.010867,
+      "label": 0,
+      "margin_to_threshold": -0.039133,
+      "prediction": 0,
+      "reason_codes": "session velocity lowers risk;high generated risk score lowers risk;merchant chargeback behavior lowers risk",
+      "transaction_id": "txn_52daf3084756"
+    },
+    {
+      "attack_bucket": "",
+      "attack_subtype": "",
+      "fraud_score": 0.006187,
+      "label": 0,
+      "margin_to_threshold": -0.043813,
+      "prediction": 0,
+      "reason_codes": "session velocity lowers risk;device history lowers risk;high generated risk score lowers risk",
+      "transaction_id": "txn_05a066a2f9ba"
+    },
+    {
+      "attack_bucket": "",
+      "attack_subtype": "",
+      "fraud_score": 0.005411,
+      "label": 0,
+      "margin_to_threshold": -0.044589,
+      "prediction": 0,
+      "reason_codes": "session velocity lowers risk;customer account age lowers risk;high generated risk score lowers risk",
+      "transaction_id": "txn_e4e65d53655e"
+    },
+    {
+      "attack_bucket": "",
+      "attack_subtype": "",
+      "fraud_score": 0.004396,
+      "label": 0,
+      "margin_to_threshold": -0.045604,
+      "prediction": 0,
+      "reason_codes": "session velocity lowers risk;high generated risk score lowers risk;customer account age lowers risk",
+      "transaction_id": "txn_cf9ff32b920d"
+    }
+  ],
+  "low_confidence_fraud": [
+    {
+      "attack_bucket": "merchant_ecosystem_abuse",
+      "attack_subtype": "bust_out_merchant",
+      "fraud_score": 0.383915,
+      "label": 1,
+      "margin_to_threshold": 0.333915,
+      "prediction": 1,
+      "reason_codes": "session velocity lowers risk;customer decline history raises risk;merchant refund behavior lowers risk",
+      "transaction_id": "txn_a4f4974fd832"
+    },
+    {
+      "attack_bucket": "merchant_ecosystem_abuse",
+      "attack_subtype": "triangulation_fraud",
+      "fraud_score": 0.503889,
+      "label": 1,
+      "margin_to_threshold": 0.453889,
+      "prediction": 1,
+      "reason_codes": "session velocity lowers risk;merchant chargeback behavior lowers risk;high generated risk score lowers risk",
+      "transaction_id": "txn_5f89e9fde754"
+    },
+    {
+      "attack_bucket": "credential_based_fraud",
+      "attack_subtype": "merchant_admin_takeover",
+      "fraud_score": 0.526626,
+      "label": 1,
+      "margin_to_threshold": 0.476626,
+      "prediction": 1,
+      "reason_codes": "session velocity lowers risk;merchant refund behavior raises risk;merchant chargeback behavior lowers risk",
+      "transaction_id": "txn_2c762911d6ed"
+    },
+    {
+      "attack_bucket": "identity_onboarding_fraud",
+      "attack_subtype": "mule_account_creation",
+      "fraud_score": 0.534335,
+      "label": 1,
+      "margin_to_threshold": 0.484335,
+      "prediction": 1,
+      "reason_codes": "session velocity lowers risk;merchant age raises risk;customer decline history raises risk",
+      "transaction_id": "txn_a67f359e0f2c"
+    },
+    {
+      "attack_bucket": "credential_based_fraud",
+      "attack_subtype": "card_testing",
+      "fraud_score": 0.537952,
+      "label": 1,
+      "margin_to_threshold": 0.487952,
+      "prediction": 1,
+      "reason_codes": "session velocity lowers risk;device history raises risk;high generated risk score raises risk",
+      "transaction_id": "txn_2ce5050c1a86"
+    },
+    {
+      "attack_bucket": "social_engineering_payment_fraud",
+      "attack_subtype": "vendor_rerouting",
+      "fraud_score": 0.562506,
+      "label": 1,
+      "margin_to_threshold": 0.512506,
+      "prediction": 1,
+      "reason_codes": "session velocity lowers risk;merchant chargeback behavior lowers risk;merchant refund behavior raises risk",
+      "transaction_id": "txn_fd1deec424ba"
+    },
+    {
+      "attack_bucket": "identity_onboarding_fraud",
+      "attack_subtype": "stolen_identity_signup",
+      "fraud_score": 0.599112,
+      "label": 1,
+      "margin_to_threshold": 0.549112,
+      "prediction": 1,
+      "reason_codes": "session velocity lowers risk;merchant age raises risk;merchant refund behavior raises risk",
+      "transaction_id": "txn_92a3447d8168"
+    },
+    {
+      "attack_bucket": "identity_onboarding_fraud",
+      "attack_subtype": "synthetic_identity",
+      "fraud_score": 0.631276,
+      "label": 1,
+      "margin_to_threshold": 0.581276,
+      "prediction": 1,
+      "reason_codes": "session velocity lowers risk;merchant age lowers risk;high generated risk score lowers risk",
+      "transaction_id": "txn_22be6e94c562"
+    },
+    {
+      "attack_bucket": "post_transaction_abuse",
+      "attack_subtype": "non_delivery_claim",
+      "fraud_score": 0.655772,
+      "label": 1,
+      "margin_to_threshold": 0.605772,
+      "prediction": 1,
+      "reason_codes": "session velocity lowers risk;device history raises risk;high generated risk score raises risk",
+      "transaction_id": "txn_68752d597e1f"
+    },
+    {
+      "attack_bucket": "merchant_ecosystem_abuse",
+      "attack_subtype": "triangulation_fraud",
+      "fraud_score": 0.664786,
+      "label": 1,
+      "margin_to_threshold": 0.614786,
+      "prediction": 1,
+      "reason_codes": "session velocity lowers risk;high generated risk score raises risk;merchant chargeback behavior lowers risk",
+      "transaction_id": "txn_7d58beb4adbb"
+    }
+  ],
+  "row_count": 1091,
+  "threshold": 0.05,
+  "weak_groups": [
+    {
+      "avg_fraud_score": 0.801471,
+      "bucket": "social_engineering_payment_fraud",
+      "fraud_count": 6,
+      "group_key": "ai_impersonation",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "ai_impersonation"
+    },
+    {
+      "avg_fraud_score": 0.825032,
+      "bucket": "merchant_ecosystem_abuse",
+      "fraud_count": 41,
+      "group_key": "triangulation_fraud",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "triangulation_fraud"
+    },
+    {
+      "avg_fraud_score": 0.82897,
+      "bucket": "identity_onboarding_fraud",
+      "fraud_count": 11,
+      "group_key": "synthetic_identity",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "synthetic_identity"
+    },
+    {
+      "avg_fraud_score": 0.851195,
+      "bucket": "credential_based_fraud",
+      "fraud_count": 7,
+      "group_key": "merchant_admin_takeover",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "merchant_admin_takeover"
+    },
+    {
+      "avg_fraud_score": 0.881355,
+      "bucket": "merchant_ecosystem_abuse",
+      "fraud_count": 55,
+      "group_key": "bust_out_merchant",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "bust_out_merchant"
+    },
+    {
+      "avg_fraud_score": 0.886644,
+      "bucket": "social_engineering_payment_fraud",
+      "fraud_count": 7,
+      "group_key": "vendor_rerouting",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "vendor_rerouting"
+    },
+    {
+      "avg_fraud_score": 0.899123,
+      "bucket": "credential_based_fraud",
+      "fraud_count": 17,
+      "group_key": "consumer_account_takeover",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "consumer_account_takeover"
+    },
+    {
+      "avg_fraud_score": 0.90379,
+      "bucket": "identity_onboarding_fraud",
+      "fraud_count": 16,
+      "group_key": "stolen_identity_signup",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "stolen_identity_signup"
+    }
+  ]
+}

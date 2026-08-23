@@ -1,0 +1,69 @@
+{
+  "attack_id": "identity_synthetic_001",
+  "bucket": "identity_onboarding_fraud",
+  "subtype": "synthetic_identity",
+  "attack_name": "Synthetic identity onboarding",
+  "variant_name": "Thin-file wallet account activation",
+  "channel": "onboarding",
+  "rail": "wallet",
+  "scope": "multi_step_campaign",
+  "actor_type": "synthetic_identity",
+  "attacker_goal": "open and activate a payment account using inconsistent identity attributes",
+  "genai_role": [
+    "profile_generation",
+    "identity_narrative_creation",
+    "support_response_drafting"
+  ],
+  "preconditions": [
+    "onboarding flow accepts partially verified identity attributes",
+    "new account can transact after activation"
+  ],
+  "attack_sequence": [
+    {
+      "step": 1,
+      "action": "create a new customer profile with weak identity lineage",
+      "observable": "thin-file account with inconsistent profile attributes"
+    },
+    {
+      "step": 2,
+      "action": "start low-volume payment activity after activation",
+      "observable": "new account payment activity with limited history"
+    }
+  ],
+  "expected_signals": [
+    "weak_identity_lineage",
+    "thin_file_behavior",
+    "contact_reuse",
+    "early_lifecycle_transaction_activity"
+  ],
+  "data_fields_affected": [
+    "customer_id",
+    "kyc_level",
+    "account_age_days",
+    "email_domain",
+    "phone_type"
+  ],
+  "generation_strategy": {
+    "mode": "template_plus_sampling",
+    "stealth_level_range": [0.5, 0.9],
+    "volume_range": [3, 20],
+    "noise_level": "medium"
+  },
+  "realism_score": 0.8,
+  "novelty_score": 0.74,
+  "detectability_score": 0.39,
+  "impact_score": 0.72,
+  "severity": "high",
+  "detection_hints": [
+    "identity_consistency_features",
+    "account_age_features",
+    "entity_linkage_features"
+  ],
+  "evaluation_tags": [
+    "onboarding",
+    "identity_risk",
+    "thin_file"
+  ],
+  "notes": "Synthetic identity example for onboarding and early lifecycle fraud simulation."
+}
+

@@ -1,0 +1,474 @@
+transaction_id,fraud_score,prediction,ml_fraud_score,ml_prediction,decision_engine,llm_reviewed,llm_provider,llm_semantic_risk_score,llm_novelty_score,llm_recommendation,llm_rationale,llm_risk_indicators,llm_fallback,label,attack_bucket,attack_subtype,reason_codes
+txn_bfe94c6c439b,0.0004481293351467786,0,0.000448,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;payment_method_type_code lowers risk
+txn_92cb2908a5e7,0.0048196638843229465,0,0.00482,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;payment_method_type_code lowers risk;session velocity lowers risk
+txn_3b6eaba02b03,0.01479023208034154,0,0.01479,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;rail_code raises risk
+txn_8d694a926c2f,0.011028286056752384,0,0.011028,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;high generated risk score lowers risk;session velocity lowers risk
+txn_511183e27042,0.002763153932018167,0,0.002763,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;session velocity lowers risk
+txn_e2bcc5619cf6,0.0005525467871380562,0,0.000553,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;customer_historical_spend_mean lowers risk
+txn_56530764f419,0.009157194899645041,0,0.009157,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;high generated risk score lowers risk
+txn_88f4a7ea9511,0.003360897603982299,0,0.003361,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;session velocity lowers risk
+txn_b14ca2c27d58,0.00021036146167426585,0,0.00021,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;amount deviation from customer history lowers risk;customer_historical_spend_mean lowers risk
+txn_a118418e1bd7,0.0044194012219655335,0,0.004419,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;payment_method_type_code lowers risk
+txn_e59af2239acd,0.0014121652818379975,0,0.001412,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;customer_historical_spend_mean lowers risk
+txn_dad2f8c78c32,0.001750205125412005,0,0.00175,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;session velocity lowers risk
+txn_bd0fb10a3067,0.026631397631315834,0,0.026631,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;high generated risk score raises risk
+txn_69c6bd65c46c,0.0020393423951735623,0,0.002039,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;session velocity lowers risk
+txn_82a4ef88910e,0.02958570631901477,0,0.029586,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;rail_code raises risk
+txn_e41b60e844dd,0.005177289653271209,0,0.005177,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;IP velocity lowers risk
+txn_48195ba0a0d4,0.005690576271041481,0,0.005691,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;amount deviation from customer history lowers risk;customer_historical_spend_mean raises risk
+txn_cdb6a6e1bc12,0.05790974539054452,0,0.05791,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean raises risk;session velocity lowers risk
+txn_afcb1559c9e9,0.05729108002634169,0,0.057291,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean raises risk;session velocity lowers risk
+txn_24132df95999,0.00396335659087046,0,0.003963,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;payment_method_type_code lowers risk
+txn_d4ce90e141fd,0.019485558036006368,0,0.019486,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;high generated risk score lowers risk;customer account age lowers risk
+txn_adcb990aacb2,0.04565029937064318,0,0.04565,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer account age lowers risk;session velocity lowers risk
+txn_cb30fa0de169,0.050039629395233945,0,0.05004,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer account age lowers risk;session velocity lowers risk
+txn_b1d0009b145f,0.004271321297195551,0,0.004271,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;customer account age lowers risk
+txn_b54cfaf1a77d,0.0057324026474363755,0,0.005732,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer account age lowers risk;customer_historical_spend_mean lowers risk
+txn_9c2ba4b5dc67,0.0005832039199999522,0,0.000583,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;customer account age lowers risk
+txn_38c229b75b8c,0.0026497373999347603,0,0.00265,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer account age lowers risk;customer_historical_spend_mean lowers risk
+txn_2ad27a93b832,0.002412683376615271,0,0.002413,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer account age lowers risk;customer_historical_spend_mean lowers risk
+txn_e1b6a32782b5,0.009123311917091578,0,0.009123,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;device history lowers risk
+txn_bd7d54bcdbd8,0.003066278387024572,0,0.003066,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;device history lowers risk
+txn_66f21a3f7fad,0.0008423142857064298,0,0.000842,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;customer_historical_spend_mean lowers risk
+txn_0e819f994919,0.0056081317940618975,0,0.005608,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;high generated risk score lowers risk
+txn_0d43348b5dcd,0.005795407101127943,0,0.005795,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;high generated risk score lowers risk
+txn_514d04cfee34,0.017469609586612506,0,0.01747,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;session velocity lowers risk
+txn_7d9beb629c33,0.006818597176190195,0,0.006819,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;payment_method_type_code lowers risk;high generated risk score lowers risk
+txn_647bb2cf8744,0.01988998737987893,0,0.01989,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;session velocity lowers risk
+txn_a97bc4d8dc46,0.004175571810380047,0,0.004176,0,ml_only,0,,,,,,,,0,,,amount deviation from customer history lowers risk;transaction_type_code lowers risk;session velocity lowers risk
+txn_0be016d32a6f,0.03611513941443109,0,0.036115,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;IP velocity lowers risk
+txn_021214af5608,0.19312977380251828,0,0.19313,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;high generated risk score raises risk;session velocity lowers risk
+txn_45a2c701897f,0.003442245416935598,0,0.003442,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;payment_method_type_code lowers risk
+txn_5fb8d79233bc,0.0017458192677633395,0,0.001746,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;amount deviation from customer history lowers risk;customer_historical_spend_mean lowers risk
+txn_3c678bd1e6a1,0.0013268877386145837,0,0.001327,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;customer_historical_spend_mean lowers risk
+txn_1bfee964b975,0.009730543107574667,0,0.009731,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;high generated risk score lowers risk
+txn_5a31c13e3187,0.002825328350753072,0,0.002825,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;payment_method_type_code lowers risk
+txn_3fa8fbffffb2,0.0011533313450227828,0,0.001153,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;customer account age lowers risk
+txn_8f343d723f44,0.015010546027414662,0,0.015011,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer account age lowers risk;session velocity lowers risk
+txn_6a35467d1187,0.03918207380289953,0,0.039182,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer account age lowers risk;session velocity lowers risk
+txn_be73b40cb343,0.0032866286000131865,0,0.003287,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;amount deviation from customer history lowers risk;high generated risk score raises risk
+txn_02554bd62c37,0.025508276159568573,0,0.025508,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;rail_code raises risk
+txn_bb75329684d3,0.06331804957297597,0,0.063318,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;rail_code raises risk
+txn_a93335b3161b,0.0028617665368495518,0,0.002862,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;high generated risk score lowers risk
+txn_c25311afe541,0.021751699878027764,0,0.021752,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;IP velocity lowers risk
+txn_15f3aff2b3fc,0.041023531774080364,0,0.041024,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;rail_code raises risk
+txn_a9d410ef75c2,0.10821021942423946,0,0.10821,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;IP velocity lowers risk
+txn_d203dd29e394,0.006057162460725887,0,0.006057,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;high generated risk score lowers risk
+txn_538e819bea67,0.04033184695421568,0,0.040332,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;IP velocity lowers risk
+txn_98afcd2773d8,0.037380583798833536,0,0.037381,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;rail_code raises risk
+txn_2bab029a29b2,0.017577892404646446,0,0.017578,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;rail_code raises risk
+txn_2f37c49f4419,0.0014470364542832773,0,0.001447,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;session velocity lowers risk
+txn_8c3e1655c976,0.009614858173792174,0,0.009615,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;high generated risk score lowers risk;session velocity lowers risk
+txn_b1b724fe5639,0.00588188209964908,0,0.005882,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;customer_historical_spend_mean raises risk
+txn_081a5a3030c1,0.014416231525418963,0,0.014416,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;high generated risk score lowers risk;customer_historical_spend_mean raises risk
+txn_0faf09079e6a,0.008415168615755192,0,0.008415,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;high generated risk score lowers risk;customer_historical_spend_mean raises risk
+txn_ec1ef713f062,0.023405399225067916,0,0.023405,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean raises risk;session velocity lowers risk
+txn_671e326616c9,0.02000660219492154,0,0.020007,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;rail_code raises risk
+txn_ea9e5bfc2332,0.003461388320820428,0,0.003461,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;high generated risk score lowers risk;session velocity lowers risk
+txn_51b8ef71e6e5,0.017652130816140952,0,0.017652,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;IP velocity lowers risk
+txn_8bb0a34b5523,0.004362377514084737,0,0.004362,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;session velocity lowers risk
+txn_285586801d2b,0.011121550360434603,0,0.011122,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;session velocity lowers risk
+txn_05ba86a187e0,0.002009479439547901,0,0.002009,0,ml_only,0,,,,,,,,0,,,amount deviation from customer history lowers risk;transaction_type_code lowers risk;payment_method_type_code lowers risk
+txn_5990bfe9d5b2,0.12127533998482903,0,0.121275,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;IP velocity lowers risk
+txn_f3b61b2f5266,0.17858132564129967,0,0.178581,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;IP velocity lowers risk
+txn_b8d456317a78,0.0613153402271361,0,0.061315,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;payment_method_type_code lowers risk;session velocity lowers risk
+txn_26c5e887a9d2,0.00434276401007507,0,0.004343,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;session velocity lowers risk
+txn_cd103919889e,0.04198658270858248,0,0.041987,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;customer one-hour velocity lowers risk
+txn_c48f5216c759,0.009167398962725408,0,0.009167,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;payment_method_type_code lowers risk;session velocity lowers risk
+txn_d50526e09904,0.021068807897478,0,0.021069,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean raises risk;session velocity lowers risk
+txn_897a96b96c9c,0.007402522326796268,0,0.007403,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean raises risk;session velocity lowers risk
+txn_eb9849d0c54e,0.0041858493334523935,0,0.004186,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;customer_historical_spend_mean raises risk
+txn_3456166978fc,0.01033368092091991,0,0.010334,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean raises risk;session velocity lowers risk
+txn_1a0580abfe31,0.00740541866393851,0,0.007405,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;high generated risk score lowers risk
+txn_f3f47474f676,0.004231238247718473,0,0.004231,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;session velocity lowers risk
+txn_55865b05139a,0.0033933911023681907,0,0.003393,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;customer_historical_spend_mean lowers risk
+txn_f0f87d95747a,0.006394902150040927,0,0.006395,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;session velocity lowers risk
+txn_74515c90dd5b,0.0023977488239074534,0,0.002398,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;session velocity lowers risk
+txn_f75903d065ec,0.010255935767309082,0,0.010256,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;payment_method_type_code lowers risk;session velocity lowers risk
+txn_39807357649d,0.015016861813255209,0,0.015017,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;high generated risk score lowers risk;session velocity lowers risk
+txn_436c2fa74157,0.024323233003112222,0,0.024323,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;rail_code raises risk
+txn_c70aa7ae15ec,0.0037664724182489106,0,0.003766,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;amount deviation from customer history lowers risk;session velocity lowers risk
+txn_5757ba4b3a50,0.036251120815419986,0,0.036251,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;IP velocity lowers risk
+txn_4044646a99f2,0.044378136050439915,0,0.044378,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;high generated risk score raises risk;session velocity lowers risk
+txn_ca4ee5522378,0.0035708154433755396,0,0.003571,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;high generated risk score lowers risk
+txn_e3f13e23a7a7,0.010470456790469478,0,0.01047,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer account age lowers risk;session velocity lowers risk
+txn_6d07d5787550,0.0038832924217399693,0,0.003883,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;customer account age lowers risk
+txn_ad23827c7d08,0.005224671522220138,0,0.005225,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer account age lowers risk;session velocity lowers risk
+txn_49e71e0f3e65,0.0024410171984503744,0,0.002441,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;high generated risk score lowers risk;customer account age lowers risk
+txn_fc152f911e82,0.005736448396566122,0,0.005736,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;device history lowers risk;customer_historical_spend_mean lowers risk
+txn_3836d51a99fa,0.007258516891501065,0,0.007259,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;high generated risk score lowers risk;device history lowers risk
+txn_1d10e21b9d41,0.0005705497716203557,0,0.000571,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;device history lowers risk
+txn_59f655b26c10,0.0159019128970831,0,0.015902,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;device history lowers risk;customer_historical_spend_mean lowers risk
+txn_c2f370ed4f58,0.005300142371327763,0,0.0053,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;high generated risk score raises risk
+txn_038846d30fe6,0.0034335643039052404,0,0.003434,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer account age lowers risk;session velocity lowers risk
+txn_be66dc8531dc,0.007040560877757544,0,0.007041,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer account age lowers risk;session velocity lowers risk
+txn_244ab69dae86,0.009643731107849834,0,0.009644,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer account age lowers risk;amount deviation from customer history lowers risk
+txn_aba2e6b8b5ca,0.0035796195646699597,0,0.00358,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;customer account age lowers risk
+txn_22dcff59197d,0.0010904414229746687,0,0.00109,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;customer account age lowers risk
+txn_85233cf5e620,0.0015033294101355712,0,0.001503,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;customer_historical_spend_mean lowers risk
+txn_103fc600014a,0.0019821491607803607,0,0.001982,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;customer account age lowers risk
+txn_009bb3f8413d,0.0006301515035172137,0,0.00063,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;customer_historical_spend_mean lowers risk
+txn_39164fe80344,0.003609576843905087,0,0.00361,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;high generated risk score lowers risk
+txn_eaa1bbb34701,0.0028948679181549763,0,0.002895,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;payment_method_type_code lowers risk
+txn_431582fcc745,0.003420150658526138,0,0.00342,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;high generated risk score lowers risk
+txn_8251b3081647,0.0022469818156992012,0,0.002247,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;device history lowers risk
+txn_1be082c9b288,0.00526030691785054,0,0.00526,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;device history lowers risk;session velocity lowers risk
+txn_4dcd3bf4b08c,0.005659657661893846,0,0.00566,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;high generated risk score raises risk;payment_method_type_code lowers risk
+txn_57634c0c35f3,0.0025520383988671953,0,0.002552,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;high generated risk score raises risk
+txn_9e994cec113a,0.013197062795815383,0,0.013197,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;high generated risk score raises risk
+txn_11f96a696d81,0.013735878575487862,0,0.013736,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;payment_method_type_code lowers risk;session velocity lowers risk
+txn_939d02268f00,0.008941738966986945,0,0.008942,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;payment_method_type_code lowers risk;session velocity lowers risk
+txn_2ab46c6464c3,0.0018726513977710452,0,0.001873,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;payment_method_type_code lowers risk;session velocity lowers risk
+txn_34366d1d4327,0.0013667834390180763,0,0.001367,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;high generated risk score lowers risk
+txn_1df44eef3737,0.011574740503671735,0,0.011575,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;high generated risk score lowers risk;session velocity lowers risk
+txn_bd35eae52405,0.011398597973307585,0,0.011399,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;IP velocity lowers risk
+txn_dfcf6731a813,0.007071014743447347,0,0.007071,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;merchant growth pattern lowers risk
+txn_1a6ce6b4599f,0.004918480076419283,0,0.004918,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;session velocity lowers risk
+txn_03ddc1eee0b9,0.01323214121588246,0,0.013232,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;payment_method_type_code lowers risk;session velocity lowers risk
+txn_57bbec5397ac,0.006383477529065422,0,0.006383,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;session velocity lowers risk
+txn_da2430faf7c0,0.026134231028319053,0,0.026134,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;high generated risk score lowers risk;payment_method_type_code lowers risk
+txn_0262f8b6a538,0.01756147642455587,0,0.017561,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;session velocity lowers risk
+txn_5d9aae6d48f3,0.033238409176691255,0,0.033238,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;customer_historical_spend_mean lowers risk
+txn_f54beb5a48af,0.00887517565853607,0,0.008875,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;session velocity lowers risk
+txn_c6fcf4706f8b,0.0029123099236457407,0,0.002912,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;customer_historical_spend_mean lowers risk
+txn_5f15d79ceaf2,0.03108269160733219,0,0.031083,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;customer one-hour velocity lowers risk
+txn_02ec024b109a,0.008764157492691115,0,0.008764,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;merchant growth pattern lowers risk
+txn_491b00c923a0,0.006577100500903092,0,0.006577,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;session velocity lowers risk
+txn_4665d749fe90,0.0232890976307946,0,0.023289,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;high generated risk score raises risk;customer payment cadence lowers risk
+txn_9952d7d37e73,0.0069464349164727185,0,0.006946,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;session velocity lowers risk
+txn_d58b20baf551,0.012342465532321401,0,0.012342,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;merchant growth pattern lowers risk
+txn_04fda7ea21e3,0.0019318640892801637,0,0.001932,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;high generated risk score lowers risk
+txn_cdc87f53c221,0.017090353531781455,0,0.01709,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;IP velocity lowers risk
+txn_1eeb7284355f,0.001266796800831459,0,0.001267,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;customer_historical_spend_mean lowers risk
+txn_6014b36d790f,0.0020595235501451245,0,0.00206,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;payment_method_type_code lowers risk
+txn_964cb1e6f7b5,0.003685960114394449,0,0.003686,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;customer_historical_spend_mean lowers risk
+txn_969ec3511306,0.003173342500676453,0,0.003173,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;payment_method_type_code lowers risk
+txn_c653979e444a,0.0010035871728395196,0,0.001004,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;customer_historical_spend_mean lowers risk
+txn_754bfa29dfc8,0.0014625212315719806,0,0.001463,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;payment_method_type_code lowers risk;customer_historical_spend_mean lowers risk
+txn_ed0b6ef8176c,0.005393669340593441,0,0.005394,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;session velocity lowers risk
+txn_784b816f5875,0.003719843698285859,0,0.00372,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;customer_historical_spend_mean lowers risk
+txn_f42fd5301cea,0.0028047202488734,0,0.002805,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;payment_method_type_code lowers risk;customer_historical_spend_mean lowers risk
+txn_cf759fdcca8d,0.0035748511387176302,0,0.003575,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;payment_method_type_code lowers risk
+txn_e9ad3182655a,0.002908989568221762,0,0.002909,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;payment_method_type_code lowers risk;high generated risk score lowers risk
+txn_c04a3ad5f66a,0.00752685309483993,0,0.007527,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;session velocity lowers risk
+txn_f15bbb8f6142,0.002332865430356785,0,0.002333,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;IP velocity lowers risk
+txn_b21833e50446,0.001389783326951318,0,0.00139,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;high generated risk score lowers risk
+txn_48f0dd66dae2,0.015868989854909962,0,0.015869,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;IP velocity lowers risk
+txn_43f9d0db71e9,0.00039236646882050954,0,0.000392,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;high generated risk score lowers risk;device history lowers risk
+txn_6b898e81ad9a,0.004858299625013824,0,0.004858,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;payment_method_type_code lowers risk;device history lowers risk
+txn_b682283fb404,0.008247244301771827,0,0.008247,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;device history lowers risk;session velocity lowers risk
+txn_ddb6dea862bc,0.0016507808080477887,0,0.001651,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;payment_method_type_code lowers risk
+txn_721adc1f36e9,0.006355121972473268,0,0.006355,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;device history lowers risk;session velocity lowers risk
+txn_e5fa40c9bc6a,0.003916763367008032,0,0.003917,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;device history lowers risk;session velocity lowers risk
+txn_7c2deae6828d,0.00566998274742355,0,0.00567,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;device history lowers risk;session velocity lowers risk
+txn_1b55ceaca7e1,0.002735079598136168,0,0.002735,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;device history lowers risk;session velocity lowers risk
+txn_4df95d3685c0,0.0002406877311811948,0,0.000241,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;high generated risk score lowers risk
+txn_c828144a0043,0.00038385162763663136,0,0.000384,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;amount deviation from customer history lowers risk
+txn_9e7c4084fbbd,0.0008059959118319294,0,0.000806,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;customer_historical_spend_mean lowers risk
+txn_2c4770cf31ae,0.005027505877333581,0,0.005028,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;session velocity lowers risk
+txn_c81ca27d0866,0.0024377933683241006,0,0.002438,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer_historical_spend_mean lowers risk;payment_method_type_code lowers risk
+txn_afa3f208bea4,0.007124604064476522,0,0.007125,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;high generated risk score lowers risk;session velocity lowers risk
+txn_9a9ba3f66104,0.0036881999123682886,0,0.003688,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;session velocity lowers risk
+txn_36412c107761,0.0033397259401352817,0,0.00334,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;payment_method_type_code lowers risk
+txn_36165c2f5eb2,0.018813450047712666,0,0.018813,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;high generated risk score lowers risk
+txn_81fa6c1d1f11,0.014256481264517484,0,0.014256,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;session velocity lowers risk
+txn_16b9d3606012,0.00872755559736298,0,0.008728,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;payment_method_type_code lowers risk;session velocity lowers risk
+txn_72595a7cd5e7,0.02311287071157714,0,0.023113,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;IP velocity lowers risk
+txn_ca2963d1218c,0.0013090702484397773,0,0.001309,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;high generated risk score lowers risk
+txn_60cb1131d4bd,0.002751807345636836,0,0.002752,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;amount deviation from customer history lowers risk;high generated risk score lowers risk
+txn_1dd1c281d5ae,0.001975099867726976,0,0.001975,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;session velocity lowers risk
+txn_eff3f14a3f69,0.01372580698264212,0,0.013726,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;payment_method_type_code lowers risk;session velocity lowers risk
+txn_b9142321ec0a,0.016120018220369056,0,0.01612,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;session velocity lowers risk
+txn_213399379760,0.010605833450369265,0,0.010606,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer account age lowers risk;session velocity lowers risk
+txn_d0ad411adefe,0.0012169015404270478,0,0.001217,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;high generated risk score lowers risk
+txn_23c918f8f6e7,0.023619209783403212,0,0.023619,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer account age lowers risk;session velocity lowers risk
+txn_d7be8469a5db,0.009029673916536357,0,0.00903,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer account age lowers risk;session velocity lowers risk
+txn_bfb7766edf56,0.007523888921655618,0,0.007524,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;high generated risk score lowers risk;customer account age lowers risk
+txn_e071acd231e3,0.0026471842997947254,0,0.002647,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;high generated risk score lowers risk
+txn_6e6140a58c42,0.010451526051816002,0,0.010452,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;high generated risk score lowers risk;customer account age lowers risk
+txn_e05cc56780e9,0.0004664474352877018,0,0.000466,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;customer account age lowers risk
+txn_35961686718b,0.03064204174967478,0,0.030642,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;customer_historical_spend_mean raises risk
+txn_d4017f2116e2,0.03392498581304885,0,0.033925,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;payment_method_type_code lowers risk;session velocity lowers risk
+txn_210d4dd0fde8,0.09353956994053302,0,0.09354,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;customer_historical_spend_mean raises risk
+txn_33f1930b1b2e,0.009134691130075302,0,0.009135,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;session velocity lowers risk
+txn_080522ec82d5,0.023794655483610476,0,0.023795,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;high generated risk score raises risk
+txn_24189d91233a,0.0005314886537864429,0,0.000531,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;amount deviation from customer history lowers risk
+txn_bde0e243496f,0.00441031828284345,0,0.00441,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;session velocity lowers risk
+txn_77951ab55073,0.004200621311300042,0,0.004201,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;merchant growth pattern lowers risk
+txn_40ee597cd40f,0.013267202211408317,0,0.013267,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;high generated risk score raises risk
+txn_4aa4e23eefc6,0.00625521206719546,0,0.006255,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;customer payment cadence lowers risk;session velocity lowers risk
+txn_082bf33aed06,0.011277895207393437,0,0.011278,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;session velocity lowers risk;rail_code raises risk
+txn_17d2a30fd8db,0.003728461868758566,0,0.003728,0,ml_only,0,,,,,,,,0,,,transaction_type_code lowers risk;payment_method_type_code lowers risk;session velocity lowers risk
+txn_319897d960b6,0.20615026417423649,0,0.20615,0,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;customer payment cadence lowers risk;merchant chargeback behavior raises risk
+txn_f452a052419c,0.7960325709609709,1,0.796033,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_da04b07d07e8,0.9068522800401418,1,0.906852,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant chargeback behavior raises risk
+txn_0041ee0a00b2,0.5439922818373913,1,0.543992,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_023179f86518,0.9196939368121811,1,0.919694,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_87ad631856b3,0.9809017531567198,1,0.980902,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;high generated risk score raises risk
+txn_da0f5215e122,0.843883372816231,1,0.843883,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_19631af04ed4,0.7029966912286719,1,0.702997,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_b9cfd69dabdc,0.9625144191145292,1,0.962514,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant chargeback behavior raises risk
+txn_55734fc3eba6,0.8769833254002846,1,0.876983,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;high generated risk score raises risk;merchant chargeback behavior raises risk
+txn_b6e7a356661c,0.8927387988754828,1,0.892739,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_373d6e051e14,0.9597626379631928,1,0.959763,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant chargeback behavior raises risk
+txn_fc3931a83095,0.7656099287180526,1,0.76561,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_dd9f74d1e9ca,0.796746905025407,1,0.796747,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_79a4b717fee4,0.8927448279120027,1,0.892745,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant chargeback behavior raises risk
+txn_fbe0db72389b,0.766811693090292,1,0.766812,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_82508cf32000,0.9298772485379743,1,0.929877,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;high generated risk score raises risk;merchant chargeback behavior raises risk
+txn_220c66b801d0,0.9136399582073749,1,0.91364,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant chargeback behavior raises risk
+txn_a83d07083d29,0.6875919140051867,1,0.687592,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_04d6f74fcc02,0.7410122980441296,1,0.741012,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_d4ea2f3de48f,0.9061323522961618,1,0.906132,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant chargeback behavior raises risk
+txn_ce9cd21595e5,0.8024241451599582,1,0.802424,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_8bff7f510d81,0.8934100466075822,1,0.89341,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_a646216a07d5,0.9242796756843292,1,0.92428,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant chargeback behavior raises risk
+txn_8b4c9c0df340,0.6920583179934942,1,0.692058,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_e44a7fe48f11,0.9214813105196715,1,0.921481,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_4b674a48cd50,0.9676364666034161,1,0.967636,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;high generated risk score raises risk
+txn_59060579edef,0.6735937056958071,1,0.673594,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_b65dad9cb0cd,0.8848252898947306,1,0.884825,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_bedf24d1158a,0.9066023679930308,1,0.906602,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant chargeback behavior raises risk
+txn_5f552d6564ac,0.7974880280654837,1,0.797488,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_5857ffb11888,0.907666670522406,1,0.907667,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_05629e0a9569,0.9466994200056138,1,0.946699,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant chargeback behavior raises risk
+txn_c34d948e4042,0.6698477738430498,1,0.669848,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_210bc71f4fb4,0.8177873069008014,1,0.817787,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_3293b4d59f08,0.932172662725452,1,0.932173,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant chargeback behavior raises risk
+txn_8868dfc3a92a,0.8379579296017451,1,0.837958,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_1f7919f732ff,0.8946029263057714,1,0.894603,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_d2a99c1aab36,0.963630030743036,1,0.96363,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant chargeback behavior raises risk
+txn_f47d779b7e78,0.8265557868556634,1,0.826556,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_0a105c6a6b0f,0.9295098674492563,1,0.92951,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_df2f68e0a321,0.9845516444056657,1,0.984552,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;high generated risk score raises risk
+txn_c987e728ebe8,0.6990532877093937,1,0.699053,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_fd9db72f46c8,0.8725287543267584,1,0.872529,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_8d3fefa608b5,0.9755305350340933,1,0.975531,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;high generated risk score raises risk
+txn_9657a845084b,0.6170043056449794,1,0.617004,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_6d2aa2ae1b39,0.9006282020805216,1,0.900628,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant chargeback behavior raises risk;merchant growth pattern raises risk
+txn_7b82b0369a91,0.624525790590688,1,0.624526,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;customer payment cadence lowers risk
+txn_32dad26379a8,0.9846740178618761,1,0.984674,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_a04e75e5dedf,0.9946512983761373,1,0.994651,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_66a3371abc9e,0.9638153336810644,1,0.963815,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_a6c88e9b2e09,0.9768546813199125,1,0.976855,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_9ae5d5d61a03,0.9901721754295014,1,0.990172,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_82f1c50d299d,0.9421792775011755,1,0.942179,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_db38bd9642cd,0.9703909907609191,1,0.970391,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_a4878334c499,0.9933139279961537,1,0.993314,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_0bdd5823b27c,0.9384120005336873,1,0.938412,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_438f59856aad,0.9884128641486689,1,0.988413,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_525a94ac977a,0.9950328932989218,1,0.995033,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_ff5ff7d69a6c,0.919761790009827,1,0.919762,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_416a6025f136,0.9585688034376649,1,0.958569,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_629d3144ad89,0.9835122599745816,1,0.983512,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_3a7d9af33448,0.9329244778382342,1,0.932924,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_cc3b39b9453a,0.9729237169216188,1,0.972924,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_ea008a609639,0.9912976477214047,1,0.991298,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_04f2edf4c9d2,0.8535827755388957,1,0.853583,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_eaffdb7e61e0,0.9581921082047676,1,0.958192,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_68d7f793fa15,0.9752495043883602,1,0.97525,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_6728e307b0a4,0.9155905952271342,1,0.915591,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_e3272b7bd773,0.9758504971428403,1,0.97585,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_693b04024d01,0.9806830074234623,1,0.980683,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_935ddf04d47f,0.9731041020610528,1,0.973104,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;high generated risk score raises risk
+txn_b10496cf3406,0.9806389619797484,1,0.980639,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_59745a110e34,0.9958158729207027,1,0.995816,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_600d700beb6f,0.9727660925817526,1,0.972766,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_6d86c5723667,0.9887078230342103,1,0.988708,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_5383790c80ec,0.996576142846027,1,0.996576,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_eeb0550e3fb9,0.953154451471619,1,0.953154,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_a58b754b6ffa,0.9841460992992692,1,0.984146,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_e498aa9397aa,0.993890247494366,1,0.99389,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_225fd31ef843,0.9711449951880401,1,0.971145,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_636dc7533c38,0.993980358519901,1,0.99398,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_2b6047c2a66d,0.9853952061536196,1,0.985395,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_4266c92b3116,0.9280112131123304,1,0.928011,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_b1d611bc0057,0.98371988866796,1,0.98372,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_f4e965feb17d,0.9968595774624268,1,0.99686,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_de205822b844,0.9346162934538103,1,0.934616,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_da5ff0f67046,0.9842856056386301,1,0.984286,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_473bebe2b147,0.9968664831849509,1,0.996866,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_5f24e19ababa,0.9674062230065433,1,0.967406,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_0951f6c62c0e,0.9811243497755139,1,0.981124,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_c413605dae1b,0.994639931888066,1,0.99464,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_5526ba41aa8a,0.9874651751110567,1,0.987465,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_0beebc2f2817,0.9944746747795384,1,0.994475,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_1cb59f1e5ff4,0.9941097939404081,1,0.99411,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_604a9c8743f6,0.9722314344410732,1,0.972231,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_ca40c3331b55,0.9934512868153075,1,0.993451,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_48b9eb11d02e,0.9960786743289817,1,0.996079,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_348a881dbf6e,0.9798737133374067,1,0.979874,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_841dd0c6e68a,0.9940502889522967,1,0.99405,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_f80bf0717d81,0.9977385014211115,1,0.997739,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_55f0281236cb,0.9503912573289954,1,0.950391,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_2a586e9c1228,0.9965250919123707,1,0.996525,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;high generated risk score raises risk
+txn_0cfa59044fd7,0.9964036162877397,1,0.996404,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_8dbb011d0977,0.9614660354064156,1,0.961466,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_1851a9dcf7c4,0.9797379064401633,1,0.979738,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_32259fd503d2,0.9904875648295085,1,0.990488,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_8f7c195c3b71,0.9694704632658369,1,0.96947,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_5fce71375423,0.9918224543451059,1,0.991822,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_1418e4a8cb06,0.3976031798297998,1,0.397603,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;customer payment cadence lowers risk
+txn_3eb7767998ca,0.923275580105332,1,0.923276,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_0c744dafb57f,0.9828923390617085,1,0.982892,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant growth pattern raises risk
+txn_73005c574072,0.9260864038649133,1,0.926086,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_9a45b78c3a82,0.9592583469595723,1,0.959258,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;high generated risk score raises risk
+txn_9abbad50acb4,0.9761405060902207,1,0.976141,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant growth pattern raises risk
+txn_e283b07f01d4,0.8988080243864708,1,0.898808,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;high generated risk score raises risk;merchant growth pattern raises risk
+txn_8fce18ec8dbf,0.9420798080676744,1,0.94208,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;high generated risk score raises risk
+txn_9102962463df,0.9739927785172483,1,0.973993,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant growth pattern raises risk
+txn_150e9e96f96d,0.6507102621480103,1,0.65071,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_ea7170f3905e,0.9139972455626141,1,0.913997,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_8dde4c0df258,0.9786187999721996,1,0.978619,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant growth pattern raises risk
+txn_c7fad0906ce7,0.8118789583213352,1,0.811879,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_c2c45aaec8ae,0.9219949180866073,1,0.921995,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_5b5223e8ca6d,0.9849205341917853,1,0.984921,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant growth pattern raises risk
+txn_7985d18e6746,0.9384442036643661,1,0.938444,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;high generated risk score raises risk;merchant growth pattern raises risk
+txn_825dbc589212,0.9701843357509773,1,0.970184,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;high generated risk score raises risk
+txn_4d864af02a3b,0.9866690259126711,1,0.986669,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant growth pattern raises risk
+txn_6faaf062cb3a,0.9324838908780879,1,0.932484,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;high generated risk score raises risk;merchant growth pattern raises risk
+txn_f5c3291980ef,0.9590656710560216,1,0.959066,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_355aac9b1a65,0.9804682409340421,1,0.980468,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant growth pattern raises risk
+txn_802b0a99b144,0.9296378319304646,1,0.929638,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_9efded2942f9,0.987352987956499,1,0.987353,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;high generated risk score raises risk;merchant growth pattern raises risk
+txn_cdf717b875c5,0.9827220485375764,1,0.982722,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant growth pattern raises risk
+txn_6940dcf084ef,0.9005829115450646,1,0.900583,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_b20646b05b70,0.9486264898539618,1,0.948626,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_afbfd3209ed1,0.9737283444506611,1,0.973728,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant growth pattern raises risk
+txn_c20002beb81e,0.9422510870731117,1,0.942251,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;high generated risk score raises risk
+txn_89113cfc82d0,0.9749467486542359,1,0.974947,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;high generated risk score raises risk;merchant growth pattern raises risk
+txn_edd3e588741a,0.9785310297326286,1,0.978531,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant growth pattern raises risk
+txn_b9577c627606,0.9401011364249233,1,0.940101,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;high generated risk score raises risk
+txn_3ae28dfc5fcb,0.965547896426144,1,0.965548,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_008b75db95b5,0.9938140713086127,1,0.993814,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;high generated risk score raises risk
+txn_6f62d0d2a911,0.9658399658465886,1,0.96584,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;high generated risk score raises risk;merchant growth pattern raises risk
+txn_abbd349f272b,0.9414326623288111,1,0.941433,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_20c72bc458e0,0.9811702568939962,1,0.98117,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant growth pattern raises risk
+txn_3041f819ae51,0.8406661477279098,1,0.840666,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_48f3a32a639c,0.9789012760999376,1,0.978901,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;high generated risk score raises risk;merchant growth pattern raises risk
+txn_ccee14144c7e,0.9795200553686274,1,0.97952,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant growth pattern raises risk
+txn_38c528911a1b,0.9547207454035913,1,0.954721,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;high generated risk score raises risk
+txn_f56ea1f3eb7e,0.9826571271249347,1,0.982657,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;high generated risk score raises risk;merchant growth pattern raises risk
+txn_d0bf27cd1dac,0.9797536438773533,1,0.979754,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant growth pattern raises risk
+txn_465d70095421,0.8792871654306489,1,0.879287,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_e473768dac2c,0.9464731810148648,1,0.946473,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_160eee3ee583,0.9886311467051347,1,0.988631,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;high generated risk score raises risk;session velocity raises risk
+txn_2f937ec21359,0.836104736180136,1,0.836105,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_c9408f82c11b,0.8822978936133413,1,0.882298,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_8d59201254be,0.9765479733802094,1,0.976548,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant growth pattern raises risk
+txn_0ce3946e9c62,0.852366532943961,1,0.852367,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_786e59ca633d,0.9475258118925599,1,0.947526,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_b9d865060f42,0.984742516870504,1,0.984743,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant growth pattern raises risk
+txn_04635b5f3afe,0.8505378487734291,1,0.850538,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_ce8663c87d9a,0.9651022062136384,1,0.965102,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_a98030cc1569,0.9857168536132961,1,0.985717,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant growth pattern raises risk
+txn_24d555251e6c,0.9504308939802427,1,0.950431,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;high generated risk score raises risk;merchant growth pattern raises risk
+txn_89550cdbbdb4,0.9641879743955697,1,0.964188,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_956255346cff,0.9668655349794315,1,0.966866,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant growth pattern raises risk
+txn_06faa71ddf45,0.8973781777802137,1,0.897378,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_6adc3657b92f,0.9716780968554838,1,0.971678,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_6da208648411,0.9899150280984695,1,0.989915,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant growth pattern raises risk
+txn_bbc67dfe230b,0.9544374151093815,1,0.954437,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;high generated risk score raises risk;merchant growth pattern raises risk
+txn_fe62a4ccec99,0.9566602643619043,1,0.95666,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;high generated risk score raises risk;merchant growth pattern raises risk
+txn_13915597e322,0.9690735583239634,1,0.969074,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant growth pattern raises risk
+txn_37bb2310e422,0.8775773048129298,1,0.877577,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_7b0dc8596906,0.9542995983039494,1,0.9543,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;high generated risk score raises risk
+txn_bae078accf25,0.9862060143309297,1,0.986206,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant growth pattern raises risk
+txn_fa71643acade,0.8984125282509843,1,0.898413,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_6e7d7e78aef4,0.9847712613446449,1,0.984771,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;high generated risk score raises risk;merchant growth pattern raises risk
+txn_ea2c4e0e79e1,0.9879572291644486,1,0.987957,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant growth pattern raises risk
+txn_208931deef58,0.9635451430519432,1,0.963545,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;high generated risk score raises risk;merchant growth pattern raises risk
+txn_22e1768b9c91,0.9538973273913074,1,0.953897,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_37b1475bfc15,0.9910815922495773,1,0.991082,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant growth pattern raises risk
+txn_71f0e17f1175,0.9078789978299693,1,0.907879,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_18d553e73dac,0.9889213671239396,1,0.988921,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;high generated risk score raises risk;merchant growth pattern raises risk
+txn_52e720fd7440,0.9876613618519876,1,0.987661,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant growth pattern raises risk
+txn_fa12c68ba4df,0.9342211801972583,1,0.934221,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_6e910fd6edae,0.9847763166674831,1,0.984776,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;high generated risk score raises risk
+txn_4d2efbe6dc09,0.9794158056716443,1,0.979416,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant growth pattern raises risk
+txn_eb0c229217cd,0.9453018813894712,1,0.945302,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_7f359a62984f,0.9017337809715371,1,0.901734,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_f2c562c21b32,0.9836223919965865,1,0.983622,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant growth pattern raises risk
+txn_b8128f89b92b,0.9417400537860002,1,0.94174,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_c20df4c4883d,0.9772368502148048,1,0.977237,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_1c6863dc7805,0.9896340913443504,1,0.989634,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant growth pattern raises risk
+txn_675eeef7e01a,0.9541737657613382,1,0.954174,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_6ba6baa95553,0.9648503347040345,1,0.96485,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_6f7ad352f464,0.9907068291243674,1,0.990707,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;session velocity raises risk;merchant growth pattern raises risk
+txn_164851f0ba24,0.9382171817659726,1,0.938217,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,transaction_type_code lowers risk;merchant growth pattern raises risk;merchant chargeback behavior raises risk
+txn_211d496f4867,0.7759105521807772,1,0.775911,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;customer payment cadence lowers risk
+txn_e1bbfbecb509,0.9833889030814436,1,0.983389,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_ffb1fb051864,0.9955716577638847,1,0.995572,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_bc40f3fe3697,0.9845112289406742,1,0.984511,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;high generated risk score raises risk
+txn_d4fbd39325d8,0.9898782981349614,1,0.989878,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_0c7bf932fdf8,0.9974659148161336,1,0.997466,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_991cbe3b21da,0.9704582443433327,1,0.970458,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_245cd57f65b8,0.9907760675354417,1,0.990776,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_0cdc90b36521,0.99701820145586,1,0.997018,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_b4e559a1a806,0.9764705483916732,1,0.976471,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_6e1dbd8e8df6,0.9944012409556784,1,0.994401,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;high generated risk score raises risk
+txn_68f7e3be3460,0.9959680336623582,1,0.995968,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_c3aac4c75c1f,0.9903386580689081,1,0.990339,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;high generated risk score raises risk
+txn_5809e0b40489,0.9864010758041387,1,0.986401,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_113c40afbf74,0.9977274358573777,1,0.997727,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_2fe1c734ec24,0.9904060277733597,1,0.990406,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;high generated risk score raises risk
+txn_dd9fce404b70,0.9956837250441521,1,0.995684,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;high generated risk score raises risk
+txn_4357d484e6a5,0.9970287277870448,1,0.997029,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_2d180cbf5e54,0.9792515759317609,1,0.979252,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_90bf8e48e3ef,0.9952614507914901,1,0.995261,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;high generated risk score raises risk
+txn_c302a96f0ccc,0.9963722450828824,1,0.996372,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_d3ff441cc042,0.9810239795497363,1,0.981024,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_6a503584fffd,0.9956583923049974,1,0.995658,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_e752f1f9cd72,0.9987797511137845,1,0.99878,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_e6401e7664ca,0.9885858875010566,1,0.988586,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_3daf13ce3e9f,0.9976989615239371,1,0.997699,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;high generated risk score raises risk
+txn_12fc3fe46732,0.996095320317255,1,0.996095,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_2e37aa479f9b,0.9787061632515628,1,0.978706,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_7da52dc83628,0.9953224431004333,1,0.995322,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_3dad2bc70c80,0.996665638374474,1,0.996666,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_2ba237d29aa4,0.990587735330813,1,0.990588,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;high generated risk score raises risk
+txn_5d06e1401367,0.996776377963584,1,0.996776,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;high generated risk score raises risk
+txn_41997f5f2810,0.9977902462463064,1,0.99779,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_ee442165b3ce,0.974186172336602,1,0.974186,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_1c3df11ad83f,0.9930873557732701,1,0.993087,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_63b61239385f,0.9973248248151244,1,0.997325,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_d0f56c9d3260,0.9829162676309121,1,0.982916,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_39bb1c37ff52,0.9942358056407841,1,0.994236,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_7fd0330ef6c5,0.9989607672986284,1,0.998961,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_e4f1c0fa34b7,0.9703251151667902,1,0.970325,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_2e3e275f5fd4,0.9976552877385876,1,0.997655,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_f1fac24560b7,0.9986194411653795,1,0.998619,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_3e2237a8dc47,0.9877531345045046,1,0.987753,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_f5cae671bc63,0.9962704934249185,1,0.99627,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_208a8f8a775f,0.9991547556178858,1,0.999155,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_2b44f9f66ae1,0.9901658383232355,1,0.990166,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_6f79898dd8b8,0.9968631820412175,1,0.996863,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;high generated risk score raises risk
+txn_ccc002de38bb,0.997074515832796,1,0.997075,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_1acc4a21a394,0.9880632055498703,1,0.988063,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_ed57f0b27baf,0.9948931816280364,1,0.994893,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_6bb3aced950f,0.9994048114447199,1,0.999405,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_5042f36711cf,0.9878893053200757,1,0.987889,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_db1b59f6bd8d,0.9948595685721554,1,0.99486,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_bb7fd90e1460,0.9987756413085312,1,0.998776,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_f9492ae8eacf,0.9804918415586132,1,0.980492,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_f79b5c029d20,0.9858313752181243,1,0.985831,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_83bb31e9f096,0.9968001009900205,1,0.9968,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_5cf9d335ffba,0.9940591159975153,1,0.994059,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;high generated risk score raises risk
+txn_3ba07721a334,0.992307794977783,1,0.992308,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_c037335b8ba5,0.9951452606617177,1,0.995145,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_f0921d878559,0.9903070538487893,1,0.990307,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_1b1384071389,0.992253013978616,1,0.992253,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_6b21898f6261,0.9968303913210416,1,0.99683,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_944314e50c9e,0.9889057193876577,1,0.988906,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_2151c2b4f056,0.9968710137715929,1,0.996871,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_b5514e6d43c7,0.9980373227075481,1,0.998037,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_ba6d271e1e17,0.986197878589986,1,0.986198,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_487736a2d60f,0.9938777504603157,1,0.993878,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_94c872935611,0.9979703724401405,1,0.99797,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_b79f39cb10dd,0.994859382243619,1,0.994859,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_26f505caf24d,0.9988353135384671,1,0.998835,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;high generated risk score raises risk
+txn_066a6d609243,0.9990863533635591,1,0.999086,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_a86aa9002231,0.9922794403672672,1,0.992279,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_7aa7fde3ecac,0.9948248530448159,1,0.994825,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;merchant chargeback behavior raises risk
+txn_589555ba8121,0.9992144102158863,1,0.999214,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;session velocity raises risk
+txn_15effbdf9855,0.9976137077562224,1,0.997614,1,ml_only,0,,,,,,,,1,merchant_ecosystem_abuse,gift_card_abuse,merchant growth pattern raises risk;transaction_type_code lowers risk;high generated risk score raises risk

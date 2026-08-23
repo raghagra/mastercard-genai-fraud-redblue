@@ -1,0 +1,20 @@
+{
+  "attack_id": "merchant_triangulation_001",
+  "bucket": "merchant_ecosystem_abuse",
+  "subtype": "triangulation_fraud",
+  "attack_name": "Triangulation fraud",
+  "variant_name": "Marketplace order with fulfillment mismatch",
+  "channel": "marketplace",
+  "rail": "card",
+  "scope": "multi_step_campaign",
+  "actor_type": "fraud_ring",
+  "attacker_goal": "hide stolen payment usage behind a marketplace fulfillment chain",
+  "genai_role": ["storefront_text_generation", "customer_message_generation"],
+  "preconditions": ["marketplace seller can accept orders and arrange fulfillment externally"],
+  "attack_sequence": [{"step": 1, "action": "accept marketplace order", "observable": "seller-customer relationship appears normal"}, {"step": 2, "action": "fulfill through inconsistent source", "observable": "shipping or fulfillment mismatch"}],
+  "expected_signals": ["fulfillment_mismatch", "seller_buyer_network_inconsistency", "complaints_after_delivery"],
+  "data_fields_affected": ["merchant_id", "customer_id", "shipping_country", "merchant_category"],
+  "generation_strategy": {"mode": "hybrid", "stealth_level_range": [0.45, 0.85], "volume_range": [5, 60], "noise_level": "high"},
+  "severity": "high"
+}
+

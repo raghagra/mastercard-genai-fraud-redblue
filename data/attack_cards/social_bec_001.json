@@ -1,0 +1,69 @@
+{
+  "attack_id": "social_bec_001",
+  "bucket": "social_engineering_payment_fraud",
+  "subtype": "business_email_compromise",
+  "attack_name": "Business email compromise",
+  "variant_name": "Vendor payment reroute request",
+  "channel": "email",
+  "rail": "wire",
+  "scope": "multi_step_campaign",
+  "actor_type": "external_fraudster",
+  "attacker_goal": "divert a legitimate business payment to a fraudulent beneficiary",
+  "genai_role": [
+    "email_drafting",
+    "tone_imitation",
+    "invoice_language_variation"
+  ],
+  "preconditions": [
+    "payment workflow accepts emailed vendor instructions",
+    "beneficiary changes can be requested before payment execution"
+  ],
+  "attack_sequence": [
+    {
+      "step": 1,
+      "action": "submit a vendor payment update request",
+      "observable": "new beneficiary details associated with an existing vendor"
+    },
+    {
+      "step": 2,
+      "action": "pressure the payer to complete the transfer quickly",
+      "observable": "urgency language and approval-chain bypass attempt"
+    }
+  ],
+  "expected_signals": [
+    "new_beneficiary",
+    "invoice_metadata_mismatch",
+    "urgency_language",
+    "approval_chain_anomaly"
+  ],
+  "data_fields_affected": [
+    "beneficiary_account",
+    "merchant_id",
+    "transaction_type",
+    "amount",
+    "event_time"
+  ],
+  "generation_strategy": {
+    "mode": "hybrid",
+    "stealth_level_range": [0.6, 0.95],
+    "volume_range": [2, 12],
+    "noise_level": "medium"
+  },
+  "realism_score": 0.88,
+  "novelty_score": 0.79,
+  "detectability_score": 0.44,
+  "impact_score": 0.91,
+  "severity": "critical",
+  "detection_hints": [
+    "beneficiary_novelty",
+    "approval_sequence_features",
+    "payment_context_features"
+  ],
+  "evaluation_tags": [
+    "business_payment",
+    "high_value",
+    "social_engineering"
+  ],
+  "notes": "Models payment-diversion indicators without generating operational phishing content."
+}
+

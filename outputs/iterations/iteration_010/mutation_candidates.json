@@ -1,0 +1,112 @@
+[
+  {
+    "bucket": "social_engineering_payment_fraud",
+    "expected_detection_pressure": {
+      "behavioral_variance": "medium",
+      "signal_intensity": "high"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_ai_imp_001_v1",
+    "mutation_strategy": [
+      "increase_noise_level",
+      "diversify_script_patterns"
+    ],
+    "proposed_variant_name": "Support-channel trust attack - High Noise Variant",
+    "provider": "local_lmstudio",
+    "rationale": "Original stealth was too high (0.6-0.95), enabling successful bypass. Mutations aim to disrupt the impersonation signal by increasing noise and forcing script divergence, thereby reducing false positives while maintaining detection efficacy.",
+    "source_attack_id": "social_ai_impersonation_001",
+    "subtype": "ai_impersonation",
+    "suggested_generation_strategy": {
+      "mode": "agent_based",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.3,
+        0.7
+      ],
+      "volume_range": [
+        5,
+        15
+      ]
+    }
+  },
+  {
+    "bucket": "merchant_ecosystem_abuse",
+    "expected_detection_pressure": {
+      "anomaly_score_boost": 0.75,
+      "velocity_spike": true
+    },
+    "human_review_required": true,
+    "mutation_id": "triangulation_mutation_002",
+    "mutation_strategy": [
+      "fuzzy_fulfillment_convergence"
+    ],
+    "proposed_variant_name": "Marketplace order with delayed fulfillment mismatch",
+    "provider": "local_lmstudio",
+    "rationale": "To increase detection difficulty (lower stealth), the mutation introduces a temporal gap between the marketplace acceptance and external source fulfillment. This mimics legitimate operational latency while maintaining the core inconsistency, forcing systems to rely on longitudinal correlation rather than immediate flags.",
+    "source_attack_id": "merchant_triangulation_001",
+    "subtype": "triangulation_fraud",
+    "suggested_generation_strategy": {
+      "mode": "sequential",
+      "noise_level": "low",
+      "stealth_level_range": [
+        0.45,
+        0.65
+      ],
+      "volume_range": [
+        1,
+        10
+      ]
+    }
+  },
+  {
+    "provider": "local_lmstudio",
+    "raw_content": "<think>\n</think>\n\nI cannot fulfill this request as written because it appears to contain a malformed JSON structure and includes what looks like an internal system prompt or task description rather than a standard user query. Additionally, the content involves simulated fraud attack scenarios which I should not generate or validate for potential use in real systems.\n\nHowever, if you're looking to understand how to properly format JSON data or want help with a different topic, I'd be happy to assist with that. Could you clarify what specific task you'd like me to help with?"
+  },
+  {
+    "provider": "local_lmstudio",
+    "raw_content": ""
+  },
+  {
+    "bucket": "merchant_ecosystem_abuse",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.954483,
+      "bucket": "merchant_ecosystem_abuse",
+      "fraud_count": 55,
+      "group_key": "bust_out_merchant",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "bust_out_merchant"
+    },
+    "gateway_fallback": {
+      "from_provider": "local_lmstudio",
+      "reason": "Expecting ',' delimiter: line 21 column 1 (char 966)",
+      "to_provider": "local_rules"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_6f51438a8c7c",
+    "mutation_strategy": [
+      "increase_stealth_level",
+      "reduce_obvious_velocity",
+      "increase_benign_overlap",
+      "preserve_attack_lineage"
+    ],
+    "proposed_variant_name": "Short-lived merchant with rapid volume growth - stealth hardened",
+    "provider": "local_rules",
+    "rationale": "Create a harder variant by moving generated behavior closer to benign baselines while preserving the attack's core payment signal.",
+    "source_attack_id": "merchant_bustout_001",
+    "subtype": "bust_out_merchant",
+    "suggested_generation_strategy": {
+      "mode": "hybrid",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.43,
+        0.83
+      ],
+      "volume_range": [
+        15,
+        120
+      ]
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "attack_id": "merchant_mule_laundering_001",
+  "bucket": "merchant_ecosystem_abuse",
+  "subtype": "mule_laundering",
+  "attack_name": "Mule laundering",
+  "variant_name": "Many inbound sources followed by rapid outflow",
+  "channel": "bank_transfer",
+  "rail": "p2p",
+  "scope": "multi_step_campaign",
+  "actor_type": "mule",
+  "attacker_goal": "move funds through intermediary accounts to obscure flow origins",
+  "genai_role": ["coordination_message_generation", "transaction_narrative_generation"],
+  "preconditions": ["accounts can receive and forward funds across the payment network"],
+  "attack_sequence": [{"step": 1, "action": "receive funds from multiple sources", "observable": "many inbound payments"}, {"step": 2, "action": "move funds onward quickly", "observable": "rapid outbound transfers"}],
+  "expected_signals": ["many_inbound_sources", "rapid_outflow", "network_cluster_pattern"],
+  "data_fields_affected": ["customer_id", "amount", "transaction_type", "event_time"],
+  "generation_strategy": {"mode": "hybrid", "stealth_level_range": [0.4, 0.85], "volume_range": [15, 150], "noise_level": "high"},
+  "severity": "critical"
+}

@@ -1,0 +1,20 @@
+{
+  "attack_id": "merchant_gift_card_001",
+  "bucket": "merchant_ecosystem_abuse",
+  "subtype": "gift_card_abuse",
+  "attack_name": "Gift card abuse",
+  "variant_name": "Activation and rapid drain burst",
+  "channel": "ecommerce",
+  "rail": "wallet",
+  "scope": "multi_step_campaign",
+  "actor_type": "external_fraudster",
+  "attacker_goal": "convert payment value through rapid gift card activation and redemption",
+  "genai_role": ["support_impersonation", "account_recovery_scripting"],
+  "preconditions": ["gift card value can be activated and redeemed digitally"],
+  "attack_sequence": [{"step": 1, "action": "activate stored value", "observable": "activation burst"}, {"step": 2, "action": "redeem value rapidly", "observable": "short activation-to-redemption gap"}],
+  "expected_signals": ["activation_drain_burst", "abnormal_redemption_timing", "channel_switch"],
+  "data_fields_affected": ["transaction_type", "amount", "event_time", "payment_method_type"],
+  "generation_strategy": {"mode": "template_plus_sampling", "stealth_level_range": [0.35, 0.75], "volume_range": [10, 100], "noise_level": "high"},
+  "severity": "high"
+}
+

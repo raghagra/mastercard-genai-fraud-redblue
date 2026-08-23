@@ -1,0 +1,20 @@
+{
+  "attack_id": "social_app_scam_001",
+  "bucket": "social_engineering_payment_fraud",
+  "subtype": "authorized_push_payment_scam",
+  "attack_name": "Authorized push payment scam",
+  "variant_name": "New recipient instant transfer after pressure sequence",
+  "channel": "bank_transfer",
+  "rail": "instant_transfer",
+  "scope": "multi_step_campaign",
+  "actor_type": "external_fraudster",
+  "attacker_goal": "convince a victim to authorize a payment to a new recipient",
+  "genai_role": ["conversational_manipulation", "objection_handling"],
+  "preconditions": ["customer can initiate instant transfers to new recipients"],
+  "attack_sequence": [{"step": 1, "action": "establish trust before payment", "observable": "new recipient added before transfer"}, {"step": 2, "action": "initiate transfer", "observable": "rapid payment to novel beneficiary"}],
+  "expected_signals": ["recipient_novelty", "rapid_transfer_after_contact", "unusual_transfer_cadence"],
+  "data_fields_affected": ["customer_id", "amount", "transaction_type", "event_time"],
+  "generation_strategy": {"mode": "agent_based", "stealth_level_range": [0.55, 0.95], "volume_range": [2, 15], "noise_level": "medium"},
+  "severity": "high"
+}
+

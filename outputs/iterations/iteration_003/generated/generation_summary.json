@@ -1,0 +1,11 @@
+{
+  "attack_card_count": 30,
+  "attack_instance_count": 30,
+  "benign_count": 100,
+  "customer_count": 55,
+  "device_count": 50,
+  "merchant_count": 48,
+  "per_attack_card": 1,
+  "seed": 44,
+  "transaction_count": 1235
+}

@@ -1,0 +1,408 @@
+[
+  {
+    "bucket": "credential_based_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.121097,
+      "bucket": "credential_based_fraud",
+      "fraud_count": 9,
+      "group_key": "merchant_admin_takeover",
+      "miss_count": 8,
+      "reason": "false_negative",
+      "recall": 0.111111,
+      "subtype": "merchant_admin_takeover"
+    },
+    "gateway_fallback": {
+      "from_provider": "local_lmstudio",
+      "reason": "model_output_failed_mutation_contract",
+      "to_provider": "local_rules"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_c79212d911a0",
+    "mutation_strategy": [
+      "increase_benign_context_overlap",
+      "preserve_attack_lineage"
+    ],
+    "parameter_deltas": [
+      {
+        "baseline": [
+          0.5,
+          0.9
+        ],
+        "field": "stealth_level_range",
+        "proposed": [
+          0.6,
+          0.99
+        ],
+        "purpose": "Increase benign-feature overlap in the simulated campaign."
+      },
+      {
+        "baseline": [
+          2,
+          10
+        ],
+        "field": "volume_range",
+        "proposed": [
+          2,
+          8
+        ],
+        "purpose": "Apply the subtype-specific campaign pacing change."
+      },
+      {
+        "baseline": "medium",
+        "field": "noise_level",
+        "proposed": "high",
+        "purpose": "Broaden realistic edge cases without changing the fraud label."
+      },
+      {
+        "baseline": 1.0,
+        "field": "time_window_multiplier",
+        "proposed": 1.35,
+        "purpose": "Spread events across a longer, more realistic campaign timeline."
+      }
+    ],
+    "proposed_variant_name": "Payout account edit after privileged login - behavioral overlap variant",
+    "provider": "local_rules",
+    "rationale": "Create a bounded defensive stress-test variant that retains the attack's payment objective while reducing the most obvious synthetic signals.",
+    "source_attack_id": "cred_merchant_admin_ato_001",
+    "subtype": "merchant_admin_takeover",
+    "suggested_generation_strategy": {
+      "mode": "hybrid",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.6,
+        0.99
+      ],
+      "time_window_multiplier": 1.35,
+      "volume_range": [
+        2,
+        8
+      ]
+    }
+  },
+  {
+    "bucket": "credential_based_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.581857,
+      "bucket": "credential_based_fraud",
+      "fraud_count": 16,
+      "group_key": "consumer_account_takeover",
+      "miss_count": 3,
+      "reason": "false_negative",
+      "recall": 0.8125,
+      "subtype": "consumer_account_takeover"
+    },
+    "gateway_fallback": {
+      "from_provider": "local_lmstudio",
+      "reason": "model_output_failed_mutation_contract",
+      "to_provider": "local_rules"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_8c0dbfd1af0b",
+    "mutation_strategy": [
+      "increase_benign_context_overlap",
+      "preserve_attack_lineage"
+    ],
+    "parameter_deltas": [
+      {
+        "baseline": [
+          0.45,
+          0.85
+        ],
+        "field": "stealth_level_range",
+        "proposed": [
+          0.55,
+          0.95
+        ],
+        "purpose": "Increase benign-feature overlap in the simulated campaign."
+      },
+      {
+        "baseline": [
+          3,
+          25
+        ],
+        "field": "volume_range",
+        "proposed": [
+          2,
+          19
+        ],
+        "purpose": "Apply the subtype-specific campaign pacing change."
+      },
+      {
+        "baseline": "medium",
+        "field": "noise_level",
+        "proposed": "high",
+        "purpose": "Broaden realistic edge cases without changing the fraud label."
+      },
+      {
+        "baseline": 1.0,
+        "field": "time_window_multiplier",
+        "proposed": 1.35,
+        "purpose": "Spread events across a longer, more realistic campaign timeline."
+      }
+    ],
+    "proposed_variant_name": "New device login followed by wallet spend - behavioral overlap variant",
+    "provider": "local_rules",
+    "rationale": "Create a bounded defensive stress-test variant that retains the attack's payment objective while reducing the most obvious synthetic signals.",
+    "source_attack_id": "cred_consumer_ato_001",
+    "subtype": "consumer_account_takeover",
+    "suggested_generation_strategy": {
+      "mode": "hybrid",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.55,
+        0.95
+      ],
+      "time_window_multiplier": 1.35,
+      "volume_range": [
+        2,
+        19
+      ]
+    }
+  },
+  {
+    "bucket": "post_transaction_abuse",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.879377,
+      "bucket": "post_transaction_abuse",
+      "fraud_count": 9,
+      "group_key": "non_delivery_claim",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "non_delivery_claim"
+    },
+    "gateway_fallback": {
+      "from_provider": "local_lmstudio",
+      "reason": "model_output_failed_mutation_contract",
+      "to_provider": "local_rules"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_55e3fe96b9bc",
+    "mutation_strategy": [
+      "reduce_claim_velocity",
+      "increase_purchase_context_overlap",
+      "retain_post_transaction_signal",
+      "preserve_attack_lineage"
+    ],
+    "parameter_deltas": [
+      {
+        "baseline": [
+          0.45,
+          0.85
+        ],
+        "field": "stealth_level_range",
+        "proposed": [
+          0.56,
+          0.96
+        ],
+        "purpose": "Increase benign-feature overlap in the simulated campaign."
+      },
+      {
+        "baseline": [
+          2,
+          18
+        ],
+        "field": "volume_range",
+        "proposed": [
+          1,
+          12
+        ],
+        "purpose": "Apply the subtype-specific campaign pacing change."
+      },
+      {
+        "baseline": "medium",
+        "field": "noise_level",
+        "proposed": "high",
+        "purpose": "Broaden realistic edge cases without changing the fraud label."
+      },
+      {
+        "baseline": 1.0,
+        "field": "time_window_multiplier",
+        "proposed": 2.0,
+        "purpose": "Spread events across a longer, more realistic campaign timeline."
+      }
+    ],
+    "proposed_variant_name": "Repeated missing-item claims after confirmation - plausible post-purchase variant",
+    "provider": "local_rules",
+    "rationale": "Stress-test post-transaction controls using fewer, more plausible claims embedded in ordinary-looking purchase context, without changing the abuse outcome being simulated.",
+    "source_attack_id": "post_non_delivery_001",
+    "subtype": "non_delivery_claim",
+    "suggested_generation_strategy": {
+      "mode": "template_plus_sampling",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.56,
+        0.96
+      ],
+      "time_window_multiplier": 2.0,
+      "volume_range": [
+        1,
+        12
+      ]
+    }
+  },
+  {
+    "bucket": "social_engineering_payment_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.979087,
+      "bucket": "social_engineering_payment_fraud",
+      "fraud_count": 9,
+      "group_key": "ai_impersonation",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "ai_impersonation"
+    },
+    "gateway_fallback": {
+      "from_provider": "local_lmstudio",
+      "reason": "model_output_failed_mutation_contract",
+      "to_provider": "local_rules"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_2c699128880c",
+    "mutation_strategy": [
+      "increase_trusted_context_overlap",
+      "reduce_single_session_concentration",
+      "retain_transfer_anomaly",
+      "preserve_attack_lineage"
+    ],
+    "parameter_deltas": [
+      {
+        "baseline": [
+          0.6,
+          0.95
+        ],
+        "field": "stealth_level_range",
+        "proposed": [
+          0.72,
+          0.99
+        ],
+        "purpose": "Increase benign-feature overlap in the simulated campaign."
+      },
+      {
+        "baseline": [
+          2,
+          12
+        ],
+        "field": "volume_range",
+        "proposed": [
+          1,
+          7
+        ],
+        "purpose": "Apply the subtype-specific campaign pacing change."
+      },
+      {
+        "baseline": "medium",
+        "field": "noise_level",
+        "proposed": "high",
+        "purpose": "Broaden realistic edge cases without changing the fraud label."
+      },
+      {
+        "baseline": 1.0,
+        "field": "time_window_multiplier",
+        "proposed": 1.8,
+        "purpose": "Spread events across a longer, more realistic campaign timeline."
+      }
+    ],
+    "proposed_variant_name": "Support-channel trust attack - trusted-context transfer variant",
+    "provider": "local_rules",
+    "rationale": "Stress-test whether the defense can recognize a socially engineered payment when the transfer is paced and surrounded by otherwise trusted-looking context.",
+    "source_attack_id": "social_ai_impersonation_001",
+    "subtype": "ai_impersonation",
+    "suggested_generation_strategy": {
+      "mode": "agent_based",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.72,
+        0.99
+      ],
+      "time_window_multiplier": 1.8,
+      "volume_range": [
+        1,
+        7
+      ]
+    }
+  },
+  {
+    "bucket": "merchant_ecosystem_abuse",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.98093,
+      "bucket": "merchant_ecosystem_abuse",
+      "fraud_count": 74,
+      "group_key": "gift_card_abuse",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "gift_card_abuse"
+    },
+    "gateway_fallback": {
+      "from_provider": "local_lmstudio",
+      "reason": "model_output_failed_mutation_contract",
+      "to_provider": "local_rules"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_9b34aba7478b",
+    "mutation_strategy": [
+      "reduce_volume_growth_spike",
+      "increase_merchant_maturity",
+      "retain_payout_or_marketplace_signal",
+      "preserve_attack_lineage"
+    ],
+    "parameter_deltas": [
+      {
+        "baseline": [
+          0.35,
+          0.75
+        ],
+        "field": "stealth_level_range",
+        "proposed": [
+          0.48,
+          0.88
+        ],
+        "purpose": "Increase benign-feature overlap in the simulated campaign."
+      },
+      {
+        "baseline": [
+          10,
+          100
+        ],
+        "field": "volume_range",
+        "proposed": [
+          6,
+          55
+        ],
+        "purpose": "Apply the subtype-specific campaign pacing change."
+      },
+      {
+        "baseline": "high",
+        "field": "noise_level",
+        "proposed": "high",
+        "purpose": "Broaden realistic edge cases without changing the fraud label."
+      },
+      {
+        "baseline": 1.0,
+        "field": "time_window_multiplier",
+        "proposed": 2.2,
+        "purpose": "Spread events across a longer, more realistic campaign timeline."
+      }
+    ],
+    "proposed_variant_name": "Activation and rapid drain burst - gradual merchant-lifecycle variant",
+    "provider": "local_rules",
+    "rationale": "Stress-test merchant controls with a slower lifecycle and less conspicuous growth, while retaining the simulated merchant or payout anomaly.",
+    "source_attack_id": "merchant_gift_card_001",
+    "subtype": "gift_card_abuse",
+    "suggested_generation_strategy": {
+      "mode": "template_plus_sampling",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.48,
+        0.88
+      ],
+      "time_window_multiplier": 2.2,
+      "volume_range": [
+        6,
+        55
+      ]
+    }
+  }
+]

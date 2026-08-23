@@ -1,0 +1,20 @@
+{
+  "attack_id": "identity_mule_account_001",
+  "bucket": "identity_onboarding_fraud",
+  "subtype": "mule_account_creation",
+  "attack_name": "Mule account creation",
+  "variant_name": "Clustered onboarding followed by rapid outflow",
+  "channel": "onboarding",
+  "rail": "p2p",
+  "scope": "multi_step_campaign",
+  "actor_type": "mule",
+  "attacker_goal": "create accounts used to receive and move funds quickly",
+  "genai_role": ["recruitment_messaging", "onboarding_scripting"],
+  "preconditions": ["new accounts can receive and send funds after activation"],
+  "attack_sequence": [{"step": 1, "action": "open clustered accounts", "observable": "shared device or network lineage"}, {"step": 2, "action": "move funds rapidly", "observable": "fast inbound-to-outbound transfer pattern"}],
+  "expected_signals": ["clustered_signups", "rapid_fund_movement", "beneficiary_churn"],
+  "data_fields_affected": ["customer_id", "device_id", "ip_address", "transaction_type"],
+  "generation_strategy": {"mode": "hybrid", "stealth_level_range": [0.4, 0.85], "volume_range": [10, 80], "noise_level": "high"},
+  "severity": "high"
+}
+

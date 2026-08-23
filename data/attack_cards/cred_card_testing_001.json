@@ -1,0 +1,20 @@
+{
+  "attack_id": "cred_card_testing_001",
+  "bucket": "credential_based_fraud",
+  "subtype": "card_testing",
+  "attack_name": "Card testing and enumeration",
+  "variant_name": "Low-value authorization burst",
+  "channel": "api",
+  "rail": "card",
+  "scope": "single_event",
+  "actor_type": "external_fraudster",
+  "attacker_goal": "validate payment instruments through repeated low-value attempts",
+  "genai_role": ["adaptive_retry_logic", "automation_pattern_variation"],
+  "preconditions": ["checkout or payment API accepts card authorization attempts"],
+  "attack_sequence": [{"step": 1, "action": "submit repeated low-value authorization attempts", "observable": "many declines and small approvals in a short window"}],
+  "expected_signals": ["low_value_attempts", "high_decline_ratio", "short_session_lifetime"],
+  "data_fields_affected": ["amount", "auth_result", "ip_address", "session_id"],
+  "generation_strategy": {"mode": "template_plus_sampling", "stealth_level_range": [0.2, 0.7], "volume_range": [20, 200], "noise_level": "high"},
+  "severity": "high"
+}
+

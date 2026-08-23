@@ -1,0 +1,20 @@
+{
+  "attack_id": "cred_stuffing_001",
+  "bucket": "credential_based_fraud",
+  "subtype": "credential_stuffing",
+  "attack_name": "Credential stuffing",
+  "variant_name": "Distributed login attempts against payment-linked accounts",
+  "channel": "mobile_app",
+  "rail": "wallet",
+  "scope": "single_event",
+  "actor_type": "external_fraudster",
+  "attacker_goal": "identify usable accounts with stored payment access",
+  "genai_role": ["adaptive_pacing", "retry_orchestration"],
+  "preconditions": ["payment-linked accounts accept password-based authentication"],
+  "attack_sequence": [{"step": 1, "action": "attempt many account logins", "observable": "high failure ratio across accounts"}],
+  "expected_signals": ["login_failure_spike", "distributed_ip_pattern", "automation_timing"],
+  "data_fields_affected": ["customer_id", "session_id", "ip_address", "auth_result"],
+  "generation_strategy": {"mode": "rules_based", "stealth_level_range": [0.2, 0.75], "volume_range": [50, 500], "noise_level": "high"},
+  "severity": "high"
+}
+

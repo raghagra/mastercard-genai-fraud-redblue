@@ -1,0 +1,201 @@
+[
+  {
+    "bucket": "identity_onboarding_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.913815,
+      "bucket": "identity_onboarding_fraud",
+      "fraud_count": 23,
+      "group_key": "synthetic_identity",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "synthetic_identity"
+    },
+    "gateway_fallback": {
+      "from_provider": "local_lmstudio",
+      "reason": "model_output_failed_mutation_contract",
+      "to_provider": "local_rules"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_111746eaf813",
+    "mutation_strategy": [
+      "increase_stealth_level",
+      "reduce_obvious_velocity",
+      "increase_benign_overlap",
+      "preserve_attack_lineage"
+    ],
+    "proposed_variant_name": "Thin-file wallet account activation - stealth hardened",
+    "provider": "local_rules",
+    "rationale": "Create a harder variant by moving generated behavior closer to benign baselines while preserving the attack's core payment signal.",
+    "source_attack_id": "identity_synthetic_001",
+    "subtype": "synthetic_identity",
+    "suggested_generation_strategy": {
+      "mode": "template_plus_sampling",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.58,
+        0.98
+      ],
+      "volume_range": [
+        3,
+        20
+      ]
+    }
+  },
+  {
+    "bucket": "merchant_ecosystem_abuse",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.933189,
+      "bucket": "merchant_ecosystem_abuse",
+      "fraud_count": 88,
+      "group_key": "triangulation_fraud",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "triangulation_fraud"
+    },
+    "gateway_fallback": {
+      "from_provider": "local_lmstudio",
+      "reason": "model_output_failed_mutation_contract",
+      "to_provider": "local_rules"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_6fcdf3b7ce05",
+    "mutation_strategy": [
+      "increase_stealth_level",
+      "reduce_obvious_velocity",
+      "increase_benign_overlap",
+      "preserve_attack_lineage"
+    ],
+    "proposed_variant_name": "Marketplace order with fulfillment mismatch - stealth hardened",
+    "provider": "local_rules",
+    "rationale": "Create a harder variant by moving generated behavior closer to benign baselines while preserving the attack's core payment signal.",
+    "source_attack_id": "merchant_triangulation_001",
+    "subtype": "triangulation_fraud",
+    "suggested_generation_strategy": {
+      "mode": "hybrid",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.53,
+        0.93
+      ],
+      "volume_range": [
+        5,
+        60
+      ]
+    }
+  },
+  {
+    "bucket": "social_engineering_payment_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.933225,
+      "bucket": "social_engineering_payment_fraud",
+      "fraud_count": 17,
+      "group_key": "ai_impersonation",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "ai_impersonation"
+    },
+    "gateway_fallback": {
+      "from_provider": "local_lmstudio",
+      "reason": "model_output_failed_mutation_contract",
+      "to_provider": "local_rules"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_2c699128880c",
+    "mutation_strategy": [
+      "increase_stealth_level",
+      "reduce_obvious_velocity",
+      "increase_benign_overlap",
+      "preserve_attack_lineage"
+    ],
+    "proposed_variant_name": "Support-channel trust attack - stealth hardened",
+    "provider": "local_rules",
+    "rationale": "Create a harder variant by moving generated behavior closer to benign baselines while preserving the attack's core payment signal.",
+    "source_attack_id": "social_ai_impersonation_001",
+    "subtype": "ai_impersonation",
+    "suggested_generation_strategy": {
+      "mode": "agent_based",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.68,
+        0.99
+      ],
+      "volume_range": [
+        2,
+        12
+      ]
+    }
+  },
+  {
+    "bucket": "credential_based_fraud",
+    "expected_detection_pressure": {},
+    "human_review_required": true,
+    "mutation_id": "merchant_admin_takeover_mutation_001",
+    "mutation_strategy": [
+      "introduce_additional_verification_steps",
+      "implement_access_control"
+    ],
+    "proposed_variant_name": "Payout account edit after privileged login with additional verification",
+    "provider": "local_lmstudio",
+    "rationale": "To mitigate the risk of fraudulent payout account changes, we can introduce additional verification steps and implement access control.",
+    "source_attack_id": "cred_merchant_admin_ato_001",
+    "subtype": "merchant_admin_takeover",
+    "suggested_generation_strategy": {
+      "mode": "hybrid",
+      "noise_level": "medium",
+      "stealth_level_range": [
+        0.5,
+        0.9
+      ],
+      "volume_range": [
+        2,
+        10
+      ]
+    }
+  },
+  {
+    "bucket": "credential_based_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.943097,
+      "bucket": "credential_based_fraud",
+      "fraud_count": 29,
+      "group_key": "consumer_account_takeover",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "consumer_account_takeover"
+    },
+    "gateway_fallback": {
+      "from_provider": "local_lmstudio",
+      "reason": "Expecting property name enclosed in double quotes: line 2 column 5 (char 6)",
+      "to_provider": "local_rules"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_34a0453c6179",
+    "mutation_strategy": [
+      "increase_stealth_level",
+      "reduce_obvious_velocity",
+      "increase_benign_overlap",
+      "preserve_attack_lineage"
+    ],
+    "proposed_variant_name": "New device login followed by wallet spend - stealth hardened",
+    "provider": "local_rules",
+    "rationale": "Create a harder variant by moving generated behavior closer to benign baselines while preserving the attack's core payment signal.",
+    "source_attack_id": "cred_consumer_ato_001",
+    "subtype": "consumer_account_takeover",
+    "suggested_generation_strategy": {
+      "mode": "hybrid",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.53,
+        0.93
+      ],
+      "volume_range": [
+        3,
+        25
+      ]
+    }
+  }
+]

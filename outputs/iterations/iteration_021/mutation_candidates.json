@@ -1,0 +1,510 @@
+[
+  {
+    "bucket": "social_engineering_payment_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.331894,
+      "bucket": "social_engineering_payment_fraud",
+      "fraud_count": 10,
+      "group_key": "authorized_push_payment_scam",
+      "miss_count": 3,
+      "reason": "false_negative",
+      "recall": 0.7,
+      "subtype": "authorized_push_payment_scam"
+    },
+    "gateway_fallback": {
+      "from_provider": "local_lmstudio",
+      "reason": "model_output_failed_mutation_contract",
+      "to_provider": "local_rules"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_72e80048c331",
+    "mutation_strategy": [
+      "increase_trusted_context_overlap",
+      "reduce_single_session_concentration",
+      "retain_transfer_anomaly",
+      "preserve_attack_lineage"
+    ],
+    "parameter_deltas": [
+      {
+        "baseline": [
+          0.55,
+          0.95
+        ],
+        "field": "stealth_level_range",
+        "proposed": [
+          0.67,
+          0.99
+        ],
+        "purpose": "Increase benign-feature overlap in the simulated campaign."
+      },
+      {
+        "baseline": [
+          2,
+          15
+        ],
+        "field": "volume_range",
+        "proposed": [
+          1,
+          9
+        ],
+        "purpose": "Apply the subtype-specific campaign pacing change."
+      },
+      {
+        "baseline": "medium",
+        "field": "noise_level",
+        "proposed": "high",
+        "purpose": "Broaden realistic edge cases without changing the fraud label."
+      },
+      {
+        "baseline": 1.0,
+        "field": "time_window_multiplier",
+        "proposed": 1.8,
+        "purpose": "Spread events across a longer, more realistic campaign timeline."
+      }
+    ],
+    "proposed_variant_name": "New recipient instant transfer after pressure sequence - trusted-context transfer variant",
+    "provider": "local_rules",
+    "rationale": "Stress-test whether the defense can recognize a socially engineered payment when the transfer is paced and surrounded by otherwise trusted-looking context.",
+    "review_evidence": {
+      "average_fraud_score": 0.331894,
+      "evaluation_scope": "heldout_attack_benchmark",
+      "fraud_count": 10,
+      "miss_count": 3,
+      "recall": 0.7,
+      "representative_records": [
+        {
+          "attack_bucket": "social_engineering_payment_fraud",
+          "attack_subtype": "authorized_push_payment_scam",
+          "fraud_score": 0.07971229795797018,
+          "label": 1,
+          "prediction": 0,
+          "reason_codes": "customer payment cadence lowers risk;high generated risk score raises risk;device history lowers risk",
+          "transaction_id": "txn_a9509adf4557"
+        },
+        {
+          "attack_bucket": "social_engineering_payment_fraud",
+          "attack_subtype": "authorized_push_payment_scam",
+          "fraud_score": 0.06585836669507474,
+          "label": 1,
+          "prediction": 0,
+          "reason_codes": "high generated risk score lowers risk;IP velocity raises risk;device history lowers risk",
+          "transaction_id": "txn_f3163268e646"
+        },
+        {
+          "attack_bucket": "social_engineering_payment_fraud",
+          "attack_subtype": "authorized_push_payment_scam",
+          "fraud_score": 0.12808316297899347,
+          "label": 1,
+          "prediction": 0,
+          "reason_codes": "device history lowers risk;customer account age lowers risk;payment_method_type_code lowers risk",
+          "transaction_id": "txn_b3380e71f0e8"
+        }
+      ],
+      "selection_reason": "false_negative",
+      "threshold": 0.21
+    },
+    "source_attack_id": "social_app_scam_001",
+    "subtype": "authorized_push_payment_scam",
+    "suggested_generation_strategy": {
+      "mode": "agent_based",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.67,
+        0.99
+      ],
+      "time_window_multiplier": 1.8,
+      "volume_range": [
+        1,
+        9
+      ]
+    }
+  },
+  {
+    "bucket": "post_transaction_abuse",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.717039,
+      "bucket": "post_transaction_abuse",
+      "fraud_count": 8,
+      "group_key": "refund_fraud",
+      "miss_count": 1,
+      "reason": "false_negative",
+      "recall": 0.875,
+      "subtype": "refund_fraud"
+    },
+    "gateway_fallback": {
+      "from_provider": "local_lmstudio",
+      "reason": "model_output_failed_mutation_contract",
+      "to_provider": "local_rules"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_b80174f70adc",
+    "mutation_strategy": [
+      "reduce_claim_velocity",
+      "increase_purchase_context_overlap",
+      "retain_post_transaction_signal",
+      "preserve_attack_lineage"
+    ],
+    "parameter_deltas": [
+      {
+        "baseline": [
+          0.45,
+          0.85
+        ],
+        "field": "stealth_level_range",
+        "proposed": [
+          0.56,
+          0.96
+        ],
+        "purpose": "Increase benign-feature overlap in the simulated campaign."
+      },
+      {
+        "baseline": [
+          2,
+          15
+        ],
+        "field": "volume_range",
+        "proposed": [
+          1,
+          10
+        ],
+        "purpose": "Apply the subtype-specific campaign pacing change."
+      },
+      {
+        "baseline": "medium",
+        "field": "noise_level",
+        "proposed": "high",
+        "purpose": "Broaden realistic edge cases without changing the fraud label."
+      },
+      {
+        "baseline": 1.0,
+        "field": "time_window_multiplier",
+        "proposed": 2.0,
+        "purpose": "Spread events across a longer, more realistic campaign timeline."
+      }
+    ],
+    "proposed_variant_name": "Repeated refund claim with destination shift - plausible post-purchase variant",
+    "provider": "local_rules",
+    "rationale": "Stress-test post-transaction controls using fewer, more plausible claims embedded in ordinary-looking purchase context, without changing the abuse outcome being simulated.",
+    "review_evidence": {
+      "average_fraud_score": 0.717039,
+      "evaluation_scope": "heldout_attack_benchmark",
+      "fraud_count": 8,
+      "miss_count": 1,
+      "recall": 0.875,
+      "representative_records": [
+        {
+          "attack_bucket": "post_transaction_abuse",
+          "attack_subtype": "refund_fraud",
+          "fraud_score": 0.0278430451070615,
+          "label": 1,
+          "prediction": 0,
+          "reason_codes": "customer payment cadence lowers risk;customer account age lowers risk;high generated risk score lowers risk",
+          "transaction_id": "txn_bccea3e4a65a"
+        }
+      ],
+      "selection_reason": "false_negative",
+      "threshold": 0.21
+    },
+    "source_attack_id": "post_refund_001",
+    "subtype": "refund_fraud",
+    "suggested_generation_strategy": {
+      "mode": "template_plus_sampling",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.56,
+        0.96
+      ],
+      "time_window_multiplier": 2.0,
+      "volume_range": [
+        1,
+        10
+      ]
+    }
+  },
+  {
+    "bucket": "identity_onboarding_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.690557,
+      "bucket": "identity_onboarding_fraud",
+      "fraud_count": 45,
+      "group_key": "fraudulent_merchant_onboarding",
+      "miss_count": 1,
+      "reason": "false_negative",
+      "recall": 0.977778,
+      "subtype": "fraudulent_merchant_onboarding"
+    },
+    "gateway_fallback": {
+      "from_provider": "local_lmstudio",
+      "reason": "model_output_failed_mutation_contract",
+      "to_provider": "local_rules"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_1eb4460100d7",
+    "mutation_strategy": [
+      "increase_profile_maturity",
+      "increase_benign_context_overlap",
+      "retain_identity_inconsistency",
+      "preserve_attack_lineage"
+    ],
+    "parameter_deltas": [
+      {
+        "baseline": [
+          0.45,
+          0.85
+        ],
+        "field": "stealth_level_range",
+        "proposed": [
+          0.61,
+          0.99
+        ],
+        "purpose": "Increase benign-feature overlap in the simulated campaign."
+      },
+      {
+        "baseline": [
+          8,
+          60
+        ],
+        "field": "volume_range",
+        "proposed": [
+          7,
+          51
+        ],
+        "purpose": "Apply the subtype-specific campaign pacing change."
+      },
+      {
+        "baseline": "medium",
+        "field": "noise_level",
+        "proposed": "high",
+        "purpose": "Broaden realistic edge cases without changing the fraud label."
+      },
+      {
+        "baseline": 1.0,
+        "field": "time_window_multiplier",
+        "proposed": 1.5,
+        "purpose": "Spread events across a longer, more realistic campaign timeline."
+      }
+    ],
+    "proposed_variant_name": "Mismatch between claimed business and observed payments - mature-profile onboarding variant",
+    "provider": "local_rules",
+    "rationale": "Stress-test identity controls with a mature-looking synthetic profile and less obvious operational noise, while retaining the underlying onboarding inconsistency.",
+    "review_evidence": {
+      "average_fraud_score": 0.690557,
+      "evaluation_scope": "heldout_attack_benchmark",
+      "fraud_count": 45,
+      "miss_count": 1,
+      "recall": 0.977778,
+      "representative_records": [
+        {
+          "attack_bucket": "identity_onboarding_fraud",
+          "attack_subtype": "fraudulent_merchant_onboarding",
+          "fraud_score": 0.04615073684856227,
+          "label": 1,
+          "prediction": 0,
+          "reason_codes": "device history lowers risk;customer payment cadence lowers risk;merchant chargeback behavior lowers risk",
+          "transaction_id": "txn_f128caace258"
+        }
+      ],
+      "selection_reason": "false_negative",
+      "threshold": 0.21
+    },
+    "source_attack_id": "identity_fraud_merchant_001",
+    "subtype": "fraudulent_merchant_onboarding",
+    "suggested_generation_strategy": {
+      "mode": "template_plus_sampling",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.61,
+        0.99
+      ],
+      "time_window_multiplier": 1.5,
+      "volume_range": [
+        7,
+        51
+      ]
+    }
+  },
+  {
+    "bucket": "post_transaction_abuse",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.910413,
+      "bucket": "post_transaction_abuse",
+      "fraud_count": 14,
+      "group_key": "return_policy_abuse",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "return_policy_abuse"
+    },
+    "gateway_fallback": {
+      "from_provider": "local_lmstudio",
+      "reason": "model_output_failed_mutation_contract",
+      "to_provider": "local_rules"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_a761fd58c774",
+    "mutation_strategy": [
+      "reduce_claim_velocity",
+      "increase_purchase_context_overlap",
+      "retain_post_transaction_signal",
+      "preserve_attack_lineage"
+    ],
+    "parameter_deltas": [
+      {
+        "baseline": [
+          0.55,
+          0.9
+        ],
+        "field": "stealth_level_range",
+        "proposed": [
+          0.66,
+          0.99
+        ],
+        "purpose": "Increase benign-feature overlap in the simulated campaign."
+      },
+      {
+        "baseline": [
+          3,
+          30
+        ],
+        "field": "volume_range",
+        "proposed": [
+          2,
+          20
+        ],
+        "purpose": "Apply the subtype-specific campaign pacing change."
+      },
+      {
+        "baseline": "medium",
+        "field": "noise_level",
+        "proposed": "high",
+        "purpose": "Broaden realistic edge cases without changing the fraud label."
+      },
+      {
+        "baseline": 1.0,
+        "field": "time_window_multiplier",
+        "proposed": 2.0,
+        "purpose": "Spread events across a longer, more realistic campaign timeline."
+      }
+    ],
+    "proposed_variant_name": "Serial returns near policy boundary - plausible post-purchase variant",
+    "provider": "local_rules",
+    "rationale": "Stress-test post-transaction controls using fewer, more plausible claims embedded in ordinary-looking purchase context, without changing the abuse outcome being simulated.",
+    "review_evidence": {
+      "average_fraud_score": 0.910413,
+      "evaluation_scope": "heldout_attack_benchmark",
+      "fraud_count": 14,
+      "miss_count": 0,
+      "recall": 1.0,
+      "representative_records": [],
+      "selection_reason": "lowest_confidence_fraud_group",
+      "threshold": 0.21
+    },
+    "source_attack_id": "post_return_policy_001",
+    "subtype": "return_policy_abuse",
+    "suggested_generation_strategy": {
+      "mode": "template_plus_sampling",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.66,
+        0.99
+      ],
+      "time_window_multiplier": 2.0,
+      "volume_range": [
+        2,
+        20
+      ]
+    }
+  },
+  {
+    "bucket": "social_engineering_payment_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.942124,
+      "bucket": "social_engineering_payment_fraud",
+      "fraud_count": 9,
+      "group_key": "vendor_rerouting",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "vendor_rerouting"
+    },
+    "gateway_fallback": {
+      "from_provider": "local_lmstudio",
+      "reason": "model_output_failed_mutation_contract",
+      "to_provider": "local_rules"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_4f5a023ae4ba",
+    "mutation_strategy": [
+      "increase_trusted_context_overlap",
+      "reduce_single_session_concentration",
+      "retain_transfer_anomaly",
+      "preserve_attack_lineage"
+    ],
+    "parameter_deltas": [
+      {
+        "baseline": [
+          0.6,
+          0.95
+        ],
+        "field": "stealth_level_range",
+        "proposed": [
+          0.72,
+          0.99
+        ],
+        "purpose": "Increase benign-feature overlap in the simulated campaign."
+      },
+      {
+        "baseline": [
+          2,
+          10
+        ],
+        "field": "volume_range",
+        "proposed": [
+          1,
+          6
+        ],
+        "purpose": "Apply the subtype-specific campaign pacing change."
+      },
+      {
+        "baseline": "medium",
+        "field": "noise_level",
+        "proposed": "high",
+        "purpose": "Broaden realistic edge cases without changing the fraud label."
+      },
+      {
+        "baseline": 1.0,
+        "field": "time_window_multiplier",
+        "proposed": 1.8,
+        "purpose": "Spread events across a longer, more realistic campaign timeline."
+      }
+    ],
+    "proposed_variant_name": "Changed beneficiary on existing invoice - trusted-context transfer variant",
+    "provider": "local_rules",
+    "rationale": "Stress-test whether the defense can recognize a socially engineered payment when the transfer is paced and surrounded by otherwise trusted-looking context.",
+    "review_evidence": {
+      "average_fraud_score": 0.942124,
+      "evaluation_scope": "heldout_attack_benchmark",
+      "fraud_count": 9,
+      "miss_count": 0,
+      "recall": 1.0,
+      "representative_records": [],
+      "selection_reason": "lowest_confidence_fraud_group",
+      "threshold": 0.21
+    },
+    "source_attack_id": "social_vendor_reroute_001",
+    "subtype": "vendor_rerouting",
+    "suggested_generation_strategy": {
+      "mode": "hybrid",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.72,
+        0.99
+      ],
+      "time_window_multiplier": 1.8,
+      "volume_range": [
+        1,
+        6
+      ]
+    }
+  }
+]

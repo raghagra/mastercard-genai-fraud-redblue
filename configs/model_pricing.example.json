@@ -1,0 +1,31 @@
+{
+  "currency": "USD",
+  "basis": "Approximate public-list style estimates per 1M tokens. Edit for current provider pricing before using in production.",
+  "models": {
+    "local_lmstudio": {
+      "provider": "local",
+      "model": "local-model",
+      "input_per_1m": 0.0,
+      "output_per_1m": 0.0
+    },
+    "aws_bedrock_budget": {
+      "provider": "aws_bedrock",
+      "model": "budget-model",
+      "input_per_1m": 0.2,
+      "output_per_1m": 0.8
+    },
+    "gcp_vertex_budget": {
+      "provider": "gcp_vertex_ai",
+      "model": "budget-model",
+      "input_per_1m": 0.15,
+      "output_per_1m": 0.6
+    },
+    "azure_ai_budget": {
+      "provider": "azure_ai_foundry",
+      "model": "budget-model",
+      "input_per_1m": 0.15,
+      "output_per_1m": 0.6
+    }
+  }
+}
+

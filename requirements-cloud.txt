@@ -1,0 +1,5 @@
+# Optional dependencies for cloud GenAI providers.
+# The backend runs without these unless you select the matching provider.
+boto3
+google-genai
+

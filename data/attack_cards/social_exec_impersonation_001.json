@@ -1,0 +1,20 @@
+{
+  "attack_id": "social_exec_impersonation_001",
+  "bucket": "social_engineering_payment_fraud",
+  "subtype": "executive_impersonation",
+  "attack_name": "Executive impersonation",
+  "variant_name": "Urgent off-cycle payment request",
+  "channel": "email",
+  "rail": "wire",
+  "scope": "multi_step_campaign",
+  "actor_type": "external_fraudster",
+  "attacker_goal": "bypass normal approval controls for a high-value transfer",
+  "genai_role": ["tone_imitation", "urgency_scripting"],
+  "preconditions": ["payment approval process can be influenced through communication"],
+  "attack_sequence": [{"step": 1, "action": "request an urgent payment outside normal cadence", "observable": "approval-chain anomaly and high urgency"}],
+  "expected_signals": ["approval_chain_anomaly", "unusual_request_timing", "high_value_transfer"],
+  "data_fields_affected": ["amount", "transaction_type", "event_time", "status"],
+  "generation_strategy": {"mode": "hybrid", "stealth_level_range": [0.55, 0.9], "volume_range": [1, 6], "noise_level": "medium"},
+  "severity": "critical"
+}
+

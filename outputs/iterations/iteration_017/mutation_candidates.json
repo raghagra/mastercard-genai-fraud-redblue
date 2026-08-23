@@ -1,0 +1,346 @@
+[
+  {
+    "bucket": "social_engineering_payment_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.603112,
+      "bucket": "social_engineering_payment_fraud",
+      "fraud_count": 6,
+      "group_key": "ai_impersonation",
+      "miss_count": 1,
+      "reason": "false_negative",
+      "recall": 0.833333,
+      "subtype": "ai_impersonation"
+    },
+    "gateway_fallback": {
+      "from_provider": "local_lmstudio",
+      "reason": "model_output_failed_mutation_contract",
+      "to_provider": "local_rules"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_365df3653f3f",
+    "mutation_strategy": [
+      "increase_trusted_context_overlap",
+      "reduce_single_session_concentration",
+      "retain_transfer_anomaly",
+      "preserve_attack_lineage"
+    ],
+    "parameter_deltas": [
+      {
+        "baseline": [
+          0.6,
+          0.95
+        ],
+        "field": "stealth_level_range",
+        "proposed": [
+          0.72,
+          0.99
+        ],
+        "purpose": "Increase benign-feature overlap in the simulated campaign."
+      },
+      {
+        "baseline": [
+          2,
+          12
+        ],
+        "field": "volume_range",
+        "proposed": [
+          1,
+          7
+        ],
+        "purpose": "Apply the subtype-specific campaign pacing change."
+      },
+      {
+        "baseline": "medium",
+        "field": "noise_level",
+        "proposed": "high",
+        "purpose": "Broaden realistic edge cases without changing the fraud label."
+      },
+      {
+        "baseline": 1.0,
+        "field": "time_window_multiplier",
+        "proposed": 1.8,
+        "purpose": "Spread events across a longer, more realistic campaign timeline."
+      }
+    ],
+    "proposed_variant_name": "Support-channel trust attack - trusted-context transfer variant",
+    "provider": "local_rules",
+    "rationale": "Stress-test whether the defense can recognize a socially engineered payment when the transfer is paced and surrounded by otherwise trusted-looking context.",
+    "source_attack_id": "social_ai_impersonation_001",
+    "subtype": "ai_impersonation",
+    "suggested_generation_strategy": {
+      "mode": "agent_based",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.72,
+        0.99
+      ],
+      "time_window_multiplier": 1.8,
+      "volume_range": [
+        1,
+        7
+      ]
+    }
+  },
+  {
+    "bucket": "post_transaction_abuse",
+    "expected_detection_pressure": {
+      "high": "20%",
+      "low": "35%",
+      "medium": "45%"
+    },
+    "human_review_required": true,
+    "mutation_id": "chargeback_fraud_mutation_1",
+    "mutation_strategy": [
+      "adjust_generation_strategy"
+    ],
+    "parameter_deltas": [
+      {
+        "baseline": "medium",
+        "field": "noise_level",
+        "proposed": "high",
+        "purpose": "increase randomness to evade detection"
+      },
+      {
+        "baseline": [
+          0.5,
+          0.85
+        ],
+        "field": "stealth_level_range",
+        "proposed": [
+          0.7,
+          1.0
+        ],
+        "purpose": "reduce stealthiness to mimic legitimate disputes"
+      },
+      {
+        "baseline": [
+          2,
+          20
+        ],
+        "field": "volume_range",
+        "proposed": [
+          3,
+          15
+        ],
+        "purpose": "lower volume to appear less suspicious"
+      }
+    ],
+    "proposed_variant_name": "Low-Profile Dispute Campaign",
+    "provider": "local_lmstudio",
+    "rationale": "Adjusting the generation strategy parameters to make the attack more difficult to detect by increasing randomness and reducing stealthiness. This should help the attack blend in with legitimate disputes and avoid raising suspicion.",
+    "source_attack_id": "post_chargeback_001",
+    "subtype": "chargeback_fraud",
+    "suggested_generation_strategy": {
+      "mode": "template_plus_sampling",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.7,
+        1.0
+      ],
+      "time_window_multiplier": 1.5,
+      "volume_range": [
+        3,
+        15
+      ]
+    }
+  },
+  {
+    "bucket": "identity_onboarding_fraud",
+    "expected_detection_pressure": {},
+    "human_review_required": true,
+    "mutation_id": "e2ee_mutation_001",
+    "mutation_strategy": [
+      "introduce_e2ee"
+    ],
+    "parameter_deltas": [
+      {
+        "baseline": "original value",
+        "field": "generation_strategy field name",
+        "proposed": "e2ee_introduction",
+        "purpose": "defensive simulation rationale"
+      }
+    ],
+    "proposed_variant_name": "E2EE introduction during new account activation",
+    "provider": "local_lmstudio",
+    "rationale": "Introducing end-to-end encryption (E2EE) can help protect sensitive data from being intercepted or read by unauthorized parties, thereby reducing the risk of fraud.",
+    "source_attack_id": "identity_stolen_signup_001",
+    "subtype": "e2ee_introduction",
+    "suggested_generation_strategy": {
+      "mode": "introduce_e2ee",
+      "noise_level": "low",
+      "stealth_level_range": [
+        0.5,
+        0.7
+      ],
+      "time_window_multiplier": 1,
+      "volume_range": [
+        1,
+        5
+      ]
+    }
+  },
+  {
+    "bucket": "post_transaction_abuse",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.808786,
+      "bucket": "post_transaction_abuse",
+      "fraud_count": 21,
+      "group_key": "return_policy_abuse",
+      "miss_count": 1,
+      "reason": "false_negative",
+      "recall": 0.952381,
+      "subtype": "return_policy_abuse"
+    },
+    "gateway_fallback": {
+      "from_provider": "local_lmstudio",
+      "reason": "model_output_failed_mutation_contract",
+      "to_provider": "local_rules"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_f0f2c9fd7acd",
+    "mutation_strategy": [
+      "reduce_claim_velocity",
+      "increase_purchase_context_overlap",
+      "retain_post_transaction_signal",
+      "preserve_attack_lineage"
+    ],
+    "parameter_deltas": [
+      {
+        "baseline": [
+          0.55,
+          0.9
+        ],
+        "field": "stealth_level_range",
+        "proposed": [
+          0.66,
+          0.99
+        ],
+        "purpose": "Increase benign-feature overlap in the simulated campaign."
+      },
+      {
+        "baseline": [
+          3,
+          30
+        ],
+        "field": "volume_range",
+        "proposed": [
+          2,
+          20
+        ],
+        "purpose": "Apply the subtype-specific campaign pacing change."
+      },
+      {
+        "baseline": "medium",
+        "field": "noise_level",
+        "proposed": "high",
+        "purpose": "Broaden realistic edge cases without changing the fraud label."
+      },
+      {
+        "baseline": 1.0,
+        "field": "time_window_multiplier",
+        "proposed": 2.0,
+        "purpose": "Spread events across a longer, more realistic campaign timeline."
+      }
+    ],
+    "proposed_variant_name": "Serial returns near policy boundary - plausible post-purchase variant",
+    "provider": "local_rules",
+    "rationale": "Stress-test post-transaction controls using fewer, more plausible claims embedded in ordinary-looking purchase context, without changing the abuse outcome being simulated.",
+    "source_attack_id": "post_return_policy_001",
+    "subtype": "return_policy_abuse",
+    "suggested_generation_strategy": {
+      "mode": "template_plus_sampling",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.66,
+        0.99
+      ],
+      "time_window_multiplier": 2.0,
+      "volume_range": [
+        2,
+        20
+      ]
+    }
+  },
+  {
+    "bucket": "identity_onboarding_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.892441,
+      "bucket": "identity_onboarding_fraud",
+      "fraud_count": 12,
+      "group_key": "synthetic_business",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "synthetic_business"
+    },
+    "gateway_fallback": {
+      "from_provider": "local_lmstudio",
+      "reason": "Expecting property name enclosed in double quotes: line 1 column 3 (char 2)",
+      "to_provider": "local_rules"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_545dfb7c9797",
+    "mutation_strategy": [
+      "increase_profile_maturity",
+      "increase_benign_context_overlap",
+      "retain_identity_inconsistency",
+      "preserve_attack_lineage"
+    ],
+    "parameter_deltas": [
+      {
+        "baseline": [
+          0.5,
+          0.9
+        ],
+        "field": "stealth_level_range",
+        "proposed": [
+          0.66,
+          0.99
+        ],
+        "purpose": "Increase benign-feature overlap in the simulated campaign."
+      },
+      {
+        "baseline": [
+          2,
+          18
+        ],
+        "field": "volume_range",
+        "proposed": [
+          2,
+          15
+        ],
+        "purpose": "Apply the subtype-specific campaign pacing change."
+      },
+      {
+        "baseline": "medium",
+        "field": "noise_level",
+        "proposed": "high",
+        "purpose": "Broaden realistic edge cases without changing the fraud label."
+      },
+      {
+        "baseline": 1.0,
+        "field": "time_window_multiplier",
+        "proposed": 1.5,
+        "purpose": "Spread events across a longer, more realistic campaign timeline."
+      }
+    ],
+    "proposed_variant_name": "New merchant with thin business lineage - mature-profile onboarding variant",
+    "provider": "local_rules",
+    "rationale": "Stress-test identity controls with a mature-looking synthetic profile and less obvious operational noise, while retaining the underlying onboarding inconsistency.",
+    "source_attack_id": "identity_synthetic_business_001",
+    "subtype": "synthetic_business",
+    "suggested_generation_strategy": {
+      "mode": "template_plus_sampling",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.66,
+        0.99
+      ],
+      "time_window_multiplier": 1.5,
+      "volume_range": [
+        2,
+        15
+      ]
+    }
+  }
+]

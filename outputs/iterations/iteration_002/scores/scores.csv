@@ -1,0 +1,1217 @@
+transaction_id,fraud_score,prediction,label,attack_bucket,attack_subtype,reason_codes
+txn_c4a6ee69538d,0.000583,0,0,,,device history lowers risk;merchant age lowers risk;session velocity lowers risk
+txn_202f0e67d841,0.000326,0,0,,,merchant age lowers risk;device history lowers risk;session velocity lowers risk
+txn_d1e783943126,0.000947,0,0,,,device history lowers risk;session velocity lowers risk;merchant age lowers risk
+txn_a0b1ea8d7806,0.001307,0,0,,,device history lowers risk;session velocity lowers risk;merchant age lowers risk
+txn_3cd464a39f2b,0.001494,0,0,,,device history lowers risk;session velocity lowers risk;high generated risk score lowers risk
+txn_12710bd7258e,0.000742,0,0,,,merchant age lowers risk;session velocity lowers risk;high generated risk score lowers risk
+txn_9f7557ee643b,0.001812,0,0,,,session velocity lowers risk;merchant age lowers risk;high generated risk score lowers risk
+txn_c6075a5b1c64,0.001234,0,0,,,merchant age lowers risk;session velocity lowers risk;customer account age lowers risk
+txn_0c19e30ac464,0.000163,0,0,,,merchant age lowers risk;customer account age lowers risk;session velocity lowers risk
+txn_81376d24f7b6,0.001022,0,0,,,customer account age lowers risk;session velocity lowers risk;merchant age lowers risk
+txn_451f8b6d47b1,0.001363,0,0,,,customer account age lowers risk;session velocity lowers risk;device history lowers risk
+txn_a487eff53f55,3.5e-05,0,0,,,merchant age lowers risk;customer account age lowers risk;session velocity lowers risk
+txn_42f03ce9057a,0.000821,0,0,,,session velocity lowers risk;device history lowers risk;high generated risk score lowers risk
+txn_8df644f7d643,0.000449,0,0,,,session velocity lowers risk;merchant age lowers risk;device history lowers risk
+txn_2ed3d0fc7dc0,0.000328,0,0,,,session velocity lowers risk;device history lowers risk;merchant age lowers risk
+txn_ecd7289f56b5,0.001151,0,0,,,session velocity lowers risk;device history lowers risk;high generated risk score lowers risk
+txn_4d5695146b88,0.000106,0,0,,,session velocity lowers risk;device history lowers risk;customer account age lowers risk
+txn_ab2990e14cf7,0.001261,0,0,,,session velocity lowers risk;device history lowers risk;customer account age lowers risk
+txn_d6117e738560,8.8e-05,0,0,,,merchant age lowers risk;session velocity lowers risk;device history lowers risk
+txn_02391a3681ba,4.7e-05,0,0,,,merchant age lowers risk;session velocity lowers risk;device history lowers risk
+txn_1780adb80b14,0.000734,0,0,,,session velocity lowers risk;customer account age lowers risk;merchant age lowers risk
+txn_0b1092f4c253,0.001731,0,0,,,session velocity lowers risk;customer account age lowers risk;merchant age lowers risk
+txn_4b6bdbc073e8,0.003794,0,0,,,session velocity lowers risk;customer account age lowers risk;high generated risk score lowers risk
+txn_89d9529b3605,0.000269,0,0,,,merchant age lowers risk;session velocity lowers risk;customer account age lowers risk
+txn_031400b7772d,0.00299,0,0,,,session velocity lowers risk;merchant age lowers risk;customer account age lowers risk
+txn_43c73fe4cffc,0.000238,0,0,,,merchant age lowers risk;session velocity lowers risk;high generated risk score lowers risk
+txn_dc4f815fa44d,0.000385,0,0,,,merchant age lowers risk;session velocity lowers risk;high generated risk score lowers risk
+txn_2cdf8fa59ae4,0.0012,0,0,,,session velocity lowers risk;merchant age lowers risk;customer account age lowers risk
+txn_ce2f4be2956a,0.004958,0,0,,,session velocity lowers risk;customer account age lowers risk;high generated risk score lowers risk
+txn_8aef485aa5e6,9.2e-05,0,0,,,merchant age lowers risk;session velocity lowers risk;customer account age lowers risk
+txn_907612d35828,0.00037,0,0,,,session velocity lowers risk;customer account age lowers risk;device history lowers risk
+txn_ae74012b61ac,0.000162,0,0,,,session velocity lowers risk;customer account age lowers risk;device history lowers risk
+txn_b20f5e7fc5fd,0.000593,0,0,,,session velocity lowers risk;device history lowers risk;merchant age lowers risk
+txn_099c81e1c1be,0.003061,0,0,,,session velocity lowers risk;device history lowers risk;high generated risk score lowers risk
+txn_315dce9a50e0,0.00049,0,0,,,session velocity lowers risk;device history lowers risk;merchant age lowers risk
+txn_a972243e0df4,0.009226,0,0,,,session velocity lowers risk;device history lowers risk;high generated risk score lowers risk
+txn_67cf418a3bef,0.000166,0,0,,,customer account age lowers risk;merchant age lowers risk;session velocity lowers risk
+txn_ab3a5640bb73,8.5e-05,0,0,,,merchant age lowers risk;customer account age lowers risk;session velocity lowers risk
+txn_dca99dffa65f,0.000308,0,0,,,customer account age lowers risk;session velocity lowers risk;merchant age lowers risk
+txn_cdbe10d9de43,0.000364,0,0,,,customer account age lowers risk;session velocity lowers risk;high generated risk score lowers risk
+txn_acc6cf380f14,0.025888,0,0,,,session velocity lowers risk;high generated risk score lowers risk;customer decline history lowers risk
+txn_2a2026ed0c42,0.002585,0,0,,,merchant age lowers risk;session velocity lowers risk;high generated risk score lowers risk
+txn_082e270675fa,0.004111,0,0,,,session velocity lowers risk;merchant age lowers risk;high generated risk score lowers risk
+txn_9d2729097b8b,0.001429,0,0,,,merchant age lowers risk;session velocity lowers risk;high generated risk score lowers risk
+txn_82a2d0381c35,0.000223,0,0,,,merchant age lowers risk;customer account age lowers risk;session velocity lowers risk
+txn_3cb1b2f5d7c7,2.4e-05,0,0,,,device history lowers risk;customer account age lowers risk;session velocity lowers risk
+txn_f41e6ac37f2c,9.6e-05,0,0,,,device history lowers risk;customer account age lowers risk;session velocity lowers risk
+txn_9b0ef3df74aa,5e-06,0,0,,,device history lowers risk;merchant age lowers risk;customer account age lowers risk
+txn_6d619c00f4dd,0.000141,0,0,,,device history lowers risk;session velocity lowers risk;customer account age lowers risk
+txn_478e921a7d59,7.6e-05,0,0,,,device history lowers risk;session velocity lowers risk;merchant age lowers risk
+txn_48745f18eb8d,0.001253,0,0,,,session velocity lowers risk;merchant age lowers risk;customer account age lowers risk
+txn_fe384264e25d,0.004671,0,0,,,session velocity lowers risk;customer account age lowers risk;high generated risk score lowers risk
+txn_d7101213c48c,0.000813,0,0,,,session velocity lowers risk;customer account age lowers risk;merchant age lowers risk
+txn_b88c14fa1454,0.002641,0,0,,,session velocity lowers risk;customer account age lowers risk;high generated risk score lowers risk
+txn_7d1e90c0f984,0.000749,0,0,,,merchant age lowers risk;session velocity lowers risk;customer account age lowers risk
+txn_bab68c251891,1.5e-05,0,0,,,device history lowers risk;merchant age lowers risk;session velocity lowers risk
+txn_480a7f996c60,0.000118,0,0,,,device history lowers risk;session velocity lowers risk;merchant age lowers risk
+txn_1c32a7ef5741,0.000279,0,0,,,device history lowers risk;session velocity lowers risk;merchant age lowers risk
+txn_3eb833c74b8d,0.000548,0,0,,,device history lowers risk;session velocity lowers risk;high generated risk score lowers risk
+txn_5851cbbdf164,3.4e-05,0,0,,,device history lowers risk;merchant age lowers risk;session velocity lowers risk
+txn_93447565e4e6,0.001289,0,0,,,device history lowers risk;session velocity lowers risk;merchant age lowers risk
+txn_8ea1c50fbb08,0.000381,0,0,,,merchant age lowers risk;device history lowers risk;session velocity lowers risk
+txn_862108978f40,0.000311,0,0,,,merchant age lowers risk;device history lowers risk;session velocity lowers risk
+txn_a9a1a31d1c14,0.001499,0,0,,,device history lowers risk;session velocity lowers risk;merchant age lowers risk
+txn_34dc9eea5b55,0.001537,0,0,,,customer account age lowers risk;device history lowers risk;session velocity lowers risk
+txn_4ab94811a138,0.000238,0,0,,,merchant age lowers risk;customer account age lowers risk;session velocity lowers risk
+txn_a2c0cdeb59f3,0.003606,0,0,,,customer account age lowers risk;session velocity lowers risk;high generated risk score lowers risk
+txn_9194f000ab54,0.00103,0,0,,,customer account age lowers risk;session velocity lowers risk;merchant age lowers risk
+txn_adff3efbba66,0.005319,0,0,,,session velocity lowers risk;merchant age lowers risk;high generated risk score lowers risk
+txn_a2114d7ec5f2,0.011701,0,0,,,session velocity lowers risk;high generated risk score lowers risk;customer account age lowers risk
+txn_dad14ea6e171,0.000542,0,0,,,session velocity lowers risk;merchant age lowers risk;high generated risk score lowers risk
+txn_dbfddd8ca385,0.00657,0,0,,,session velocity lowers risk;device history lowers risk;high generated risk score lowers risk
+txn_0a374c05b30f,0.002325,0,0,,,merchant age lowers risk;session velocity lowers risk;device history lowers risk
+txn_b2fdbafd4617,0.00076,0,0,,,merchant age lowers risk;session velocity lowers risk;high generated risk score lowers risk
+txn_275fe21d3ef5,0.004369,0,0,,,session velocity lowers risk;merchant age lowers risk;device history lowers risk
+txn_c70d96432886,0.002464,0,0,,,device history lowers risk;session velocity lowers risk;high generated risk score lowers risk
+txn_46dd6b708590,0.001527,0,0,,,device history lowers risk;session velocity lowers risk;high generated risk score lowers risk
+txn_7d4060d2a46d,0.00024,0,0,,,merchant age lowers risk;device history lowers risk;session velocity lowers risk
+txn_48bb86bc91cc,0.000212,0,0,,,device history lowers risk;session velocity lowers risk;merchant age lowers risk
+txn_2c8689182d34,0.000114,0,0,,,merchant age lowers risk;device history lowers risk;session velocity lowers risk
+txn_9f0a228af487,0.001524,0,0,,,merchant age lowers risk;session velocity lowers risk;high generated risk score lowers risk
+txn_4d71504aaaec,0.003963,0,0,,,session velocity lowers risk;merchant age lowers risk;high generated risk score lowers risk
+txn_dae7e40f2b36,0.042144,0,0,,,session velocity lowers risk;high generated risk score lowers risk;IP velocity lowers risk
+txn_bcc0a6b11398,0.003288,0,0,,,merchant age lowers risk;session velocity lowers risk;high generated risk score lowers risk
+txn_b77d671e113d,0.004373,0,0,,,session velocity lowers risk;customer account age lowers risk;high generated risk score lowers risk
+txn_f2ead96063cf,0.00019,0,0,,,device history lowers risk;session velocity lowers risk;merchant age lowers risk
+txn_d8f95e5a2ec3,0.00021,0,0,,,device history lowers risk;session velocity lowers risk;merchant age lowers risk
+txn_39e55fad91ae,0.000783,0,0,,,device history lowers risk;session velocity lowers risk;customer account age lowers risk
+txn_25086bd47589,0.000376,0,0,,,device history lowers risk;session velocity lowers risk;merchant age lowers risk
+txn_d45920ad2981,0.002168,0,0,,,device history lowers risk;session velocity lowers risk;high generated risk score lowers risk
+txn_b6a0681f8671,0.000637,0,0,,,merchant age lowers risk;session velocity lowers risk;device history lowers risk
+txn_157aa413b09a,0.000385,0,0,,,merchant age lowers risk;session velocity lowers risk;device history lowers risk
+txn_ea6e98541228,0.000324,0,0,,,session velocity lowers risk;merchant age lowers risk;device history lowers risk
+txn_b7ac5935bc11,0.00061,0,0,,,session velocity lowers risk;device history lowers risk;customer account age lowers risk
+txn_64d096e1b9ed,0.001297,0,0,,,session velocity lowers risk;device history lowers risk;high generated risk score lowers risk
+txn_d349c33985be,9.4e-05,0,0,,,merchant age lowers risk;device history lowers risk;session velocity lowers risk
+txn_d9169f3b2300,7.9e-05,0,0,,,device history lowers risk;session velocity lowers risk;customer account age lowers risk
+txn_d177ffe15727,3.4e-05,0,0,,,merchant age lowers risk;device history lowers risk;session velocity lowers risk
+txn_1ce8d993ee4e,2.9e-05,0,0,,,merchant age lowers risk;device history lowers risk;session velocity lowers risk
+txn_5839879db1cf,7.2e-05,0,0,,,device history lowers risk;session velocity lowers risk;customer account age lowers risk
+txn_1a34a0ed4519,0.943814,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP reputation lowers risk;IP velocity lowers risk
+txn_8a2da62ee93f,0.969985,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;IP velocity lowers risk
+txn_59e9c52190e4,0.942954,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_8af76d79bf81,0.955036,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_bc6c0b3cdc27,0.930279,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP reputation lowers risk;device history raises risk
+txn_a7dade80d898,0.949344,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_482c1aaeface,0.968639,1,1,credential_based_fraud,card_testing,merchant age raises risk;high generated risk score raises risk;device history raises risk
+txn_761c4d118d8f,0.95373,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_cbca7333e354,0.929936,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP reputation lowers risk;device history raises risk
+txn_d533aecb9db8,0.971518,1,1,credential_based_fraud,card_testing,merchant age raises risk;high generated risk score raises risk;device history raises risk
+txn_c5cfce0d67f5,0.970303,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;device history raises risk
+txn_63290486ea07,0.94939,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_14c3567bcbaa,0.947307,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP reputation lowers risk;device history raises risk
+txn_cdb88df7983b,0.964301,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP velocity raises risk;device history raises risk
+txn_8b7c09cdc7a6,0.964771,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP velocity raises risk;device history raises risk
+txn_c7847fa0f8a9,0.978093,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP velocity raises risk;device history raises risk
+txn_dd8b7a2fd4ff,0.97208,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP velocity raises risk;high generated risk score raises risk
+txn_87ccfe9dff78,0.962771,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP velocity raises risk;device history raises risk
+txn_b37e1e7b01b4,0.987203,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;IP velocity raises risk;merchant age raises risk
+txn_17fcf2e2ae16,0.974445,1,1,credential_based_fraud,card_testing,IP velocity raises risk;merchant age raises risk;device history raises risk
+txn_8b021f9f4011,0.980645,1,1,credential_based_fraud,card_testing,IP velocity raises risk;high generated risk score raises risk;merchant age raises risk
+txn_d2c3b122f9fa,0.981449,1,1,credential_based_fraud,card_testing,IP velocity raises risk;merchant age raises risk;high generated risk score raises risk
+txn_b7d4787779a8,0.969878,1,1,credential_based_fraud,card_testing,IP velocity raises risk;merchant age raises risk;device history raises risk
+txn_fe2404149924,0.974093,1,1,credential_based_fraud,card_testing,IP velocity raises risk;merchant age raises risk;device history raises risk
+txn_e72a9efe213e,0.970118,1,1,credential_based_fraud,card_testing,IP velocity raises risk;merchant age raises risk;IP reputation lowers risk
+txn_d03dbd834b37,0.985355,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;IP velocity raises risk;merchant age raises risk
+txn_63cb59a2a608,0.973183,1,1,credential_based_fraud,card_testing,IP velocity raises risk;merchant age raises risk;device history raises risk
+txn_a44baaaa09a7,0.971175,1,1,credential_based_fraud,card_testing,IP velocity raises risk;merchant age raises risk;device history raises risk
+txn_07625aadbeab,0.946156,1,1,credential_based_fraud,card_testing,IP velocity raises risk;merchant age raises risk;IP reputation lowers risk
+txn_88f86ac35116,0.954195,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP velocity raises risk;device history raises risk
+txn_bb3852cbad9b,0.97868,1,1,credential_based_fraud,card_testing,merchant age raises risk;high generated risk score raises risk;IP velocity raises risk
+txn_c2aa8638d565,0.966092,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP velocity raises risk;device history raises risk
+txn_af606cdb21c3,0.96403,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;IP reputation lowers risk
+txn_c67ac0fc95f6,0.972726,1,1,credential_based_fraud,card_testing,merchant age raises risk;high generated risk score raises risk;device history raises risk
+txn_b3b28b3a50be,0.947398,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_17afc5b832e0,0.973276,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;device history raises risk
+txn_9decf03eacf3,0.954012,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP reputation lowers risk;device history raises risk
+txn_8c8a9a0c92a3,0.963083,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;high generated risk score raises risk
+txn_e8c916153cde,0.947491,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_eb6ca088b518,0.966685,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_801dea3c420b,0.961774,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;IP reputation lowers risk
+txn_21f454376feb,0.962458,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;high generated risk score raises risk
+txn_a6f35b19a925,0.955515,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_7188259c2b24,0.942511,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_aef3cb5a9a7c,0.916276,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP reputation lowers risk;device history raises risk
+txn_d1d2b16b68d7,0.975623,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;device history raises risk
+txn_61d8f02a73cd,0.972408,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;device history raises risk
+txn_3c567609744e,0.958028,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_e9d4a7706fd8,0.949409,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP reputation lowers risk;device history raises risk
+txn_4b6fc54fca3f,0.966884,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;device history raises risk
+txn_42ca1a1f1e1d,0.951344,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_1ebbb5f91b54,0.978403,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;device history raises risk
+txn_aff70e84161d,0.928981,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP reputation lowers risk;device history raises risk
+txn_3da01216340a,0.96603,1,1,credential_based_fraud,card_testing,merchant age raises risk;high generated risk score raises risk;device history raises risk
+txn_a505014cb63c,0.977732,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;device history raises risk
+txn_8009bce6e017,0.956482,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_eb390b75884b,0.957324,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;IP reputation lowers risk
+txn_2817e6899d2e,0.964564,1,1,credential_based_fraud,card_testing,merchant age raises risk;high generated risk score raises risk;device history raises risk
+txn_43ebcd7fa9d8,0.971272,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;device history raises risk
+txn_5a3556abb73c,0.963224,1,1,credential_based_fraud,card_testing,merchant age raises risk;high generated risk score raises risk;device history raises risk
+txn_24fbb633ba26,0.945246,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP reputation lowers risk;device history raises risk
+txn_e952fde007c8,0.952124,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_29530a301c25,0.930325,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_52af64c6abd0,0.972146,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;device history raises risk
+txn_3ecf4b025be5,0.926036,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP reputation lowers risk;device history raises risk
+txn_37a8134178e0,0.932215,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_375ae7f5d2c0,0.962481,1,1,credential_based_fraud,card_testing,merchant age raises risk;high generated risk score raises risk;device history raises risk
+txn_dd0dcf906d51,0.938473,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_507808490b4b,0.918337,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP reputation lowers risk;device history raises risk
+txn_24c83172fffc,0.970675,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;device history raises risk
+txn_310c27d7f024,0.942914,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_4e5e5084c837,0.942809,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_65d078503efe,0.956925,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;IP reputation lowers risk
+txn_bbe6ab9c1706,0.931179,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_7e888936fb38,0.966001,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;device history raises risk
+txn_b53180e378cb,0.928052,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;high generated risk score lowers risk
+txn_2f1ed3fe4a00,0.961728,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;IP reputation lowers risk
+txn_7850869c063a,0.926236,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_5758ed94421b,0.947534,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_24cae688f237,0.963878,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;device history raises risk
+txn_9e9fbd36637c,0.934918,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP reputation lowers risk;device history raises risk
+txn_775b59beea3e,0.974128,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;device history raises risk
+txn_48a8f421462c,0.919181,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_98af2a5ad9a9,0.936915,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_fa75bfbd4afe,0.933755,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP reputation lowers risk;device history raises risk
+txn_97604382a2ed,0.94245,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_bfab619efcba,0.924323,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_574690722c65,0.969171,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;device history raises risk
+txn_5f1f7416ae02,0.928405,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP reputation lowers risk;device history raises risk
+txn_21e78bd008f1,0.925768,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_b906e462a9b4,0.945029,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_c92ff812c105,0.962496,1,1,credential_based_fraud,card_testing,merchant age raises risk;high generated risk score raises risk;device history raises risk
+txn_458d40199783,0.96237,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;IP reputation lowers risk
+txn_f2ad6820716f,0.933678,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;high generated risk score lowers risk
+txn_4997985c882e,0.944108,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_c87658e57552,0.953085,1,1,credential_based_fraud,card_testing,merchant age raises risk;high generated risk score raises risk;device history raises risk
+txn_cad56bbf90dc,0.928891,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP reputation lowers risk;device history raises risk
+txn_4cff833292c5,0.961429,1,1,credential_based_fraud,card_testing,merchant age raises risk;high generated risk score raises risk;device history raises risk
+txn_8db4c0fdccdc,0.960784,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;device history raises risk
+txn_b468ad8b9a9d,0.959278,1,1,credential_based_fraud,card_testing,merchant age raises risk;high generated risk score raises risk;device history raises risk
+txn_949ccb10becc,0.942223,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP reputation lowers risk;high generated risk score raises risk
+txn_e459b410946f,0.959886,1,1,credential_based_fraud,card_testing,merchant age raises risk;high generated risk score raises risk;device history raises risk
+txn_30275eea1c54,0.960432,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_42404bfdc118,0.965388,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;device history raises risk
+txn_ac4952a6b5e1,0.917633,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP reputation lowers risk;device history raises risk
+txn_663913554702,0.963355,1,1,credential_based_fraud,card_testing,merchant age raises risk;high generated risk score raises risk;device history raises risk
+txn_bf8283b2612c,0.965118,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;device history raises risk
+txn_adbfef504e81,0.917529,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_b8a5bc6309c6,0.94175,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP reputation lowers risk;device history raises risk
+txn_fc49b402ee17,0.930926,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_63c98526d85d,0.96937,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;device history raises risk
+txn_36604ea1648b,0.957714,1,1,credential_based_fraud,card_testing,merchant age raises risk;device history raises risk;customer account age raises risk
+txn_1e87ab907d5b,0.894754,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP reputation lowers risk;device history raises risk
+txn_d2c575d47959,0.939045,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP velocity lowers risk;device history raises risk
+txn_9466853907d5,0.9354,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP velocity lowers risk;device history raises risk
+txn_28511ea6c398,0.955265,1,1,credential_based_fraud,card_testing,merchant age raises risk;high generated risk score raises risk;IP velocity lowers risk
+txn_c3986d25a519,0.899712,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP reputation lowers risk;device history raises risk
+txn_e1c90a2c33dc,0.967212,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;IP velocity lowers risk
+txn_49861954bb40,0.926773,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP velocity lowers risk;device history raises risk
+txn_ec46021a83a6,0.934671,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP velocity lowers risk;device history raises risk
+txn_cb8068de6f3f,0.933531,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP reputation lowers risk;device history raises risk
+txn_260ed64b5f03,0.94122,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP velocity lowers risk;device history raises risk
+txn_9facb570cbd1,0.915261,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP velocity lowers risk;device history raises risk
+txn_dedeb77401a3,0.972563,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;IP velocity lowers risk
+txn_1fd202d2c04e,0.94407,1,1,credential_based_fraud,card_testing,merchant age raises risk;high generated risk score raises risk;IP reputation lowers risk
+txn_b70831d231c0,0.957735,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;IP velocity lowers risk
+txn_5d7435605b8b,0.969754,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;IP velocity lowers risk
+txn_e9d5f965eb41,0.966084,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;IP velocity lowers risk
+txn_51558975b2fb,0.929368,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP reputation lowers risk;device history raises risk
+txn_e67e8d6919d7,0.96759,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;IP velocity lowers risk
+txn_1c510b81e8ca,0.952192,1,1,credential_based_fraud,card_testing,merchant age raises risk;high generated risk score raises risk;IP velocity lowers risk
+txn_91a310c13d70,0.915907,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP velocity lowers risk;device history raises risk
+txn_ed1347dac57d,0.957909,1,1,credential_based_fraud,card_testing,merchant age raises risk;high generated risk score raises risk;IP reputation lowers risk
+txn_0cd07602c009,0.964033,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;IP velocity lowers risk
+txn_68b5f48cb907,0.939738,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP velocity lowers risk;device history raises risk
+txn_3e45a7559f21,0.974569,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;IP velocity lowers risk
+txn_c00fc19d2872,0.953273,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;IP reputation lowers risk
+txn_39e5f81c8b82,0.922692,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP velocity lowers risk;device history raises risk
+txn_2e815f7b9ed1,0.96102,1,1,credential_based_fraud,card_testing,merchant age raises risk;high generated risk score raises risk;IP velocity lowers risk
+txn_6a1c759b3ddd,0.956988,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;IP velocity lowers risk
+txn_4c6f4354c167,0.957266,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;IP reputation lowers risk
+txn_b8abbdf7bb5a,0.96323,1,1,credential_based_fraud,card_testing,merchant age raises risk;high generated risk score raises risk;IP velocity lowers risk
+txn_18968f3bff52,0.947926,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP velocity lowers risk;device history raises risk
+txn_c488a3961488,0.957554,1,1,credential_based_fraud,card_testing,merchant age raises risk;high generated risk score raises risk;IP velocity lowers risk
+txn_726f6c4270ad,0.918053,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP reputation lowers risk;device history raises risk
+txn_cd7be85e8ba1,0.964692,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;IP velocity lowers risk
+txn_8eb171126c25,0.950657,1,1,credential_based_fraud,card_testing,merchant age raises risk;IP velocity lowers risk;high generated risk score raises risk
+txn_28e29a52fec9,0.973207,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;IP velocity lowers risk
+txn_dbcb9a95c60b,0.952773,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;IP reputation lowers risk
+txn_234d6d917e7f,0.959071,1,1,credential_based_fraud,card_testing,high generated risk score raises risk;merchant age raises risk;IP velocity lowers risk
+txn_1d92e5315d20,0.835933,1,1,credential_based_fraud,card_testing,session velocity lowers risk;merchant age raises risk;IP velocity lowers risk
+txn_9edce0dc98d1,0.898257,1,1,credential_based_fraud,card_testing,session velocity lowers risk;high generated risk score raises risk;merchant age raises risk
+txn_e7edd446ec45,0.925768,1,1,credential_based_fraud,card_not_present,high generated risk score raises risk;IP reputation lowers risk;merchant age raises risk
+txn_88c7a3d0477c,0.936256,1,1,credential_based_fraud,card_not_present,merchant age raises risk;IP reputation raises risk;failed login activity lowers risk
+txn_8ff08384f995,0.92497,1,1,credential_based_fraud,card_not_present,merchant age raises risk;IP reputation raises risk;failed login activity lowers risk
+txn_4f03a2c9513a,0.929347,1,1,credential_based_fraud,card_not_present,merchant age raises risk;IP reputation raises risk;failed login activity lowers risk
+txn_b5a3d726d13a,0.93298,1,1,credential_based_fraud,card_not_present,IP reputation lowers risk;merchant age raises risk;device history raises risk
+txn_c9e3c5ccc59b,0.962335,1,1,credential_based_fraud,card_not_present,high generated risk score raises risk;merchant age raises risk;IP reputation raises risk
+txn_88de0ebed673,0.950954,1,1,credential_based_fraud,card_not_present,merchant age raises risk;IP reputation raises risk;failed login activity lowers risk
+txn_e5f19c92bbb6,0.943208,1,1,credential_based_fraud,card_not_present,merchant age raises risk;IP reputation raises risk;failed login activity lowers risk
+txn_cc60fb127408,0.953793,1,1,credential_based_fraud,card_not_present,high generated risk score raises risk;IP reputation lowers risk;merchant age raises risk
+txn_886ed60dc1ad,0.931807,1,1,credential_based_fraud,card_not_present,merchant age raises risk;IP reputation raises risk;high generated risk score lowers risk
+txn_0fb601e3a0cd,0.952964,1,1,credential_based_fraud,card_not_present,merchant age raises risk;IP reputation raises risk;failed login activity lowers risk
+txn_24941f9b3f86,0.942939,1,1,credential_based_fraud,card_not_present,merchant age raises risk;IP reputation raises risk;failed login activity lowers risk
+txn_9279c7a7dcac,0.939021,1,1,credential_based_fraud,card_not_present,IP reputation lowers risk;merchant age raises risk;device history raises risk
+txn_4f5ea35423c7,0.956608,1,1,credential_based_fraud,card_not_present,merchant age raises risk;IP reputation raises risk;IP velocity raises risk
+txn_de131e4054c2,0.955312,1,1,credential_based_fraud,card_not_present,IP velocity raises risk;merchant age raises risk;IP reputation raises risk
+txn_6a98c6b9a5ab,0.955718,1,1,credential_based_fraud,card_not_present,IP velocity raises risk;merchant age raises risk;IP reputation raises risk
+txn_f31bc1ab2087,0.949351,1,1,credential_based_fraud,card_not_present,IP velocity raises risk;IP reputation lowers risk;merchant age raises risk
+txn_00eb42d5868f,0.978962,1,1,credential_based_fraud,card_not_present,high generated risk score raises risk;IP velocity raises risk;merchant age raises risk
+txn_a0223d7824d6,0.961088,1,1,credential_based_fraud,card_not_present,IP velocity raises risk;merchant age raises risk;IP reputation raises risk
+txn_86de104cdfa5,0.963453,1,1,credential_based_fraud,card_not_present,IP velocity raises risk;merchant age raises risk;IP reputation raises risk
+txn_1fabf809f4e3,0.951964,1,1,credential_based_fraud,card_not_present,IP velocity raises risk;IP reputation lowers risk;merchant age raises risk
+txn_960ee35d26cf,0.976921,1,1,credential_based_fraud,card_not_present,IP velocity raises risk;high generated risk score raises risk;merchant age raises risk
+txn_faaaca9faec6,0.961602,1,1,credential_based_fraud,card_not_present,IP velocity raises risk;merchant age raises risk;IP reputation raises risk
+txn_5bd8864a0f6f,0.97046,1,1,credential_based_fraud,card_not_present,IP velocity raises risk;merchant age raises risk;IP reputation raises risk
+txn_f257bd560d8f,0.961675,1,1,credential_based_fraud,card_not_present,IP velocity raises risk;IP reputation lowers risk;merchant age raises risk
+txn_8e10beab34ae,0.982974,1,1,credential_based_fraud,card_not_present,IP velocity raises risk;high generated risk score raises risk;merchant age raises risk
+txn_ae9b051045a8,0.961024,1,1,credential_based_fraud,card_not_present,IP velocity raises risk;merchant age raises risk;IP reputation raises risk
+txn_cc7dc3fe110c,0.623832,1,1,credential_based_fraud,card_not_present,session velocity lowers risk;IP velocity raises risk;merchant age raises risk
+txn_b3e877d2a891,0.845485,1,1,credential_based_fraud,consumer_account_takeover,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_b7776fbf4f8c,0.908382,1,1,credential_based_fraud,consumer_account_takeover,merchant age lowers risk;customer account age raises risk;high generated risk score raises risk
+txn_26aafc98443c,0.890901,1,1,credential_based_fraud,consumer_account_takeover,merchant age lowers risk;customer account age raises risk;merchant chargeback behavior lowers risk
+txn_c5da4bf9a91d,0.907396,1,1,credential_based_fraud,consumer_account_takeover,merchant age lowers risk;customer account age raises risk;merchant chargeback behavior lowers risk
+txn_db5148d3f091,0.90121,1,1,credential_based_fraud,consumer_account_takeover,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_e7063ee676c7,0.941944,1,1,credential_based_fraud,consumer_account_takeover,high generated risk score raises risk;merchant age lowers risk;customer account age raises risk
+txn_0c2a4f98b18a,0.926285,1,1,credential_based_fraud,consumer_account_takeover,merchant age lowers risk;customer account age raises risk;merchant chargeback behavior lowers risk
+txn_734be7a4d59f,0.891081,1,1,credential_based_fraud,consumer_account_takeover,merchant age lowers risk;customer account age raises risk;merchant chargeback behavior lowers risk
+txn_d142bb285d2d,0.850689,1,1,credential_based_fraud,consumer_account_takeover,IP reputation lowers risk;device history raises risk;high generated risk score lowers risk
+txn_6ebdc1ec1aeb,0.89973,1,1,credential_based_fraud,consumer_account_takeover,merchant age lowers risk;customer account age raises risk;high generated risk score lowers risk
+txn_49b21fdf8026,0.914676,1,1,credential_based_fraud,consumer_account_takeover,merchant age lowers risk;customer account age raises risk;IP velocity raises risk
+txn_c61eac898cb8,0.946598,1,1,credential_based_fraud,consumer_account_takeover,IP velocity raises risk;merchant age lowers risk;customer account age raises risk
+txn_104f7a51905a,0.938899,1,1,credential_based_fraud,consumer_account_takeover,high generated risk score raises risk;IP reputation lowers risk;IP velocity raises risk
+txn_fe0244d7ec12,0.940773,1,1,credential_based_fraud,consumer_account_takeover,IP velocity raises risk;high generated risk score raises risk;merchant age lowers risk
+txn_9ea1ad1dd45a,0.932955,1,1,credential_based_fraud,consumer_account_takeover,IP velocity raises risk;merchant age lowers risk;customer account age raises risk
+txn_7dcc11d52fd4,0.784842,1,1,credential_based_fraud,consumer_account_takeover,session velocity lowers risk;IP velocity raises risk;merchant age lowers risk
+txn_9186130a06e2,0.789971,1,1,credential_based_fraud,consumer_account_takeover,session velocity lowers risk;IP velocity raises risk;IP reputation lowers risk
+txn_a6054aaed53a,0.855478,1,1,credential_based_fraud,merchant_admin_takeover,IP reputation lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_65b95c5718a1,0.893504,1,1,credential_based_fraud,merchant_admin_takeover,merchant chargeback behavior raises risk;device history lowers risk;merchant refund behavior lowers risk
+txn_8cec9e6d7116,0.90022,1,1,credential_based_fraud,merchant_admin_takeover,merchant chargeback behavior raises risk;device history lowers risk;merchant refund behavior lowers risk
+txn_d9424fa10353,0.858402,1,1,credential_based_fraud,merchant_admin_takeover,merchant chargeback behavior raises risk;device history lowers risk;merchant refund behavior lowers risk
+txn_b5080582c05b,0.892955,1,1,credential_based_fraud,merchant_admin_takeover,IP reputation lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_d45feab1613f,0.881685,1,1,credential_based_fraud,merchant_admin_takeover,merchant chargeback behavior raises risk;device history lowers risk;merchant refund behavior lowers risk
+txn_21edf0556077,0.512126,1,1,credential_based_fraud,merchant_admin_takeover,session velocity lowers risk;merchant chargeback behavior raises risk;device history lowers risk
+txn_1f0a51a55e15,0.9349,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP reputation lowers risk;device history raises risk
+txn_d81cb30301fe,0.944275,1,1,credential_based_fraud,credential_stuffing,session velocity raises risk;merchant refund behavior raises risk;rail_code lowers risk
+txn_cb3436a710ee,0.970673,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_4b334e5eb3d9,0.970347,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_ee9e98d4e5b0,0.938144,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_745e2117b68b,0.950862,1,1,credential_based_fraud,credential_stuffing,high generated risk score lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_ddd65865caed,0.959367,1,1,credential_based_fraud,credential_stuffing,session velocity raises risk;merchant refund behavior raises risk;rail_code lowers risk
+txn_894b09cebc98,0.974056,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_47d41b87779a,0.936569,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_0fc0d236a35e,0.953125,1,1,credential_based_fraud,credential_stuffing,high generated risk score lowers risk;IP velocity raises risk;session velocity raises risk
+txn_c83b727c9239,0.967114,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_2fd5eea456a6,0.960765,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;high generated risk score lowers risk;session velocity raises risk
+txn_093887550c26,0.938551,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;IP reputation lowers risk;device history raises risk
+txn_d6d0a5bf0267,0.973194,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_87d4a9187f26,0.978564,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;high generated risk score raises risk;session velocity raises risk
+txn_b9aeee02e83a,0.965329,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;high generated risk score lowers risk;session velocity raises risk
+txn_aacce49a1573,0.956184,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;IP reputation lowers risk;device history raises risk
+txn_a9db612af682,0.975976,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_9501f1f9afe8,0.963233,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_e07814ae43e0,0.983657,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;high generated risk score raises risk;session velocity raises risk
+txn_0ab6503da0d3,0.945727,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;IP reputation lowers risk;device history raises risk
+txn_4894ea43cfd6,0.982428,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;high generated risk score raises risk;session velocity raises risk
+txn_bf594a083196,0.97062,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_0c0811f6aba4,0.981353,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;high generated risk score raises risk;session velocity raises risk
+txn_1eb149304874,0.965984,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;high generated risk score raises risk;IP reputation lowers risk
+txn_badaa4e170ca,0.975223,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;high generated risk score raises risk;session velocity raises risk
+txn_34fddf4a4f65,0.965628,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_f1c1a89fad48,0.947119,1,1,credential_based_fraud,credential_stuffing,high generated risk score lowers risk;IP velocity raises risk;session velocity raises risk
+txn_418754a11270,0.918945,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_4067746686e9,0.975735,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_fbd791ef1fc4,0.942558,1,1,credential_based_fraud,credential_stuffing,high generated risk score lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_a757081567c9,0.952443,1,1,credential_based_fraud,credential_stuffing,session velocity raises risk;merchant refund behavior raises risk;rail_code lowers risk
+txn_98d6532c45dd,0.934168,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_9f87f86e5c6b,0.975456,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_33132866d1cd,0.963932,1,1,credential_based_fraud,credential_stuffing,session velocity raises risk;merchant refund behavior raises risk;high generated risk score raises risk
+txn_7e5142d3b04f,0.943933,1,1,credential_based_fraud,credential_stuffing,high generated risk score lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_db449d81cec4,0.913684,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_29532cd50b23,0.946385,1,1,credential_based_fraud,credential_stuffing,session velocity raises risk;merchant refund behavior raises risk;rail_code lowers risk
+txn_b3d334e98f38,0.940505,1,1,credential_based_fraud,credential_stuffing,high generated risk score lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_b0e59fe25f47,0.947949,1,1,credential_based_fraud,credential_stuffing,high generated risk score lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_d4ff0f75b707,0.949499,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP reputation lowers risk;device history raises risk
+txn_8bf418049adf,0.958985,1,1,credential_based_fraud,credential_stuffing,session velocity raises risk;merchant refund behavior raises risk;rail_code lowers risk
+txn_2f8b3c50858b,0.943139,1,1,credential_based_fraud,credential_stuffing,session velocity raises risk;merchant refund behavior raises risk;rail_code lowers risk
+txn_c4b5a3476dac,0.964622,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_18b3bbea6564,0.89938,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;high generated risk score lowers risk;device history raises risk
+txn_de77b051ea7c,0.938118,1,1,credential_based_fraud,credential_stuffing,high generated risk score lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_3c90bbd0b8df,0.949597,1,1,credential_based_fraud,credential_stuffing,high generated risk score lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_68e2e7d9b804,0.966352,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_c3b24322b42b,0.921394,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_3caf604903e2,0.970437,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_b9212c715b3c,0.96071,1,1,credential_based_fraud,credential_stuffing,session velocity raises risk;merchant refund behavior raises risk;rail_code lowers risk
+txn_3ca2ebe5ba3a,0.948811,1,1,credential_based_fraud,credential_stuffing,session velocity raises risk;merchant refund behavior raises risk;rail_code lowers risk
+txn_ec3399592c5a,0.906151,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_50e4547619f2,0.964752,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_47088d407476,0.972911,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_42c08576c268,0.928106,1,1,credential_based_fraud,credential_stuffing,session velocity raises risk;merchant refund behavior raises risk;rail_code lowers risk
+txn_2bc0db261588,0.912386,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_1861e7fdf5b7,0.957225,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_be53cec24928,0.954204,1,1,credential_based_fraud,credential_stuffing,session velocity raises risk;merchant refund behavior raises risk;rail_code lowers risk
+txn_dff1a9e52426,0.961174,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_c6ef2cfe5e28,0.926704,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP reputation lowers risk;device history raises risk
+txn_49241ef9b828,0.945,1,1,credential_based_fraud,credential_stuffing,session velocity raises risk;merchant refund behavior raises risk;IP velocity lowers risk
+txn_3fe4b27723f4,0.930884,1,1,credential_based_fraud,credential_stuffing,session velocity raises risk;merchant refund behavior raises risk;IP velocity lowers risk
+txn_2263ef690e8a,0.964614,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_21d10115566c,0.901444,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_f3a112b00f3b,0.962526,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_98d08b5b65dd,0.957908,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_7dff830010f1,0.915654,1,1,credential_based_fraud,credential_stuffing,high generated risk score lowers risk;IP velocity lowers risk;session velocity raises risk
+txn_2157079946a4,0.866984,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_edfae3a1d6ba,0.939925,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_61f71a4a9295,0.965062,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_c03a71d814e6,0.954913,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;high generated risk score raises risk
+txn_1c0ea78ed954,0.908898,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_b8e8531fd6fa,0.95489,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_e0d583513920,0.923942,1,1,credential_based_fraud,credential_stuffing,high generated risk score lowers risk;IP velocity lowers risk;session velocity raises risk
+txn_d117c14cc21a,0.954393,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_0914d16dcfeb,0.873338,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;high generated risk score lowers risk
+txn_0927ad8dd69b,0.933956,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;high generated risk score lowers risk
+txn_3b30ead1b366,0.965199,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_bf4a8d1f5505,0.950147,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_ec7b607da36b,0.939079,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP reputation lowers risk;device history raises risk
+txn_b31a2a44dfa8,0.925428,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_b541a8d4c8ee,0.956083,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_5b4d5f8882c9,0.958128,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_90cf71193daa,0.937318,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP reputation lowers risk;device history raises risk
+txn_5c018d740689,0.967945,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_e44d904633ca,0.923357,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;high generated risk score lowers risk;session velocity raises risk
+txn_afd101de25d3,0.953557,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_22e45310f949,0.909685,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_f166e4356626,0.934306,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_ffeec208d169,0.943605,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_d81d860e4907,0.967147,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_ff1b33095112,0.908123,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_e32c7b8e2c20,0.924039,1,1,credential_based_fraud,credential_stuffing,high generated risk score lowers risk;IP velocity lowers risk;session velocity raises risk
+txn_ea4a5cf9ab48,0.93195,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;high generated risk score lowers risk;session velocity raises risk
+txn_ed6805124268,0.943818,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_83805ed6202f,0.918679,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;high generated risk score raises risk;device history raises risk
+txn_92602b1669e3,0.968192,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_46b43eb949fa,0.954849,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_b8d6599a2a70,0.939994,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_bc736078d625,0.930802,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_eca17dcd3917,0.941715,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_706c0ff18cc9,0.933816,1,1,credential_based_fraud,credential_stuffing,high generated risk score lowers risk;IP velocity lowers risk;session velocity raises risk
+txn_039f8d169541,0.94616,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_38726f7ea40e,0.922478,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_59458f358daf,0.958151,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_259f873546bf,0.96592,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_178a4a9ee65a,0.931819,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_833e11ef16ed,0.915618,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_e13800a6306e,0.953507,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;high generated risk score raises risk;session velocity raises risk
+txn_8070f04db536,0.937865,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_509989987415,0.959412,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_4a706f0089a9,0.890432,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_18e8606f2bc6,0.964689,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_47e2dc9d6596,0.910331,1,1,credential_based_fraud,credential_stuffing,high generated risk score lowers risk;IP velocity lowers risk;session velocity raises risk
+txn_3fc7d33589f9,0.950154,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_3b9c9125f5a5,0.924199,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;high generated risk score raises risk
+txn_02d69398687e,0.929074,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_8db11d06db84,0.964996,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_0e9f056b2061,0.955709,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_44b1cb2180f3,0.935118,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP reputation lowers risk;device history raises risk
+txn_62c38c2ba87f,0.925789,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_bf60aa956870,0.961427,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_a13391df5cb7,0.95122,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_6647b25694e0,0.875113,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_b7e5f36fd92a,0.951161,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_4388a20850ff,0.928475,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_58fe771996ee,0.948108,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_f9bd17bd4b92,0.890545,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_520feece8d7b,0.965261,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_ecaab97c0194,0.959401,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_c1374635e48d,0.964696,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_21f579087fef,0.922443,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_53bae623f435,0.939294,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_c42979403afc,0.927403,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_1fb52e1602d6,0.961585,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_295e86461a3d,0.899726,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_782dcafccad7,0.954655,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_db451c04d329,0.936272,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_47645acd6695,0.935101,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_00970b96a60e,0.88434,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_506ace01cbcf,0.937349,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_a47232ab53fb,0.94057,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_4aee7451a3ee,0.914989,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;high generated risk score lowers risk;session velocity raises risk
+txn_b43a683299d1,0.923086,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;IP velocity lowers risk;high generated risk score raises risk
+txn_39b521b48034,0.954291,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;high generated risk score raises risk;session velocity raises risk
+txn_cab27af210c5,0.947959,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;high generated risk score raises risk;session velocity raises risk
+txn_15a9b3e078f5,0.937156,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_c6530eca407e,0.92499,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP reputation lowers risk;IP velocity lowers risk
+txn_917d08c6ee0e,0.918586,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_2585afcb9986,0.924798,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_ffa462f715e8,0.950811,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;high generated risk score raises risk;session velocity raises risk
+txn_190f45710562,0.901951,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;IP velocity lowers risk;device history raises risk
+txn_e0f12da8cb08,0.911478,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;high generated risk score lowers risk;session velocity raises risk
+txn_9468d74d1d0f,0.933524,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_77a327dcae7c,0.927329,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_a03706505fcb,0.938786,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP reputation lowers risk;IP velocity lowers risk
+txn_177da42d9aba,0.959994,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_ea109f9953fa,0.960947,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_2eab842089f1,0.936135,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_35ea3ec009c2,0.908585,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;IP velocity lowers risk;device history raises risk
+txn_37bdebacdfd5,0.942485,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_e0e89992dbef,0.947324,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_c7c80078e596,0.909667,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;high generated risk score lowers risk;session velocity raises risk
+txn_8bc1346e51c9,0.908972,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;IP velocity lowers risk;device history raises risk
+txn_fa36208da2cc,0.958521,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_2fce665a489c,0.927913,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_574f87feb492,0.946325,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;high generated risk score raises risk;session velocity raises risk
+txn_a96af77aa82c,0.845077,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;IP velocity lowers risk;device history raises risk
+txn_0abe065c83c0,0.922179,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;high generated risk score lowers risk
+txn_c6491d337414,0.941621,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_2037cb0e40d1,0.93507,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_e8addceddf83,0.931702,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP reputation lowers risk;IP velocity lowers risk
+txn_21b41652ceba,0.939604,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_fcd105026fcf,0.964598,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_0e14513ad5f1,0.955808,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_7e7131073c2e,0.894099,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;IP velocity lowers risk;device history raises risk
+txn_e145e53aba73,0.945495,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_196f5f06c91d,0.92246,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;high generated risk score lowers risk;session velocity raises risk
+txn_2322b5c1cf66,0.956521,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;high generated risk score raises risk;session velocity raises risk
+txn_a26ad45e6ebe,0.871751,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;IP velocity lowers risk;device history raises risk
+txn_2a4cb731042e,0.948025,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;high generated risk score raises risk;session velocity raises risk
+txn_e0d42d9b1a23,0.930573,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_46dd039261c9,0.935997,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_5a4964bd150e,0.901843,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;IP velocity lowers risk;device history raises risk
+txn_b8adc6835568,0.949475,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_9ebb49f7082c,0.947268,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;high generated risk score raises risk;session velocity raises risk
+txn_63eac237b1d6,0.926819,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_f3060deb59af,0.907927,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;IP velocity lowers risk;device history raises risk
+txn_3f7dd26de006,0.962247,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_ae99e41cdab8,0.936088,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_ad54d08f598f,0.911779,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;high generated risk score lowers risk;session velocity raises risk
+txn_0e3aaca3c9ab,0.885292,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;IP velocity lowers risk;device history raises risk
+txn_5b7f6164e8e3,0.957048,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_4fc1a9bd2f33,0.956036,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_19495e06dd3f,0.9604,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_0693346e2aa8,0.898772,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;IP velocity lowers risk;device history raises risk
+txn_83030cd70fa2,0.953769,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;high generated risk score raises risk;session velocity raises risk
+txn_29b9e136f2cb,0.93242,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_36ad486df348,0.940479,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;high generated risk score raises risk
+txn_0490a6664e2c,0.910728,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;IP velocity lowers risk;high generated risk score raises risk
+txn_c1a7d9144356,0.954128,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;high generated risk score raises risk;session velocity raises risk
+txn_773b33637362,0.938282,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_c70f8885a46d,0.927888,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_d769e02b14a1,0.891559,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;IP velocity lowers risk;device history raises risk
+txn_00b4b04c80a6,0.917396,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;high generated risk score lowers risk;session velocity raises risk
+txn_2883a4cbeed0,0.916742,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_889193231f00,0.962027,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_2d1e6572e5a9,0.923759,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;IP velocity lowers risk;high generated risk score raises risk
+txn_5dabe65e1078,0.948988,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;high generated risk score raises risk;session velocity raises risk
+txn_f67606b45e4d,0.928338,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;high generated risk score lowers risk
+txn_bb5ad5a8f467,0.954642,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_0bf7ff5a8c36,0.93385,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP reputation lowers risk;IP velocity lowers risk
+txn_8eb89eb9e9ab,0.952331,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;high generated risk score raises risk
+txn_e284c7aed244,0.94703,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;high generated risk score raises risk;session velocity raises risk
+txn_79ba9c4a889f,0.956792,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_19a5dbbc8295,0.922901,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP reputation lowers risk;IP velocity lowers risk
+txn_9b5f37e1e3de,0.918057,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;high generated risk score lowers risk;session velocity raises risk
+txn_4c7add657f2b,0.918902,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_b927121a6101,0.962727,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_b077a99ec88b,0.900746,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;IP velocity lowers risk;device history raises risk
+txn_4dd8bfcef8dc,0.959047,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_b1375e899b19,0.929181,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_fb6ba57aa649,0.948276,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_00983ba89014,0.877008,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;IP velocity lowers risk;device history raises risk
+txn_7ea4192c2fc7,0.958925,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_139a2f01cd8f,0.96361,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_8517cda206dc,0.954354,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;high generated risk score raises risk;session velocity raises risk
+txn_ebfa9cd8e66f,0.877632,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;IP velocity lowers risk;device history raises risk
+txn_920bb208695e,0.965724,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_89acd8ec98e0,0.95914,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_b95710eda619,0.946442,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_7c01d4c9dc04,0.931433,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP reputation lowers risk;IP velocity lowers risk
+txn_a40b348e3db6,0.923269,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_e856eeb34068,0.911469,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;high generated risk score lowers risk;session velocity raises risk
+txn_3c9907df3302,0.934176,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_c19ebe28ec86,0.833729,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;IP velocity lowers risk;device history raises risk
+txn_87a389686d70,0.931342,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_654b528ca0cf,0.918807,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;high generated risk score lowers risk;session velocity raises risk
+txn_0dfcb2154b79,0.946265,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_c83f1da9c6eb,0.868898,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;IP velocity lowers risk;device history raises risk
+txn_5305f82e2576,0.940219,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_11bea75f5f22,0.936318,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_83ade3193b46,0.946564,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;high generated risk score raises risk;session velocity raises risk
+txn_a367fcbb6531,0.919948,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;IP velocity lowers risk;device history raises risk
+txn_1b02033a55a2,0.954608,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;high generated risk score raises risk;session velocity raises risk
+txn_52680cdf972a,0.94542,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_55c544260c41,0.9646,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_5ebcc63ae9be,0.9255,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP reputation lowers risk;IP velocity lowers risk
+txn_289647d646e9,0.96332,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity lowers risk;session velocity raises risk
+txn_ed954d3159a9,0.956101,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;high generated risk score raises risk;session velocity raises risk
+txn_581cab7a5b97,0.934998,1,1,credential_based_fraud,credential_stuffing,IP velocity lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_e286a0913e3b,0.891875,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_7f9eeb0ffc3e,0.93043,1,1,credential_based_fraud,credential_stuffing,session velocity raises risk;merchant refund behavior raises risk;IP velocity lowers risk
+txn_4db453f1fe31,0.957429,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_79722e9d120c,0.971096,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_1df5412e1607,0.935589,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;high generated risk score raises risk;device history raises risk
+txn_e2317a077935,0.9442,1,1,credential_based_fraud,credential_stuffing,high generated risk score lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_7fe1b90199d3,0.965115,1,1,credential_based_fraud,credential_stuffing,session velocity raises risk;high generated risk score raises risk;merchant refund behavior raises risk
+txn_0da0e3cbbaa5,0.965982,1,1,credential_based_fraud,credential_stuffing,session velocity raises risk;merchant refund behavior raises risk;rail_code lowers risk
+txn_a99194e4cfcd,0.910826,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_6bd9e1d20291,0.962542,1,1,credential_based_fraud,credential_stuffing,session velocity raises risk;merchant refund behavior raises risk;IP velocity raises risk
+txn_a1b885d935d1,0.968994,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_134344284632,0.978142,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity raises risk;session velocity raises risk
+txn_170a3df55148,0.953361,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;IP velocity raises risk;device history raises risk
+txn_36c50ba56e78,0.981572,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;high generated risk score raises risk;session velocity raises risk
+txn_95d5e5ba3f0d,0.962172,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;high generated risk score lowers risk;session velocity raises risk
+txn_749d8493e2a8,0.982382,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity raises risk;session velocity raises risk
+txn_936edb21303a,0.969428,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;IP reputation lowers risk;high generated risk score raises risk
+txn_7525bb245070,0.986524,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity raises risk;session velocity raises risk
+txn_569aa74b71fd,0.985104,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity raises risk;session velocity raises risk
+txn_21a44c9649f2,0.985607,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity raises risk;session velocity raises risk
+txn_aa6a2b0cc92f,0.966245,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;IP reputation lowers risk;high generated risk score raises risk
+txn_1ddaa3e13d24,0.979046,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_6208f68c720e,0.979416,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_96803a5d892b,0.975372,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_e59c9ff14d51,0.961065,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;IP reputation lowers risk;device history raises risk
+txn_4fe7259da717,0.96985,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_2951c3ec3203,0.96577,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;high generated risk score lowers risk;session velocity raises risk
+txn_fc5e8d3a5ed9,0.977727,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP velocity raises risk;session velocity raises risk
+txn_6dfe00f325d3,0.947682,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_bd280f69998d,0.962015,1,1,credential_based_fraud,credential_stuffing,IP velocity raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_1e5af9dd6df9,0.973293,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_fc2898674e54,0.967943,1,1,credential_based_fraud,credential_stuffing,session velocity raises risk;high generated risk score raises risk;merchant refund behavior raises risk
+txn_ce5c7feb257b,0.9159,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_e76a828be0a1,0.968396,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_70e9c4f29aba,0.968094,1,1,credential_based_fraud,credential_stuffing,session velocity raises risk;merchant refund behavior raises risk;rail_code lowers risk
+txn_257ac5b8d2b5,0.966215,1,1,credential_based_fraud,credential_stuffing,session velocity raises risk;merchant refund behavior raises risk;high generated risk score raises risk
+txn_fcbad03cbc16,0.911001,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_8ce30d2e1a1d,0.958875,1,1,credential_based_fraud,credential_stuffing,session velocity raises risk;merchant refund behavior raises risk;rail_code lowers risk
+txn_091d10c99263,0.946341,1,1,credential_based_fraud,credential_stuffing,high generated risk score lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_d7b68ea8f608,0.966226,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_35433d7aaef0,0.908244,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_0f3392d1c90c,0.957769,1,1,credential_based_fraud,credential_stuffing,session velocity raises risk;merchant refund behavior raises risk;rail_code lowers risk
+txn_3ab5431b7a6d,0.966875,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_5c79a1606218,0.966648,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_a376c5fd6da2,0.960232,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP reputation lowers risk;device history raises risk
+txn_3d44802448a0,0.95905,1,1,credential_based_fraud,credential_stuffing,session velocity raises risk;merchant refund behavior raises risk;rail_code lowers risk
+txn_11175f8292da,0.955555,1,1,credential_based_fraud,credential_stuffing,session velocity raises risk;merchant refund behavior raises risk;rail_code lowers risk
+txn_fb3a05468eda,0.940775,1,1,credential_based_fraud,credential_stuffing,high generated risk score lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_9c09a1b1a986,0.936533,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;high generated risk score raises risk;device history raises risk
+txn_f19fb7759226,0.960263,1,1,credential_based_fraud,credential_stuffing,session velocity raises risk;merchant refund behavior raises risk;rail_code lowers risk
+txn_764217c88639,0.970683,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_0da73765cad5,0.940471,1,1,credential_based_fraud,credential_stuffing,high generated risk score lowers risk;session velocity raises risk;merchant refund behavior raises risk
+txn_ce3da3a90b7f,0.962274,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;IP reputation lowers risk;device history raises risk
+txn_a998ef64c198,0.953474,1,1,credential_based_fraud,credential_stuffing,session velocity raises risk;merchant refund behavior raises risk;rail_code lowers risk
+txn_e6fd0ced0242,0.971052,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_f84c5c0e1ba4,0.971694,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_2f0a45f6fd37,0.928948,1,1,credential_based_fraud,credential_stuffing,IP reputation lowers risk;device history raises risk;failed login activity lowers risk
+txn_c546195a4275,0.963213,1,1,credential_based_fraud,credential_stuffing,high generated risk score raises risk;session velocity raises risk;merchant refund behavior raises risk
+txn_356e1c9121e5,0.957747,1,1,credential_based_fraud,credential_stuffing,session velocity raises risk;merchant refund behavior raises risk;rail_code lowers risk
+txn_5f51b305d09c,0.944189,1,1,credential_based_fraud,credential_stuffing,session velocity raises risk;merchant refund behavior raises risk;rail_code lowers risk
+txn_5760a3241719,0.813263,1,1,credential_based_fraud,credential_stuffing,session velocity lowers risk;IP reputation lowers risk;device history raises risk
+txn_3354d10d6a95,0.889053,1,1,credential_based_fraud,credential_stuffing,session velocity lowers risk;high generated risk score raises risk;merchant refund behavior raises risk
+txn_f77d0a6e1bc0,0.952491,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,merchant age raises risk;merchant chargeback behavior raises risk;device history lowers risk
+txn_73125d9495cd,0.94012,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,merchant age raises risk;merchant chargeback behavior raises risk;device history lowers risk
+txn_2274f337af1d,0.945094,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,merchant age raises risk;merchant chargeback behavior raises risk;device history lowers risk
+txn_2ade9adb87c1,0.926202,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,high generated risk score lowers risk;merchant age raises risk;merchant chargeback behavior raises risk
+txn_1fa902e12243,0.947029,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,merchant age raises risk;merchant chargeback behavior raises risk;device history lowers risk
+txn_cea496ad174f,0.945918,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,merchant age raises risk;merchant chargeback behavior raises risk;device history lowers risk
+txn_c4882daadf07,0.968582,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,merchant age raises risk;merchant chargeback behavior raises risk;device history lowers risk
+txn_37120ee32285,0.973448,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,merchant age raises risk;merchant chargeback behavior raises risk;device history lowers risk
+txn_478b1d79f48c,0.9768,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,high generated risk score raises risk;merchant age raises risk;merchant chargeback behavior raises risk
+txn_019c0be1bfd5,0.947296,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,high generated risk score lowers risk;merchant age raises risk;IP velocity raises risk
+txn_54ee73eb33d3,0.978089,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,IP velocity raises risk;merchant age raises risk;high generated risk score raises risk
+txn_346324012271,0.976223,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,IP velocity raises risk;merchant age raises risk;merchant chargeback behavior raises risk
+txn_b9873f9baa30,0.970346,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,IP velocity raises risk;merchant age raises risk;merchant chargeback behavior raises risk
+txn_7cbd0ff4842f,0.961981,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,IP velocity raises risk;merchant age raises risk;merchant chargeback behavior raises risk
+txn_55bb94b22e6e,0.955684,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,IP velocity raises risk;merchant age raises risk;merchant chargeback behavior raises risk
+txn_d2a9aaa01153,0.958323,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,IP velocity raises risk;merchant age raises risk;merchant chargeback behavior raises risk
+txn_48a71432ed18,0.98162,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,IP velocity raises risk;high generated risk score raises risk;merchant age raises risk
+txn_f82c33aeaf06,0.977473,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,IP velocity raises risk;high generated risk score raises risk;merchant age raises risk
+txn_a49866f63188,0.96901,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,IP velocity raises risk;merchant age raises risk;merchant chargeback behavior raises risk
+txn_5cc0eb755f6e,0.969442,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,IP velocity raises risk;merchant age raises risk;merchant chargeback behavior raises risk
+txn_c6fdc3bbf4db,0.982733,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,IP velocity raises risk;high generated risk score raises risk;merchant age raises risk
+txn_e43dc9018f5e,0.966542,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,IP velocity raises risk;merchant age raises risk;merchant chargeback behavior raises risk
+txn_11b09a21a121,0.96967,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,IP velocity raises risk;merchant age raises risk;merchant chargeback behavior raises risk
+txn_da401482be65,0.958295,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,IP velocity raises risk;merchant age raises risk;merchant chargeback behavior raises risk
+txn_956e8a51d269,0.971794,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,merchant age raises risk;IP velocity raises risk;merchant chargeback behavior raises risk
+txn_262b9c42ab92,0.974761,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,high generated risk score raises risk;merchant age raises risk;merchant chargeback behavior raises risk
+txn_7b6697f80b33,0.948305,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,high generated risk score lowers risk;merchant age raises risk;merchant chargeback behavior raises risk
+txn_e75e5a7b42ed,0.964086,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,merchant age raises risk;merchant chargeback behavior raises risk;device history lowers risk
+txn_1c12098f706c,0.973476,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,high generated risk score raises risk;merchant age raises risk;merchant chargeback behavior raises risk
+txn_f681c5e1bd8c,0.933147,1,1,identity_onboarding_fraud,fraudulent_merchant_onboarding,high generated risk score lowers risk;merchant age raises risk;merchant chargeback behavior raises risk
+txn_070ee3c19047,0.911417,1,1,identity_onboarding_fraud,mule_account_creation,merchant age raises risk;session velocity raises risk;merchant growth pattern lowers risk
+txn_dfad93be2c87,0.95313,1,1,identity_onboarding_fraud,mule_account_creation,high generated risk score raises risk;merchant age raises risk;session velocity raises risk
+txn_9e884ed7cfc4,0.883559,1,1,identity_onboarding_fraud,mule_account_creation,merchant age raises risk;high generated risk score lowers risk;session velocity raises risk
+txn_4f246e6af61e,0.938795,1,1,identity_onboarding_fraud,mule_account_creation,merchant age raises risk;high generated risk score raises risk;session velocity raises risk
+txn_a8a80a21a3a4,0.929528,1,1,identity_onboarding_fraud,mule_account_creation,merchant age raises risk;session velocity raises risk;merchant growth pattern lowers risk
+txn_16ad81f8c163,0.910096,1,1,identity_onboarding_fraud,mule_account_creation,merchant age raises risk;high generated risk score lowers risk;session velocity raises risk
+txn_639a394bff87,0.961744,1,1,identity_onboarding_fraud,mule_account_creation,high generated risk score raises risk;merchant age raises risk;IP velocity raises risk
+txn_4d9608ae8537,0.921495,1,1,identity_onboarding_fraud,mule_account_creation,merchant age raises risk;IP velocity raises risk;high generated risk score lowers risk
+txn_7465e55ea3ad,0.964992,1,1,identity_onboarding_fraud,mule_account_creation,high generated risk score raises risk;merchant age raises risk;IP velocity raises risk
+txn_ee7e0642a9ae,0.94832,1,1,identity_onboarding_fraud,mule_account_creation,merchant age raises risk;IP velocity raises risk;session velocity raises risk
+txn_6018c6aeff6e,0.969129,1,1,identity_onboarding_fraud,mule_account_creation,high generated risk score raises risk;IP velocity raises risk;merchant age raises risk
+txn_2399811c3d3b,0.972106,1,1,identity_onboarding_fraud,mule_account_creation,high generated risk score raises risk;IP velocity raises risk;merchant age raises risk
+txn_4dbd6513030f,0.962547,1,1,identity_onboarding_fraud,mule_account_creation,IP velocity raises risk;merchant age raises risk;session velocity raises risk
+txn_54f0c4f4cfcd,0.947659,1,1,identity_onboarding_fraud,mule_account_creation,IP velocity raises risk;merchant age raises risk;session velocity raises risk
+txn_5a70c9a77f2d,0.976455,1,1,identity_onboarding_fraud,mule_account_creation,IP velocity raises risk;high generated risk score raises risk;merchant age raises risk
+txn_aaccfbe460ac,0.958028,1,1,identity_onboarding_fraud,mule_account_creation,IP velocity raises risk;merchant age raises risk;high generated risk score raises risk
+txn_2760fc98805b,0.915206,1,1,identity_onboarding_fraud,mule_account_creation,IP velocity raises risk;merchant age raises risk;high generated risk score lowers risk
+txn_535218fba9f4,0.961657,1,1,identity_onboarding_fraud,mule_account_creation,IP velocity raises risk;merchant age raises risk;high generated risk score raises risk
+txn_d285578e89fb,0.972805,1,1,identity_onboarding_fraud,mule_account_creation,IP velocity raises risk;high generated risk score raises risk;merchant age raises risk
+txn_2821ba9747f1,0.94627,1,1,identity_onboarding_fraud,mule_account_creation,IP velocity raises risk;merchant age raises risk;session velocity raises risk
+txn_f3aecbecebd5,0.954743,1,1,identity_onboarding_fraud,mule_account_creation,IP velocity raises risk;merchant age raises risk;session velocity raises risk
+txn_ffec79e814b4,0.969429,1,1,identity_onboarding_fraud,mule_account_creation,high generated risk score raises risk;IP velocity raises risk;merchant age raises risk
+txn_310b560e6d69,0.957053,1,1,identity_onboarding_fraud,mule_account_creation,high generated risk score raises risk;IP velocity raises risk;merchant age raises risk
+txn_0852831e150c,0.932265,1,1,identity_onboarding_fraud,mule_account_creation,merchant age raises risk;IP velocity raises risk;session velocity raises risk
+txn_7018eb2eba6e,0.93199,1,1,identity_onboarding_fraud,mule_account_creation,merchant age raises risk;IP velocity raises risk;session velocity raises risk
+txn_318e6824814e,0.925502,1,1,identity_onboarding_fraud,mule_account_creation,merchant age raises risk;IP velocity raises risk;session velocity raises risk
+txn_fe92c308e0a8,0.913537,1,1,identity_onboarding_fraud,mule_account_creation,merchant age raises risk;high generated risk score lowers risk;session velocity raises risk
+txn_1a873eb2dcee,0.933853,1,1,identity_onboarding_fraud,mule_account_creation,merchant age raises risk;session velocity raises risk;IP velocity raises risk
+txn_c693bb4ff865,0.91246,1,1,identity_onboarding_fraud,mule_account_creation,merchant age raises risk;session velocity raises risk;merchant growth pattern lowers risk
+txn_e195980dd9d1,0.93255,1,1,identity_onboarding_fraud,mule_account_creation,merchant age raises risk;session velocity raises risk;merchant growth pattern lowers risk
+txn_c3781f272185,0.891946,1,1,identity_onboarding_fraud,mule_account_creation,merchant age raises risk;high generated risk score lowers risk;session velocity raises risk
+txn_368759039f80,0.928328,1,1,identity_onboarding_fraud,mule_account_creation,merchant age raises risk;session velocity raises risk;merchant growth pattern lowers risk
+txn_a80daad4367d,0.944756,1,1,identity_onboarding_fraud,mule_account_creation,merchant age raises risk;high generated risk score raises risk;session velocity raises risk
+txn_f9d6401eae0a,0.954574,1,1,identity_onboarding_fraud,mule_account_creation,high generated risk score raises risk;merchant age raises risk;session velocity raises risk
+txn_e18dc534e1aa,0.942653,1,1,identity_onboarding_fraud,mule_account_creation,merchant age raises risk;high generated risk score raises risk;session velocity raises risk
+txn_21bd7ec601bb,0.94549,1,1,identity_onboarding_fraud,mule_account_creation,merchant age raises risk;high generated risk score raises risk;session velocity raises risk
+txn_7c5246dfab14,0.952676,1,1,identity_onboarding_fraud,mule_account_creation,high generated risk score raises risk;merchant age raises risk;session velocity raises risk
+txn_d95dc9da5e3c,0.915626,1,1,identity_onboarding_fraud,mule_account_creation,merchant age raises risk;session velocity raises risk;high generated risk score lowers risk
+txn_3d624378e946,0.959353,1,1,identity_onboarding_fraud,mule_account_creation,high generated risk score raises risk;merchant age raises risk;session velocity raises risk
+txn_4bcb2f41252e,0.939891,1,1,identity_onboarding_fraud,mule_account_creation,merchant age raises risk;high generated risk score raises risk;session velocity raises risk
+txn_efaf6b550b28,0.902306,1,1,identity_onboarding_fraud,mule_account_creation,merchant age raises risk;session velocity raises risk;merchant growth pattern lowers risk
+txn_5152ef3fedb1,0.907534,1,1,identity_onboarding_fraud,mule_account_creation,merchant age raises risk;session velocity raises risk;merchant growth pattern lowers risk
+txn_2b8c398da1d2,0.938247,1,1,identity_onboarding_fraud,mule_account_creation,merchant age raises risk;high generated risk score raises risk;session velocity raises risk
+txn_108906977778,0.918524,1,1,identity_onboarding_fraud,mule_account_creation,merchant age raises risk;session velocity raises risk;merchant growth pattern lowers risk
+txn_0a39749ab32f,0.889974,1,1,identity_onboarding_fraud,mule_account_creation,merchant age raises risk;session velocity raises risk;merchant growth pattern lowers risk
+txn_ae38dcb7d813,0.883095,1,1,identity_onboarding_fraud,mule_account_creation,merchant age raises risk;high generated risk score lowers risk;session velocity raises risk
+txn_fe3850561a32,0.9352,1,1,identity_onboarding_fraud,mule_account_creation,merchant age raises risk;high generated risk score raises risk;session velocity raises risk
+txn_dae8d27f8d4a,0.942464,1,1,identity_onboarding_fraud,mule_account_creation,high generated risk score raises risk;merchant age raises risk;session velocity raises risk
+txn_f8982353841a,0.858351,1,1,identity_onboarding_fraud,mule_account_creation,session velocity lowers risk;high generated risk score raises risk;merchant age raises risk
+txn_a96e95065a88,0.788782,1,1,identity_onboarding_fraud,mule_account_creation,session velocity lowers risk;merchant age raises risk;merchant growth pattern lowers risk
+txn_791fbcf6e6ac,0.803622,1,1,identity_onboarding_fraud,stolen_identity_signup,merchant age lowers risk;session velocity raises risk;merchant refund behavior lowers risk
+txn_4a2e266dc841,0.913219,1,1,identity_onboarding_fraud,stolen_identity_signup,merchant age lowers risk;high generated risk score raises risk;session velocity raises risk
+txn_f62129247038,0.823425,1,1,identity_onboarding_fraud,stolen_identity_signup,merchant age lowers risk;high generated risk score lowers risk;session velocity raises risk
+txn_81bd2e2b3854,0.908608,1,1,identity_onboarding_fraud,stolen_identity_signup,merchant age lowers risk;high generated risk score raises risk;session velocity raises risk
+txn_a34a4ae1e2a2,0.854441,1,1,identity_onboarding_fraud,stolen_identity_signup,merchant age lowers risk;high generated risk score lowers risk;session velocity raises risk
+txn_0cafca82124c,0.860439,1,1,identity_onboarding_fraud,stolen_identity_signup,merchant age lowers risk;high generated risk score lowers risk;IP velocity raises risk
+txn_c153ac36d88d,0.889517,1,1,identity_onboarding_fraud,stolen_identity_signup,merchant age lowers risk;IP velocity raises risk;session velocity raises risk
+txn_28f64848ef75,0.920058,1,1,identity_onboarding_fraud,stolen_identity_signup,merchant age lowers risk;IP velocity raises risk;high generated risk score raises risk
+txn_85017cf99e60,0.928909,1,1,identity_onboarding_fraud,stolen_identity_signup,merchant age lowers risk;IP velocity raises risk;high generated risk score raises risk
+txn_875702854508,0.85423,1,1,identity_onboarding_fraud,stolen_identity_signup,merchant age lowers risk;IP velocity raises risk;high generated risk score lowers risk
+txn_31f4a0e15a75,0.887155,1,1,identity_onboarding_fraud,stolen_identity_signup,merchant age lowers risk;IP velocity raises risk;high generated risk score lowers risk
+txn_ca63fbc14f66,0.861186,1,1,identity_onboarding_fraud,stolen_identity_signup,IP velocity raises risk;merchant age lowers risk;high generated risk score lowers risk
+txn_d36a94755ad8,0.730431,1,1,identity_onboarding_fraud,stolen_identity_signup,session velocity lowers risk;IP velocity raises risk;merchant age lowers risk
+txn_bda51c0a7b47,0.681031,1,1,identity_onboarding_fraud,stolen_identity_signup,session velocity lowers risk;IP velocity raises risk;merchant age lowers risk
+txn_ca3e16af54e6,0.844717,1,1,identity_onboarding_fraud,synthetic_identity,high generated risk score lowers risk;customer decline history raises risk;session velocity raises risk
+txn_b9b9be0ef5db,0.922145,1,1,identity_onboarding_fraud,synthetic_identity,high generated risk score raises risk;customer decline history raises risk;session velocity raises risk
+txn_1ad4c5b5c6d3,0.907639,1,1,identity_onboarding_fraud,synthetic_identity,high generated risk score raises risk;customer decline history raises risk;session velocity raises risk
+txn_be347e41c299,0.925332,1,1,identity_onboarding_fraud,synthetic_identity,high generated risk score raises risk;customer decline history raises risk;session velocity raises risk
+txn_f5a558eefe6d,0.93212,1,1,identity_onboarding_fraud,synthetic_identity,high generated risk score raises risk;IP velocity raises risk;customer decline history raises risk
+txn_f0f5885dde46,0.873899,1,1,identity_onboarding_fraud,synthetic_identity,IP velocity raises risk;customer decline history raises risk;session velocity raises risk
+txn_59f4bb657305,0.9059,1,1,identity_onboarding_fraud,synthetic_identity,IP velocity raises risk;customer decline history raises risk;session velocity raises risk
+txn_9006de3f9708,0.893995,1,1,identity_onboarding_fraud,synthetic_identity,IP velocity raises risk;high generated risk score lowers risk;customer decline history raises risk
+txn_2f7fa743beb8,0.92357,1,1,identity_onboarding_fraud,synthetic_identity,IP velocity raises risk;customer decline history raises risk;session velocity raises risk
+txn_d644de6f05de,0.933679,1,1,identity_onboarding_fraud,synthetic_identity,IP velocity raises risk;customer decline history raises risk;session velocity raises risk
+txn_b50fd55867a0,0.909398,1,1,identity_onboarding_fraud,synthetic_identity,IP velocity raises risk;customer decline history raises risk;session velocity raises risk
+txn_cbe51517496f,0.935786,1,1,identity_onboarding_fraud,synthetic_identity,IP velocity raises risk;customer decline history raises risk;session velocity raises risk
+txn_c61146e23de7,0.783099,1,1,identity_onboarding_fraud,synthetic_identity,session velocity lowers risk;IP velocity raises risk;high generated risk score raises risk
+txn_ee65619c95ce,0.833057,1,1,identity_onboarding_fraud,synthetic_identity,session velocity lowers risk;IP velocity raises risk;high generated risk score raises risk
+txn_7c6ddd3802c4,0.785907,1,1,identity_onboarding_fraud,synthetic_business,customer account age lowers risk;merchant refund behavior lowers risk;high generated risk score lowers risk
+txn_a26565a4b00f,0.84982,1,1,identity_onboarding_fraud,synthetic_business,customer account age lowers risk;merchant refund behavior lowers risk;device history lowers risk
+txn_d617db1518c8,0.798608,1,1,identity_onboarding_fraud,synthetic_business,customer account age lowers risk;merchant refund behavior lowers risk;device history lowers risk
+txn_02f3e94f5cfd,0.888369,1,1,identity_onboarding_fraud,synthetic_business,customer account age lowers risk;merchant refund behavior lowers risk;device history lowers risk
+txn_446810ddf4f7,0.806145,1,1,identity_onboarding_fraud,synthetic_business,high generated risk score lowers risk;customer account age lowers risk;merchant refund behavior lowers risk
+txn_e0ed5ee7ef4a,0.831427,1,1,identity_onboarding_fraud,synthetic_business,customer account age lowers risk;merchant refund behavior lowers risk;high generated risk score lowers risk
+txn_528ec38a867d,0.710047,1,1,identity_onboarding_fraud,synthetic_business,session velocity lowers risk;customer account age lowers risk;merchant refund behavior lowers risk
+txn_9bcec2a05de6,0.626825,1,1,identity_onboarding_fraud,synthetic_business,session velocity lowers risk;high generated risk score lowers risk;IP velocity raises risk
+txn_7e0d8678ab05,0.929046,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_840d2d1d9f5d,0.937198,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_20778012455f,0.958145,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score raises risk;failed login activity raises risk;merchant age raises risk
+txn_899cdbb01eae,0.963981,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score raises risk;failed login activity raises risk;merchant age raises risk
+txn_ad09e78b5eeb,0.933354,1,1,merchant_ecosystem_abuse,bust_out_merchant,IP velocity raises risk;failed login activity raises risk;merchant age raises risk
+txn_0326a9d8820e,0.931883,1,1,merchant_ecosystem_abuse,bust_out_merchant,IP velocity raises risk;high generated risk score lowers risk;failed login activity raises risk
+txn_2e722f94f950,0.938682,1,1,merchant_ecosystem_abuse,bust_out_merchant,IP velocity raises risk;failed login activity raises risk;merchant age raises risk
+txn_caaffe9cd853,0.941571,1,1,merchant_ecosystem_abuse,bust_out_merchant,IP velocity raises risk;failed login activity raises risk;merchant age raises risk
+txn_f2e876308420,0.969597,1,1,merchant_ecosystem_abuse,bust_out_merchant,IP velocity raises risk;high generated risk score raises risk;failed login activity raises risk
+txn_48970c95f3b3,0.9539,1,1,merchant_ecosystem_abuse,bust_out_merchant,IP velocity raises risk;failed login activity raises risk;merchant age raises risk
+txn_76bb12aa7bd9,0.968605,1,1,merchant_ecosystem_abuse,bust_out_merchant,IP velocity raises risk;high generated risk score raises risk;failed login activity raises risk
+txn_e704c4a58ec1,0.972299,1,1,merchant_ecosystem_abuse,bust_out_merchant,IP velocity raises risk;high generated risk score raises risk;failed login activity raises risk
+txn_3c8be5c1170d,0.939958,1,1,merchant_ecosystem_abuse,bust_out_merchant,IP velocity raises risk;high generated risk score lowers risk;failed login activity raises risk
+txn_64f849b05863,0.934462,1,1,merchant_ecosystem_abuse,bust_out_merchant,IP velocity raises risk;failed login activity raises risk;merchant age raises risk
+txn_825d15b24126,0.954107,1,1,merchant_ecosystem_abuse,bust_out_merchant,IP velocity raises risk;failed login activity raises risk;merchant age raises risk
+txn_288db68c5045,0.954471,1,1,merchant_ecosystem_abuse,bust_out_merchant,IP velocity raises risk;failed login activity raises risk;merchant age raises risk
+txn_7644a6358ef8,0.953823,1,1,merchant_ecosystem_abuse,bust_out_merchant,IP velocity raises risk;failed login activity raises risk;merchant age raises risk
+txn_522db83296ca,0.933735,1,1,merchant_ecosystem_abuse,bust_out_merchant,IP velocity raises risk;failed login activity raises risk;merchant age raises risk
+txn_80ac2e51ee6a,0.961514,1,1,merchant_ecosystem_abuse,bust_out_merchant,IP velocity raises risk;high generated risk score raises risk;failed login activity raises risk
+txn_4469c3c93909,0.944994,1,1,merchant_ecosystem_abuse,bust_out_merchant,IP velocity raises risk;failed login activity raises risk;merchant age raises risk
+txn_19118de3f3a1,0.921774,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_b1ba7a792b29,0.925881,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_932cf4bf60cb,0.952678,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score raises risk;failed login activity raises risk;merchant age raises risk
+txn_7e3a8fda203c,0.946078,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_b1db602b29e9,0.91064,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_70b1a0117d46,0.906675,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score lowers risk;failed login activity raises risk;merchant age raises risk
+txn_d72d02b9210e,0.91363,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_9a62713801f6,0.932682,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_ec279c5b98da,0.920752,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_76d2ed0b8fc9,0.91689,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_3739d7daa66f,0.925911,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_df0154dd84c5,0.948807,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score raises risk;failed login activity raises risk;merchant age raises risk
+txn_a3f28092fa5c,0.917158,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_15c058b61328,0.924367,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_23e9a8941014,0.950033,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;high generated risk score raises risk
+txn_d8fbc72cb346,0.911111,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_36e00f4a1fa5,0.945842,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score raises risk;failed login activity raises risk;merchant age raises risk
+txn_39aa4162c005,0.947537,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score raises risk;failed login activity raises risk;merchant age raises risk
+txn_85630f473d69,0.945433,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score raises risk;failed login activity raises risk;merchant age raises risk
+txn_ee986499900e,0.939981,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_2bf0007509c9,0.93374,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_8c382da3c365,0.912668,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_2e9677fa64e3,0.947002,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score raises risk;failed login activity raises risk;merchant age raises risk
+txn_75e02b8ef515,0.953352,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score raises risk;failed login activity raises risk;merchant age raises risk
+txn_59fa3ef9bb62,0.942817,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score raises risk;failed login activity raises risk;merchant age raises risk
+txn_b561588bf304,0.926185,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_9e9d7313fe01,0.95214,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score raises risk;failed login activity raises risk;merchant age raises risk
+txn_e9133db12aa5,0.931994,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_43a51888ed9c,0.954201,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score raises risk;failed login activity raises risk;merchant age raises risk
+txn_f6f340a99f63,0.905517,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_c068ccc429e7,0.912345,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_613f104aa329,0.941225,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_653cb5bf1cd4,0.914473,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_6ab9a50506ca,0.906715,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_ba28a09b4629,0.951091,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score raises risk;failed login activity raises risk;merchant age raises risk
+txn_9d36130d2ccc,0.922569,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_45a550008ae0,0.874603,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score lowers risk;failed login activity raises risk;merchant age raises risk
+txn_61465ee8d460,0.896177,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_42e1b9fa1ff8,0.88683,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_ea3184ea82a5,0.896714,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_92ab61e29d17,0.919738,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score raises risk;failed login activity raises risk;merchant age raises risk
+txn_51d73b9a7c6a,0.924818,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score raises risk;failed login activity raises risk;merchant age raises risk
+txn_3f2981b44fd6,0.871046,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_6b90f805b8d8,0.894971,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_1f90137a260b,0.908895,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_6e91a768a05f,0.905064,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_97c3fcd91154,0.897694,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_eea11f5dd5af,0.864694,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score lowers risk;failed login activity raises risk;merchant age raises risk
+txn_ed5d5e839fe5,0.888607,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_05b906bcb288,0.919547,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_5f3b392e119f,0.888309,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_bf49a86e7ddb,0.914541,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_ea208b7e7bfb,0.885425,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_a5b42b9579bb,0.87502,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score lowers risk;failed login activity raises risk;merchant age raises risk
+txn_2eb54f0091b0,0.933855,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_84334f37bdf8,0.915691,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_0762ab94ade4,0.940248,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score raises risk;failed login activity raises risk;merchant age raises risk
+txn_1d79c055b875,0.948174,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score raises risk;failed login activity raises risk;merchant age raises risk
+txn_8f1889bc5342,0.924584,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;high generated risk score raises risk;merchant age raises risk
+txn_9a87b086edf6,0.864645,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_e3b67b748096,0.936334,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score raises risk;failed login activity raises risk;merchant age raises risk
+txn_5cd20fb7f731,0.893688,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_598121c3ed83,0.861655,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_69a0d9bdc9e8,0.874888,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score lowers risk;failed login activity raises risk;merchant age raises risk
+txn_d5f0191dba4c,0.928478,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score raises risk;failed login activity raises risk;merchant age raises risk
+txn_202e702885d2,0.875893,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_600551bee3a6,0.870547,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score lowers risk;failed login activity raises risk;merchant age raises risk
+txn_b6c377fd754c,0.914497,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_eb2261fc868e,0.895276,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_4b28f3cdd542,0.909305,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_ba086157fe7e,0.877689,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score lowers risk;failed login activity raises risk;merchant age raises risk
+txn_5df86fff6ec9,0.938146,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score raises risk;failed login activity raises risk;merchant age raises risk
+txn_650431eb24fb,0.909207,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_695593c4ad55,0.887516,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_041304d1bdb2,0.929908,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score raises risk;failed login activity raises risk;merchant age raises risk
+txn_f38d5e35365d,0.912682,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_b06f47af1b21,0.895228,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_c43093a3547a,0.88395,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score lowers risk;failed login activity raises risk;merchant age raises risk
+txn_0ab8444e42be,0.879785,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score lowers risk;failed login activity raises risk;merchant age raises risk
+txn_7faba4b630cf,0.899813,1,1,merchant_ecosystem_abuse,bust_out_merchant,failed login activity raises risk;merchant age raises risk;customer decline history lowers risk
+txn_2da2586e407e,0.922143,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score raises risk;failed login activity raises risk;merchant age raises risk
+txn_754d3011c8fe,0.932833,1,1,merchant_ecosystem_abuse,bust_out_merchant,high generated risk score raises risk;failed login activity raises risk;merchant age raises risk
+txn_06c06c4b5c4a,0.427658,1,1,merchant_ecosystem_abuse,bust_out_merchant,session velocity lowers risk;failed login activity raises risk;merchant age raises risk
+txn_e1ef7e3f4fb9,0.882182,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_828ee6d83db7,0.868008,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_94d0a675e6b8,0.873265,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_73d5a6e91c58,0.936899,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;high generated risk score raises risk
+txn_9892097e6435,0.935939,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_72dca1203930,0.912774,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;IP velocity raises risk;merchant chargeback behavior raises risk
+txn_8c676d441f15,0.921396,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;IP velocity raises risk;merchant chargeback behavior raises risk
+txn_be35c1530ec9,0.911907,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;IP velocity raises risk;merchant chargeback behavior raises risk
+txn_be37c090db65,0.950193,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;IP velocity raises risk;merchant chargeback behavior raises risk
+txn_22338b2f0a10,0.923314,1,1,merchant_ecosystem_abuse,gift_card_abuse,IP velocity raises risk;merchant age lowers risk;merchant chargeback behavior raises risk
+txn_a3b022c1fb80,0.931049,1,1,merchant_ecosystem_abuse,gift_card_abuse,IP velocity raises risk;merchant age lowers risk;merchant chargeback behavior raises risk
+txn_f9e8ae248f44,0.923316,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;IP velocity raises risk;merchant chargeback behavior raises risk
+txn_2caf567bf0ce,0.925669,1,1,merchant_ecosystem_abuse,gift_card_abuse,IP velocity raises risk;merchant age lowers risk;merchant chargeback behavior raises risk
+txn_a250a7643f27,0.889422,1,1,merchant_ecosystem_abuse,gift_card_abuse,IP velocity raises risk;merchant age lowers risk;merchant chargeback behavior raises risk
+txn_2c1c255280d8,0.898366,1,1,merchant_ecosystem_abuse,gift_card_abuse,IP velocity raises risk;merchant age lowers risk;merchant chargeback behavior raises risk
+txn_7b8888429286,0.905227,1,1,merchant_ecosystem_abuse,gift_card_abuse,IP velocity raises risk;merchant age lowers risk;merchant chargeback behavior raises risk
+txn_f8994e0aab3a,0.922765,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;IP velocity raises risk;merchant chargeback behavior raises risk
+txn_16b2203adba6,0.901622,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;IP velocity raises risk;merchant chargeback behavior raises risk
+txn_ed348bea68ea,0.874311,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_91c8f82ab273,0.929493,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_a57419047d5c,0.854831,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;high generated risk score lowers risk
+txn_0148855acde8,0.864606,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_98311b21441d,0.930618,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;high generated risk score raises risk;merchant chargeback behavior raises risk
+txn_a9d3b4a5f15f,0.909704,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_42787b5de9b4,0.870803,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_61ee489fde2b,0.906575,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_7686d2732dbd,0.84771,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_945df8ccff57,0.868471,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_41c1a9cbb2ac,0.918375,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_207076a8adba,0.867818,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_b8715da73578,0.873687,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_274c01eed3b6,0.852014,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_a52f6dab6292,0.85941,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_c14911db7985,0.876923,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_90c63f37ea43,0.91319,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;high generated risk score raises risk
+txn_bc0d3dafb617,0.857256,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_d00d0b5d93d6,0.843034,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_1b8c726c4767,0.886813,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_e6ac55179053,0.862476,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_8bae4bea5493,0.836195,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_977d8b1d205f,0.876573,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_343af0b6532c,0.846284,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_896c48a8fce6,0.872431,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_0617ad621249,0.8308,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_83a76d1740a4,0.889673,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_862b3e8e15f8,0.827626,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_0d5d4bf9acc3,0.871972,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_98a7d13dfec1,0.86595,1,1,merchant_ecosystem_abuse,gift_card_abuse,merchant age lowers risk;merchant chargeback behavior raises risk;merchant refund behavior lowers risk
+txn_cc0e62abf667,0.955287,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity raises risk
+txn_e9a70b54c637,0.950174,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity raises risk
+txn_f029fab05abe,0.954551,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;IP velocity raises risk;device history raises risk
+txn_e14e648cedfc,0.968967,1,1,merchant_ecosystem_abuse,mule_laundering,IP velocity raises risk;customer account age raises risk;device history raises risk
+txn_1850bf15cc20,0.963673,1,1,merchant_ecosystem_abuse,mule_laundering,IP velocity raises risk;customer account age raises risk;device history raises risk
+txn_7a21d7a8691a,0.964995,1,1,merchant_ecosystem_abuse,mule_laundering,IP velocity raises risk;customer account age raises risk;device history raises risk
+txn_9e7ba839b66f,0.974482,1,1,merchant_ecosystem_abuse,mule_laundering,IP velocity raises risk;customer account age raises risk;device history raises risk
+txn_59253918e857,0.963662,1,1,merchant_ecosystem_abuse,mule_laundering,IP velocity raises risk;customer account age raises risk;device history raises risk
+txn_8e644caa2fd1,0.968772,1,1,merchant_ecosystem_abuse,mule_laundering,IP velocity raises risk;customer account age raises risk;device history raises risk
+txn_90104308c8b8,0.975996,1,1,merchant_ecosystem_abuse,mule_laundering,IP velocity raises risk;customer account age raises risk;device history raises risk
+txn_3da4920ba86c,0.977103,1,1,merchant_ecosystem_abuse,mule_laundering,IP velocity raises risk;customer account age raises risk;device history raises risk
+txn_c8da3f2414db,0.964114,1,1,merchant_ecosystem_abuse,mule_laundering,IP velocity raises risk;customer account age raises risk;device history raises risk
+txn_761f32e71ce9,0.982778,1,1,merchant_ecosystem_abuse,mule_laundering,IP velocity raises risk;high generated risk score raises risk;customer account age raises risk
+txn_efc88c3c57aa,0.971944,1,1,merchant_ecosystem_abuse,mule_laundering,IP velocity raises risk;customer account age raises risk;device history raises risk
+txn_c88f4bc7cacd,0.96979,1,1,merchant_ecosystem_abuse,mule_laundering,IP velocity raises risk;customer account age raises risk;device history raises risk
+txn_110291d596b3,0.964772,1,1,merchant_ecosystem_abuse,mule_laundering,IP velocity raises risk;customer account age raises risk;device history raises risk
+txn_91efbc6addc2,0.976372,1,1,merchant_ecosystem_abuse,mule_laundering,IP velocity raises risk;high generated risk score raises risk;customer account age raises risk
+txn_d50c2918eccc,0.945225,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;IP velocity raises risk;high generated risk score lowers risk
+txn_5b5c6a3dcc88,0.974148,1,1,merchant_ecosystem_abuse,mule_laundering,high generated risk score raises risk;customer account age raises risk;device history raises risk
+txn_d5f913d3f9b1,0.956669,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity raises risk
+txn_9e26c6ed437f,0.959207,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;session velocity raises risk
+txn_2042b64c223b,0.961529,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;session velocity raises risk
+txn_a349cd8d29a4,0.971618,1,1,merchant_ecosystem_abuse,mule_laundering,high generated risk score raises risk;customer account age raises risk;device history raises risk
+txn_389a1c0a47bf,0.966296,1,1,merchant_ecosystem_abuse,mule_laundering,high generated risk score raises risk;customer account age raises risk;device history raises risk
+txn_334ec9375fcc,0.965709,1,1,merchant_ecosystem_abuse,mule_laundering,high generated risk score raises risk;customer account age raises risk;device history raises risk
+txn_0b200d405ea4,0.936457,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;high generated risk score lowers risk
+txn_a02029677b6f,0.962363,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;high generated risk score raises risk;device history raises risk
+txn_7668e639d06e,0.969359,1,1,merchant_ecosystem_abuse,mule_laundering,high generated risk score raises risk;customer account age raises risk;device history raises risk
+txn_951ccf8c4ff6,0.934689,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;high generated risk score lowers risk
+txn_4cd8f1cc93f9,0.971358,1,1,merchant_ecosystem_abuse,mule_laundering,high generated risk score raises risk;customer account age raises risk;device history raises risk
+txn_30b38e6c08f2,0.96064,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;high generated risk score raises risk;device history raises risk
+txn_d055de23f951,0.952029,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;session velocity raises risk
+txn_4f75670bd59c,0.946874,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;session velocity raises risk
+txn_ae3085481b8d,0.93542,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;session velocity raises risk
+txn_f6fbbd4b2697,0.956456,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;session velocity raises risk
+txn_f7ae5bf796f7,0.953971,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;session velocity raises risk
+txn_2ddc5012df03,0.961913,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;session velocity raises risk
+txn_820e980f1bef,0.939424,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;session velocity raises risk
+txn_a696e6066236,0.957779,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;session velocity raises risk
+txn_43cf9968ef56,0.95462,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;session velocity raises risk
+txn_f13bb2916869,0.940724,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;session velocity raises risk
+txn_fe60d424606d,0.94795,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;high generated risk score raises risk
+txn_97a8f0a977ae,0.966255,1,1,merchant_ecosystem_abuse,mule_laundering,high generated risk score raises risk;customer account age raises risk;device history raises risk
+txn_4f5b1331d738,0.924877,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;high generated risk score lowers risk
+txn_f9440181f947,0.956861,1,1,merchant_ecosystem_abuse,mule_laundering,high generated risk score raises risk;customer account age raises risk;device history raises risk
+txn_eb2ca40ff7dc,0.953793,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;high generated risk score raises risk;device history raises risk
+txn_1b14760b9bb9,0.944068,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;session velocity raises risk
+txn_6e1d44e6736c,0.956636,1,1,merchant_ecosystem_abuse,mule_laundering,high generated risk score raises risk;customer account age raises risk;device history raises risk
+txn_35d6b75515d5,0.957337,1,1,merchant_ecosystem_abuse,mule_laundering,high generated risk score raises risk;customer account age raises risk;device history raises risk
+txn_cf8bb9501cb7,0.947093,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;session velocity raises risk
+txn_22816707055d,0.924277,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;session velocity raises risk
+txn_fc48bbc9e10f,0.936013,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;session velocity raises risk
+txn_c99a890ea2a9,0.934298,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;session velocity raises risk
+txn_485b66606c01,0.92021,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;session velocity raises risk
+txn_ba8ab519ec96,0.93389,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;session velocity raises risk
+txn_3e0045ebec78,0.940467,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;session velocity raises risk
+txn_47c7a32eaf56,0.960436,1,1,merchant_ecosystem_abuse,mule_laundering,high generated risk score raises risk;customer account age raises risk;device history raises risk
+txn_a06b3d530b30,0.909313,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_395549c2e157,0.951863,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_f517801177c3,0.927085,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_a4f69a681897,0.939894,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_0ede8e8556ba,0.922972,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_bef6c0327d3c,0.942383,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_842548771162,0.939139,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_63fb1770628c,0.933421,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_1518dc4259d9,0.957136,1,1,merchant_ecosystem_abuse,mule_laundering,high generated risk score raises risk;customer account age raises risk;device history raises risk
+txn_70b2f068eab3,0.947714,1,1,merchant_ecosystem_abuse,mule_laundering,high generated risk score raises risk;customer account age raises risk;device history raises risk
+txn_a347e6f706d8,0.955069,1,1,merchant_ecosystem_abuse,mule_laundering,high generated risk score raises risk;customer account age raises risk;device history raises risk
+txn_b2922619a2ef,0.901707,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;high generated risk score lowers risk
+txn_35e105180c05,0.917808,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_ff085ca2eb00,0.92502,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_7e999cbd5e0b,0.944792,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;high generated risk score raises risk;device history raises risk
+txn_a4792790f3f2,0.937444,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_178bcb7de7f1,0.90756,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_c8a5b534c2ab,0.944577,1,1,merchant_ecosystem_abuse,mule_laundering,high generated risk score raises risk;customer account age raises risk;device history raises risk
+txn_824ab5e8d56c,0.924082,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_698b323d9c26,0.901114,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;high generated risk score lowers risk
+txn_d16ffc1b8d18,0.914583,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;high generated risk score lowers risk
+txn_3ae3a5b3aff4,0.944856,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_68c1da3273b1,0.951043,1,1,merchant_ecosystem_abuse,mule_laundering,high generated risk score raises risk;customer account age raises risk;device history raises risk
+txn_44f72ef885f4,0.945458,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;high generated risk score raises risk;device history raises risk
+txn_4a73e94608f8,0.913398,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_0a708ff56bea,0.955036,1,1,merchant_ecosystem_abuse,mule_laundering,high generated risk score raises risk;customer account age raises risk;device history raises risk
+txn_dc2a67ac0e46,0.946733,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;high generated risk score raises risk
+txn_3d93bb896807,0.911929,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;high generated risk score lowers risk
+txn_79106453c3ec,0.909967,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;high generated risk score lowers risk
+txn_bc926eb7c68b,0.935445,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_2fafcb5e3207,0.960634,1,1,merchant_ecosystem_abuse,mule_laundering,high generated risk score raises risk;customer account age raises risk;device history raises risk
+txn_bacbcfde8578,0.962866,1,1,merchant_ecosystem_abuse,mule_laundering,high generated risk score raises risk;customer account age raises risk;device history raises risk
+txn_c8b7825925e9,0.955271,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;high generated risk score raises risk;device history raises risk
+txn_8a12f867e1aa,0.933568,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_f803dbf04caf,0.906366,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_40401c026e58,0.931564,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_9f6ce4feef01,0.930745,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_7aa71ea0fa9e,0.909703,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_abb1b4d2de5d,0.934487,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;high generated risk score raises risk
+txn_d29477ac73bd,0.934948,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_d0e6235730d8,0.904472,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;high generated risk score lowers risk
+txn_2bc4aeac551e,0.912789,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_aacdcdf02771,0.949333,1,1,merchant_ecosystem_abuse,mule_laundering,high generated risk score raises risk;customer account age raises risk;device history raises risk
+txn_aa604e957336,0.934887,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_80b141d687d4,0.959348,1,1,merchant_ecosystem_abuse,mule_laundering,high generated risk score raises risk;customer account age raises risk;device history raises risk
+txn_4d7d7838bd9e,0.95654,1,1,merchant_ecosystem_abuse,mule_laundering,high generated risk score raises risk;customer account age raises risk;device history raises risk
+txn_12ef294e61e6,0.931575,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_3d64f65bf1f8,0.945317,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_7e4ad5d79391,0.942992,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_8f376bedb477,0.916318,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;high generated risk score lowers risk
+txn_a8d1a6cb886c,0.961341,1,1,merchant_ecosystem_abuse,mule_laundering,high generated risk score raises risk;customer account age raises risk;device history raises risk
+txn_faafc8262c7c,0.947495,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_a60610a1dc7f,0.929376,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_203750e09f8b,0.928754,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_221ed8151922,0.949557,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_b0760aa5fea6,0.91868,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_fadc4c8e67c7,0.923975,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_318b54445d0c,0.952197,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_5bfbb43702b7,0.940658,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_b032b8b8f349,0.903976,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_ea9f35fa6e47,0.930545,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_5189d2527621,0.878045,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;high generated risk score lowers risk;device history raises risk
+txn_12a03151ff1d,0.913854,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_41c19756797a,0.923519,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_91e64d4ec7a3,0.958939,1,1,merchant_ecosystem_abuse,mule_laundering,high generated risk score raises risk;customer account age raises risk;device history raises risk
+txn_c79bc60ec910,0.909561,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_94af83b98c72,0.934063,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_65967ca5ac06,0.931116,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_3e6c3bd32673,0.951699,1,1,merchant_ecosystem_abuse,mule_laundering,high generated risk score raises risk;customer account age raises risk;device history raises risk
+txn_c83e146c4879,0.930851,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_0c9b9deb820f,0.928612,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_4f50bd3587d9,0.911047,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_389258c1594d,0.919109,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_3f75f026951f,0.953303,1,1,merchant_ecosystem_abuse,mule_laundering,high generated risk score raises risk;customer account age raises risk;device history raises risk
+txn_917f3324a705,0.907046,1,1,merchant_ecosystem_abuse,mule_laundering,customer account age raises risk;device history raises risk;IP velocity lowers risk
+txn_9276eaa5f726,0.467817,1,1,merchant_ecosystem_abuse,mule_laundering,session velocity lowers risk;customer account age raises risk;high generated risk score lowers risk
+txn_0fce7a74f863,0.858571,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,high generated risk score lowers risk;IP velocity raises risk;merchant chargeback behavior lowers risk
+txn_e9cdc15c2e15,0.844404,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,high generated risk score lowers risk;IP velocity raises risk;merchant chargeback behavior lowers risk
+txn_248232aa1774,0.894717,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,IP velocity raises risk;merchant chargeback behavior lowers risk;session velocity raises risk
+txn_48c2c4caf70f,0.88251,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,IP velocity raises risk;high generated risk score lowers risk;merchant chargeback behavior lowers risk
+txn_8e2b8d502fe4,0.846308,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,high generated risk score lowers risk;IP velocity raises risk;merchant chargeback behavior lowers risk
+txn_9fa43c91e987,0.9341,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,IP velocity raises risk;high generated risk score raises risk;merchant chargeback behavior lowers risk
+txn_5c89eda9e256,0.924667,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,IP velocity raises risk;merchant chargeback behavior lowers risk;session velocity raises risk
+txn_c0583608cb04,0.922861,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,IP velocity raises risk;merchant chargeback behavior lowers risk;session velocity raises risk
+txn_16c92d241605,0.928553,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,IP velocity raises risk;merchant chargeback behavior lowers risk;session velocity raises risk
+txn_0096f6b21521,0.941805,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,IP velocity raises risk;high generated risk score raises risk;merchant chargeback behavior lowers risk
+txn_9045c3d5ef70,0.880911,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,IP velocity raises risk;high generated risk score lowers risk;merchant chargeback behavior lowers risk
+txn_45a04b58f061,0.917608,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,IP velocity raises risk;merchant chargeback behavior lowers risk;session velocity raises risk
+txn_b50f92e666da,0.936175,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,IP velocity raises risk;high generated risk score raises risk;merchant chargeback behavior lowers risk
+txn_2447e41ced4b,0.929954,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,IP velocity raises risk;high generated risk score raises risk;merchant chargeback behavior lowers risk
+txn_40cfeb38bcd7,0.907934,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,IP velocity raises risk;merchant chargeback behavior lowers risk;session velocity raises risk
+txn_561639a9f48b,0.88765,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,IP velocity raises risk;merchant chargeback behavior lowers risk;session velocity raises risk
+txn_390b076e89d5,0.82705,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,high generated risk score lowers risk;IP velocity raises risk;merchant chargeback behavior lowers risk
+txn_116da0f9e18d,0.906087,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,high generated risk score raises risk;IP velocity raises risk;merchant chargeback behavior lowers risk
+txn_fbea06697c26,0.880248,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,IP velocity raises risk;merchant chargeback behavior lowers risk;session velocity raises risk
+txn_bcc9c0103c4e,0.912143,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,high generated risk score raises risk;merchant chargeback behavior lowers risk;session velocity raises risk
+txn_8365a7d759f8,0.853385,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,merchant chargeback behavior lowers risk;session velocity raises risk;rail_code raises risk
+txn_f52343d37c30,0.87605,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,merchant chargeback behavior lowers risk;session velocity raises risk;rail_code raises risk
+txn_3ad5f1e10bae,0.849847,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,merchant chargeback behavior lowers risk;session velocity raises risk;rail_code raises risk
+txn_9ab62f17a78d,0.826306,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,high generated risk score lowers risk;merchant chargeback behavior lowers risk;session velocity raises risk
+txn_28e836e3e664,0.871847,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,merchant chargeback behavior lowers risk;session velocity raises risk;rail_code raises risk
+txn_b3d170f7c9c5,0.838646,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,merchant chargeback behavior lowers risk;high generated risk score lowers risk;session velocity raises risk
+txn_fb17be9bc336,0.861792,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,merchant chargeback behavior lowers risk;session velocity raises risk;rail_code raises risk
+txn_06b5eadbd8b4,0.895211,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,high generated risk score raises risk;merchant chargeback behavior lowers risk;session velocity raises risk
+txn_91daacac7860,0.83425,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,merchant chargeback behavior lowers risk;session velocity raises risk;high generated risk score lowers risk
+txn_4b322320b1f7,0.801872,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,merchant chargeback behavior lowers risk;session velocity raises risk;rail_code raises risk
+txn_2f0e2056057d,0.859008,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,merchant chargeback behavior lowers risk;session velocity raises risk;high generated risk score raises risk
+txn_b2c283b3cad1,0.895777,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,high generated risk score raises risk;merchant chargeback behavior lowers risk;session velocity raises risk
+txn_7f9368dcdc7c,0.876362,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,high generated risk score raises risk;merchant chargeback behavior lowers risk;session velocity raises risk
+txn_9eaf5420a726,0.856628,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,merchant chargeback behavior lowers risk;session velocity raises risk;rail_code raises risk
+txn_c442634381c3,0.823177,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,high generated risk score lowers risk;merchant chargeback behavior lowers risk;session velocity raises risk
+txn_3a8e59d14b18,0.810041,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,high generated risk score lowers risk;merchant chargeback behavior lowers risk;session velocity raises risk
+txn_d8f95215d6b5,0.82827,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,high generated risk score lowers risk;merchant chargeback behavior lowers risk;session velocity raises risk
+txn_93a6c1cb9686,0.892401,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,high generated risk score raises risk;merchant chargeback behavior lowers risk;session velocity raises risk
+txn_60c3505ce30a,0.85205,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,merchant chargeback behavior lowers risk;session velocity raises risk;rail_code raises risk
+txn_f482b16391a5,0.893601,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,high generated risk score raises risk;merchant chargeback behavior lowers risk;session velocity raises risk
+txn_13c7ae116979,0.835048,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,high generated risk score lowers risk;merchant chargeback behavior lowers risk;session velocity raises risk
+txn_a4d2b6d649a3,0.860502,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,merchant chargeback behavior lowers risk;session velocity raises risk;rail_code raises risk
+txn_e477bb2f7fab,0.874815,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,merchant chargeback behavior lowers risk;session velocity raises risk;rail_code raises risk
+txn_2acbdf208e27,0.771333,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,high generated risk score lowers risk;merchant chargeback behavior lowers risk;session velocity raises risk
+txn_1c267ff218c8,0.84777,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,merchant chargeback behavior lowers risk;session velocity raises risk;rail_code raises risk
+txn_a1b6799fc080,0.842344,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,merchant chargeback behavior lowers risk;session velocity raises risk;rail_code raises risk
+txn_c2dbb08ad9ec,0.817301,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,high generated risk score lowers risk;merchant chargeback behavior lowers risk;session velocity raises risk
+txn_1625cf731c3f,0.793795,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,merchant chargeback behavior lowers risk;session velocity raises risk;high generated risk score lowers risk
+txn_589bca867d73,0.850923,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,merchant chargeback behavior lowers risk;session velocity raises risk;rail_code raises risk
+txn_acb980b6c306,0.763456,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,high generated risk score lowers risk;merchant chargeback behavior lowers risk;session velocity raises risk
+txn_84cd2b609c15,0.764032,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,high generated risk score lowers risk;merchant chargeback behavior lowers risk;session velocity raises risk
+txn_ddd166c8cbf9,0.82557,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,merchant chargeback behavior lowers risk;session velocity raises risk;rail_code raises risk
+txn_5019741e835e,0.825254,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,merchant chargeback behavior lowers risk;session velocity raises risk;rail_code raises risk
+txn_587c2547bca5,0.823055,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,merchant chargeback behavior lowers risk;session velocity raises risk;rail_code raises risk
+txn_9f16fae56aea,0.366231,1,1,merchant_ecosystem_abuse,marketplace_seller_fraud,session velocity lowers risk;merchant chargeback behavior lowers risk;high generated risk score raises risk
+txn_3aaab333b734,0.974944,1,1,merchant_ecosystem_abuse,triangulation_fraud,IP velocity raises risk;session velocity raises risk;merchant age raises risk
+txn_93392ff67a08,0.97775,1,1,merchant_ecosystem_abuse,triangulation_fraud,IP velocity raises risk;session velocity raises risk;merchant age raises risk
+txn_cb9b1949ba2c,0.979672,1,1,merchant_ecosystem_abuse,triangulation_fraud,IP velocity raises risk;session velocity raises risk;merchant age raises risk
+txn_0f26a288450e,0.977812,1,1,merchant_ecosystem_abuse,triangulation_fraud,IP velocity raises risk;session velocity raises risk;merchant age raises risk
+txn_628d60b16a57,0.983964,1,1,merchant_ecosystem_abuse,triangulation_fraud,IP velocity raises risk;high generated risk score raises risk;session velocity raises risk
+txn_aa0df04a2445,0.98119,1,1,merchant_ecosystem_abuse,triangulation_fraud,IP velocity raises risk;session velocity raises risk;merchant age raises risk
+txn_d7bd2a674dc0,0.98597,1,1,merchant_ecosystem_abuse,triangulation_fraud,IP velocity raises risk;high generated risk score raises risk;session velocity raises risk
+txn_78cee1007d56,0.975233,1,1,merchant_ecosystem_abuse,triangulation_fraud,IP velocity raises risk;session velocity raises risk;merchant age raises risk
+txn_f8900162dbb1,0.98438,1,1,merchant_ecosystem_abuse,triangulation_fraud,IP velocity raises risk;session velocity raises risk;merchant age raises risk
+txn_333610982de4,0.973701,1,1,merchant_ecosystem_abuse,triangulation_fraud,IP velocity raises risk;high generated risk score lowers risk;session velocity raises risk
+txn_2c8bdd67be3c,0.988146,1,1,merchant_ecosystem_abuse,triangulation_fraud,IP velocity raises risk;high generated risk score raises risk;session velocity raises risk
+txn_d098d6e05f4b,0.982249,1,1,merchant_ecosystem_abuse,triangulation_fraud,IP velocity raises risk;session velocity raises risk;merchant age raises risk
+txn_783b8dcd65aa,0.985564,1,1,merchant_ecosystem_abuse,triangulation_fraud,IP velocity raises risk;high generated risk score raises risk;session velocity raises risk
+txn_30c2c024b5e1,0.985907,1,1,merchant_ecosystem_abuse,triangulation_fraud,IP velocity raises risk;high generated risk score raises risk;session velocity raises risk
+txn_ab1e3def8564,0.984535,1,1,merchant_ecosystem_abuse,triangulation_fraud,IP velocity raises risk;high generated risk score raises risk;session velocity raises risk
+txn_d6845b8c22e4,0.971221,1,1,merchant_ecosystem_abuse,triangulation_fraud,IP velocity raises risk;session velocity raises risk;merchant age raises risk
+txn_8ddea89cf94a,0.977265,1,1,merchant_ecosystem_abuse,triangulation_fraud,high generated risk score raises risk;IP velocity raises risk;session velocity raises risk
+txn_d1a55aeefd90,0.976888,1,1,merchant_ecosystem_abuse,triangulation_fraud,IP velocity raises risk;high generated risk score raises risk;session velocity raises risk
+txn_4fd0df113931,0.967045,1,1,merchant_ecosystem_abuse,triangulation_fraud,session velocity raises risk;merchant age raises risk;IP reputation raises risk
+txn_d27ddb910ae3,0.964293,1,1,merchant_ecosystem_abuse,triangulation_fraud,session velocity raises risk;merchant age raises risk;IP reputation raises risk
+txn_b79171919e21,0.961295,1,1,merchant_ecosystem_abuse,triangulation_fraud,session velocity raises risk;merchant age raises risk;IP reputation raises risk
+txn_beceb6ab38e6,0.978963,1,1,merchant_ecosystem_abuse,triangulation_fraud,high generated risk score raises risk;session velocity raises risk;merchant age raises risk
+txn_02f4472ed678,0.972018,1,1,merchant_ecosystem_abuse,triangulation_fraud,session velocity raises risk;merchant age raises risk;IP reputation raises risk
+txn_262e62dd54f8,0.973389,1,1,merchant_ecosystem_abuse,triangulation_fraud,high generated risk score raises risk;session velocity raises risk;merchant age raises risk
+txn_61f22e676363,0.956501,1,1,merchant_ecosystem_abuse,triangulation_fraud,high generated risk score lowers risk;session velocity raises risk;merchant age raises risk
+txn_d572aacba6ac,0.962964,1,1,merchant_ecosystem_abuse,triangulation_fraud,session velocity raises risk;merchant age raises risk;IP reputation raises risk
+txn_b3a310662b9f,0.974513,1,1,merchant_ecosystem_abuse,triangulation_fraud,session velocity raises risk;merchant age raises risk;IP reputation raises risk
+txn_9eaea5dfcf73,0.973125,1,1,merchant_ecosystem_abuse,triangulation_fraud,high generated risk score raises risk;session velocity raises risk;merchant age raises risk
+txn_e14f2c09513e,0.972045,1,1,merchant_ecosystem_abuse,triangulation_fraud,session velocity raises risk;merchant age raises risk;high generated risk score raises risk
+txn_bde6a6fd2433,0.95784,1,1,merchant_ecosystem_abuse,triangulation_fraud,high generated risk score lowers risk;session velocity raises risk;merchant age raises risk
+txn_86573aca8f09,0.958392,1,1,merchant_ecosystem_abuse,triangulation_fraud,high generated risk score lowers risk;session velocity raises risk;merchant age raises risk
+txn_a5deee660700,0.956591,1,1,merchant_ecosystem_abuse,triangulation_fraud,session velocity raises risk;high generated risk score lowers risk;merchant age raises risk
+txn_e8953a80507e,0.978384,1,1,merchant_ecosystem_abuse,triangulation_fraud,high generated risk score raises risk;session velocity raises risk;merchant age raises risk
+txn_4ce198cd038d,0.970286,1,1,merchant_ecosystem_abuse,triangulation_fraud,session velocity raises risk;merchant age raises risk;IP reputation raises risk
+txn_9d7c727ac1ba,0.954033,1,1,merchant_ecosystem_abuse,triangulation_fraud,high generated risk score lowers risk;session velocity raises risk;merchant age raises risk
+txn_c8e8dc082e84,0.982459,1,1,merchant_ecosystem_abuse,triangulation_fraud,high generated risk score raises risk;session velocity raises risk;merchant age raises risk
+txn_4c0e656184dc,0.983487,1,1,merchant_ecosystem_abuse,triangulation_fraud,high generated risk score raises risk;session velocity raises risk;merchant age raises risk
+txn_ac0263e3589b,0.970968,1,1,merchant_ecosystem_abuse,triangulation_fraud,session velocity raises risk;merchant age raises risk;IP reputation raises risk
+txn_14664ea2add2,0.957706,1,1,merchant_ecosystem_abuse,triangulation_fraud,session velocity raises risk;merchant age raises risk;high generated risk score lowers risk
+txn_c5173b521ac8,0.963927,1,1,merchant_ecosystem_abuse,triangulation_fraud,session velocity raises risk;merchant age raises risk;IP reputation raises risk
+txn_0d8c2dfe72b2,0.963399,1,1,merchant_ecosystem_abuse,triangulation_fraud,session velocity raises risk;merchant age raises risk;IP reputation raises risk
+txn_5067a547f8aa,0.956387,1,1,merchant_ecosystem_abuse,triangulation_fraud,session velocity raises risk;merchant age raises risk;IP reputation raises risk
+txn_186bbf4edb1c,0.969938,1,1,post_transaction_abuse,alternative_refund_abuse,IP velocity raises risk;device history raises risk;IP reputation raises risk
+txn_5d2dde2284be,0.957513,1,1,post_transaction_abuse,alternative_refund_abuse,IP velocity raises risk;device history raises risk;IP reputation raises risk
+txn_d4f373cfa3de,0.966618,1,1,post_transaction_abuse,alternative_refund_abuse,IP velocity raises risk;device history raises risk;IP reputation raises risk
+txn_5da8cd52e2cf,0.962674,1,1,post_transaction_abuse,alternative_refund_abuse,IP velocity raises risk;device history raises risk;IP reputation raises risk
+txn_3b85068ce2f0,0.969506,1,1,post_transaction_abuse,alternative_refund_abuse,IP velocity raises risk;device history raises risk;IP reputation raises risk
+txn_5484b33f8325,0.973846,1,1,post_transaction_abuse,alternative_refund_abuse,IP velocity raises risk;device history raises risk;high generated risk score raises risk
+txn_c4652e2bb8a6,0.679686,1,1,post_transaction_abuse,alternative_refund_abuse,session velocity lowers risk;IP velocity raises risk;high generated risk score lowers risk
+txn_9ab452d8285c,0.940318,1,1,post_transaction_abuse,chargeback_fraud,IP velocity raises risk;customer decline history lowers risk;device history raises risk
+txn_8720be363a04,0.906211,1,1,post_transaction_abuse,chargeback_fraud,IP velocity raises risk;high generated risk score lowers risk;customer decline history lowers risk
+txn_b948c687a1cc,0.951137,1,1,post_transaction_abuse,chargeback_fraud,IP velocity raises risk;customer decline history lowers risk;device history raises risk
+txn_be9ef2225a15,0.943805,1,1,post_transaction_abuse,chargeback_fraud,IP velocity raises risk;customer decline history lowers risk;device history raises risk
+txn_daad81eaf03c,0.945403,1,1,post_transaction_abuse,chargeback_fraud,IP velocity raises risk;customer decline history lowers risk;device history raises risk
+txn_d641233a8b47,0.946133,1,1,post_transaction_abuse,chargeback_fraud,IP velocity raises risk;customer decline history lowers risk;device history raises risk
+txn_7b6c16e2a81b,0.942195,1,1,post_transaction_abuse,chargeback_fraud,IP velocity raises risk;customer decline history lowers risk;device history raises risk
+txn_0dcbf9ee4f0d,0.958447,1,1,post_transaction_abuse,chargeback_fraud,IP velocity raises risk;high generated risk score raises risk;customer decline history lowers risk
+txn_9bd79af25c3d,0.962376,1,1,post_transaction_abuse,chargeback_fraud,IP velocity raises risk;high generated risk score raises risk;customer decline history lowers risk
+txn_932d429f00da,0.929439,1,1,post_transaction_abuse,chargeback_fraud,IP velocity raises risk;customer decline history lowers risk;device history raises risk
+txn_4af5a456e994,0.938644,1,1,post_transaction_abuse,chargeback_fraud,IP velocity raises risk;customer decline history lowers risk;device history raises risk
+txn_2919882d629b,0.941276,1,1,post_transaction_abuse,chargeback_fraud,IP velocity raises risk;customer decline history lowers risk;device history raises risk
+txn_0260b9674339,0.926919,1,1,post_transaction_abuse,chargeback_fraud,IP velocity raises risk;high generated risk score lowers risk;customer decline history lowers risk
+txn_69e0de96bc0d,0.942672,1,1,post_transaction_abuse,chargeback_fraud,IP velocity raises risk;customer decline history lowers risk;device history raises risk
+txn_47f211997fb6,0.903855,1,1,post_transaction_abuse,chargeback_fraud,customer decline history lowers risk;device history raises risk;IP velocity raises risk
+txn_0d375f888c1c,0.931169,1,1,post_transaction_abuse,chargeback_fraud,customer decline history lowers risk;device history raises risk;IP velocity raises risk
+txn_5cb6b19d0481,0.892563,1,1,post_transaction_abuse,chargeback_fraud,customer decline history lowers risk;device history raises risk;merchant chargeback behavior raises risk
+txn_96a2cb9c001c,0.943518,1,1,post_transaction_abuse,chargeback_fraud,high generated risk score raises risk;customer decline history lowers risk;device history raises risk
+txn_3acc617e9aa0,0.980613,1,1,post_transaction_abuse,non_delivery_claim,IP velocity raises risk;merchant refund behavior lowers risk;merchant age raises risk
+txn_a405f8fa7805,0.986002,1,1,post_transaction_abuse,non_delivery_claim,IP velocity raises risk;merchant refund behavior lowers risk;merchant age raises risk
+txn_856c39cc0eef,0.972158,1,1,post_transaction_abuse,non_delivery_claim,IP velocity raises risk;merchant refund behavior lowers risk;merchant age raises risk
+txn_0cad8e5aff83,0.988675,1,1,post_transaction_abuse,non_delivery_claim,IP velocity raises risk;merchant refund behavior lowers risk;high generated risk score raises risk
+txn_fc51c1d8596d,0.981957,1,1,post_transaction_abuse,non_delivery_claim,IP velocity raises risk;merchant refund behavior lowers risk;merchant age raises risk
+txn_1bf2b7ab6e88,0.982513,1,1,post_transaction_abuse,non_delivery_claim,IP velocity raises risk;merchant refund behavior lowers risk;merchant age raises risk
+txn_e190e0b9a59c,0.990996,1,1,post_transaction_abuse,non_delivery_claim,IP velocity raises risk;high generated risk score raises risk;merchant refund behavior lowers risk
+txn_d42c81822f77,0.984411,1,1,post_transaction_abuse,non_delivery_claim,IP velocity raises risk;merchant refund behavior lowers risk;merchant age raises risk
+txn_15c7baaa6490,0.985415,1,1,post_transaction_abuse,non_delivery_claim,IP velocity raises risk;merchant refund behavior lowers risk;merchant age raises risk
+txn_5ec7ae453a66,0.977894,1,1,post_transaction_abuse,non_delivery_claim,IP velocity raises risk;merchant refund behavior lowers risk;merchant age raises risk
+txn_f2a650452429,0.980581,1,1,post_transaction_abuse,non_delivery_claim,IP velocity raises risk;merchant refund behavior lowers risk;merchant age raises risk
+txn_9848c468c779,0.985455,1,1,post_transaction_abuse,non_delivery_claim,IP velocity raises risk;merchant refund behavior lowers risk;merchant age raises risk
+txn_3b63c55893e0,0.815466,1,1,post_transaction_abuse,non_delivery_claim,session velocity lowers risk;merchant refund behavior lowers risk;merchant age raises risk
+txn_e10c2332d115,0.97035,1,1,post_transaction_abuse,refund_fraud,IP velocity raises risk;customer decline history lowers risk;customer account age raises risk
+txn_658d542919cc,0.979625,1,1,post_transaction_abuse,refund_fraud,IP velocity raises risk;high generated risk score raises risk;customer decline history lowers risk
+txn_0729f3ce7c36,0.961301,1,1,post_transaction_abuse,refund_fraud,IP velocity raises risk;high generated risk score lowers risk;customer decline history lowers risk
+txn_5b78231e9ada,0.962471,1,1,post_transaction_abuse,refund_fraud,IP velocity raises risk;customer decline history lowers risk;high generated risk score lowers risk
+txn_9a9e68754313,0.955793,1,1,post_transaction_abuse,refund_fraud,IP velocity raises risk;high generated risk score lowers risk;customer decline history lowers risk
+txn_28b0cfce23e6,0.983443,1,1,post_transaction_abuse,refund_fraud,IP velocity raises risk;high generated risk score raises risk;customer decline history lowers risk
+txn_eaab43fbf678,0.981381,1,1,post_transaction_abuse,refund_fraud,IP velocity raises risk;customer decline history lowers risk;customer account age raises risk
+txn_797075d3f5db,0.974205,1,1,post_transaction_abuse,refund_fraud,IP velocity raises risk;customer decline history lowers risk;customer account age raises risk
+txn_a2158366c3b1,0.981718,1,1,post_transaction_abuse,refund_fraud,IP velocity raises risk;high generated risk score raises risk;customer decline history lowers risk
+txn_a9b1515bafed,0.881028,1,1,post_transaction_abuse,refund_fraud,session velocity lowers risk;IP velocity raises risk;high generated risk score lowers risk
+txn_0442ec65396a,0.928005,1,1,post_transaction_abuse,refund_fraud,session velocity lowers risk;IP velocity raises risk;customer decline history lowers risk
+txn_893115ff822b,0.850183,1,1,post_transaction_abuse,return_policy_abuse,customer account age lowers risk;IP velocity raises risk;merchant refund behavior lowers risk
+txn_35ba0a44c80b,0.798022,1,1,post_transaction_abuse,return_policy_abuse,IP velocity raises risk;customer account age lowers risk;high generated risk score lowers risk
+txn_277c61b8af72,0.82658,1,1,post_transaction_abuse,return_policy_abuse,IP velocity raises risk;customer account age lowers risk;merchant refund behavior lowers risk
+txn_3713d99ac003,0.834346,1,1,post_transaction_abuse,return_policy_abuse,customer account age lowers risk;IP velocity raises risk;merchant refund behavior lowers risk
+txn_76b41105e762,0.829912,1,1,post_transaction_abuse,return_policy_abuse,IP velocity raises risk;customer account age lowers risk;merchant refund behavior lowers risk
+txn_e18757bcb0d6,0.878875,1,1,post_transaction_abuse,return_policy_abuse,IP velocity raises risk;customer account age lowers risk;merchant refund behavior lowers risk
+txn_a304c35be5c8,0.898112,1,1,post_transaction_abuse,return_policy_abuse,IP velocity raises risk;customer account age lowers risk;merchant refund behavior lowers risk
+txn_882c0b789bf1,0.873199,1,1,post_transaction_abuse,return_policy_abuse,IP velocity raises risk;customer account age lowers risk;merchant refund behavior lowers risk
+txn_4031c1c7c958,0.847851,1,1,post_transaction_abuse,return_policy_abuse,customer account age lowers risk;IP velocity raises risk;merchant refund behavior lowers risk
+txn_c1eb3d03a4cd,0.883041,1,1,post_transaction_abuse,return_policy_abuse,customer account age lowers risk;IP velocity raises risk;merchant refund behavior lowers risk
+txn_bb64ca1166c3,0.817783,1,1,post_transaction_abuse,return_policy_abuse,customer account age lowers risk;merchant refund behavior lowers risk;IP velocity raises risk
+txn_3dfd96a4dea8,0.790443,1,1,post_transaction_abuse,return_policy_abuse,customer account age lowers risk;merchant refund behavior lowers risk;customer decline history lowers risk
+txn_57dee63fedb5,0.765842,1,1,post_transaction_abuse,return_policy_abuse,customer account age lowers risk;merchant refund behavior lowers risk;customer decline history lowers risk
+txn_5f8fb93bbef2,0.72688,1,1,post_transaction_abuse,return_policy_abuse,customer account age lowers risk;merchant refund behavior lowers risk;high generated risk score lowers risk
+txn_299de3fcbdce,0.744061,1,1,post_transaction_abuse,return_policy_abuse,customer account age lowers risk;merchant refund behavior lowers risk;high generated risk score lowers risk
+txn_cd783cf68c7c,0.949424,1,1,social_engineering_payment_fraud,ai_impersonation,IP velocity raises risk;customer account age lowers risk;device history lowers risk
+txn_8f9516fe0ae0,0.946086,1,1,social_engineering_payment_fraud,ai_impersonation,IP velocity raises risk;customer account age lowers risk;device history lowers risk
+txn_92e2ad35706d,0.931005,1,1,social_engineering_payment_fraud,ai_impersonation,customer account age lowers risk;IP velocity raises risk;device history lowers risk
+txn_68698af085a6,0.930365,1,1,social_engineering_payment_fraud,ai_impersonation,IP velocity raises risk;customer account age lowers risk;device history lowers risk
+txn_48cafd8480dc,0.934529,1,1,social_engineering_payment_fraud,ai_impersonation,IP velocity raises risk;customer account age lowers risk;device history lowers risk
+txn_6ad667141d26,0.959723,1,1,social_engineering_payment_fraud,ai_impersonation,IP velocity raises risk;customer account age lowers risk;device history lowers risk
+txn_3a1ffae612eb,0.713821,1,1,social_engineering_payment_fraud,ai_impersonation,session velocity lowers risk;IP velocity raises risk;customer account age lowers risk
+txn_4010d7828739,0.927155,1,1,social_engineering_payment_fraud,authorized_push_payment_scam,IP velocity raises risk;merchant refund behavior lowers risk;device history lowers risk
+txn_5a9e64f56a7b,0.891124,1,1,social_engineering_payment_fraud,authorized_push_payment_scam,IP velocity raises risk;high generated risk score lowers risk;merchant refund behavior lowers risk
+txn_9727fc706252,0.944337,1,1,social_engineering_payment_fraud,authorized_push_payment_scam,IP velocity raises risk;merchant refund behavior lowers risk;device history lowers risk
+txn_ea5436c45b66,0.941059,1,1,social_engineering_payment_fraud,authorized_push_payment_scam,IP velocity raises risk;merchant refund behavior lowers risk;device history lowers risk
+txn_7129f6734152,0.922368,1,1,social_engineering_payment_fraud,authorized_push_payment_scam,IP velocity raises risk;merchant refund behavior lowers risk;device history lowers risk
+txn_a03c6774bcfe,0.954731,1,1,social_engineering_payment_fraud,authorized_push_payment_scam,IP velocity raises risk;high generated risk score raises risk;merchant refund behavior lowers risk
+txn_f560ee71e71b,0.937616,1,1,social_engineering_payment_fraud,authorized_push_payment_scam,IP velocity raises risk;merchant refund behavior lowers risk;device history lowers risk
+txn_f102009134ae,0.937354,1,1,social_engineering_payment_fraud,authorized_push_payment_scam,IP velocity raises risk;merchant refund behavior lowers risk;device history lowers risk
+txn_4d2ea4547948,0.908303,1,1,social_engineering_payment_fraud,authorized_push_payment_scam,merchant refund behavior lowers risk;device history lowers risk;IP velocity raises risk
+txn_f2881b1ff4dd,0.747713,1,1,social_engineering_payment_fraud,authorized_push_payment_scam,session velocity lowers risk;merchant refund behavior lowers risk;device history lowers risk
+txn_01f8dac67e15,0.704613,1,1,social_engineering_payment_fraud,authorized_push_payment_scam,session velocity lowers risk;merchant refund behavior lowers risk;device history lowers risk
+txn_7b0a12aede28,0.961585,1,1,social_engineering_payment_fraud,business_email_compromise,IP velocity raises risk;high generated risk score raises risk;rail_code lowers risk
+txn_e70d961eae50,0.955396,1,1,social_engineering_payment_fraud,business_email_compromise,IP velocity raises risk;rail_code lowers risk;IP reputation raises risk
+txn_5eb80d06a5d8,0.936459,1,1,social_engineering_payment_fraud,business_email_compromise,IP velocity raises risk;rail_code lowers risk;high generated risk score lowers risk
+txn_46f5544f9deb,0.948327,1,1,social_engineering_payment_fraud,business_email_compromise,IP velocity raises risk;rail_code lowers risk;IP reputation raises risk
+txn_aeb827f45dab,0.961217,1,1,social_engineering_payment_fraud,business_email_compromise,IP velocity raises risk;rail_code lowers risk;IP reputation raises risk
+txn_16f0bdd4cdbf,0.940357,1,1,social_engineering_payment_fraud,business_email_compromise,IP velocity raises risk;rail_code lowers risk;IP reputation raises risk
+txn_600e128d4f82,0.589646,1,1,social_engineering_payment_fraud,business_email_compromise,session velocity lowers risk;IP velocity raises risk;rail_code lowers risk
+txn_3a8c450f9b93,0.916393,1,1,social_engineering_payment_fraud,executive_impersonation,IP velocity raises risk;merchant age raises risk;failed login activity lowers risk
+txn_8301463fcd53,0.929299,1,1,social_engineering_payment_fraud,executive_impersonation,IP velocity raises risk;merchant age raises risk;failed login activity lowers risk
+txn_db7a0c23f38a,0.874557,1,1,social_engineering_payment_fraud,executive_impersonation,IP velocity raises risk;high generated risk score lowers risk;merchant age raises risk
+txn_55d93b8bbc32,0.467374,1,1,social_engineering_payment_fraud,executive_impersonation,session velocity lowers risk;IP velocity raises risk;merchant age raises risk
+txn_a8884eafee3c,0.989954,1,1,social_engineering_payment_fraud,vendor_rerouting,failed login activity raises risk;IP velocity raises risk;high generated risk score lowers risk
+txn_f6af270084ef,0.99464,1,1,social_engineering_payment_fraud,vendor_rerouting,failed login activity raises risk;IP velocity raises risk;IP reputation raises risk
+txn_a04aef617eb4,0.992034,1,1,social_engineering_payment_fraud,vendor_rerouting,failed login activity raises risk;IP velocity raises risk;IP reputation raises risk
+txn_14f5e5500748,0.989008,1,1,social_engineering_payment_fraud,vendor_rerouting,failed login activity raises risk;IP velocity raises risk;IP reputation raises risk
+txn_851fbb6e5972,0.992485,1,1,social_engineering_payment_fraud,vendor_rerouting,failed login activity raises risk;IP velocity raises risk;IP reputation raises risk
+txn_efebd4cccf07,0.98746,1,1,social_engineering_payment_fraud,vendor_rerouting,failed login activity raises risk;IP reputation raises risk;IP velocity raises risk
+txn_fbfc8f7a7d06,0.981672,1,1,social_engineering_payment_fraud,vendor_rerouting,session velocity lowers risk;failed login activity raises risk;IP reputation raises risk
+txn_499dc28167ef,0.971843,1,1,social_engineering_payment_fraud,vendor_rerouting,session velocity lowers risk;failed login activity raises risk;IP reputation raises risk

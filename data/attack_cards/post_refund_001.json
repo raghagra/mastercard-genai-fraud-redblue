@@ -1,0 +1,69 @@
+{
+  "attack_id": "post_refund_001",
+  "bucket": "post_transaction_abuse",
+  "subtype": "refund_fraud",
+  "attack_name": "Refund fraud",
+  "variant_name": "Repeated refund claim with destination shift",
+  "channel": "customer_support",
+  "rail": "card",
+  "scope": "multi_step_campaign",
+  "actor_type": "external_fraudster",
+  "attacker_goal": "extract refunds from legitimate-looking purchase history",
+  "genai_role": [
+    "refund_request_drafting",
+    "policy_language_mimicry",
+    "support_conversation_variation"
+  ],
+  "preconditions": [
+    "purchase history exists",
+    "support workflow can process refunds or exceptions"
+  ],
+  "attack_sequence": [
+    {
+      "step": 1,
+      "action": "open a refund request after purchase completion",
+      "observable": "refund request close to policy boundary"
+    },
+    {
+      "step": 2,
+      "action": "request refund handling through a changed destination or exception path",
+      "observable": "refund destination differs from original payment instrument"
+    }
+  ],
+  "expected_signals": [
+    "repeated_refund_claims",
+    "refund_destination_shift",
+    "abnormal_refund_timing",
+    "support_escalation_path"
+  ],
+  "data_fields_affected": [
+    "transaction_type",
+    "status",
+    "amount",
+    "payment_method_type",
+    "event_time"
+  ],
+  "generation_strategy": {
+    "mode": "template_plus_sampling",
+    "stealth_level_range": [0.45, 0.85],
+    "volume_range": [2, 15],
+    "noise_level": "medium"
+  },
+  "realism_score": 0.83,
+  "novelty_score": 0.65,
+  "detectability_score": 0.51,
+  "impact_score": 0.68,
+  "severity": "high",
+  "detection_hints": [
+    "refund_frequency_features",
+    "payment_method_change_features",
+    "customer_lifecycle_features"
+  ],
+  "evaluation_tags": [
+    "post_transaction",
+    "support_channel",
+    "refund"
+  ],
+  "notes": "Models refund abuse indicators for defensive analytics."
+}
+

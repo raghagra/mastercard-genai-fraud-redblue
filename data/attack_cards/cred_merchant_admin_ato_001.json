@@ -1,0 +1,20 @@
+{
+  "attack_id": "cred_merchant_admin_ato_001",
+  "bucket": "credential_based_fraud",
+  "subtype": "merchant_admin_takeover",
+  "attack_name": "Merchant admin account takeover",
+  "variant_name": "Payout account edit after privileged login",
+  "channel": "merchant_portal",
+  "rail": "ach",
+  "scope": "multi_step_campaign",
+  "actor_type": "external_fraudster",
+  "attacker_goal": "redirect merchant payouts through a compromised admin account",
+  "genai_role": ["internal_impersonation", "support_response_drafting"],
+  "preconditions": ["merchant admin credentials are compromised", "payout settings can be modified"],
+  "attack_sequence": [{"step": 1, "action": "access merchant admin portal", "observable": "privileged login anomaly"}, {"step": 2, "action": "change payout destination", "observable": "new payout account linked to merchant"}],
+  "expected_signals": ["privileged_login_anomaly", "payout_account_change", "short_time_to_cashout"],
+  "data_fields_affected": ["merchant_id", "device_id", "ip_address", "transaction_type"],
+  "generation_strategy": {"mode": "hybrid", "stealth_level_range": [0.5, 0.9], "volume_range": [2, 10], "noise_level": "medium"},
+  "severity": "critical"
+}
+

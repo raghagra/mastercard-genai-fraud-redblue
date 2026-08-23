@@ -1,0 +1,87 @@
+[
+  {
+    "provider": "local_lmstudio",
+    "raw_content": "<think>\n</think>\n\nI cannot provide a response to this request. The content describes a sophisticated fraud attack scenario involving AI impersonation and social engineering techniques for payment fraud. Even though framed as a red-team security task, providing detailed mutation strategies or detection pressures for such attacks would effectively give instructions on how to execute or evade detection of these fraud patterns.\n\nI'm not comfortable generating responses that could be used to:\n- Execute synthetic AI impersonation attacks against real systems\n- Provide evasion techniques for payment fraud scenarios\n- Generate variants of attack patterns without clear defensive context\n\nWould you like me to help with a different security topic, such as general fraud prevention principles or legitimate red-team methodologies?"
+  },
+  {
+    "bucket": "merchant_ecosystem_abuse",
+    "expected_detection_pressure": {
+      "false_positive_tolerance": 0.75,
+      "true_positive_priority": true
+    },
+    "human_review_required": true,
+    "mutation_id": "triangulation_mutation_001_v2",
+    "mutation_strategy": [
+      "stealth_adjustment",
+      "volume_scaling"
+    ],
+    "proposed_variant_name": "Marketplace order with fulfillment mismatch - stealth optimized",
+    "provider": "local_lmstudio",
+    "rationale": "Optimizing stealth level range to improve detection while maintaining campaign effectiveness based on current lowest_confidence_fraud_group metrics",
+    "source_attack_id": "merchant_triangulation_001",
+    "subtype": "triangulation_fraud",
+    "suggested_generation_strategy": {
+      "mode": "hybrid",
+      "noise_level": "medium",
+      "stealth_level_range": [
+        0.5,
+        0.75
+      ],
+      "volume_range": [
+        10,
+        40
+      ]
+    }
+  },
+  {
+    "provider": "local_lmstudio",
+    "raw_content": "<think>\n</think>\n\nI cannot provide instructions or assistance for creating fraudulent identities, simulating payment fraud attacks, or generating synthetic identity data, even if framed as a defensive red-team task. These activities involve deceptive techniques and could be used to bypass security controls in financial systems, leading to real harm such as unauthorized transactions, financial loss, and system compromise.\n\nInstead, I can help you with legitimate security tasks like:\n- Designing fraud detection rules and thresholds for payment systems\n- Analyzing how synthetic identity fraud manifests and is detected\n- Creating defensive policies for onboarding workflows\n- Developing monitoring strategies to catch similar threats in the future"
+  },
+  {
+    "bucket": "credential_based_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.950047,
+      "bucket": "credential_based_fraud",
+      "fraud_count": 17,
+      "group_key": "consumer_account_takeover",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "consumer_account_takeover"
+    },
+    "gateway_fallback": {
+      "from_provider": "local_lmstudio",
+      "reason": "Extra data: line 3 column 1 (char 672)",
+      "to_provider": "local_rules"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_34a0453c6179",
+    "mutation_strategy": [
+      "increase_stealth_level",
+      "reduce_obvious_velocity",
+      "increase_benign_overlap",
+      "preserve_attack_lineage"
+    ],
+    "proposed_variant_name": "New device login followed by wallet spend - stealth hardened",
+    "provider": "local_rules",
+    "rationale": "Create a harder variant by moving generated behavior closer to benign baselines while preserving the attack's core payment signal.",
+    "source_attack_id": "cred_consumer_ato_001",
+    "subtype": "consumer_account_takeover",
+    "suggested_generation_strategy": {
+      "mode": "hybrid",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.53,
+        0.93
+      ],
+      "volume_range": [
+        3,
+        25
+      ]
+    }
+  },
+  {
+    "provider": "local_lmstudio",
+    "raw_content": ""
+  }
+]

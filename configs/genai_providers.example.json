@@ -1,0 +1,61 @@
+{
+  "default_provider": "local_rules",
+  "fallback_provider": "local_rules",
+  "task_routes": {
+    "attack_mutation": "local_rules",
+    "attack_ideation": "local_rules",
+    "alert_explanation": "local_rules",
+    "evaluation_summary": "local_rules"
+  },
+  "providers": {
+    "local_rules": {
+      "type": "local_rules"
+    },
+    "local_lmstudio": {
+      "type": "openai_compatible",
+      "base_url": "http://localhost:1234/v1",
+      "api_key_env": "LMSTUDIO_API_KEY",
+      "model": "local-model",
+      "timeout_seconds": 60,
+      "temperature": 0.2,
+      "json_mode": true,
+      "max_tokens": 1200
+    },
+    "aws_bedrock": {
+      "type": "aws_bedrock",
+      "region": "ap-south-1",
+      "region_env": "AWS_REGION",
+      "model": "configure-provider-model-id",
+      "temperature": 0.2,
+      "max_tokens": 1200,
+      "enabled": false
+    },
+    "gcp_vertex_ai": {
+      "type": "gcp_vertex_ai",
+      "project_id": "",
+      "project_id_env": "GCP_PROJECT_ID",
+      "location": "asia-south1",
+      "location_env": "GCP_LOCATION",
+      "model": "configure-provider-model-id",
+      "temperature": 0.2,
+      "max_tokens": 1200,
+      "enabled": false
+    },
+    "azure_ai_foundry": {
+      "type": "azure_ai_foundry",
+      "endpoint": "",
+      "endpoint_env": "AZURE_AI_ENDPOINT",
+      "api_key_env": "AZURE_AI_API_KEY",
+      "deployment": "configure-deployment-name",
+      "api_version": "2024-10-21",
+      "temperature": 0.2,
+      "max_tokens": 1200,
+      "enabled": false
+    }
+  },
+  "budget": {
+    "max_calls_per_run": 25,
+    "max_tokens_per_call": 1200,
+    "dry_run": false
+  }
+}

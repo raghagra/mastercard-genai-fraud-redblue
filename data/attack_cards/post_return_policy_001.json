@@ -1,0 +1,20 @@
+{
+  "attack_id": "post_return_policy_001",
+  "bucket": "post_transaction_abuse",
+  "subtype": "return_policy_abuse",
+  "attack_name": "Return policy abuse",
+  "variant_name": "Serial returns near policy boundary",
+  "channel": "ecommerce",
+  "rail": "card",
+  "scope": "multi_step_campaign",
+  "actor_type": "external_fraudster",
+  "attacker_goal": "extract value by repeatedly exploiting return policy edges",
+  "genai_role": ["return_story_generation", "escalation_scripting"],
+  "preconditions": ["return policy allows repeated customer-initiated returns"],
+  "attack_sequence": [{"step": 1, "action": "initiate repeated return requests", "observable": "return cadence near policy boundary"}],
+  "expected_signals": ["repeat_returns", "policy_boundary_behavior", "household_return_cluster"],
+  "data_fields_affected": ["transaction_type", "amount", "event_time", "customer_id"],
+  "generation_strategy": {"mode": "template_plus_sampling", "stealth_level_range": [0.55, 0.9], "volume_range": [3, 30], "noise_level": "medium"},
+  "severity": "medium"
+}
+

@@ -1,0 +1,67 @@
+[
+  {
+    "generated_attack_id": "social_ai_impersonation_001__mut_2c699128880c",
+    "mutation_id": "mut_2c699128880c",
+    "review": {
+      "decision": "accepted",
+      "mutation_id": "mut_2c699128880c",
+      "notes": "",
+      "reviewed_at": "2026-08-21T16:53:28+00:00",
+      "reviewer": "web"
+    },
+    "source_attack_id": "social_ai_impersonation_001",
+    "status": "applied"
+  },
+  {
+    "generated_attack_id": "merchant_triangulation_001__mut_6fcdf3b7ce05",
+    "mutation_id": "mut_6fcdf3b7ce05",
+    "review": {
+      "decision": "accepted",
+      "mutation_id": "mut_6fcdf3b7ce05",
+      "notes": "",
+      "reviewed_at": "2026-08-21T16:53:29+00:00",
+      "reviewer": "web"
+    },
+    "source_attack_id": "merchant_triangulation_001",
+    "status": "applied"
+  },
+  {
+    "generated_attack_id": "identity_synthetic_001__mut_111746eaf813",
+    "mutation_id": "mut_111746eaf813",
+    "review": {
+      "decision": "accepted",
+      "mutation_id": "mut_111746eaf813",
+      "notes": "",
+      "reviewed_at": "2026-08-21T16:53:31+00:00",
+      "reviewer": "web"
+    },
+    "source_attack_id": "identity_synthetic_001",
+    "status": "applied"
+  },
+  {
+    "generated_attack_id": "cred_consumer_ato_001__mut_34a0453c6179",
+    "mutation_id": "mut_34a0453c6179",
+    "review": {
+      "decision": "accepted",
+      "mutation_id": "mut_34a0453c6179",
+      "notes": "",
+      "reviewed_at": "2026-08-21T16:53:34+00:00",
+      "reviewer": "web"
+    },
+    "source_attack_id": "cred_consumer_ato_001",
+    "status": "applied"
+  },
+  {
+    "generated_attack_id": "merchant_bustout_001__mut_6f51438a8c7c",
+    "mutation_id": "mut_6f51438a8c7c",
+    "review": {
+      "decision": "accepted",
+      "mutation_id": "mut_6f51438a8c7c",
+      "notes": "",
+      "reviewed_at": "2026-08-21T16:53:36+00:00",
+      "reviewer": "web"
+    },
+    "source_attack_id": "merchant_bustout_001",
+    "status": "applied"
+  }
+]

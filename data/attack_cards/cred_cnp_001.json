@@ -1,0 +1,69 @@
+{
+  "attack_id": "cred_cnp_001",
+  "bucket": "credential_based_fraud",
+  "subtype": "card_not_present",
+  "attack_name": "Card-not-present fraud",
+  "variant_name": "Stolen card checkout with velocity",
+  "channel": "ecommerce",
+  "rail": "card",
+  "scope": "single_event",
+  "actor_type": "external_fraudster",
+  "attacker_goal": "complete unauthorized online purchases",
+  "genai_role": [
+    "phishing_copy_generation",
+    "checkout_behavior_mimicry",
+    "adaptive_retry_logic"
+  ],
+  "preconditions": [
+    "stolen payment credentials are available",
+    "merchant checkout accepts card-not-present payments"
+  ],
+  "attack_sequence": [
+    {
+      "step": 1,
+      "action": "attempt checkout with stolen payment credentials",
+      "observable": "new device and payment identity combination"
+    },
+    {
+      "step": 2,
+      "action": "retry failed authorizations with small parameter changes",
+      "observable": "clustered authorization attempts in a short window"
+    }
+  ],
+  "expected_signals": [
+    "high_auth_velocity",
+    "device_mismatch",
+    "ip_churn",
+    "billing_shipping_mismatch"
+  ],
+  "data_fields_affected": [
+    "amount",
+    "device_id",
+    "ip_address",
+    "billing_country",
+    "shipping_country",
+    "auth_result"
+  ],
+  "generation_strategy": {
+    "mode": "template_plus_sampling",
+    "stealth_level_range": [0.4, 0.8],
+    "volume_range": [5, 40],
+    "noise_level": "medium"
+  },
+  "realism_score": 0.82,
+  "novelty_score": 0.62,
+  "detectability_score": 0.58,
+  "impact_score": 0.78,
+  "severity": "high",
+  "detection_hints": [
+    "velocity_features",
+    "device_graph_features",
+    "authorization_failure_ratio"
+  ],
+  "evaluation_tags": [
+    "online_payment",
+    "rapid_sequence"
+  ],
+  "notes": "Starter executable attack card for synthetic defensive simulation."
+}
+

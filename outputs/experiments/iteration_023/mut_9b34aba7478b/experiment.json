@@ -1,0 +1,101 @@
+{
+  "baseline": {
+    "fraud_record_count": 273,
+    "metrics": {
+      "accuracy": 0.997886,
+      "f1": 0.998165,
+      "false_negative": 1,
+      "false_positive": 0,
+      "false_positive_rate": 0.0,
+      "pr_auc": 1.0,
+      "precision": 1.0,
+      "recall": 0.996337,
+      "roc_auc": 1.0,
+      "threshold": 0.32,
+      "true_negative": 200,
+      "true_positive": 272
+    },
+    "miss_count": 1,
+    "record_count": 473
+  },
+  "candidate_iteration_id": "iteration_023",
+  "design": {
+    "benign_count_per_arm": 200,
+    "detector": "frozen model from iteration_022",
+    "llm_row_review": "disabled to isolate frozen-model comparison",
+    "scenarios_per_arm": 4,
+    "seed": 314
+  },
+  "deterministic_explanation": "Using the same frozen detector and matched synthetic conditions, the gift_card_abuse variant changed recall from 99.6% to 80.1% and F1 from 99.8% to 89.0%. The mutated arm produced 30 missed fraud records versus 1 in the baseline arm.",
+  "disclosure": "Controlled matched synthetic experiment. Results measure the frozen source detector's performance on this baseline versus mutated scenario; they do not establish production performance.",
+  "experiment_id": "iteration_023:mut_9b34aba7478b",
+  "metric_deltas": {
+    "f1": -0.108459,
+    "false_positive_rate": 0.0,
+    "precision": 0.0,
+    "recall": -0.195012
+  },
+  "mutated": {
+    "fraud_record_count": 151,
+    "metrics": {
+      "accuracy": 0.91453,
+      "f1": 0.889706,
+      "false_negative": 30,
+      "false_positive": 0,
+      "false_positive_rate": 0.0,
+      "pr_auc": 0.995222,
+      "precision": 1.0,
+      "recall": 0.801325,
+      "roc_auc": 0.995331,
+      "threshold": 0.32,
+      "true_negative": 200,
+      "true_positive": 121
+    },
+    "miss_count": 30,
+    "record_count": 351
+  },
+  "mutation": {
+    "mutation_id": "mut_9b34aba7478b",
+    "parameter_deltas": [
+      {
+        "baseline": [
+          0.35,
+          0.75
+        ],
+        "field": "stealth_level_range",
+        "proposed": [
+          0.48,
+          0.88
+        ],
+        "purpose": "Increase benign-feature overlap in the simulated campaign."
+      },
+      {
+        "baseline": [
+          10,
+          100
+        ],
+        "field": "volume_range",
+        "proposed": [
+          6,
+          55
+        ],
+        "purpose": "Apply the subtype-specific campaign pacing change."
+      },
+      {
+        "baseline": "high",
+        "field": "noise_level",
+        "proposed": "high",
+        "purpose": "Broaden realistic edge cases without changing the fraud label."
+      },
+      {
+        "baseline": 1.0,
+        "field": "time_window_multiplier",
+        "proposed": 2.2,
+        "purpose": "Spread events across a longer, more realistic campaign timeline."
+      }
+    ],
+    "proposed_variant_name": "Activation and rapid drain burst - gradual merchant-lifecycle variant",
+    "subtype": "gift_card_abuse"
+  },
+  "source_iteration_id": "iteration_022"
+}

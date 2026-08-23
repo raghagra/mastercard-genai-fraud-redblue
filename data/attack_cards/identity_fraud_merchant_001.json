@@ -1,0 +1,20 @@
+{
+  "attack_id": "identity_fraud_merchant_001",
+  "bucket": "identity_onboarding_fraud",
+  "subtype": "fraudulent_merchant_onboarding",
+  "attack_name": "Fraudulent merchant onboarding",
+  "variant_name": "Mismatch between claimed business and observed payments",
+  "channel": "merchant_portal",
+  "rail": "card",
+  "scope": "multi_step_campaign",
+  "actor_type": "synthetic_identity",
+  "attacker_goal": "obtain merchant payment access under a misleading business profile",
+  "genai_role": ["form_filling_assistance", "merchant_story_generation"],
+  "preconditions": ["merchant onboarding accepts self-reported business details"],
+  "attack_sequence": [{"step": 1, "action": "submit merchant profile", "observable": "business profile inconsistency"}, {"step": 2, "action": "begin payment activity", "observable": "activity mismatch versus claimed category"}],
+  "expected_signals": ["business_activity_mismatch", "descriptor_anomaly", "fast_activation_to_volume"],
+  "data_fields_affected": ["merchant_id", "merchant_category", "amount", "transaction_type"],
+  "generation_strategy": {"mode": "template_plus_sampling", "stealth_level_range": [0.45, 0.85], "volume_range": [8, 60], "noise_level": "medium"},
+  "severity": "high"
+}
+

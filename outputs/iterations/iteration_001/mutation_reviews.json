@@ -1,0 +1,37 @@
+[
+  {
+    "decision": "accepted",
+    "mutation_id": "mut_2c699128880c",
+    "notes": "Accepted for closed-loop hardening demo",
+    "reviewed_at": "2026-08-20T15:54:40+00:00",
+    "reviewer": "cli"
+  },
+  {
+    "decision": "accepted",
+    "mutation_id": "mut_6fcdf3b7ce05",
+    "notes": "Accepted for closed-loop hardening demo",
+    "reviewed_at": "2026-08-20T15:54:40+00:00",
+    "reviewer": "cli"
+  },
+  {
+    "decision": "accepted",
+    "mutation_id": "mut_111746eaf813",
+    "notes": "Accepted for closed-loop hardening demo",
+    "reviewed_at": "2026-08-20T15:54:40+00:00",
+    "reviewer": "cli"
+  },
+  {
+    "decision": "accepted",
+    "mutation_id": "mut_1cda31033f94",
+    "notes": "Accepted for closed-loop hardening demo",
+    "reviewed_at": "2026-08-20T15:54:40+00:00",
+    "reviewer": "cli"
+  },
+  {
+    "decision": "accepted",
+    "mutation_id": "mut_6f51438a8c7c",
+    "notes": "Accepted for closed-loop hardening demo",
+    "reviewed_at": "2026-08-20T15:54:40+00:00",
+    "reviewer": "cli"
+  }
+]

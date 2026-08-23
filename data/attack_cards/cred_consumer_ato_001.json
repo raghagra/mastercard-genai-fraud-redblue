@@ -1,0 +1,20 @@
+{
+  "attack_id": "cred_consumer_ato_001",
+  "bucket": "credential_based_fraud",
+  "subtype": "consumer_account_takeover",
+  "attack_name": "Consumer account takeover",
+  "variant_name": "New device login followed by wallet spend",
+  "channel": "mobile_app",
+  "rail": "wallet",
+  "scope": "multi_step_campaign",
+  "actor_type": "external_fraudster",
+  "attacker_goal": "use a compromised customer account to initiate unauthorized payments",
+  "genai_role": ["phishing_copy_generation", "support_chat_scripting"],
+  "preconditions": ["customer account credentials are compromised", "account has a linked payment method"],
+  "attack_sequence": [{"step": 1, "action": "login from a new device", "observable": "device and geography drift"}, {"step": 2, "action": "initiate payment activity", "observable": "payment shortly after risky login"}],
+  "expected_signals": ["new_device", "login_geography_change", "payment_after_reset"],
+  "data_fields_affected": ["device_id", "ip_address", "customer_id", "event_time"],
+  "generation_strategy": {"mode": "hybrid", "stealth_level_range": [0.45, 0.85], "volume_range": [3, 25], "noise_level": "medium"},
+  "severity": "high"
+}
+

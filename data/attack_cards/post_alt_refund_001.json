@@ -1,0 +1,20 @@
+{
+  "attack_id": "post_alt_refund_001",
+  "bucket": "post_transaction_abuse",
+  "subtype": "alternative_refund_abuse",
+  "attack_name": "Alternative refund abuse",
+  "variant_name": "Refund rail switch request",
+  "channel": "customer_support",
+  "rail": "wallet",
+  "scope": "multi_step_campaign",
+  "actor_type": "external_fraudster",
+  "attacker_goal": "move refund value to a destination different from the original payment method",
+  "genai_role": ["conversation_steering", "explanation_generation"],
+  "preconditions": ["support process can approve refund method exceptions"],
+  "attack_sequence": [{"step": 1, "action": "request refund exception", "observable": "refund destination differs from original instrument"}],
+  "expected_signals": ["refund_destination_change", "account_mismatch", "policy_exception"],
+  "data_fields_affected": ["payment_method_type", "transaction_type", "status", "customer_id"],
+  "generation_strategy": {"mode": "template_plus_sampling", "stealth_level_range": [0.5, 0.9], "volume_range": [2, 12], "noise_level": "medium"},
+  "severity": "high"
+}
+

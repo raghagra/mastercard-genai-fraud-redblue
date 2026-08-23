@@ -1,0 +1,20 @@
+{
+  "attack_id": "post_non_delivery_001",
+  "bucket": "post_transaction_abuse",
+  "subtype": "non_delivery_claim",
+  "attack_name": "Non-delivery claim abuse",
+  "variant_name": "Repeated missing-item claims after confirmation",
+  "channel": "customer_support",
+  "rail": "card",
+  "scope": "multi_step_campaign",
+  "actor_type": "external_fraudster",
+  "attacker_goal": "obtain refund or replacement through false non-delivery claims",
+  "genai_role": ["complaint_drafting", "support_escalation_scripting"],
+  "preconditions": ["support workflow accepts delivery-related claims"],
+  "attack_sequence": [{"step": 1, "action": "open non-delivery claim", "observable": "claim conflicts with delivery confirmation"}],
+  "expected_signals": ["claim_after_delivery", "repeat_missing_item_story", "support_escalation"],
+  "data_fields_affected": ["status", "transaction_type", "event_time", "customer_id"],
+  "generation_strategy": {"mode": "template_plus_sampling", "stealth_level_range": [0.45, 0.85], "volume_range": [2, 18], "noise_level": "medium"},
+  "severity": "medium"
+}
+

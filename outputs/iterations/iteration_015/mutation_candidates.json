@@ -1,0 +1,192 @@
+[
+  {
+    "bucket": "identity_onboarding_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.860655,
+      "bucket": "identity_onboarding_fraud",
+      "fraud_count": 16,
+      "group_key": "stolen_identity_signup",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "stolen_identity_signup"
+    },
+    "gateway_fallback": {
+      "from_provider": "local_lmstudio",
+      "reason": "model_output_failed_mutation_contract",
+      "to_provider": "local_rules"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_49841f8bc09f",
+    "mutation_strategy": [
+      "increase_stealth_level",
+      "reduce_obvious_velocity",
+      "increase_benign_overlap",
+      "preserve_attack_lineage"
+    ],
+    "proposed_variant_name": "Profile mismatch during new account activation - stealth hardened",
+    "provider": "local_rules",
+    "rationale": "Create a harder variant by moving generated behavior closer to benign baselines while preserving the attack's core payment signal.",
+    "source_attack_id": "identity_stolen_signup_001",
+    "subtype": "stolen_identity_signup",
+    "suggested_generation_strategy": {
+      "mode": "template_plus_sampling",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.63,
+        0.98
+      ],
+      "volume_range": [
+        3,
+        25
+      ]
+    }
+  },
+  {
+    "bucket": "social_engineering_payment_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.861696,
+      "bucket": "social_engineering_payment_fraud",
+      "fraud_count": 6,
+      "group_key": "ai_impersonation",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "ai_impersonation"
+    },
+    "gateway_fallback": {
+      "from_provider": "local_lmstudio",
+      "reason": "model_output_failed_mutation_contract",
+      "to_provider": "local_rules"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_2c699128880c",
+    "mutation_strategy": [
+      "increase_stealth_level",
+      "reduce_obvious_velocity",
+      "increase_benign_overlap",
+      "preserve_attack_lineage"
+    ],
+    "proposed_variant_name": "Support-channel trust attack - stealth hardened",
+    "provider": "local_rules",
+    "rationale": "Create a harder variant by moving generated behavior closer to benign baselines while preserving the attack's core payment signal.",
+    "source_attack_id": "social_ai_impersonation_001",
+    "subtype": "ai_impersonation",
+    "suggested_generation_strategy": {
+      "mode": "agent_based",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.68,
+        0.99
+      ],
+      "volume_range": [
+        2,
+        12
+      ]
+    }
+  },
+  {
+    "bucket": "post_transaction_abuse",
+    "expected_detection_pressure": {
+      "household_return_cluster": 0.78,
+      "policy_boundary_behavior": 0.92,
+      "repeat_returns": 0.85
+    },
+    "human_review_required": true,
+    "mutation_id": "post_return_policy_001_mutation_001",
+    "mutation_strategy": [
+      "increase_stealth",
+      "decrease_volume"
+    ],
+    "proposed_variant_name": "Stealthy Serial Returns near policy boundary",
+    "provider": "local_lmstudio",
+    "rationale": "Increase stealth level to evade detection while maintaining a low volume of attacks to avoid raising suspicion.",
+    "source_attack_id": "post_return_policy_001",
+    "subtype": "return_policy_abuse",
+    "suggested_generation_strategy": {
+      "mode": "template_plus_sampling",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.8,
+        1.0
+      ],
+      "volume_range": [
+        1,
+        5
+      ]
+    }
+  },
+  {
+    "bucket": "post_transaction_abuse",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.929678,
+      "bucket": "post_transaction_abuse",
+      "fraud_count": 10,
+      "group_key": "chargeback_fraud",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "chargeback_fraud"
+    },
+    "gateway_fallback": {
+      "from_provider": "local_lmstudio",
+      "reason": "Expecting ',' delimiter: line 1 column 683 (char 682)",
+      "to_provider": "local_rules"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_6ee574ff3299",
+    "mutation_strategy": [
+      "increase_stealth_level",
+      "reduce_obvious_velocity",
+      "increase_benign_overlap",
+      "preserve_attack_lineage"
+    ],
+    "proposed_variant_name": "Repeated dispute after fulfilled purchases - stealth hardened",
+    "provider": "local_rules",
+    "rationale": "Create a harder variant by moving generated behavior closer to benign baselines while preserving the attack's core payment signal.",
+    "source_attack_id": "post_chargeback_001",
+    "subtype": "chargeback_fraud",
+    "suggested_generation_strategy": {
+      "mode": "template_plus_sampling",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.58,
+        0.93
+      ],
+      "volume_range": [
+        2,
+        20
+      ]
+    }
+  },
+  {
+    "bucket": "identity_onboarding_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.970318,
+      "fraud_count": 12
+    },
+    "human_review_required": true,
+    "mutation_id": "mutation_123456",
+    "mutation_strategy": [
+      "adjust_generation_parameters",
+      "introduce_new_mutation_variant"
+    ],
+    "proposed_variant_name": "Enhanced Synthetic Business",
+    "provider": "local_lmstudio",
+    "rationale": "Increased detection pressure necessitates enhanced stealth and realism in generated content",
+    "source_attack_id": "identity_synthetic_business_001",
+    "subtype": "synthetic_business",
+    "suggested_generation_strategy": {
+      "mode": "template_plus_sampling",
+      "noise_level": "low",
+      "stealth_level_range": [
+        0.6,
+        0.8
+      ],
+      "volume_range": [
+        3,
+        12
+      ]
+    }
+  }
+]

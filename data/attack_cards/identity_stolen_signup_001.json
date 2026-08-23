@@ -1,0 +1,20 @@
+{
+  "attack_id": "identity_stolen_signup_001",
+  "bucket": "identity_onboarding_fraud",
+  "subtype": "stolen_identity_signup",
+  "attack_name": "Stolen identity sign-up fraud",
+  "variant_name": "Profile mismatch during new account activation",
+  "channel": "onboarding",
+  "rail": "wallet",
+  "scope": "multi_step_campaign",
+  "actor_type": "external_fraudster",
+  "attacker_goal": "create a payment account using mismatched identity attributes",
+  "genai_role": ["profile_blending", "application_completion"],
+  "preconditions": ["identity data is available and onboarding has partial verification"],
+  "attack_sequence": [{"step": 1, "action": "submit account application", "observable": "cross-field identity mismatch"}],
+  "expected_signals": ["identity_reuse", "address_mismatch", "unusual_onboarding_path"],
+  "data_fields_affected": ["customer_id", "kyc_level", "email_domain", "phone_type"],
+  "generation_strategy": {"mode": "template_plus_sampling", "stealth_level_range": [0.55, 0.9], "volume_range": [3, 25], "noise_level": "medium"},
+  "severity": "high"
+}
+

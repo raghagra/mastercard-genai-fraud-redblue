@@ -1,0 +1,68 @@
+{
+  "attack_id": "merchant_bustout_001",
+  "bucket": "merchant_ecosystem_abuse",
+  "subtype": "bust_out_merchant",
+  "attack_name": "Bust-out merchant fraud",
+  "variant_name": "Short-lived merchant with rapid volume growth",
+  "channel": "merchant_portal",
+  "rail": "card",
+  "scope": "multi_step_campaign",
+  "actor_type": "compromised_merchant",
+  "attacker_goal": "process high-risk volume and extract funds before losses surface",
+  "genai_role": [
+    "merchant_branding_generation",
+    "website_content_generation",
+    "customer_message_variation"
+  ],
+  "preconditions": [
+    "merchant account can be approved with limited history",
+    "payouts can occur before downstream disputes mature"
+  ],
+  "attack_sequence": [
+    {
+      "step": 1,
+      "action": "establish a new merchant profile with plausible business details",
+      "observable": "short merchant age with sparse verification lineage"
+    },
+    {
+      "step": 2,
+      "action": "increase transaction volume rapidly",
+      "observable": "volume growth outlier and payout pressure"
+    }
+  ],
+  "expected_signals": [
+    "rapid_merchant_growth",
+    "short_account_age",
+    "cash_out_behavior",
+    "descriptor_or_payout_anomaly"
+  ],
+  "data_fields_affected": [
+    "merchant_id",
+    "merchant_category",
+    "amount",
+    "transaction_type",
+    "status"
+  ],
+  "generation_strategy": {
+    "mode": "hybrid",
+    "stealth_level_range": [0.35, 0.75],
+    "volume_range": [15, 120],
+    "noise_level": "high"
+  },
+  "realism_score": 0.78,
+  "novelty_score": 0.7,
+  "detectability_score": 0.47,
+  "impact_score": 0.9,
+  "severity": "critical",
+  "detection_hints": [
+    "merchant_lifecycle_features",
+    "volume_growth_features",
+    "payout_behavior_features"
+  ],
+  "evaluation_tags": [
+    "merchant_risk",
+    "high_value",
+    "ecosystem_abuse"
+  ],
+  "notes": "Starter merchant ecosystem card focused on lifecycle and volume anomalies."
+}

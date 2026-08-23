@@ -1,0 +1,20 @@
+{
+  "attack_id": "social_ai_impersonation_001",
+  "bucket": "social_engineering_payment_fraud",
+  "subtype": "ai_impersonation",
+  "attack_name": "AI voice or chat impersonation",
+  "variant_name": "Support-channel trust attack",
+  "channel": "call_center",
+  "rail": "card",
+  "scope": "multi_step_campaign",
+  "actor_type": "external_fraudster",
+  "attacker_goal": "obtain payment action through synthetic impersonation signals",
+  "genai_role": ["conversational_mimicry", "scripted_escalation"],
+  "preconditions": ["support workflow can influence payment or account changes"],
+  "attack_sequence": [{"step": 1, "action": "start support interaction", "observable": "unusual support path"}, {"step": 2, "action": "request payment-related change", "observable": "payment action follows trust-building interaction"}],
+  "expected_signals": ["channel_switch", "support_path_anomaly", "payment_after_support_contact"],
+  "data_fields_affected": ["session_id", "customer_id", "transaction_type", "event_time"],
+  "generation_strategy": {"mode": "agent_based", "stealth_level_range": [0.6, 0.95], "volume_range": [2, 12], "noise_level": "medium"},
+  "severity": "high"
+}
+

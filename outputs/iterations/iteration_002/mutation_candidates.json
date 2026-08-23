@@ -1,0 +1,192 @@
+[
+  {
+    "bucket": "identity_onboarding_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.787143,
+      "bucket": "identity_onboarding_fraud",
+      "fraud_count": 8,
+      "group_key": "synthetic_business",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "synthetic_business"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_545dfb7c9797",
+    "mutation_strategy": [
+      "increase_stealth_level",
+      "reduce_obvious_velocity",
+      "increase_benign_overlap",
+      "preserve_attack_lineage"
+    ],
+    "proposed_variant_name": "New merchant with thin business lineage - stealth hardened",
+    "provider": "local_rules",
+    "rationale": "Create a harder variant by moving generated behavior closer to benign baselines while preserving the attack's core payment signal.",
+    "source_attack_id": "identity_synthetic_business_001",
+    "subtype": "synthetic_business",
+    "suggested_generation_strategy": {
+      "mode": "template_plus_sampling",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.58,
+        0.98
+      ],
+      "volume_range": [
+        2,
+        18
+      ]
+    }
+  },
+  {
+    "bucket": "social_engineering_payment_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.796906,
+      "bucket": "social_engineering_payment_fraud",
+      "fraud_count": 4,
+      "group_key": "executive_impersonation",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "executive_impersonation"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_5be41797b23f",
+    "mutation_strategy": [
+      "increase_stealth_level",
+      "reduce_obvious_velocity",
+      "increase_benign_overlap",
+      "preserve_attack_lineage"
+    ],
+    "proposed_variant_name": "Urgent off-cycle payment request - stealth hardened",
+    "provider": "local_rules",
+    "rationale": "Create a harder variant by moving generated behavior closer to benign baselines while preserving the attack's core payment signal.",
+    "source_attack_id": "social_exec_impersonation_001",
+    "subtype": "executive_impersonation",
+    "suggested_generation_strategy": {
+      "mode": "hybrid",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.63,
+        0.98
+      ],
+      "volume_range": [
+        1,
+        6
+      ]
+    }
+  },
+  {
+    "bucket": "post_transaction_abuse",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.824342,
+      "bucket": "post_transaction_abuse",
+      "fraud_count": 15,
+      "group_key": "return_policy_abuse",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "return_policy_abuse"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_a761fd58c774",
+    "mutation_strategy": [
+      "increase_stealth_level",
+      "reduce_obvious_velocity",
+      "increase_benign_overlap",
+      "preserve_attack_lineage"
+    ],
+    "proposed_variant_name": "Serial returns near policy boundary - stealth hardened",
+    "provider": "local_rules",
+    "rationale": "Create a harder variant by moving generated behavior closer to benign baselines while preserving the attack's core payment signal.",
+    "source_attack_id": "post_return_policy_001",
+    "subtype": "return_policy_abuse",
+    "suggested_generation_strategy": {
+      "mode": "template_plus_sampling",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.63,
+        0.98
+      ],
+      "volume_range": [
+        3,
+        30
+      ]
+    }
+  },
+  {
+    "bucket": "credential_based_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.827767,
+      "bucket": "credential_based_fraud",
+      "fraud_count": 7,
+      "group_key": "merchant_admin_takeover",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "merchant_admin_takeover"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_1cda31033f94",
+    "mutation_strategy": [
+      "increase_stealth_level",
+      "reduce_obvious_velocity",
+      "increase_benign_overlap",
+      "preserve_attack_lineage"
+    ],
+    "proposed_variant_name": "Payout account edit after privileged login - stealth hardened",
+    "provider": "local_rules",
+    "rationale": "Create a harder variant by moving generated behavior closer to benign baselines while preserving the attack's core payment signal.",
+    "source_attack_id": "cred_merchant_admin_ato_001",
+    "subtype": "merchant_admin_takeover",
+    "suggested_generation_strategy": {
+      "mode": "hybrid",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.58,
+        0.98
+      ],
+      "volume_range": [
+        2,
+        10
+      ]
+    }
+  },
+  {
+    "bucket": "identity_onboarding_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.851162,
+      "bucket": "identity_onboarding_fraud",
+      "fraud_count": 14,
+      "group_key": "stolen_identity_signup",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "stolen_identity_signup"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_49841f8bc09f",
+    "mutation_strategy": [
+      "increase_stealth_level",
+      "reduce_obvious_velocity",
+      "increase_benign_overlap",
+      "preserve_attack_lineage"
+    ],
+    "proposed_variant_name": "Profile mismatch during new account activation - stealth hardened",
+    "provider": "local_rules",
+    "rationale": "Create a harder variant by moving generated behavior closer to benign baselines while preserving the attack's core payment signal.",
+    "source_attack_id": "identity_stolen_signup_001",
+    "subtype": "stolen_identity_signup",
+    "suggested_generation_strategy": {
+      "mode": "template_plus_sampling",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.63,
+        0.98
+      ],
+      "volume_range": [
+        3,
+        25
+      ]
+    }
+  }
+]

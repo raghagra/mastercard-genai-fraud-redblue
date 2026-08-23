@@ -1,0 +1,20 @@
+{
+  "attack_id": "merchant_seller_fraud_001",
+  "bucket": "merchant_ecosystem_abuse",
+  "subtype": "marketplace_seller_fraud",
+  "attack_name": "Marketplace seller fraud",
+  "variant_name": "Seller reputation drift with dispute cluster",
+  "channel": "marketplace",
+  "rail": "card",
+  "scope": "multi_step_campaign",
+  "actor_type": "fraud_ring",
+  "attacker_goal": "use marketplace seller activity to collect payments without reliable fulfillment",
+  "genai_role": ["listing_generation", "review_pattern_variation"],
+  "preconditions": ["seller can list items and receive payments"],
+  "attack_sequence": [{"step": 1, "action": "increase listings and order volume", "observable": "seller activity spike"}, {"step": 2, "action": "generate dispute-prone fulfillment", "observable": "complaint cluster"}],
+  "expected_signals": ["review_anomaly", "high_dispute_cluster", "seller_reputation_drift"],
+  "data_fields_affected": ["merchant_id", "merchant_category", "status", "amount"],
+  "generation_strategy": {"mode": "template_plus_sampling", "stealth_level_range": [0.45, 0.8], "volume_range": [8, 80], "noise_level": "high"},
+  "severity": "high"
+}
+

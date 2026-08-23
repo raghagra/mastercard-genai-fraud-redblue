@@ -1,0 +1,162 @@
+{
+  "benign_count": 500,
+  "counts": {
+    "accepted_mutations_consumed": 0,
+    "feature_columns": 29,
+    "features": 1491,
+    "mutation_candidates": 5,
+    "mutation_overlays_applied": 0,
+    "scored_rows": 1491,
+    "transactions": 1491
+  },
+  "evaluation_overall": {
+    "accuracy": 0.996647,
+    "f1": 0.997484,
+    "false_negative": 0,
+    "false_positive": 5,
+    "false_positive_rate": 0.01,
+    "pr_auc": 1.0,
+    "precision": 0.99498,
+    "recall": 1.0,
+    "roc_auc": 1.0,
+    "threshold": 0.05,
+    "true_negative": 495,
+    "true_positive": 991
+  },
+  "failure_summary": {
+    "false_negatives": 0,
+    "false_positives": 5,
+    "weak_groups": [
+      {
+        "avg_fraud_score": 0.898326,
+        "bucket": "social_engineering_payment_fraud",
+        "fraud_count": 6,
+        "group_key": "ai_impersonation",
+        "miss_count": 0,
+        "reason": "lowest_confidence_fraud_group",
+        "recall": 1.0,
+        "subtype": "ai_impersonation"
+      },
+      {
+        "avg_fraud_score": 0.900826,
+        "bucket": "merchant_ecosystem_abuse",
+        "fraud_count": 41,
+        "group_key": "triangulation_fraud",
+        "miss_count": 0,
+        "reason": "lowest_confidence_fraud_group",
+        "recall": 1.0,
+        "subtype": "triangulation_fraud"
+      },
+      {
+        "avg_fraud_score": 0.93343,
+        "bucket": "identity_onboarding_fraud",
+        "fraud_count": 11,
+        "group_key": "synthetic_identity",
+        "miss_count": 0,
+        "reason": "lowest_confidence_fraud_group",
+        "recall": 1.0,
+        "subtype": "synthetic_identity"
+      },
+      {
+        "avg_fraud_score": 0.950047,
+        "bucket": "credential_based_fraud",
+        "fraud_count": 17,
+        "group_key": "consumer_account_takeover",
+        "miss_count": 0,
+        "reason": "lowest_confidence_fraud_group",
+        "recall": 1.0,
+        "subtype": "consumer_account_takeover"
+      },
+      {
+        "avg_fraud_score": 0.954483,
+        "bucket": "merchant_ecosystem_abuse",
+        "fraud_count": 55,
+        "group_key": "bust_out_merchant",
+        "miss_count": 0,
+        "reason": "lowest_confidence_fraud_group",
+        "recall": 1.0,
+        "subtype": "bust_out_merchant"
+      },
+      {
+        "avg_fraud_score": 0.956979,
+        "bucket": "social_engineering_payment_fraud",
+        "fraud_count": 7,
+        "group_key": "vendor_rerouting",
+        "miss_count": 0,
+        "reason": "lowest_confidence_fraud_group",
+        "recall": 1.0,
+        "subtype": "vendor_rerouting"
+      },
+      {
+        "avg_fraud_score": 0.9587,
+        "bucket": "credential_based_fraud",
+        "fraud_count": 7,
+        "group_key": "merchant_admin_takeover",
+        "miss_count": 0,
+        "reason": "lowest_confidence_fraud_group",
+        "recall": 1.0,
+        "subtype": "merchant_admin_takeover"
+      },
+      {
+        "avg_fraud_score": 0.962425,
+        "bucket": "credential_based_fraud",
+        "fraud_count": 85,
+        "group_key": "card_testing",
+        "miss_count": 0,
+        "reason": "lowest_confidence_fraud_group",
+        "recall": 1.0,
+        "subtype": "card_testing"
+      }
+    ]
+  },
+  "iteration_id": "iteration_012",
+  "paths": {
+    "generated": "/Users/raghagra/Desktop/Raghav Folder/mastercardchallenge/outputs/iterations/iteration_012/generated",
+    "metrics": "/Users/raghagra/Desktop/Raghav Folder/mastercardchallenge/outputs/iterations/iteration_012/metrics",
+    "models": "/Users/raghagra/Desktop/Raghav Folder/mastercardchallenge/outputs/iterations/iteration_012/models",
+    "processed": "/Users/raghagra/Desktop/Raghav Folder/mastercardchallenge/outputs/iterations/iteration_012/processed",
+    "reports": "/Users/raghagra/Desktop/Raghav Folder/mastercardchallenge/outputs/iterations/iteration_012/reports",
+    "root": "/Users/raghagra/Desktop/Raghav Folder/mastercardchallenge/outputs/iterations/iteration_012",
+    "scores": "/Users/raghagra/Desktop/Raghav Folder/mastercardchallenge/outputs/iterations/iteration_012/scores"
+  },
+  "per_attack_card": 1,
+  "review_source_iteration_id": null,
+  "seed": 42,
+  "train_metrics": {
+    "feature_count": 29,
+    "model_type": "numpy_logistic_regression",
+    "positive_count": 991,
+    "row_count": 1491,
+    "test": {
+      "accuracy": 1.0,
+      "f1": 1.0,
+      "false_negative": 0,
+      "false_positive": 0,
+      "false_positive_rate": 0.0,
+      "pr_auc": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "roc_auc": 1.0,
+      "threshold": 0.05,
+      "true_negative": 125,
+      "true_positive": 248
+    },
+    "test_count": 373,
+    "threshold": 0.05,
+    "train": {
+      "accuracy": 1.0,
+      "f1": 1.0,
+      "false_negative": 0,
+      "false_positive": 0,
+      "false_positive_rate": 0.0,
+      "pr_auc": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "roc_auc": 1.0,
+      "threshold": 0.05,
+      "true_negative": 375,
+      "true_positive": 743
+    },
+    "train_count": 1118
+  }
+}

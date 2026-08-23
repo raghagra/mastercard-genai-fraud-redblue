@@ -1,0 +1,192 @@
+[
+  {
+    "bucket": "post_transaction_abuse",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.805913,
+      "bucket": "post_transaction_abuse",
+      "fraud_count": 8,
+      "group_key": "refund_fraud",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "refund_fraud"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_465c7f94d15d",
+    "mutation_strategy": [
+      "increase_stealth_level",
+      "reduce_obvious_velocity",
+      "increase_benign_overlap",
+      "preserve_attack_lineage"
+    ],
+    "proposed_variant_name": "Repeated refund claim with destination shift - stealth hardened",
+    "provider": "local_rules",
+    "rationale": "Create a harder variant by moving generated behavior closer to benign baselines while preserving the attack's core payment signal.",
+    "source_attack_id": "post_refund_001",
+    "subtype": "refund_fraud",
+    "suggested_generation_strategy": {
+      "mode": "template_plus_sampling",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.53,
+        0.93
+      ],
+      "volume_range": [
+        2,
+        15
+      ]
+    }
+  },
+  {
+    "bucket": "credential_based_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.821575,
+      "bucket": "credential_based_fraud",
+      "fraud_count": 16,
+      "group_key": "consumer_account_takeover",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "consumer_account_takeover"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_34a0453c6179",
+    "mutation_strategy": [
+      "increase_stealth_level",
+      "reduce_obvious_velocity",
+      "increase_benign_overlap",
+      "preserve_attack_lineage"
+    ],
+    "proposed_variant_name": "New device login followed by wallet spend - stealth hardened",
+    "provider": "local_rules",
+    "rationale": "Create a harder variant by moving generated behavior closer to benign baselines while preserving the attack's core payment signal.",
+    "source_attack_id": "cred_consumer_ato_001",
+    "subtype": "consumer_account_takeover",
+    "suggested_generation_strategy": {
+      "mode": "hybrid",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.53,
+        0.93
+      ],
+      "volume_range": [
+        3,
+        25
+      ]
+    }
+  },
+  {
+    "bucket": "credential_based_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.844146,
+      "bucket": "credential_based_fraud",
+      "fraud_count": 14,
+      "group_key": "merchant_admin_takeover",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "merchant_admin_takeover"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_1cda31033f94",
+    "mutation_strategy": [
+      "increase_stealth_level",
+      "reduce_obvious_velocity",
+      "increase_benign_overlap",
+      "preserve_attack_lineage"
+    ],
+    "proposed_variant_name": "Payout account edit after privileged login - stealth hardened",
+    "provider": "local_rules",
+    "rationale": "Create a harder variant by moving generated behavior closer to benign baselines while preserving the attack's core payment signal.",
+    "source_attack_id": "cred_merchant_admin_ato_001",
+    "subtype": "merchant_admin_takeover",
+    "suggested_generation_strategy": {
+      "mode": "hybrid",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.58,
+        0.98
+      ],
+      "volume_range": [
+        2,
+        10
+      ]
+    }
+  },
+  {
+    "bucket": "merchant_ecosystem_abuse",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.869666,
+      "bucket": "merchant_ecosystem_abuse",
+      "fraud_count": 63,
+      "group_key": "triangulation_fraud",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "triangulation_fraud"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_6fcdf3b7ce05",
+    "mutation_strategy": [
+      "increase_stealth_level",
+      "reduce_obvious_velocity",
+      "increase_benign_overlap",
+      "preserve_attack_lineage"
+    ],
+    "proposed_variant_name": "Marketplace order with fulfillment mismatch - stealth hardened",
+    "provider": "local_rules",
+    "rationale": "Create a harder variant by moving generated behavior closer to benign baselines while preserving the attack's core payment signal.",
+    "source_attack_id": "merchant_triangulation_001",
+    "subtype": "triangulation_fraud",
+    "suggested_generation_strategy": {
+      "mode": "hybrid",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.53,
+        0.93
+      ],
+      "volume_range": [
+        5,
+        60
+      ]
+    }
+  },
+  {
+    "bucket": "social_engineering_payment_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.877137,
+      "bucket": "social_engineering_payment_fraud",
+      "fraud_count": 8,
+      "group_key": "business_email_compromise",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "business_email_compromise"
+    },
+    "human_review_required": true,
+    "mutation_id": "mut_f70afd1c657a",
+    "mutation_strategy": [
+      "increase_stealth_level",
+      "reduce_obvious_velocity",
+      "increase_benign_overlap",
+      "preserve_attack_lineage"
+    ],
+    "proposed_variant_name": "Vendor payment reroute request - stealth hardened",
+    "provider": "local_rules",
+    "rationale": "Create a harder variant by moving generated behavior closer to benign baselines while preserving the attack's core payment signal.",
+    "source_attack_id": "social_bec_001",
+    "subtype": "business_email_compromise",
+    "suggested_generation_strategy": {
+      "mode": "hybrid",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.68,
+        0.99
+      ],
+      "volume_range": [
+        2,
+        12
+      ]
+    }
+  }
+]

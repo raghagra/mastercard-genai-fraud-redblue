@@ -1,0 +1,20 @@
+{
+  "attack_id": "identity_synthetic_business_001",
+  "bucket": "identity_onboarding_fraud",
+  "subtype": "synthetic_business",
+  "attack_name": "Synthetic business or shell company",
+  "variant_name": "New merchant with thin business lineage",
+  "channel": "merchant_portal",
+  "rail": "card",
+  "scope": "multi_step_campaign",
+  "actor_type": "synthetic_identity",
+  "attacker_goal": "create a plausible business entity for payment access",
+  "genai_role": ["business_description_generation", "website_copy_generation"],
+  "preconditions": ["merchant onboarding accepts new business applications"],
+  "attack_sequence": [{"step": 1, "action": "create merchant profile", "observable": "short business age and reused contact attributes"}],
+  "expected_signals": ["short_business_age", "reused_contact_info", "profile_field_inconsistency"],
+  "data_fields_affected": ["merchant_id", "merchant_category", "merchant_age_days", "risk_tier"],
+  "generation_strategy": {"mode": "template_plus_sampling", "stealth_level_range": [0.5, 0.9], "volume_range": [2, 18], "noise_level": "medium"},
+  "severity": "high"
+}
+

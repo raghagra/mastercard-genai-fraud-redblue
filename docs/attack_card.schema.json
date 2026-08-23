@@ -1,0 +1,293 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/attack_card.schema.json",
+  "title": "Attack Card",
+  "description": "Structured definition of a payment fraud attack pattern for defensive simulation, synthetic generation, and detection.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "attack_id",
+    "bucket",
+    "subtype",
+    "attack_name",
+    "variant_name",
+    "channel",
+    "rail",
+    "scope",
+    "actor_type",
+    "attacker_goal",
+    "preconditions",
+    "attack_sequence",
+    "expected_signals",
+    "data_fields_affected",
+    "generation_strategy",
+    "severity"
+  ],
+  "properties": {
+    "attack_id": {
+      "type": "string",
+      "description": "Unique stable identifier for the attack card.",
+      "minLength": 3
+    },
+    "bucket": {
+      "type": "string",
+      "description": "Top-level fraud family.",
+      "enum": [
+        "credential_based_fraud",
+        "social_engineering_payment_fraud",
+        "identity_onboarding_fraud",
+        "post_transaction_abuse",
+        "merchant_ecosystem_abuse"
+      ]
+    },
+    "subtype": {
+      "type": "string",
+      "description": "Concrete subfamily inside a bucket.",
+      "minLength": 2
+    },
+    "attack_name": {
+      "type": "string",
+      "description": "Human-readable canonical name for the attack family.",
+      "minLength": 3
+    },
+    "variant_name": {
+      "type": "string",
+      "description": "Specific variant of the attack pattern.",
+      "minLength": 3
+    },
+    "channel": {
+      "type": "string",
+      "description": "Payment or interaction channel affected by the attack.",
+      "enum": [
+        "ecommerce",
+        "mobile_app",
+        "email",
+        "bank_transfer",
+        "marketplace",
+        "call_center",
+        "merchant_portal",
+        "onboarding",
+        "customer_support",
+        "api",
+        "in_person",
+        "wallet"
+      ]
+    },
+    "rail": {
+      "type": "string",
+      "description": "Payment rail or settlement path.",
+      "enum": [
+        "card",
+        "ach",
+        "wire",
+        "upi",
+        "wallet",
+        "p2p",
+        "instant_transfer",
+        "cash",
+        "other"
+      ]
+    },
+    "scope": {
+      "type": "string",
+      "description": "Whether the attack is a single event or a longer campaign.",
+      "enum": [
+        "single_event",
+        "multi_step_campaign"
+      ]
+    },
+    "actor_type": {
+      "type": "string",
+      "description": "Who is carrying out the attack.",
+      "enum": [
+        "external_fraudster",
+        "insider",
+        "mule",
+        "compromised_merchant",
+        "synthetic_identity",
+        "fraud_ring",
+        "unknown"
+      ]
+    },
+    "attacker_goal": {
+      "type": "string",
+      "description": "Objective of the attack.",
+      "minLength": 5
+    },
+    "genai_role": {
+      "type": "array",
+      "description": "Ways GenAI assists the attack.",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "uniqueItems": true,
+      "default": []
+    },
+    "preconditions": {
+      "type": "array",
+      "description": "Conditions required for the attack to be feasible.",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1
+    },
+    "attack_sequence": {
+      "type": "array",
+      "description": "Ordered steps of the attack.",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "step",
+          "action",
+          "observable"
+        ],
+        "properties": {
+          "step": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "action": {
+            "type": "string",
+            "minLength": 2
+          },
+          "observable": {
+            "type": "string",
+            "minLength": 2
+          }
+        }
+      }
+    },
+    "expected_signals": {
+      "type": "array",
+      "description": "Behavioral or transactional signals the attack may leave behind.",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1
+    },
+    "data_fields_affected": {
+      "type": "array",
+      "description": "Fields or entities likely impacted by the attack.",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 1
+    },
+    "generation_strategy": {
+      "type": "object",
+      "description": "How synthetic examples should be generated from the card.",
+      "additionalProperties": false,
+      "required": [
+        "mode",
+        "stealth_level_range",
+        "volume_range",
+        "noise_level"
+      ],
+      "properties": {
+        "mode": {
+          "type": "string",
+          "enum": [
+            "template_plus_sampling",
+            "agent_based",
+            "rules_based",
+            "hybrid"
+          ]
+        },
+        "stealth_level_range": {
+          "type": "array",
+          "description": "Normalized stealth range from 0 to 1.",
+          "items": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "volume_range": {
+          "type": "array",
+          "description": "Inclusive integer range for how many examples to generate.",
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "noise_level": {
+          "type": "string",
+          "enum": [
+            "low",
+            "medium",
+            "high"
+          ]
+        }
+      }
+    },
+    "realism_score": {
+      "type": "number",
+      "description": "How plausible the attack is in real payment systems.",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "novelty_score": {
+      "type": "number",
+      "description": "How much GenAI changes or amplifies the attack.",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "detectability_score": {
+      "type": "number",
+      "description": "Estimated ease of detecting the attack.",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "impact_score": {
+      "type": "number",
+      "description": "Estimated damage if the attack succeeds.",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "severity": {
+      "type": "string",
+      "description": "Qualitative severity label.",
+      "enum": [
+        "low",
+        "medium",
+        "high",
+        "critical"
+      ]
+    },
+    "detection_hints": {
+      "type": "array",
+      "description": "Suggested feature families or signals for the detector.",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "uniqueItems": true,
+      "default": []
+    },
+    "evaluation_tags": {
+      "type": "array",
+      "description": "Labels used to group attacks during analysis.",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "uniqueItems": true,
+      "default": []
+    },
+    "notes": {
+      "type": "string",
+      "description": "Free-form human notes.",
+      "default": ""
+    }
+  }
+}
