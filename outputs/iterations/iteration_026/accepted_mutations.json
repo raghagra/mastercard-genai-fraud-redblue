@@ -1,0 +1,570 @@
+[
+  {
+    "bucket": "credential_based_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.278235,
+      "bucket": "credential_based_fraud",
+      "fraud_count": 7,
+      "group_key": "merchant_admin_takeover",
+      "miss_count": 2,
+      "reason": "false_negative",
+      "recall": 0.714286,
+      "subtype": "merchant_admin_takeover"
+    },
+    "human_review_required": true,
+    "model_contribution": {
+      "model_generated_fields": [
+        "proposed_variant_name",
+        "mutation_strategy",
+        "rationale",
+        "suggested_generation_strategy"
+      ],
+      "normalized": true
+    },
+    "mutation_id": "mut_969aeda51b89",
+    "mutation_strategy": [
+      "increase_benign_context_overlap",
+      "preserve_attack_lineage"
+    ],
+    "parameter_deltas": [
+      {
+        "baseline": [
+          0.5,
+          0.9
+        ],
+        "field": "stealth_level_range",
+        "proposed": [
+          0.6,
+          0.99
+        ],
+        "purpose": "Change benign-feature overlap in the simulated campaign."
+      },
+      {
+        "baseline": [
+          2,
+          10
+        ],
+        "field": "volume_range",
+        "proposed": [
+          2,
+          8
+        ],
+        "purpose": "Change campaign volume and velocity pressure."
+      },
+      {
+        "baseline": "medium",
+        "field": "noise_level",
+        "proposed": "high",
+        "purpose": "Change edge-case diversity in generated records."
+      },
+      {
+        "baseline": 1.0,
+        "field": "time_window_multiplier",
+        "proposed": 1.35,
+        "purpose": "Change how activity is distributed across time."
+      }
+    ],
+    "proposed_variant_name": "Payout account edit after privileged login - behavioral overlap variant",
+    "provider": "local_rules",
+    "rationale": "Create a bounded defensive stress-test variant that retains the attack's payment objective while reducing the most obvious synthetic signals.",
+    "review": {
+      "decision": "accepted",
+      "mutation_id": "mut_969aeda51b89",
+      "notes": "Deterministic demo fixture. Review these proposals in the console before operational use.",
+      "reviewed_at": "2026-08-23T18:20:06+00:00",
+      "reviewer": "judge_demo_fixture"
+    },
+    "review_evidence": {
+      "average_fraud_score": 0.278235,
+      "evaluation_scope": "heldout_attack_benchmark",
+      "fraud_count": 7,
+      "miss_count": 2,
+      "recall": 0.714286,
+      "representative_records": [
+        {
+          "attack_bucket": "credential_based_fraud",
+          "attack_subtype": "merchant_admin_takeover",
+          "fraud_score": 0.07179912082256598,
+          "label": 1,
+          "prediction": 0,
+          "reason_codes": "customer payment cadence lowers risk;transaction_type_code lowers risk;session velocity lowers risk",
+          "transaction_id": "txn_a2247c2c2cc8"
+        },
+        {
+          "attack_bucket": "credential_based_fraud",
+          "attack_subtype": "merchant_admin_takeover",
+          "fraud_score": 0.03675044228616907,
+          "label": 1,
+          "prediction": 0,
+          "reason_codes": "transaction_type_code lowers risk;amount deviation from customer history lowers risk;event_hour lowers risk",
+          "transaction_id": "txn_d417e9e8f866"
+        }
+      ],
+      "selection_reason": "false_negative",
+      "threshold": 0.14
+    },
+    "source_attack_id": "cred_merchant_admin_ato_001",
+    "subtype": "merchant_admin_takeover",
+    "suggested_generation_strategy": {
+      "mode": "hybrid",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.6,
+        0.99
+      ],
+      "time_window_multiplier": 1.35,
+      "volume_range": [
+        2,
+        8
+      ]
+    }
+  },
+  {
+    "bucket": "social_engineering_payment_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.566906,
+      "bucket": "social_engineering_payment_fraud",
+      "fraud_count": 9,
+      "group_key": "ai_impersonation",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "ai_impersonation"
+    },
+    "human_review_required": true,
+    "model_contribution": {
+      "model_generated_fields": [
+        "proposed_variant_name",
+        "mutation_strategy",
+        "rationale",
+        "suggested_generation_strategy"
+      ],
+      "normalized": true
+    },
+    "mutation_id": "mut_e5ebf3dd3883",
+    "mutation_strategy": [
+      "increase_trusted_context_overlap",
+      "reduce_single_session_concentration",
+      "retain_transfer_anomaly",
+      "preserve_attack_lineage"
+    ],
+    "parameter_deltas": [
+      {
+        "baseline": [
+          0.6,
+          0.95
+        ],
+        "field": "stealth_level_range",
+        "proposed": [
+          0.72,
+          0.99
+        ],
+        "purpose": "Change benign-feature overlap in the simulated campaign."
+      },
+      {
+        "baseline": [
+          2,
+          12
+        ],
+        "field": "volume_range",
+        "proposed": [
+          1,
+          7
+        ],
+        "purpose": "Change campaign volume and velocity pressure."
+      },
+      {
+        "baseline": "medium",
+        "field": "noise_level",
+        "proposed": "high",
+        "purpose": "Change edge-case diversity in generated records."
+      },
+      {
+        "baseline": 1.0,
+        "field": "time_window_multiplier",
+        "proposed": 1.8,
+        "purpose": "Change how activity is distributed across time."
+      }
+    ],
+    "proposed_variant_name": "Support-channel trust attack - trusted-context transfer variant",
+    "provider": "local_rules",
+    "rationale": "Stress-test whether the defense can recognize a socially engineered payment when the transfer is paced and surrounded by otherwise trusted-looking context.",
+    "review": {
+      "decision": "accepted",
+      "mutation_id": "mut_e5ebf3dd3883",
+      "notes": "Deterministic demo fixture. Review these proposals in the console before operational use.",
+      "reviewed_at": "2026-08-23T18:20:06+00:00",
+      "reviewer": "judge_demo_fixture"
+    },
+    "review_evidence": {
+      "average_fraud_score": 0.566906,
+      "evaluation_scope": "heldout_attack_benchmark",
+      "fraud_count": 9,
+      "miss_count": 0,
+      "recall": 1.0,
+      "representative_records": [
+        {
+          "attack_bucket": "social_engineering_payment_fraud",
+          "attack_subtype": "ai_impersonation",
+          "fraud_score": 0.30563333892563743,
+          "label": 1,
+          "margin_to_threshold": 0.165633,
+          "prediction": 1,
+          "reason_codes": "customer payment cadence lowers risk;session velocity lowers risk;merchant chargeback behavior lowers risk",
+          "transaction_id": "txn_3d9dd65ee6f7"
+        },
+        {
+          "attack_bucket": "social_engineering_payment_fraud",
+          "attack_subtype": "ai_impersonation",
+          "fraud_score": 0.3689607721704193,
+          "label": 1,
+          "margin_to_threshold": 0.228961,
+          "prediction": 1,
+          "reason_codes": "amount deviation from customer history lowers risk;event_hour lowers risk;session velocity raises risk",
+          "transaction_id": "txn_1b096c85eca9"
+        },
+        {
+          "attack_bucket": "social_engineering_payment_fraud",
+          "attack_subtype": "ai_impersonation",
+          "fraud_score": 0.38613350383552053,
+          "label": 1,
+          "margin_to_threshold": 0.246134,
+          "prediction": 1,
+          "reason_codes": "IP velocity raises risk;high generated risk score lowers risk;session velocity lowers risk",
+          "transaction_id": "txn_3dd5f105e4c0"
+        }
+      ],
+      "selection_reason": "lowest_confidence_fraud_group",
+      "threshold": 0.14
+    },
+    "source_attack_id": "social_ai_impersonation_001",
+    "subtype": "ai_impersonation",
+    "suggested_generation_strategy": {
+      "mode": "agent_based",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.72,
+        0.99
+      ],
+      "time_window_multiplier": 1.8,
+      "volume_range": [
+        1,
+        7
+      ]
+    }
+  },
+  {
+    "bucket": "identity_onboarding_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.711191,
+      "bucket": "identity_onboarding_fraud",
+      "fraud_count": 15,
+      "group_key": "synthetic_business",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "synthetic_business"
+    },
+    "human_review_required": true,
+    "model_contribution": {
+      "model_generated_fields": [
+        "proposed_variant_name",
+        "mutation_strategy",
+        "rationale",
+        "suggested_generation_strategy"
+      ],
+      "normalized": true
+    },
+    "mutation_id": "mut_8d8a5a2c230b",
+    "mutation_strategy": [
+      "increase_profile_maturity",
+      "increase_benign_context_overlap",
+      "retain_identity_inconsistency",
+      "preserve_attack_lineage"
+    ],
+    "parameter_deltas": [
+      {
+        "baseline": [
+          0.5,
+          0.9
+        ],
+        "field": "stealth_level_range",
+        "proposed": [
+          0.66,
+          0.99
+        ],
+        "purpose": "Change benign-feature overlap in the simulated campaign."
+      },
+      {
+        "baseline": [
+          2,
+          18
+        ],
+        "field": "volume_range",
+        "proposed": [
+          2,
+          15
+        ],
+        "purpose": "Change campaign volume and velocity pressure."
+      },
+      {
+        "baseline": "medium",
+        "field": "noise_level",
+        "proposed": "high",
+        "purpose": "Change edge-case diversity in generated records."
+      },
+      {
+        "baseline": 1.0,
+        "field": "time_window_multiplier",
+        "proposed": 1.5,
+        "purpose": "Change how activity is distributed across time."
+      }
+    ],
+    "proposed_variant_name": "New merchant with thin business lineage - mature-profile onboarding variant",
+    "provider": "local_rules",
+    "rationale": "Stress-test identity controls with a mature-looking synthetic profile and less obvious operational noise, while retaining the underlying onboarding inconsistency.",
+    "review": {
+      "decision": "accepted",
+      "mutation_id": "mut_8d8a5a2c230b",
+      "notes": "Deterministic demo fixture. Review these proposals in the console before operational use.",
+      "reviewed_at": "2026-08-23T18:20:06+00:00",
+      "reviewer": "judge_demo_fixture"
+    },
+    "review_evidence": {
+      "average_fraud_score": 0.711191,
+      "evaluation_scope": "heldout_attack_benchmark",
+      "fraud_count": 15,
+      "miss_count": 0,
+      "recall": 1.0,
+      "representative_records": [
+        {
+          "attack_bucket": "identity_onboarding_fraud",
+          "attack_subtype": "synthetic_business",
+          "fraud_score": 0.1933513180648547,
+          "label": 1,
+          "margin_to_threshold": 0.053351,
+          "prediction": 1,
+          "reason_codes": "customer payment cadence lowers risk;high generated risk score lowers risk;session velocity lowers risk",
+          "transaction_id": "txn_bad287492bcd"
+        }
+      ],
+      "selection_reason": "lowest_confidence_fraud_group",
+      "threshold": 0.14
+    },
+    "source_attack_id": "identity_synthetic_business_001",
+    "subtype": "synthetic_business",
+    "suggested_generation_strategy": {
+      "mode": "template_plus_sampling",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.66,
+        0.99
+      ],
+      "time_window_multiplier": 1.5,
+      "volume_range": [
+        2,
+        15
+      ]
+    }
+  },
+  {
+    "bucket": "social_engineering_payment_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.881931,
+      "bucket": "social_engineering_payment_fraud",
+      "fraud_count": 10,
+      "group_key": "authorized_push_payment_scam",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "authorized_push_payment_scam"
+    },
+    "human_review_required": true,
+    "model_contribution": {
+      "model_generated_fields": [
+        "proposed_variant_name",
+        "mutation_strategy",
+        "rationale",
+        "suggested_generation_strategy"
+      ],
+      "normalized": true
+    },
+    "mutation_id": "mut_01164f98410b",
+    "mutation_strategy": [
+      "increase_trusted_context_overlap",
+      "reduce_single_session_concentration",
+      "retain_transfer_anomaly",
+      "preserve_attack_lineage"
+    ],
+    "parameter_deltas": [
+      {
+        "baseline": [
+          0.55,
+          0.95
+        ],
+        "field": "stealth_level_range",
+        "proposed": [
+          0.67,
+          0.99
+        ],
+        "purpose": "Change benign-feature overlap in the simulated campaign."
+      },
+      {
+        "baseline": [
+          2,
+          15
+        ],
+        "field": "volume_range",
+        "proposed": [
+          1,
+          9
+        ],
+        "purpose": "Change campaign volume and velocity pressure."
+      },
+      {
+        "baseline": "medium",
+        "field": "noise_level",
+        "proposed": "high",
+        "purpose": "Change edge-case diversity in generated records."
+      },
+      {
+        "baseline": 1.0,
+        "field": "time_window_multiplier",
+        "proposed": 1.8,
+        "purpose": "Change how activity is distributed across time."
+      }
+    ],
+    "proposed_variant_name": "New recipient instant transfer after pressure sequence - trusted-context transfer variant",
+    "provider": "local_rules",
+    "rationale": "Stress-test whether the defense can recognize a socially engineered payment when the transfer is paced and surrounded by otherwise trusted-looking context.",
+    "review": {
+      "decision": "accepted",
+      "mutation_id": "mut_01164f98410b",
+      "notes": "Deterministic demo fixture. Review these proposals in the console before operational use.",
+      "reviewed_at": "2026-08-23T18:20:06+00:00",
+      "reviewer": "judge_demo_fixture"
+    },
+    "review_evidence": {
+      "average_fraud_score": 0.881931,
+      "evaluation_scope": "heldout_attack_benchmark",
+      "fraud_count": 10,
+      "miss_count": 0,
+      "recall": 1.0,
+      "representative_records": [],
+      "selection_reason": "lowest_confidence_fraud_group",
+      "threshold": 0.14
+    },
+    "source_attack_id": "social_app_scam_001",
+    "subtype": "authorized_push_payment_scam",
+    "suggested_generation_strategy": {
+      "mode": "agent_based",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.67,
+        0.99
+      ],
+      "time_window_multiplier": 1.8,
+      "volume_range": [
+        1,
+        9
+      ]
+    }
+  },
+  {
+    "bucket": "merchant_ecosystem_abuse",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.97412,
+      "bucket": "merchant_ecosystem_abuse",
+      "fraud_count": 98,
+      "group_key": "mule_laundering",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "mule_laundering"
+    },
+    "human_review_required": true,
+    "model_contribution": {
+      "model_generated_fields": [
+        "proposed_variant_name",
+        "mutation_strategy",
+        "rationale",
+        "suggested_generation_strategy"
+      ],
+      "normalized": true
+    },
+    "mutation_id": "mut_2e3974bdbe06",
+    "mutation_strategy": [
+      "reduce_volume_growth_spike",
+      "increase_merchant_maturity",
+      "retain_payout_or_marketplace_signal",
+      "preserve_attack_lineage"
+    ],
+    "parameter_deltas": [
+      {
+        "baseline": [
+          0.4,
+          0.85
+        ],
+        "field": "stealth_level_range",
+        "proposed": [
+          0.53,
+          0.98
+        ],
+        "purpose": "Change benign-feature overlap in the simulated campaign."
+      },
+      {
+        "baseline": [
+          15,
+          150
+        ],
+        "field": "volume_range",
+        "proposed": [
+          8,
+          82
+        ],
+        "purpose": "Change campaign volume and velocity pressure."
+      },
+      {
+        "baseline": 1.0,
+        "field": "time_window_multiplier",
+        "proposed": 2.2,
+        "purpose": "Change how activity is distributed across time."
+      }
+    ],
+    "proposed_variant_name": "Many inbound sources followed by rapid outflow - gradual merchant-lifecycle variant",
+    "provider": "local_rules",
+    "rationale": "Stress-test merchant controls with a slower lifecycle and less conspicuous growth, while retaining the simulated merchant or payout anomaly.",
+    "review": {
+      "decision": "accepted",
+      "mutation_id": "mut_2e3974bdbe06",
+      "notes": "Deterministic demo fixture. Review these proposals in the console before operational use.",
+      "reviewed_at": "2026-08-23T18:20:06+00:00",
+      "reviewer": "judge_demo_fixture"
+    },
+    "review_evidence": {
+      "average_fraud_score": 0.97412,
+      "evaluation_scope": "heldout_attack_benchmark",
+      "fraud_count": 98,
+      "miss_count": 0,
+      "recall": 1.0,
+      "representative_records": [],
+      "selection_reason": "lowest_confidence_fraud_group",
+      "threshold": 0.14
+    },
+    "source_attack_id": "merchant_mule_laundering_001",
+    "subtype": "mule_laundering",
+    "suggested_generation_strategy": {
+      "mode": "hybrid",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.53,
+        0.98
+      ],
+      "time_window_multiplier": 2.2,
+      "volume_range": [
+        8,
+        82
+      ]
+    }
+  }
+]

@@ -1,0 +1,541 @@
+[
+  {
+    "bucket": "social_engineering_payment_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.433694,
+      "bucket": "social_engineering_payment_fraud",
+      "fraud_count": 4,
+      "group_key": "authorized_push_payment_scam",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "authorized_push_payment_scam"
+    },
+    "human_review_required": true,
+    "model_contribution": {
+      "model_generated_fields": [
+        "proposed_variant_name",
+        "mutation_strategy",
+        "rationale",
+        "suggested_generation_strategy"
+      ],
+      "normalized": true
+    },
+    "mutation_id": "mut_01164f98410b",
+    "mutation_strategy": [
+      "increase_trusted_context_overlap",
+      "reduce_single_session_concentration",
+      "retain_transfer_anomaly",
+      "preserve_attack_lineage"
+    ],
+    "parameter_deltas": [
+      {
+        "baseline": [
+          0.55,
+          0.95
+        ],
+        "field": "stealth_level_range",
+        "proposed": [
+          0.67,
+          0.99
+        ],
+        "purpose": "Change benign-feature overlap in the simulated campaign."
+      },
+      {
+        "baseline": [
+          2,
+          15
+        ],
+        "field": "volume_range",
+        "proposed": [
+          1,
+          9
+        ],
+        "purpose": "Change campaign volume and velocity pressure."
+      },
+      {
+        "baseline": "medium",
+        "field": "noise_level",
+        "proposed": "high",
+        "purpose": "Change edge-case diversity in generated records."
+      },
+      {
+        "baseline": 1.0,
+        "field": "time_window_multiplier",
+        "proposed": 1.8,
+        "purpose": "Change how activity is distributed across time."
+      }
+    ],
+    "proposed_variant_name": "New recipient instant transfer after pressure sequence - trusted-context transfer variant",
+    "provider": "local_rules",
+    "rationale": "Stress-test whether the defense can recognize a socially engineered payment when the transfer is paced and surrounded by otherwise trusted-looking context.",
+    "review_evidence": {
+      "average_fraud_score": 0.433694,
+      "evaluation_scope": "heldout_attack_benchmark",
+      "fraud_count": 4,
+      "miss_count": 0,
+      "recall": 1.0,
+      "representative_records": [],
+      "selection_reason": "lowest_confidence_fraud_group",
+      "threshold": 0.13
+    },
+    "source_attack_id": "social_app_scam_001",
+    "subtype": "authorized_push_payment_scam",
+    "suggested_generation_strategy": {
+      "mode": "agent_based",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.67,
+        0.99
+      ],
+      "time_window_multiplier": 1.8,
+      "volume_range": [
+        1,
+        9
+      ]
+    }
+  },
+  {
+    "bucket": "credential_based_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.567634,
+      "bucket": "credential_based_fraud",
+      "fraud_count": 7,
+      "group_key": "merchant_admin_takeover",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "merchant_admin_takeover"
+    },
+    "human_review_required": true,
+    "model_contribution": {
+      "model_generated_fields": [
+        "proposed_variant_name",
+        "mutation_strategy",
+        "rationale",
+        "suggested_generation_strategy"
+      ],
+      "normalized": true
+    },
+    "mutation_id": "mut_969aeda51b89",
+    "mutation_strategy": [
+      "increase_benign_context_overlap",
+      "preserve_attack_lineage"
+    ],
+    "parameter_deltas": [
+      {
+        "baseline": [
+          0.5,
+          0.9
+        ],
+        "field": "stealth_level_range",
+        "proposed": [
+          0.6,
+          0.99
+        ],
+        "purpose": "Change benign-feature overlap in the simulated campaign."
+      },
+      {
+        "baseline": [
+          2,
+          10
+        ],
+        "field": "volume_range",
+        "proposed": [
+          2,
+          8
+        ],
+        "purpose": "Change campaign volume and velocity pressure."
+      },
+      {
+        "baseline": "medium",
+        "field": "noise_level",
+        "proposed": "high",
+        "purpose": "Change edge-case diversity in generated records."
+      },
+      {
+        "baseline": 1.0,
+        "field": "time_window_multiplier",
+        "proposed": 1.35,
+        "purpose": "Change how activity is distributed across time."
+      }
+    ],
+    "proposed_variant_name": "Payout account edit after privileged login - behavioral overlap variant",
+    "provider": "local_rules",
+    "rationale": "Create a bounded defensive stress-test variant that retains the attack's payment objective while reducing the most obvious synthetic signals.",
+    "review_evidence": {
+      "average_fraud_score": 0.567634,
+      "evaluation_scope": "heldout_attack_benchmark",
+      "fraud_count": 7,
+      "miss_count": 0,
+      "recall": 1.0,
+      "representative_records": [
+        {
+          "attack_bucket": "credential_based_fraud",
+          "attack_subtype": "merchant_admin_takeover",
+          "fraud_score": 0.16118905290126118,
+          "label": 1,
+          "margin_to_threshold": 0.031189,
+          "prediction": 1,
+          "reason_codes": "amount deviation from customer history lowers risk;event_hour lowers risk;merchant chargeback behavior lowers risk",
+          "transaction_id": "txn_d417e9e8f866"
+        }
+      ],
+      "selection_reason": "lowest_confidence_fraud_group",
+      "threshold": 0.13
+    },
+    "source_attack_id": "cred_merchant_admin_ato_001",
+    "subtype": "merchant_admin_takeover",
+    "suggested_generation_strategy": {
+      "mode": "hybrid",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.6,
+        0.99
+      ],
+      "time_window_multiplier": 1.35,
+      "volume_range": [
+        2,
+        8
+      ]
+    }
+  },
+  {
+    "bucket": "social_engineering_payment_fraud",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.632333,
+      "bucket": "social_engineering_payment_fraud",
+      "fraud_count": 9,
+      "group_key": "ai_impersonation",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "ai_impersonation"
+    },
+    "human_review_required": true,
+    "model_contribution": {
+      "model_generated_fields": [
+        "proposed_variant_name",
+        "mutation_strategy",
+        "rationale",
+        "suggested_generation_strategy"
+      ],
+      "normalized": true
+    },
+    "mutation_id": "mut_e5ebf3dd3883",
+    "mutation_strategy": [
+      "increase_trusted_context_overlap",
+      "reduce_single_session_concentration",
+      "retain_transfer_anomaly",
+      "preserve_attack_lineage"
+    ],
+    "parameter_deltas": [
+      {
+        "baseline": [
+          0.6,
+          0.95
+        ],
+        "field": "stealth_level_range",
+        "proposed": [
+          0.72,
+          0.99
+        ],
+        "purpose": "Change benign-feature overlap in the simulated campaign."
+      },
+      {
+        "baseline": [
+          2,
+          12
+        ],
+        "field": "volume_range",
+        "proposed": [
+          1,
+          7
+        ],
+        "purpose": "Change campaign volume and velocity pressure."
+      },
+      {
+        "baseline": "medium",
+        "field": "noise_level",
+        "proposed": "high",
+        "purpose": "Change edge-case diversity in generated records."
+      },
+      {
+        "baseline": 1.0,
+        "field": "time_window_multiplier",
+        "proposed": 1.8,
+        "purpose": "Change how activity is distributed across time."
+      }
+    ],
+    "proposed_variant_name": "Support-channel trust attack - trusted-context transfer variant",
+    "provider": "local_rules",
+    "rationale": "Stress-test whether the defense can recognize a socially engineered payment when the transfer is paced and surrounded by otherwise trusted-looking context.",
+    "review_evidence": {
+      "average_fraud_score": 0.632333,
+      "evaluation_scope": "heldout_attack_benchmark",
+      "fraud_count": 9,
+      "miss_count": 0,
+      "recall": 1.0,
+      "representative_records": [],
+      "selection_reason": "lowest_confidence_fraud_group",
+      "threshold": 0.13
+    },
+    "source_attack_id": "social_ai_impersonation_001",
+    "subtype": "ai_impersonation",
+    "suggested_generation_strategy": {
+      "mode": "agent_based",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.72,
+        0.99
+      ],
+      "time_window_multiplier": 1.8,
+      "volume_range": [
+        1,
+        7
+      ]
+    }
+  },
+  {
+    "bucket": "merchant_ecosystem_abuse",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.633743,
+      "bucket": "merchant_ecosystem_abuse",
+      "fraud_count": 60,
+      "group_key": "marketplace_seller_fraud",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "marketplace_seller_fraud"
+    },
+    "human_review_required": true,
+    "model_contribution": {
+      "model_generated_fields": [
+        "proposed_variant_name",
+        "mutation_strategy",
+        "rationale",
+        "suggested_generation_strategy"
+      ],
+      "normalized": true
+    },
+    "mutation_id": "mut_0b0430388559",
+    "mutation_strategy": [
+      "reduce_volume_growth_spike",
+      "increase_merchant_maturity",
+      "retain_payout_or_marketplace_signal",
+      "preserve_attack_lineage"
+    ],
+    "parameter_deltas": [
+      {
+        "baseline": [
+          0.45,
+          0.8
+        ],
+        "field": "stealth_level_range",
+        "proposed": [
+          0.58,
+          0.93
+        ],
+        "purpose": "Change benign-feature overlap in the simulated campaign."
+      },
+      {
+        "baseline": [
+          8,
+          80
+        ],
+        "field": "volume_range",
+        "proposed": [
+          4,
+          44
+        ],
+        "purpose": "Change campaign volume and velocity pressure."
+      },
+      {
+        "baseline": 1.0,
+        "field": "time_window_multiplier",
+        "proposed": 2.2,
+        "purpose": "Change how activity is distributed across time."
+      }
+    ],
+    "proposed_variant_name": "Seller reputation drift with dispute cluster - gradual merchant-lifecycle variant",
+    "provider": "local_rules",
+    "rationale": "Stress-test merchant controls with a slower lifecycle and less conspicuous growth, while retaining the simulated merchant or payout anomaly.",
+    "review_evidence": {
+      "average_fraud_score": 0.633743,
+      "evaluation_scope": "heldout_attack_benchmark",
+      "fraud_count": 60,
+      "miss_count": 0,
+      "recall": 1.0,
+      "representative_records": [
+        {
+          "attack_bucket": "merchant_ecosystem_abuse",
+          "attack_subtype": "marketplace_seller_fraud",
+          "fraud_score": 0.157739,
+          "label": 1,
+          "margin_to_threshold": 0.027739,
+          "prediction": 1,
+          "reason_codes": "high generated risk score lowers risk;event_hour lowers risk;IP velocity raises risk",
+          "transaction_id": "txn_267f0f3c6079"
+        },
+        {
+          "attack_bucket": "merchant_ecosystem_abuse",
+          "attack_subtype": "marketplace_seller_fraud",
+          "fraud_score": 0.1951320193751697,
+          "label": 1,
+          "margin_to_threshold": 0.065132,
+          "prediction": 1,
+          "reason_codes": "high generated risk score lowers risk;IP velocity raises risk;session velocity lowers risk",
+          "transaction_id": "txn_45fb6d1fa8f2"
+        },
+        {
+          "attack_bucket": "merchant_ecosystem_abuse",
+          "attack_subtype": "marketplace_seller_fraud",
+          "fraud_score": 0.21082771882480592,
+          "label": 1,
+          "margin_to_threshold": 0.080828,
+          "prediction": 1,
+          "reason_codes": "event_hour lowers risk;session velocity lowers risk;merchant chargeback behavior lowers risk",
+          "transaction_id": "txn_79c50ec2e7f5"
+        }
+      ],
+      "selection_reason": "lowest_confidence_fraud_group",
+      "threshold": 0.13
+    },
+    "source_attack_id": "merchant_seller_fraud_001",
+    "subtype": "marketplace_seller_fraud",
+    "suggested_generation_strategy": {
+      "mode": "template_plus_sampling",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.58,
+        0.93
+      ],
+      "time_window_multiplier": 2.2,
+      "volume_range": [
+        4,
+        44
+      ]
+    }
+  },
+  {
+    "bucket": "merchant_ecosystem_abuse",
+    "expected_detection_pressure": {
+      "avg_fraud_score": 0.696767,
+      "bucket": "merchant_ecosystem_abuse",
+      "fraud_count": 55,
+      "group_key": "bust_out_merchant",
+      "miss_count": 0,
+      "reason": "lowest_confidence_fraud_group",
+      "recall": 1.0,
+      "subtype": "bust_out_merchant"
+    },
+    "human_review_required": true,
+    "model_contribution": {
+      "model_generated_fields": [
+        "proposed_variant_name",
+        "mutation_strategy",
+        "rationale",
+        "suggested_generation_strategy"
+      ],
+      "normalized": true
+    },
+    "mutation_id": "mut_c5eb67dc7eed",
+    "mutation_strategy": [
+      "reduce_volume_growth_spike",
+      "increase_merchant_maturity",
+      "retain_payout_or_marketplace_signal",
+      "preserve_attack_lineage"
+    ],
+    "parameter_deltas": [
+      {
+        "baseline": [
+          0.35,
+          0.75
+        ],
+        "field": "stealth_level_range",
+        "proposed": [
+          0.48,
+          0.88
+        ],
+        "purpose": "Change benign-feature overlap in the simulated campaign."
+      },
+      {
+        "baseline": [
+          15,
+          120
+        ],
+        "field": "volume_range",
+        "proposed": [
+          8,
+          66
+        ],
+        "purpose": "Change campaign volume and velocity pressure."
+      },
+      {
+        "baseline": 1.0,
+        "field": "time_window_multiplier",
+        "proposed": 2.2,
+        "purpose": "Change how activity is distributed across time."
+      }
+    ],
+    "proposed_variant_name": "Short-lived merchant with rapid volume growth - gradual merchant-lifecycle variant",
+    "provider": "local_rules",
+    "rationale": "Stress-test merchant controls with a slower lifecycle and less conspicuous growth, while retaining the simulated merchant or payout anomaly.",
+    "review_evidence": {
+      "average_fraud_score": 0.696767,
+      "evaluation_scope": "heldout_attack_benchmark",
+      "fraud_count": 55,
+      "miss_count": 0,
+      "recall": 1.0,
+      "representative_records": [
+        {
+          "attack_bucket": "merchant_ecosystem_abuse",
+          "attack_subtype": "bust_out_merchant",
+          "fraud_score": 0.21152346425936494,
+          "label": 1,
+          "margin_to_threshold": 0.081523,
+          "prediction": 1,
+          "reason_codes": "event_hour lowers risk;session velocity lowers risk;merchant chargeback behavior lowers risk",
+          "transaction_id": "txn_da8587333ccb"
+        },
+        {
+          "attack_bucket": "merchant_ecosystem_abuse",
+          "attack_subtype": "bust_out_merchant",
+          "fraud_score": 0.22746170767071927,
+          "label": 1,
+          "margin_to_threshold": 0.097462,
+          "prediction": 1,
+          "reason_codes": "customer payment cadence lowers risk;IP velocity lowers risk;session velocity lowers risk",
+          "transaction_id": "txn_0af93f2eab55"
+        },
+        {
+          "attack_bucket": "merchant_ecosystem_abuse",
+          "attack_subtype": "bust_out_merchant",
+          "fraud_score": 0.28028608524736404,
+          "label": 1,
+          "margin_to_threshold": 0.150286,
+          "prediction": 1,
+          "reason_codes": "high generated risk score lowers risk;event_hour lowers risk;session velocity lowers risk",
+          "transaction_id": "txn_bf6744e0fb8f"
+        }
+      ],
+      "selection_reason": "lowest_confidence_fraud_group",
+      "threshold": 0.13
+    },
+    "source_attack_id": "merchant_bustout_001",
+    "subtype": "bust_out_merchant",
+    "suggested_generation_strategy": {
+      "mode": "hybrid",
+      "noise_level": "high",
+      "stealth_level_range": [
+        0.48,
+        0.88
+      ],
+      "time_window_multiplier": 2.2,
+      "volume_range": [
+        8,
+        66
+      ]
+    }
+  }
+]

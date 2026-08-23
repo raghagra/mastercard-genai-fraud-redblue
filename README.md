@@ -98,6 +98,16 @@ npm run dev
 
 Open the local URL printed by Vite, normally [http://127.0.0.1:5173](http://127.0.0.1:5173).
 
+## One-command judge demo
+
+For a reproducible, local-only walkthrough that prepares closed-loop evidence and starts both services:
+
+```bash
+python3 scripts/judge_demo.py
+```
+
+It uses deterministic local rules by default, so it needs neither cloud credentials nor an LM Studio server. See [Judge demo](JUDGE_DEMO.md) for the walkthrough and options, including using a currently configured local GenAI provider.
+
 ## Run the demo
 
 ### First iteration

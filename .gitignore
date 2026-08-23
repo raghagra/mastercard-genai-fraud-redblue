@@ -11,3 +11,5 @@ frontend/.env.local
 # Runtime outputs and secrets
 outputs/usage/
 .env
+
+assets/*

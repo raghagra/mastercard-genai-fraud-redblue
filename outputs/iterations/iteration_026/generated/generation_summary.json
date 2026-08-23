@@ -1,0 +1,12 @@
+{
+  "attack_card_count": 25,
+  "attack_instance_count": 25,
+  "benign_count": 50,
+  "customer_count": 38,
+  "device_count": 35,
+  "merchant_count": 43,
+  "per_attack_card": 1,
+  "realism_profile": "overlap",
+  "seed": 2026,
+  "transaction_count": 1100
+}

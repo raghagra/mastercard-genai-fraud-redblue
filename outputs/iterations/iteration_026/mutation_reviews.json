@@ -1,0 +1,37 @@
+[
+  {
+    "decision": "accepted",
+    "mutation_id": "mut_969aeda51b89",
+    "notes": "Deterministic demo fixture. Review these proposals in the console before operational use.",
+    "reviewed_at": "2026-08-23T18:20:06+00:00",
+    "reviewer": "judge_demo_fixture"
+  },
+  {
+    "decision": "accepted",
+    "mutation_id": "mut_e5ebf3dd3883",
+    "notes": "Deterministic demo fixture. Review these proposals in the console before operational use.",
+    "reviewed_at": "2026-08-23T18:20:06+00:00",
+    "reviewer": "judge_demo_fixture"
+  },
+  {
+    "decision": "accepted",
+    "mutation_id": "mut_8d8a5a2c230b",
+    "notes": "Deterministic demo fixture. Review these proposals in the console before operational use.",
+    "reviewed_at": "2026-08-23T18:20:06+00:00",
+    "reviewer": "judge_demo_fixture"
+  },
+  {
+    "decision": "accepted",
+    "mutation_id": "mut_01164f98410b",
+    "notes": "Deterministic demo fixture. Review these proposals in the console before operational use.",
+    "reviewed_at": "2026-08-23T18:20:06+00:00",
+    "reviewer": "judge_demo_fixture"
+  },
+  {
+    "decision": "accepted",
+    "mutation_id": "mut_2e3974bdbe06",
+    "notes": "Deterministic demo fixture. Review these proposals in the console before operational use.",
+    "reviewed_at": "2026-08-23T18:20:06+00:00",
+    "reviewer": "judge_demo_fixture"
+  }
+]

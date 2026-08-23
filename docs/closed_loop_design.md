@@ -163,6 +163,8 @@ The mutation-impact endpoint provides a judge-friendly before/after view: it lis
 
 For a stronger comparison, the web prototype can run a controlled experiment for an accepted mutation. It creates matched baseline and mutated synthetic scenarios with the same seed, benign volume, and number of scenarios, then scores each with the frozen detector from the source iteration. Per-row LLM review is disabled for this experiment so its aggregate comparison isolates the frozen detector.
 
+The reviewer explicitly selects the accepted mutation to evaluate; the interface does not silently choose a variant. This makes it practical to capture and compare several fraud-family experiments for the submission evidence.
+
 The resulting deterministic explanation is always shown first. **Ask LLM** then streams a short interpretation generated from aggregate metrics and the mutation's declared parameter deltas only; raw transaction records are not included. The UI labels this as an interpretation and retains the deterministic result if the provider fails.
 
 ## Important limitation

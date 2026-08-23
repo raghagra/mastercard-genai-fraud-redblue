@@ -1,0 +1,7 @@
+attack_bucket,row_count,positive_count,negative_count,threshold,precision,recall,f1,accuracy,false_positive_rate,true_positive,true_negative,false_positive,false_negative,roc_auc,pr_auc
+benign,50,0,50,0.13,0.0,0.0,0.0,0.94,0.06,0,47,3,0,0.0,0.0
+credential_based_fraud,485,485,0,0.13,1.0,1.0,1.0,1.0,0.0,485,0,0,0,0.0,1.0
+identity_onboarding_fraud,154,154,0,0.13,1.0,1.0,1.0,1.0,0.0,154,0,0,0,0.0,1.0
+merchant_ecosystem_abuse,395,395,0,0.13,1.0,1.0,1.0,1.0,0.0,395,0,0,0,0.0,1.0
+post_transaction_abuse,68,68,0,0.13,1.0,1.0,1.0,1.0,0.0,68,0,0,0,0.0,1.0
+social_engineering_payment_fraud,46,46,0,0.13,1.0,1.0,1.0,1.0,0.0,46,0,0,0,0.0,1.0
