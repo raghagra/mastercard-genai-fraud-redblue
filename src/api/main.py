@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from src.api.routes_catalog import router as catalog_router
+from src.api.routes_evaluation_lab import router as evaluation_lab_router
 from src.api.routes_genai import router as genai_router
 from src.api.routes_generate import router as generate_router
 from src.api.routes_loop import router as loop_router
@@ -42,6 +43,7 @@ def health() -> dict[str, str]:
 
 
 app.include_router(catalog_router)
+app.include_router(evaluation_lab_router)
 app.include_router(generate_router)
 app.include_router(score_router)
 app.include_router(loop_router)

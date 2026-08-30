@@ -1,0 +1,6 @@
+device_id,session_id,browser_family,os_family,device_type,ip_country,ip_reputation_score,first_seen_days_ago,session_duration_seconds,failed_login_count
+dev_db40dd6ac6b0,sess_db40dd6ac6b0,Chrome,Android,tablet,AE,0.2059,488,1753,0
+dev_8e9bbd6f9649,sess_05ac045f73fd,Firefox,macOS,tablet,GB,0.1058,870,1095,0
+dev_4630543833df,sess_392633974cf0,Firefox,Windows,mobile,AE,0.1626,1473,722,0
+dev_19557da8d6b5,sess_94dc8e4876df,Edge,Android,mobile,DE,0.2004,674,1374,1
+dev_53e6ef5d9b4b,sess_2f0ba5d68203,Safari,Android,mobile,AE,0.748,70,675,3

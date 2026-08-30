@@ -1,0 +1,15 @@
+device_id,session_id,browser_family,os_family,device_type,ip_country,ip_reputation_score,first_seen_days_ago,session_duration_seconds,failed_login_count
+dev_d58445bb0cd3,sess_d58445bb0cd3,Safari,Android,desktop,DE,0.0276,435,998,1
+dev_909a56b4acdb,sess_25722f93497d,Edge,macOS,mobile,US,0.0302,849,1338,0
+dev_754b6b44764b,sess_05e1734386c7,Edge,iOS,tablet,AE,0.1989,1479,886,0
+dev_9b476c04e751,sess_1652c66c3c15,Safari,Android,mobile,GB,0.0879,780,610,0
+dev_328474570155,sess_e128cd1687e0,Firefox,Android,desktop,GB,0.3791,142,392,0
+dev_fd497edcc5e4,sess_aac49aed99a0,Chrome,iOS,tablet,IN,0.657,74,461,1
+dev_06e24a589c99,sess_6e925e0ef680,Firefox,Android,tablet,SG,0.2152,1219,656,1
+dev_c33663947c79,sess_c036099c4ced,Edge,Windows,tablet,IN,0.1571,868,56,1
+dev_6b1382b5c71b,sess_b1fc8e90ac59,Safari,Android,tablet,GB,0.2399,1106,827,0
+dev_c40e4f0c0ce0,sess_f4768672f2fe,Safari,Android,desktop,GB,0.1227,182,273,1
+dev_5ec2573eb2ef,sess_0ec9a9d8c486,Safari,Android,tablet,AE,0.3047,88,87,1
+dev_520a9f3d33f3,sess_d8f7f6b32ffc,Firefox,macOS,mobile,DE,0.8597,144,823,5
+dev_1275334fb577,sess_4c89cfe469a7,Firefox,iOS,tablet,IN,0.6714,2,317,1
+dev_f5e8cff811ce,sess_7ea59fb64f81,Edge,Linux,tablet,IN,0.0694,772,340,0

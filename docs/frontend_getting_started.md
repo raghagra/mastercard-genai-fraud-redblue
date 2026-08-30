@@ -40,6 +40,7 @@ VITE_API_URL=https://your-api.example.com
 - **Mission control:** attack coverage, the closed-loop story, and current model signal.
 - **Attack catalog:** browse all mapped attack vectors by fraud family.
 - **Closed loop:** run an iteration with live stage status, inspect generated-record and detection metrics, review mutation candidates, and compare the latest two iterations.
+- **Evaluation Lab:** sweep a frozen detector over selected fraud families, difficulty profiles, and reproducible seeds; inspect the coverage matrix and the evidence behind monitor/weak cells.
 - **GenAI gateway:** choose local rules, LM Studio, AWS Bedrock, GCP Vertex AI, or Azure AI Foundry and submit a session-only configuration.
 - **Portfolio onboarding:** load canonical CSV templates, validate authorized pseudonymized demo records, score upcoming transactions, and delete local demo data after use.
 
@@ -62,6 +63,8 @@ The explorer is an analyst workbench: use **Columns** to show or hide analysis f
 In **GenAI gateway**, use **Save & test connection** after selecting LM Studio. The result must show `local_lmstudio` as the responding provider for the Mac-hosted model to be confirmed. If the result shows `local_rules` with fallback metadata, inspect the endpoint, model identifier, and LM Studio server state before running a GenAI-backed loop.
 
 In **Portfolio onboarding**, run a recent closed-loop iteration before advisory scoring, then select that iteration as the detector model. The page is intentionally local-demo only; never upload direct PII or payment-instrument data. See [Local Portfolio Onboarding](./portfolio_onboarding.md) for the CSV contract.
+
+In **Evaluation Lab**, first select a completed iteration that contains a frozen detector. The normal initial sweep is all five fraud families, three bounded difficulty profiles, and two deterministic seeds. A campaign evaluates its cells with row-level LLM review disabled, preserving comparable frozen-detector evidence. Select an amber `monitor` or red `weak` cell to inspect missed subtypes and representative misses, then use **Open closed loop** only to begin a human-governed follow-up—not to automatically modify the generator.
 
 ## 4. Verify a Production Build
 

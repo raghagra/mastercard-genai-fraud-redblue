@@ -14,6 +14,7 @@ def test_api_health_and_catalog_routes() -> None:
     genai = client.get("/genai/health")
     providers = client.get("/genai/providers")
     cost = client.post("/genai/cost/estimate", json={"input_tokens": 1000, "output_tokens": 500})
+    evaluation_options = client.get("/evaluation-lab/options")
 
     assert health.status_code == 200
     assert health.json()["status"] == "ok"
@@ -31,6 +32,8 @@ def test_api_health_and_catalog_routes() -> None:
     assert "azure_ai_foundry" in providers.json()["providers"]
     assert cost.status_code == 200
     assert cost.json()["estimates"]
+    assert evaluation_options.status_code == 200
+    assert sum(item["attack_card_count"] for item in evaluation_options.json()["buckets"]) == 25
 
 
 def test_api_allows_vite_alternate_local_port() -> None:

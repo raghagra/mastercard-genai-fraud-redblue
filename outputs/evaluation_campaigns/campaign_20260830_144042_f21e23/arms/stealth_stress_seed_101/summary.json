@@ -1,0 +1,21 @@
+{
+  "arm_id": "stealth_stress_seed_101",
+  "difficulty_profile": "stealth_stress",
+  "fraud_record_count": 561,
+  "metrics": {
+    "accuracy": 0.937973,
+    "f1": 0.963295,
+    "false_negative": 23,
+    "false_positive": 18,
+    "false_positive_rate": 0.18,
+    "pr_auc": 0.994197,
+    "precision": 0.967626,
+    "recall": 0.959002,
+    "roc_auc": 0.968414,
+    "threshold": 0.13,
+    "true_negative": 82,
+    "true_positive": 538
+  },
+  "record_count": 661,
+  "seed": 101
+}

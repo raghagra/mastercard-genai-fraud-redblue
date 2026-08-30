@@ -1,0 +1,16 @@
+customer_id,age_band,tenure_days,account_age_days,home_country,email_domain,phone_type,kyc_level,historical_spend_mean,historical_spend_std,historical_decline_rate
+cust_d58445bb0cd3,18-25,2602,52,DE,outlook.com,mobile,high,97.51,59.46,0.0053
+cust_909a56b4acdb,51-65,1111,491,SG,outlook.com,mobile,medium,236.45,30.05,0.0414
+cust_754b6b44764b,18-25,156,2296,IN,company.example,mobile,medium,99.74,42.06,0.0462
+cust_9b476c04e751,18-25,1690,329,DE,company.example,mobile,medium,32.79,20.95,0.0752
+cust_df59a780e260,36-50,1582,2325,AE,outlook.com,mobile,high,115.68,17.98,0.0743
+cust_eac2b4684735,26-35,802,397,GB,proton.me,mobile,high,191.13,57.37,0.322
+cust_e8df000c453f,26-35,559,247,AE,outlook.com,voip,medium,227.6,54.43,0.0247
+cust_cf846cf58755,51-65,2912,940,DE,gmail.com,landline,high,56.09,27.93,0.0712
+cust_4cf43502b158,18-25,870,992,SG,company.example,mobile,high,56.9,54.06,0.073
+cust_ac3f42474cd5,36-50,2438,504,US,company.example,landline,high,110.35,14.83,0.0279
+cust_6902e98f8194,51-65,128,2334,AE,proton.me,mobile,medium,230.15,16.26,0.0777
+cust_41c64ee74598,26-35,724,746,DE,proton.me,voip,medium,336.23,42.81,0.195
+cust_e1982ad7f6d5,26-35,832,83,DE,proton.me,landline,medium,151.0,87.54,0.1118
+cust_322d91430f7a,36-50,268,438,US,gmail.com,mobile,high,189.37,32.5,0.3216
+cust_9b79a8823840,51-65,2518,1074,SG,proton.me,landline,medium,187.71,46.33,0.0435

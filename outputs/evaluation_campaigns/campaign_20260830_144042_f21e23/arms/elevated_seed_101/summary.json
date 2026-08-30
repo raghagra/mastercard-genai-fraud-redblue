@@ -1,0 +1,21 @@
+{
+  "arm_id": "elevated_seed_101",
+  "difficulty_profile": "elevated",
+  "fraud_record_count": 773,
+  "metrics": {
+    "accuracy": 0.961054,
+    "f1": 0.978036,
+    "false_negative": 16,
+    "false_positive": 18,
+    "false_positive_rate": 0.18,
+    "pr_auc": 0.997853,
+    "precision": 0.976774,
+    "recall": 0.979301,
+    "roc_auc": 0.983803,
+    "threshold": 0.13,
+    "true_negative": 82,
+    "true_positive": 757
+  },
+  "record_count": 873,
+  "seed": 101
+}

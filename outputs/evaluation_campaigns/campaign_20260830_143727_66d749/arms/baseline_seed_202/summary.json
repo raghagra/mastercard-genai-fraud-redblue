@@ -1,0 +1,21 @@
+{
+  "arm_id": "baseline_seed_202",
+  "difficulty_profile": "baseline",
+  "fraud_record_count": 1081,
+  "metrics": {
+    "accuracy": 0.982218,
+    "f1": 0.990318,
+    "false_negative": 7,
+    "false_positive": 14,
+    "false_positive_rate": 0.14,
+    "pr_auc": 0.999802,
+    "precision": 0.987132,
+    "recall": 0.993525,
+    "roc_auc": 0.997817,
+    "threshold": 0.13,
+    "true_negative": 86,
+    "true_positive": 1074
+  },
+  "record_count": 1181,
+  "seed": 202
+}

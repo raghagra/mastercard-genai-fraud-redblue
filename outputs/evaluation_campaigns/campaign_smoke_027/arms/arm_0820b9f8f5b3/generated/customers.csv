@@ -1,0 +1,7 @@
+customer_id,age_band,tenure_days,account_age_days,home_country,email_domain,phone_type,kyc_level,historical_spend_mean,historical_spend_std,historical_decline_rate
+cust_db40dd6ac6b0,36-50,521,1847,AE,outlook.com,mobile,medium,150.76,23.09,0.066
+cust_8e9bbd6f9649,18-25,2497,1493,IN,outlook.com,mobile,high,211.62,41.91,0.0443
+cust_4630543833df,51-65,2349,672,GB,outlook.com,mobile,medium,62.08,9.21,0.0084
+cust_19557da8d6b5,51-65,1863,1507,AE,company.example,mobile,high,246.02,63.81,0.0624
+cust_36f0d6e66df0,18-25,1984,1620,AE,company.example,mobile,medium,224.82,33.41,0.0328
+cust_6c7ebe32c0ea,18-25,1057,843,AE,gmail.com,landline,high,60.47,18.98,0.3379

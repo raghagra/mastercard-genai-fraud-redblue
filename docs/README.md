@@ -22,6 +22,7 @@ Primary references:
 - [Hybrid ML + GenAI Defense](./hybrid_defense.md)
 - [Evaluation Plan](./evaluation_plan.md)
 - [Closed-Loop Design](./closed_loop_design.md)
+- [Adversarial Evaluation Lab](./adversarial_evaluation_lab.md)
 - [GenAI Gateway](./genai_gateway.md)
 - [Local Portfolio Onboarding](./portfolio_onboarding.md)
 - [API Design](./api_design.md)

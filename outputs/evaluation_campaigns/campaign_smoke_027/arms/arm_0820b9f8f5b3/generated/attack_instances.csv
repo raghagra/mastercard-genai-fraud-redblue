@@ -1,0 +1,2 @@
+attack_instance_id,scenario_id,attack_id,bucket,subtype,scenario_seed,attack_intensity,stealth_level,time_window_hours,generated_record_ids
+atk_7acc14977c1d,scn_01ba4092fa47,social_ai_impersonation_001__campaign_baseline,social_engineering_payment_fraud,ai_impersonation,404,0.5732,0.6306,11,"txn_2f0ba5d68203,txn_29bac5cd588f,txn_f6669fb3cc4a,txn_59bbc58d8946,txn_1f1cc05c0d6f,txn_369016db0eb0,txn_9b42b703f2d0,txn_ab437bb9a15c"

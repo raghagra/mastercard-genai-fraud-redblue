@@ -1,0 +1,1710 @@
+{
+  "arms": [
+    {
+      "arm_id": "baseline_seed_101",
+      "difficulty_profile": "baseline",
+      "fraud_record_count": 1023,
+      "metrics": {
+        "accuracy": 0.975957,
+        "f1": 0.986861,
+        "false_negative": 9,
+        "false_positive": 18,
+        "false_positive_rate": 0.18,
+        "pr_auc": 0.999298,
+        "precision": 0.982558,
+        "recall": 0.991202,
+        "roc_auc": 0.992845,
+        "threshold": 0.13,
+        "true_negative": 82,
+        "true_positive": 1014
+      },
+      "record_count": 1123,
+      "seed": 101
+    },
+    {
+      "arm_id": "baseline_seed_202",
+      "difficulty_profile": "baseline",
+      "fraud_record_count": 1081,
+      "metrics": {
+        "accuracy": 0.982218,
+        "f1": 0.990318,
+        "false_negative": 7,
+        "false_positive": 14,
+        "false_positive_rate": 0.14,
+        "pr_auc": 0.999802,
+        "precision": 0.987132,
+        "recall": 0.993525,
+        "roc_auc": 0.997817,
+        "threshold": 0.13,
+        "true_negative": 86,
+        "true_positive": 1074
+      },
+      "record_count": 1181,
+      "seed": 202
+    },
+    {
+      "arm_id": "elevated_seed_101",
+      "difficulty_profile": "elevated",
+      "fraud_record_count": 773,
+      "metrics": {
+        "accuracy": 0.961054,
+        "f1": 0.978036,
+        "false_negative": 16,
+        "false_positive": 18,
+        "false_positive_rate": 0.18,
+        "pr_auc": 0.997853,
+        "precision": 0.976774,
+        "recall": 0.979301,
+        "roc_auc": 0.983803,
+        "threshold": 0.13,
+        "true_negative": 82,
+        "true_positive": 757
+      },
+      "record_count": 873,
+      "seed": 101
+    },
+    {
+      "arm_id": "elevated_seed_202",
+      "difficulty_profile": "elevated",
+      "fraud_record_count": 809,
+      "metrics": {
+        "accuracy": 0.974697,
+        "f1": 0.985829,
+        "false_negative": 9,
+        "false_positive": 14,
+        "false_positive_rate": 0.14,
+        "pr_auc": 0.999465,
+        "precision": 0.982801,
+        "recall": 0.988875,
+        "roc_auc": 0.99555,
+        "threshold": 0.13,
+        "true_negative": 86,
+        "true_positive": 800
+      },
+      "record_count": 909,
+      "seed": 202
+    },
+    {
+      "arm_id": "stealth_stress_seed_101",
+      "difficulty_profile": "stealth_stress",
+      "fraud_record_count": 561,
+      "metrics": {
+        "accuracy": 0.937973,
+        "f1": 0.963295,
+        "false_negative": 23,
+        "false_positive": 18,
+        "false_positive_rate": 0.18,
+        "pr_auc": 0.994197,
+        "precision": 0.967626,
+        "recall": 0.959002,
+        "roc_auc": 0.968414,
+        "threshold": 0.13,
+        "true_negative": 82,
+        "true_positive": 538
+      },
+      "record_count": 661,
+      "seed": 101
+    },
+    {
+      "arm_id": "stealth_stress_seed_202",
+      "difficulty_profile": "stealth_stress",
+      "fraud_record_count": 597,
+      "metrics": {
+        "accuracy": 0.967001,
+        "f1": 0.980817,
+        "false_negative": 9,
+        "false_positive": 14,
+        "false_positive_rate": 0.14,
+        "pr_auc": 0.998677,
+        "precision": 0.976744,
+        "recall": 0.984925,
+        "roc_auc": 0.991776,
+        "threshold": 0.13,
+        "true_negative": 86,
+        "true_positive": 588
+      },
+      "record_count": 697,
+      "seed": 202
+    }
+  ],
+  "campaign_id": "campaign_20260830_143727_66d749",
+  "configuration": {
+    "arm_count": 6,
+    "attack_card_count": 25,
+    "benign_count_per_arm": 100,
+    "buckets": [
+      "credential_based_fraud",
+      "identity_onboarding_fraud",
+      "merchant_ecosystem_abuse",
+      "post_transaction_abuse",
+      "social_engineering_payment_fraud"
+    ],
+    "difficulty_profiles": [
+      {
+        "description": "Uses the original attack-card generator settings.",
+        "label": "Baseline",
+        "name": "baseline"
+      },
+      {
+        "description": "Moves the campaign closer to benign context while reducing obvious velocity.",
+        "label": "Elevated",
+        "name": "elevated"
+      },
+      {
+        "description": "Applies the strongest bounded overlap, pacing, noise, and campaign-window stress settings.",
+        "label": "Stealth stress",
+        "name": "stealth_stress"
+      }
+    ],
+    "realism_profile": "overlap",
+    "scenarios_per_card": 1,
+    "seeds": [
+      101,
+      202
+    ]
+  },
+  "coverage_matrix": [
+    {
+      "bucket": "credential_based_fraud",
+      "difficulty_label": "Baseline",
+      "difficulty_profile": "baseline",
+      "fraud_record_count": 933,
+      "metrics": {
+        "accuracy": 0.966461,
+        "f1": 0.979915,
+        "false_negative": 6,
+        "false_positive": 32,
+        "false_positive_rate": 0.16,
+        "pr_auc": 0.998957,
+        "precision": 0.966632,
+        "recall": 0.993569,
+        "roc_auc": 0.994979,
+        "threshold": 0.13,
+        "true_negative": 168,
+        "true_positive": 927
+      },
+      "miss_count": 6,
+      "missed_subtypes": [
+        {
+          "miss_count": 4,
+          "subtype": "credential_stuffing"
+        },
+        {
+          "miss_count": 1,
+          "subtype": "consumer_account_takeover"
+        },
+        {
+          "miss_count": 1,
+          "subtype": "merchant_admin_takeover"
+        }
+      ],
+      "record_count": 1133,
+      "representative_misses": [
+        {
+          "attack_subtype": "consumer_account_takeover",
+          "fraud_score": 0.0866656454313659,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "session velocity lowers risk",
+            "device activity cadence raises risk"
+          ],
+          "transaction_id": "txn_6e925e0ef680"
+        },
+        {
+          "attack_subtype": "merchant_admin_takeover",
+          "fraud_score": 0.0994387864936588,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "merchant chargeback behavior lowers risk",
+            "session velocity lowers risk"
+          ],
+          "transaction_id": "txn_c036099c4ced"
+        },
+        {
+          "attack_subtype": "credential_stuffing",
+          "fraud_score": 0.03041845356051757,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "high generated risk score lowers risk",
+            "IP velocity lowers risk"
+          ],
+          "transaction_id": "txn_b1fc8e90ac59"
+        }
+      ],
+      "status": "monitor"
+    },
+    {
+      "bucket": "identity_onboarding_fraud",
+      "difficulty_label": "Baseline",
+      "difficulty_profile": "baseline",
+      "fraud_record_count": 304,
+      "metrics": {
+        "accuracy": 0.930556,
+        "f1": 0.945055,
+        "false_negative": 3,
+        "false_positive": 32,
+        "false_positive_rate": 0.16,
+        "pr_auc": 0.997752,
+        "precision": 0.903904,
+        "recall": 0.990132,
+        "roc_auc": 0.996086,
+        "threshold": 0.13,
+        "true_negative": 168,
+        "true_positive": 301
+      },
+      "miss_count": 3,
+      "missed_subtypes": [
+        {
+          "miss_count": 1,
+          "subtype": "fraudulent_merchant_onboarding"
+        },
+        {
+          "miss_count": 1,
+          "subtype": "stolen_identity_signup"
+        },
+        {
+          "miss_count": 1,
+          "subtype": "synthetic_identity"
+        }
+      ],
+      "record_count": 504,
+      "representative_misses": [
+        {
+          "attack_subtype": "fraudulent_merchant_onboarding",
+          "fraud_score": 0.11658910440667841,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "merchant chargeback behavior lowers risk",
+            "session velocity lowers risk"
+          ],
+          "transaction_id": "txn_0a5f6e5561a2"
+        },
+        {
+          "attack_subtype": "stolen_identity_signup",
+          "fraud_score": 0.06726713513818672,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "high generated risk score lowers risk",
+            "session velocity lowers risk"
+          ],
+          "transaction_id": "txn_fef2de7ae025"
+        },
+        {
+          "attack_subtype": "synthetic_identity",
+          "fraud_score": 0.11359729481402026,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "IP velocity lowers risk",
+            "session velocity lowers risk"
+          ],
+          "transaction_id": "txn_31df94090dd5"
+        }
+      ],
+      "status": "monitor"
+    },
+    {
+      "bucket": "merchant_ecosystem_abuse",
+      "difficulty_label": "Baseline",
+      "difficulty_profile": "baseline",
+      "fraud_record_count": 695,
+      "metrics": {
+        "accuracy": 0.963128,
+        "f1": 0.976777,
+        "false_negative": 1,
+        "false_positive": 32,
+        "false_positive_rate": 0.16,
+        "pr_auc": 0.999761,
+        "precision": 0.955923,
+        "recall": 0.998561,
+        "roc_auc": 0.999151,
+        "threshold": 0.13,
+        "true_negative": 168,
+        "true_positive": 694
+      },
+      "miss_count": 1,
+      "missed_subtypes": [
+        {
+          "miss_count": 1,
+          "subtype": "triangulation_fraud"
+        }
+      ],
+      "record_count": 895,
+      "representative_misses": [
+        {
+          "attack_subtype": "triangulation_fraud",
+          "fraud_score": 0.10529527723011439,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "high generated risk score lowers risk",
+            "session velocity lowers risk"
+          ],
+          "transaction_id": "txn_abaf9aa06f4f"
+        }
+      ],
+      "status": "monitor"
+    },
+    {
+      "bucket": "post_transaction_abuse",
+      "difficulty_label": "Baseline",
+      "difficulty_profile": "baseline",
+      "fraud_record_count": 100,
+      "metrics": {
+        "accuracy": 0.88,
+        "f1": 0.842105,
+        "false_negative": 4,
+        "false_positive": 32,
+        "false_positive_rate": 0.16,
+        "pr_auc": 0.979366,
+        "precision": 0.75,
+        "recall": 0.96,
+        "roc_auc": 0.9865,
+        "threshold": 0.13,
+        "true_negative": 168,
+        "true_positive": 96
+      },
+      "miss_count": 4,
+      "missed_subtypes": [
+        {
+          "miss_count": 2,
+          "subtype": "alternative_refund_abuse"
+        },
+        {
+          "miss_count": 1,
+          "subtype": "refund_fraud"
+        },
+        {
+          "miss_count": 1,
+          "subtype": "return_policy_abuse"
+        }
+      ],
+      "record_count": 300,
+      "representative_misses": [
+        {
+          "attack_subtype": "alternative_refund_abuse",
+          "fraud_score": 0.12470940806244094,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "IP velocity lowers risk",
+            "high generated risk score lowers risk"
+          ],
+          "transaction_id": "txn_6743f62c905f"
+        },
+        {
+          "attack_subtype": "return_policy_abuse",
+          "fraud_score": 0.12042448569477869,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "IP velocity lowers risk",
+            "high generated risk score lowers risk"
+          ],
+          "transaction_id": "txn_4f969f0f1067"
+        },
+        {
+          "attack_subtype": "alternative_refund_abuse",
+          "fraud_score": 0.09935403963081073,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "high generated risk score lowers risk",
+            "merchant chargeback behavior lowers risk"
+          ],
+          "transaction_id": "txn_7e4fbfbcd7ea"
+        }
+      ],
+      "status": "weak"
+    },
+    {
+      "bucket": "social_engineering_payment_fraud",
+      "difficulty_label": "Baseline",
+      "difficulty_profile": "baseline",
+      "fraud_record_count": 72,
+      "metrics": {
+        "accuracy": 0.875,
+        "f1": 0.804598,
+        "false_negative": 2,
+        "false_positive": 32,
+        "false_positive_rate": 0.16,
+        "pr_auc": 0.973937,
+        "precision": 0.686275,
+        "recall": 0.972222,
+        "roc_auc": 0.984653,
+        "threshold": 0.13,
+        "true_negative": 168,
+        "true_positive": 70
+      },
+      "miss_count": 2,
+      "missed_subtypes": [
+        {
+          "miss_count": 1,
+          "subtype": "executive_impersonation"
+        },
+        {
+          "miss_count": 1,
+          "subtype": "vendor_rerouting"
+        }
+      ],
+      "record_count": 272,
+      "representative_misses": [
+        {
+          "attack_subtype": "executive_impersonation",
+          "fraud_score": 0.06781805580319078,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "high generated risk score lowers risk",
+            "merchant chargeback behavior lowers risk"
+          ],
+          "transaction_id": "txn_f8eaf9bf16f0"
+        },
+        {
+          "attack_subtype": "vendor_rerouting",
+          "fraud_score": 0.09498436765018481,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "IP velocity lowers risk",
+            "high generated risk score lowers risk"
+          ],
+          "transaction_id": "txn_1a5874f55399"
+        }
+      ],
+      "status": "weak"
+    },
+    {
+      "bucket": "credential_based_fraud",
+      "difficulty_label": "Elevated",
+      "difficulty_profile": "elevated",
+      "fraud_record_count": 701,
+      "metrics": {
+        "accuracy": 0.951165,
+        "f1": 0.969058,
+        "false_negative": 12,
+        "false_positive": 32,
+        "false_positive_rate": 0.16,
+        "pr_auc": 0.99686,
+        "precision": 0.955617,
+        "recall": 0.982882,
+        "roc_auc": 0.988845,
+        "threshold": 0.13,
+        "true_negative": 168,
+        "true_positive": 689
+      },
+      "miss_count": 12,
+      "missed_subtypes": [
+        {
+          "miss_count": 9,
+          "subtype": "credential_stuffing"
+        },
+        {
+          "miss_count": 2,
+          "subtype": "merchant_admin_takeover"
+        },
+        {
+          "miss_count": 1,
+          "subtype": "consumer_account_takeover"
+        }
+      ],
+      "record_count": 901,
+      "representative_misses": [
+        {
+          "attack_subtype": "consumer_account_takeover",
+          "fraud_score": 0.061114890236031776,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "high generated risk score lowers risk",
+            "session velocity lowers risk"
+          ],
+          "transaction_id": "txn_a434f00a23bb"
+        },
+        {
+          "attack_subtype": "merchant_admin_takeover",
+          "fraud_score": 0.12895872006428863,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "merchant chargeback behavior lowers risk",
+            "session velocity lowers risk"
+          ],
+          "transaction_id": "txn_23749784c95c"
+        },
+        {
+          "attack_subtype": "credential_stuffing",
+          "fraud_score": 0.0436180622648827,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "IP velocity lowers risk",
+            "high generated risk score lowers risk"
+          ],
+          "transaction_id": "txn_f5dbc1f040eb"
+        }
+      ],
+      "status": "monitor"
+    },
+    {
+      "bucket": "identity_onboarding_fraud",
+      "difficulty_label": "Elevated",
+      "difficulty_profile": "elevated",
+      "fraud_record_count": 230,
+      "metrics": {
+        "accuracy": 0.913953,
+        "f1": 0.924024,
+        "false_negative": 5,
+        "false_positive": 32,
+        "false_positive_rate": 0.16,
+        "pr_auc": 0.992474,
+        "precision": 0.875486,
+        "recall": 0.978261,
+        "roc_auc": 0.989804,
+        "threshold": 0.13,
+        "true_negative": 168,
+        "true_positive": 225
+      },
+      "miss_count": 5,
+      "missed_subtypes": [
+        {
+          "miss_count": 3,
+          "subtype": "stolen_identity_signup"
+        },
+        {
+          "miss_count": 2,
+          "subtype": "synthetic_identity"
+        }
+      ],
+      "record_count": 430,
+      "representative_misses": [
+        {
+          "attack_subtype": "stolen_identity_signup",
+          "fraud_score": 0.10011528955638374,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "merchant chargeback behavior lowers risk",
+            "IP velocity lowers risk"
+          ],
+          "transaction_id": "txn_3d370e9645e7"
+        },
+        {
+          "attack_subtype": "stolen_identity_signup",
+          "fraud_score": 0.09463285307014883,
+          "reason_codes": [
+            "high generated risk score lowers risk",
+            "merchant chargeback behavior lowers risk",
+            "IP velocity lowers risk"
+          ],
+          "transaction_id": "txn_d3abd4c8835b"
+        },
+        {
+          "attack_subtype": "synthetic_identity",
+          "fraud_score": 0.06713627865311941,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "high generated risk score lowers risk",
+            "IP velocity lowers risk"
+          ],
+          "transaction_id": "txn_07d983df9adc"
+        }
+      ],
+      "status": "monitor"
+    },
+    {
+      "bucket": "merchant_ecosystem_abuse",
+      "difficulty_label": "Elevated",
+      "difficulty_profile": "elevated",
+      "fraud_record_count": 522,
+      "metrics": {
+        "accuracy": 0.950139,
+        "f1": 0.966418,
+        "false_negative": 4,
+        "false_positive": 32,
+        "false_positive_rate": 0.16,
+        "pr_auc": 0.998382,
+        "precision": 0.941818,
+        "recall": 0.992337,
+        "roc_auc": 0.995412,
+        "threshold": 0.13,
+        "true_negative": 168,
+        "true_positive": 518
+      },
+      "miss_count": 4,
+      "missed_subtypes": [
+        {
+          "miss_count": 2,
+          "subtype": "triangulation_fraud"
+        },
+        {
+          "miss_count": 1,
+          "subtype": "bust_out_merchant"
+        },
+        {
+          "miss_count": 1,
+          "subtype": "mule_laundering"
+        }
+      ],
+      "record_count": 722,
+      "representative_misses": [
+        {
+          "attack_subtype": "triangulation_fraud",
+          "fraud_score": 0.047721258124638094,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "high generated risk score lowers risk",
+            "IP velocity lowers risk"
+          ],
+          "transaction_id": "txn_a2438cd2c736"
+        },
+        {
+          "attack_subtype": "bust_out_merchant",
+          "fraud_score": 0.11990099034258518,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "session velocity lowers risk",
+            "device activity cadence raises risk"
+          ],
+          "transaction_id": "txn_0b2956feb789"
+        },
+        {
+          "attack_subtype": "mule_laundering",
+          "fraud_score": 0.07116803491572046,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "IP velocity lowers risk",
+            "high generated risk score lowers risk"
+          ],
+          "transaction_id": "txn_f7780ede8233"
+        }
+      ],
+      "status": "monitor"
+    },
+    {
+      "bucket": "post_transaction_abuse",
+      "difficulty_label": "Elevated",
+      "difficulty_profile": "elevated",
+      "fraud_record_count": 75,
+      "metrics": {
+        "accuracy": 0.872727,
+        "f1": 0.804469,
+        "false_negative": 3,
+        "false_positive": 32,
+        "false_positive_rate": 0.16,
+        "pr_auc": 0.965047,
+        "precision": 0.692308,
+        "recall": 0.96,
+        "roc_auc": 0.978333,
+        "threshold": 0.13,
+        "true_negative": 168,
+        "true_positive": 72
+      },
+      "miss_count": 3,
+      "missed_subtypes": [
+        {
+          "miss_count": 1,
+          "subtype": "alternative_refund_abuse"
+        },
+        {
+          "miss_count": 1,
+          "subtype": "non_delivery_claim"
+        },
+        {
+          "miss_count": 1,
+          "subtype": "return_policy_abuse"
+        }
+      ],
+      "record_count": 275,
+      "representative_misses": [
+        {
+          "attack_subtype": "alternative_refund_abuse",
+          "fraud_score": 0.1080925766391663,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "high generated risk score lowers risk",
+            "merchant chargeback behavior lowers risk"
+          ],
+          "transaction_id": "txn_9ea600c1a637"
+        },
+        {
+          "attack_subtype": "non_delivery_claim",
+          "fraud_score": 0.04527424744444028,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "high generated risk score lowers risk",
+            "merchant chargeback behavior lowers risk"
+          ],
+          "transaction_id": "txn_4b2f9d4476c9"
+        },
+        {
+          "attack_subtype": "return_policy_abuse",
+          "fraud_score": 0.08690119012913441,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "high generated risk score lowers risk",
+            "merchant chargeback behavior lowers risk"
+          ],
+          "transaction_id": "txn_6d8d298e5cff"
+        }
+      ],
+      "status": "weak"
+    },
+    {
+      "bucket": "social_engineering_payment_fraud",
+      "difficulty_label": "Elevated",
+      "difficulty_profile": "elevated",
+      "fraud_record_count": 54,
+      "metrics": {
+        "accuracy": 0.870079,
+        "f1": 0.762589,
+        "false_negative": 1,
+        "false_positive": 32,
+        "false_positive_rate": 0.16,
+        "pr_auc": 0.968785,
+        "precision": 0.623529,
+        "recall": 0.981481,
+        "roc_auc": 0.987963,
+        "threshold": 0.13,
+        "true_negative": 168,
+        "true_positive": 53
+      },
+      "miss_count": 1,
+      "missed_subtypes": [
+        {
+          "miss_count": 1,
+          "subtype": "business_email_compromise"
+        }
+      ],
+      "record_count": 254,
+      "representative_misses": [
+        {
+          "attack_subtype": "business_email_compromise",
+          "fraud_score": 0.10126257529312778,
+          "reason_codes": [
+            "unusual amount raises risk",
+            "customer payment cadence lowers risk",
+            "high generated risk score lowers risk"
+          ],
+          "transaction_id": "txn_ab34693453b0"
+        }
+      ],
+      "status": "weak"
+    },
+    {
+      "bucket": "credential_based_fraud",
+      "difficulty_label": "Stealth stress",
+      "difficulty_profile": "stealth_stress",
+      "fraud_record_count": 515,
+      "metrics": {
+        "accuracy": 0.93007,
+        "f1": 0.952108,
+        "false_negative": 18,
+        "false_positive": 32,
+        "false_positive_rate": 0.16,
+        "pr_auc": 0.991322,
+        "precision": 0.939509,
+        "recall": 0.965049,
+        "roc_auc": 0.976767,
+        "threshold": 0.13,
+        "true_negative": 168,
+        "true_positive": 497
+      },
+      "miss_count": 18,
+      "missed_subtypes": [
+        {
+          "miss_count": 13,
+          "subtype": "credential_stuffing"
+        },
+        {
+          "miss_count": 3,
+          "subtype": "consumer_account_takeover"
+        },
+        {
+          "miss_count": 1,
+          "subtype": "card_not_present"
+        },
+        {
+          "miss_count": 1,
+          "subtype": "merchant_admin_takeover"
+        }
+      ],
+      "record_count": 715,
+      "representative_misses": [
+        {
+          "attack_subtype": "card_not_present",
+          "fraud_score": 0.07938405405089942,
+          "reason_codes": [
+            "amount deviation from customer history lowers risk",
+            "IP velocity lowers risk",
+            "device activity cadence raises risk"
+          ],
+          "transaction_id": "txn_90313885b6c3"
+        },
+        {
+          "attack_subtype": "consumer_account_takeover",
+          "fraud_score": 0.10181641217846013,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "session velocity lowers risk",
+            "device activity cadence raises risk"
+          ],
+          "transaction_id": "txn_ba38687d9222"
+        },
+        {
+          "attack_subtype": "merchant_admin_takeover",
+          "fraud_score": 0.03610204698490948,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "high generated risk score lowers risk",
+            "merchant chargeback behavior lowers risk"
+          ],
+          "transaction_id": "txn_5dd7d5dd04ce"
+        }
+      ],
+      "status": "monitor"
+    },
+    {
+      "bucket": "identity_onboarding_fraud",
+      "difficulty_label": "Stealth stress",
+      "difficulty_profile": "stealth_stress",
+      "fraud_record_count": 169,
+      "metrics": {
+        "accuracy": 0.899729,
+        "f1": 0.89863,
+        "false_negative": 5,
+        "false_positive": 32,
+        "false_positive_rate": 0.16,
+        "pr_auc": 0.981636,
+        "precision": 0.836735,
+        "recall": 0.970414,
+        "roc_auc": 0.978047,
+        "threshold": 0.13,
+        "true_negative": 168,
+        "true_positive": 164
+      },
+      "miss_count": 5,
+      "missed_subtypes": [
+        {
+          "miss_count": 3,
+          "subtype": "stolen_identity_signup"
+        },
+        {
+          "miss_count": 1,
+          "subtype": "synthetic_business"
+        },
+        {
+          "miss_count": 1,
+          "subtype": "synthetic_identity"
+        }
+      ],
+      "record_count": 369,
+      "representative_misses": [
+        {
+          "attack_subtype": "stolen_identity_signup",
+          "fraud_score": 0.03451987727003093,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "merchant chargeback behavior lowers risk",
+            "IP velocity lowers risk"
+          ],
+          "transaction_id": "txn_b61bfcad2982"
+        },
+        {
+          "attack_subtype": "stolen_identity_signup",
+          "fraud_score": 0.07730768935681435,
+          "reason_codes": [
+            "amount deviation from customer history lowers risk",
+            "merchant chargeback behavior lowers risk",
+            "IP velocity lowers risk"
+          ],
+          "transaction_id": "txn_9567a896f0c3"
+        },
+        {
+          "attack_subtype": "stolen_identity_signup",
+          "fraud_score": 0.11401407702826437,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "high generated risk score lowers risk",
+            "session velocity lowers risk"
+          ],
+          "transaction_id": "txn_57dfce57e32b"
+        }
+      ],
+      "status": "monitor"
+    },
+    {
+      "bucket": "merchant_ecosystem_abuse",
+      "difficulty_label": "Stealth stress",
+      "difficulty_profile": "stealth_stress",
+      "fraud_record_count": 381,
+      "metrics": {
+        "accuracy": 0.938038,
+        "f1": 0.95443,
+        "false_negative": 4,
+        "false_positive": 32,
+        "false_positive_rate": 0.16,
+        "pr_auc": 0.995762,
+        "precision": 0.92176,
+        "recall": 0.989501,
+        "roc_auc": 0.991207,
+        "threshold": 0.13,
+        "true_negative": 168,
+        "true_positive": 377
+      },
+      "miss_count": 4,
+      "missed_subtypes": [
+        {
+          "miss_count": 2,
+          "subtype": "gift_card_abuse"
+        },
+        {
+          "miss_count": 1,
+          "subtype": "bust_out_merchant"
+        },
+        {
+          "miss_count": 1,
+          "subtype": "mule_laundering"
+        }
+      ],
+      "record_count": 581,
+      "representative_misses": [
+        {
+          "attack_subtype": "gift_card_abuse",
+          "fraud_score": 0.12366848255355767,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "IP velocity lowers risk",
+            "high generated risk score lowers risk"
+          ],
+          "transaction_id": "txn_6b65e60f74df"
+        },
+        {
+          "attack_subtype": "gift_card_abuse",
+          "fraud_score": 0.030333919910163397,
+          "reason_codes": [
+            "amount deviation from customer history lowers risk",
+            "high generated risk score lowers risk",
+            "IP velocity lowers risk"
+          ],
+          "transaction_id": "txn_20caca007a4f"
+        },
+        {
+          "attack_subtype": "bust_out_merchant",
+          "fraud_score": 0.08486874713827157,
+          "reason_codes": [
+            "merchant chargeback behavior lowers risk",
+            "session velocity lowers risk",
+            "event_hour lowers risk"
+          ],
+          "transaction_id": "txn_637b11344184"
+        }
+      ],
+      "status": "monitor"
+    },
+    {
+      "bucket": "post_transaction_abuse",
+      "difficulty_label": "Stealth stress",
+      "difficulty_profile": "stealth_stress",
+      "fraud_record_count": 54,
+      "metrics": {
+        "accuracy": 0.866142,
+        "f1": 0.753623,
+        "false_negative": 2,
+        "false_positive": 32,
+        "false_positive_rate": 0.16,
+        "pr_auc": 0.941344,
+        "precision": 0.619048,
+        "recall": 0.962963,
+        "roc_auc": 0.978241,
+        "threshold": 0.13,
+        "true_negative": 168,
+        "true_positive": 52
+      },
+      "miss_count": 2,
+      "missed_subtypes": [
+        {
+          "miss_count": 1,
+          "subtype": "chargeback_fraud"
+        },
+        {
+          "miss_count": 1,
+          "subtype": "refund_fraud"
+        }
+      ],
+      "record_count": 254,
+      "representative_misses": [
+        {
+          "attack_subtype": "chargeback_fraud",
+          "fraud_score": 0.12410829221480546,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "high generated risk score lowers risk",
+            "merchant chargeback behavior lowers risk"
+          ],
+          "transaction_id": "txn_d791692e7d47"
+        },
+        {
+          "attack_subtype": "refund_fraud",
+          "fraud_score": 0.09467127034335622,
+          "reason_codes": [
+            "high generated risk score lowers risk",
+            "event_hour lowers risk",
+            "session velocity lowers risk"
+          ],
+          "transaction_id": "txn_0619a191b0a0"
+        }
+      ],
+      "status": "weak"
+    },
+    {
+      "bucket": "social_engineering_payment_fraud",
+      "difficulty_label": "Stealth stress",
+      "difficulty_profile": "stealth_stress",
+      "fraud_record_count": 39,
+      "metrics": {
+        "accuracy": 0.853556,
+        "f1": 0.672897,
+        "false_negative": 3,
+        "false_positive": 32,
+        "false_positive_rate": 0.16,
+        "pr_auc": 0.906545,
+        "precision": 0.529412,
+        "recall": 0.923077,
+        "roc_auc": 0.969615,
+        "threshold": 0.13,
+        "true_negative": 168,
+        "true_positive": 36
+      },
+      "miss_count": 3,
+      "missed_subtypes": [
+        {
+          "miss_count": 1,
+          "subtype": "ai_impersonation"
+        },
+        {
+          "miss_count": 1,
+          "subtype": "business_email_compromise"
+        },
+        {
+          "miss_count": 1,
+          "subtype": "vendor_rerouting"
+        }
+      ],
+      "record_count": 239,
+      "representative_misses": [
+        {
+          "attack_subtype": "ai_impersonation",
+          "fraud_score": 0.10717129831447632,
+          "reason_codes": [
+            "amount deviation from customer history lowers risk",
+            "high generated risk score lowers risk",
+            "merchant chargeback behavior lowers risk"
+          ],
+          "transaction_id": "txn_05e206ffc2c8"
+        },
+        {
+          "attack_subtype": "business_email_compromise",
+          "fraud_score": 0.08584904783465598,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "IP velocity lowers risk",
+            "session velocity lowers risk"
+          ],
+          "transaction_id": "txn_8be46d9e3635"
+        },
+        {
+          "attack_subtype": "vendor_rerouting",
+          "fraud_score": 0.11894352338567142,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "IP velocity lowers risk",
+            "session velocity lowers risk"
+          ],
+          "transaction_id": "txn_157eb0b41c95"
+        }
+      ],
+      "status": "weak"
+    }
+  ],
+  "created_at": "2026-08-30T14:37:27+00:00",
+  "detector": {
+    "model_path": "/Users/raghagra/Desktop/Raghav Folder/mastercardchallenge/outputs/iterations/iteration_027/models/baseline_model.pkl",
+    "row_level_llm_review": "disabled to isolate frozen-detector coverage",
+    "threshold": 0.13
+  },
+  "disclosure": "Synthetic adversarial evaluation using a frozen detector from the selected source iteration. LLM row review is disabled for comparability. Results indicate where to inspect or create governed red-team mutations; they do not establish production fraud-detection performance.",
+  "source_iteration_id": "iteration_027",
+  "summary": {
+    "cell_count": 15,
+    "follow_up_candidates": [
+      {
+        "bucket": "credential_based_fraud",
+        "difficulty_label": "Baseline",
+        "difficulty_profile": "baseline",
+        "fraud_record_count": 933,
+        "metrics": {
+          "accuracy": 0.966461,
+          "f1": 0.979915,
+          "false_negative": 6,
+          "false_positive": 32,
+          "false_positive_rate": 0.16,
+          "pr_auc": 0.998957,
+          "precision": 0.966632,
+          "recall": 0.993569,
+          "roc_auc": 0.994979,
+          "threshold": 0.13,
+          "true_negative": 168,
+          "true_positive": 927
+        },
+        "miss_count": 6,
+        "missed_subtypes": [
+          {
+            "miss_count": 4,
+            "subtype": "credential_stuffing"
+          },
+          {
+            "miss_count": 1,
+            "subtype": "consumer_account_takeover"
+          },
+          {
+            "miss_count": 1,
+            "subtype": "merchant_admin_takeover"
+          }
+        ],
+        "record_count": 1133,
+        "representative_misses": [
+          {
+            "attack_subtype": "consumer_account_takeover",
+            "fraud_score": 0.0866656454313659,
+            "reason_codes": [
+              "customer payment cadence lowers risk",
+              "session velocity lowers risk",
+              "device activity cadence raises risk"
+            ],
+            "transaction_id": "txn_6e925e0ef680"
+          },
+          {
+            "attack_subtype": "merchant_admin_takeover",
+            "fraud_score": 0.0994387864936588,
+            "reason_codes": [
+              "customer payment cadence lowers risk",
+              "merchant chargeback behavior lowers risk",
+              "session velocity lowers risk"
+            ],
+            "transaction_id": "txn_c036099c4ced"
+          },
+          {
+            "attack_subtype": "credential_stuffing",
+            "fraud_score": 0.03041845356051757,
+            "reason_codes": [
+              "customer payment cadence lowers risk",
+              "high generated risk score lowers risk",
+              "IP velocity lowers risk"
+            ],
+            "transaction_id": "txn_b1fc8e90ac59"
+          }
+        ],
+        "status": "monitor"
+      },
+      {
+        "bucket": "identity_onboarding_fraud",
+        "difficulty_label": "Baseline",
+        "difficulty_profile": "baseline",
+        "fraud_record_count": 304,
+        "metrics": {
+          "accuracy": 0.930556,
+          "f1": 0.945055,
+          "false_negative": 3,
+          "false_positive": 32,
+          "false_positive_rate": 0.16,
+          "pr_auc": 0.997752,
+          "precision": 0.903904,
+          "recall": 0.990132,
+          "roc_auc": 0.996086,
+          "threshold": 0.13,
+          "true_negative": 168,
+          "true_positive": 301
+        },
+        "miss_count": 3,
+        "missed_subtypes": [
+          {
+            "miss_count": 1,
+            "subtype": "fraudulent_merchant_onboarding"
+          },
+          {
+            "miss_count": 1,
+            "subtype": "stolen_identity_signup"
+          },
+          {
+            "miss_count": 1,
+            "subtype": "synthetic_identity"
+          }
+        ],
+        "record_count": 504,
+        "representative_misses": [
+          {
+            "attack_subtype": "fraudulent_merchant_onboarding",
+            "fraud_score": 0.11658910440667841,
+            "reason_codes": [
+              "customer payment cadence lowers risk",
+              "merchant chargeback behavior lowers risk",
+              "session velocity lowers risk"
+            ],
+            "transaction_id": "txn_0a5f6e5561a2"
+          },
+          {
+            "attack_subtype": "stolen_identity_signup",
+            "fraud_score": 0.06726713513818672,
+            "reason_codes": [
+              "customer payment cadence lowers risk",
+              "high generated risk score lowers risk",
+              "session velocity lowers risk"
+            ],
+            "transaction_id": "txn_fef2de7ae025"
+          },
+          {
+            "attack_subtype": "synthetic_identity",
+            "fraud_score": 0.11359729481402026,
+            "reason_codes": [
+              "customer payment cadence lowers risk",
+              "IP velocity lowers risk",
+              "session velocity lowers risk"
+            ],
+            "transaction_id": "txn_31df94090dd5"
+          }
+        ],
+        "status": "monitor"
+      },
+      {
+        "bucket": "merchant_ecosystem_abuse",
+        "difficulty_label": "Baseline",
+        "difficulty_profile": "baseline",
+        "fraud_record_count": 695,
+        "metrics": {
+          "accuracy": 0.963128,
+          "f1": 0.976777,
+          "false_negative": 1,
+          "false_positive": 32,
+          "false_positive_rate": 0.16,
+          "pr_auc": 0.999761,
+          "precision": 0.955923,
+          "recall": 0.998561,
+          "roc_auc": 0.999151,
+          "threshold": 0.13,
+          "true_negative": 168,
+          "true_positive": 694
+        },
+        "miss_count": 1,
+        "missed_subtypes": [
+          {
+            "miss_count": 1,
+            "subtype": "triangulation_fraud"
+          }
+        ],
+        "record_count": 895,
+        "representative_misses": [
+          {
+            "attack_subtype": "triangulation_fraud",
+            "fraud_score": 0.10529527723011439,
+            "reason_codes": [
+              "customer payment cadence lowers risk",
+              "high generated risk score lowers risk",
+              "session velocity lowers risk"
+            ],
+            "transaction_id": "txn_abaf9aa06f4f"
+          }
+        ],
+        "status": "monitor"
+      },
+      {
+        "bucket": "post_transaction_abuse",
+        "difficulty_label": "Baseline",
+        "difficulty_profile": "baseline",
+        "fraud_record_count": 100,
+        "metrics": {
+          "accuracy": 0.88,
+          "f1": 0.842105,
+          "false_negative": 4,
+          "false_positive": 32,
+          "false_positive_rate": 0.16,
+          "pr_auc": 0.979366,
+          "precision": 0.75,
+          "recall": 0.96,
+          "roc_auc": 0.9865,
+          "threshold": 0.13,
+          "true_negative": 168,
+          "true_positive": 96
+        },
+        "miss_count": 4,
+        "missed_subtypes": [
+          {
+            "miss_count": 2,
+            "subtype": "alternative_refund_abuse"
+          },
+          {
+            "miss_count": 1,
+            "subtype": "refund_fraud"
+          },
+          {
+            "miss_count": 1,
+            "subtype": "return_policy_abuse"
+          }
+        ],
+        "record_count": 300,
+        "representative_misses": [
+          {
+            "attack_subtype": "alternative_refund_abuse",
+            "fraud_score": 0.12470940806244094,
+            "reason_codes": [
+              "customer payment cadence lowers risk",
+              "IP velocity lowers risk",
+              "high generated risk score lowers risk"
+            ],
+            "transaction_id": "txn_6743f62c905f"
+          },
+          {
+            "attack_subtype": "return_policy_abuse",
+            "fraud_score": 0.12042448569477869,
+            "reason_codes": [
+              "customer payment cadence lowers risk",
+              "IP velocity lowers risk",
+              "high generated risk score lowers risk"
+            ],
+            "transaction_id": "txn_4f969f0f1067"
+          },
+          {
+            "attack_subtype": "alternative_refund_abuse",
+            "fraud_score": 0.09935403963081073,
+            "reason_codes": [
+              "customer payment cadence lowers risk",
+              "high generated risk score lowers risk",
+              "merchant chargeback behavior lowers risk"
+            ],
+            "transaction_id": "txn_7e4fbfbcd7ea"
+          }
+        ],
+        "status": "weak"
+      },
+      {
+        "bucket": "social_engineering_payment_fraud",
+        "difficulty_label": "Baseline",
+        "difficulty_profile": "baseline",
+        "fraud_record_count": 72,
+        "metrics": {
+          "accuracy": 0.875,
+          "f1": 0.804598,
+          "false_negative": 2,
+          "false_positive": 32,
+          "false_positive_rate": 0.16,
+          "pr_auc": 0.973937,
+          "precision": 0.686275,
+          "recall": 0.972222,
+          "roc_auc": 0.984653,
+          "threshold": 0.13,
+          "true_negative": 168,
+          "true_positive": 70
+        },
+        "miss_count": 2,
+        "missed_subtypes": [
+          {
+            "miss_count": 1,
+            "subtype": "executive_impersonation"
+          },
+          {
+            "miss_count": 1,
+            "subtype": "vendor_rerouting"
+          }
+        ],
+        "record_count": 272,
+        "representative_misses": [
+          {
+            "attack_subtype": "executive_impersonation",
+            "fraud_score": 0.06781805580319078,
+            "reason_codes": [
+              "customer payment cadence lowers risk",
+              "high generated risk score lowers risk",
+              "merchant chargeback behavior lowers risk"
+            ],
+            "transaction_id": "txn_f8eaf9bf16f0"
+          },
+          {
+            "attack_subtype": "vendor_rerouting",
+            "fraud_score": 0.09498436765018481,
+            "reason_codes": [
+              "customer payment cadence lowers risk",
+              "IP velocity lowers risk",
+              "high generated risk score lowers risk"
+            ],
+            "transaction_id": "txn_1a5874f55399"
+          }
+        ],
+        "status": "weak"
+      },
+      {
+        "bucket": "credential_based_fraud",
+        "difficulty_label": "Elevated",
+        "difficulty_profile": "elevated",
+        "fraud_record_count": 701,
+        "metrics": {
+          "accuracy": 0.951165,
+          "f1": 0.969058,
+          "false_negative": 12,
+          "false_positive": 32,
+          "false_positive_rate": 0.16,
+          "pr_auc": 0.99686,
+          "precision": 0.955617,
+          "recall": 0.982882,
+          "roc_auc": 0.988845,
+          "threshold": 0.13,
+          "true_negative": 168,
+          "true_positive": 689
+        },
+        "miss_count": 12,
+        "missed_subtypes": [
+          {
+            "miss_count": 9,
+            "subtype": "credential_stuffing"
+          },
+          {
+            "miss_count": 2,
+            "subtype": "merchant_admin_takeover"
+          },
+          {
+            "miss_count": 1,
+            "subtype": "consumer_account_takeover"
+          }
+        ],
+        "record_count": 901,
+        "representative_misses": [
+          {
+            "attack_subtype": "consumer_account_takeover",
+            "fraud_score": 0.061114890236031776,
+            "reason_codes": [
+              "customer payment cadence lowers risk",
+              "high generated risk score lowers risk",
+              "session velocity lowers risk"
+            ],
+            "transaction_id": "txn_a434f00a23bb"
+          },
+          {
+            "attack_subtype": "merchant_admin_takeover",
+            "fraud_score": 0.12895872006428863,
+            "reason_codes": [
+              "customer payment cadence lowers risk",
+              "merchant chargeback behavior lowers risk",
+              "session velocity lowers risk"
+            ],
+            "transaction_id": "txn_23749784c95c"
+          },
+          {
+            "attack_subtype": "credential_stuffing",
+            "fraud_score": 0.0436180622648827,
+            "reason_codes": [
+              "customer payment cadence lowers risk",
+              "IP velocity lowers risk",
+              "high generated risk score lowers risk"
+            ],
+            "transaction_id": "txn_f5dbc1f040eb"
+          }
+        ],
+        "status": "monitor"
+      },
+      {
+        "bucket": "identity_onboarding_fraud",
+        "difficulty_label": "Elevated",
+        "difficulty_profile": "elevated",
+        "fraud_record_count": 230,
+        "metrics": {
+          "accuracy": 0.913953,
+          "f1": 0.924024,
+          "false_negative": 5,
+          "false_positive": 32,
+          "false_positive_rate": 0.16,
+          "pr_auc": 0.992474,
+          "precision": 0.875486,
+          "recall": 0.978261,
+          "roc_auc": 0.989804,
+          "threshold": 0.13,
+          "true_negative": 168,
+          "true_positive": 225
+        },
+        "miss_count": 5,
+        "missed_subtypes": [
+          {
+            "miss_count": 3,
+            "subtype": "stolen_identity_signup"
+          },
+          {
+            "miss_count": 2,
+            "subtype": "synthetic_identity"
+          }
+        ],
+        "record_count": 430,
+        "representative_misses": [
+          {
+            "attack_subtype": "stolen_identity_signup",
+            "fraud_score": 0.10011528955638374,
+            "reason_codes": [
+              "customer payment cadence lowers risk",
+              "merchant chargeback behavior lowers risk",
+              "IP velocity lowers risk"
+            ],
+            "transaction_id": "txn_3d370e9645e7"
+          },
+          {
+            "attack_subtype": "stolen_identity_signup",
+            "fraud_score": 0.09463285307014883,
+            "reason_codes": [
+              "high generated risk score lowers risk",
+              "merchant chargeback behavior lowers risk",
+              "IP velocity lowers risk"
+            ],
+            "transaction_id": "txn_d3abd4c8835b"
+          },
+          {
+            "attack_subtype": "synthetic_identity",
+            "fraud_score": 0.06713627865311941,
+            "reason_codes": [
+              "customer payment cadence lowers risk",
+              "high generated risk score lowers risk",
+              "IP velocity lowers risk"
+            ],
+            "transaction_id": "txn_07d983df9adc"
+          }
+        ],
+        "status": "monitor"
+      },
+      {
+        "bucket": "merchant_ecosystem_abuse",
+        "difficulty_label": "Elevated",
+        "difficulty_profile": "elevated",
+        "fraud_record_count": 522,
+        "metrics": {
+          "accuracy": 0.950139,
+          "f1": 0.966418,
+          "false_negative": 4,
+          "false_positive": 32,
+          "false_positive_rate": 0.16,
+          "pr_auc": 0.998382,
+          "precision": 0.941818,
+          "recall": 0.992337,
+          "roc_auc": 0.995412,
+          "threshold": 0.13,
+          "true_negative": 168,
+          "true_positive": 518
+        },
+        "miss_count": 4,
+        "missed_subtypes": [
+          {
+            "miss_count": 2,
+            "subtype": "triangulation_fraud"
+          },
+          {
+            "miss_count": 1,
+            "subtype": "bust_out_merchant"
+          },
+          {
+            "miss_count": 1,
+            "subtype": "mule_laundering"
+          }
+        ],
+        "record_count": 722,
+        "representative_misses": [
+          {
+            "attack_subtype": "triangulation_fraud",
+            "fraud_score": 0.047721258124638094,
+            "reason_codes": [
+              "customer payment cadence lowers risk",
+              "high generated risk score lowers risk",
+              "IP velocity lowers risk"
+            ],
+            "transaction_id": "txn_a2438cd2c736"
+          },
+          {
+            "attack_subtype": "bust_out_merchant",
+            "fraud_score": 0.11990099034258518,
+            "reason_codes": [
+              "customer payment cadence lowers risk",
+              "session velocity lowers risk",
+              "device activity cadence raises risk"
+            ],
+            "transaction_id": "txn_0b2956feb789"
+          },
+          {
+            "attack_subtype": "mule_laundering",
+            "fraud_score": 0.07116803491572046,
+            "reason_codes": [
+              "customer payment cadence lowers risk",
+              "IP velocity lowers risk",
+              "high generated risk score lowers risk"
+            ],
+            "transaction_id": "txn_f7780ede8233"
+          }
+        ],
+        "status": "monitor"
+      }
+    ],
+    "lowest_recall_cell": {
+      "bucket": "social_engineering_payment_fraud",
+      "difficulty_label": "Stealth stress",
+      "difficulty_profile": "stealth_stress",
+      "fraud_record_count": 39,
+      "metrics": {
+        "accuracy": 0.853556,
+        "f1": 0.672897,
+        "false_negative": 3,
+        "false_positive": 32,
+        "false_positive_rate": 0.16,
+        "pr_auc": 0.906545,
+        "precision": 0.529412,
+        "recall": 0.923077,
+        "roc_auc": 0.969615,
+        "threshold": 0.13,
+        "true_negative": 168,
+        "true_positive": 36
+      },
+      "miss_count": 3,
+      "missed_subtypes": [
+        {
+          "miss_count": 1,
+          "subtype": "ai_impersonation"
+        },
+        {
+          "miss_count": 1,
+          "subtype": "business_email_compromise"
+        },
+        {
+          "miss_count": 1,
+          "subtype": "vendor_rerouting"
+        }
+      ],
+      "record_count": 239,
+      "representative_misses": [
+        {
+          "attack_subtype": "ai_impersonation",
+          "fraud_score": 0.10717129831447632,
+          "reason_codes": [
+            "amount deviation from customer history lowers risk",
+            "high generated risk score lowers risk",
+            "merchant chargeback behavior lowers risk"
+          ],
+          "transaction_id": "txn_05e206ffc2c8"
+        },
+        {
+          "attack_subtype": "business_email_compromise",
+          "fraud_score": 0.08584904783465598,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "IP velocity lowers risk",
+            "session velocity lowers risk"
+          ],
+          "transaction_id": "txn_8be46d9e3635"
+        },
+        {
+          "attack_subtype": "vendor_rerouting",
+          "fraud_score": 0.11894352338567142,
+          "reason_codes": [
+            "customer payment cadence lowers risk",
+            "IP velocity lowers risk",
+            "session velocity lowers risk"
+          ],
+          "transaction_id": "txn_157eb0b41c95"
+        }
+      ],
+      "status": "weak"
+    },
+    "monitor_cells": 9,
+    "strong_cells": 0,
+    "weak_cells": 6
+  }
+}

@@ -95,6 +95,16 @@ Purpose:
 
 The view loads CSV templates, accepts historical and upcoming transaction files, surfaces local-demo warnings and validation output, scores upcoming records against a selected iteration model, and provides an explicit deletion control. GenAI review is opt-in; remote/cloud routing requires acknowledgement.
 
+### 7. Adversarial Evaluation Lab
+
+Purpose:
+
+- demonstrate systematic defensive coverage across the mapped payment-fraud surface, rather than only one loop iteration.
+
+The operator selects a completed source iteration, fraud families, bounded difficulty profiles, seeded repetitions, scenario volume, and benign volume. The backend evaluates every profile/seed arm with the same frozen detector and with row-level LLM review disabled for comparability.
+
+The UI presents the result as a fraud-family × difficulty-profile coverage matrix. Each cell reports recall, F1, misses, and a `strong`, `monitor`, or `weak` status. Selecting a cell reveals missed subtypes and representative evidence; a follow-up action opens the human-governed closed-loop review workspace. The status thresholds are explicitly presented as demo defaults rather than production risk policy.
+
 ## UX principles
 
 - Keep the layout simple and polished.

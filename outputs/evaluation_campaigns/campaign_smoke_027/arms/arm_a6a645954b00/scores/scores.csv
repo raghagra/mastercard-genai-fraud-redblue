@@ -1,0 +1,25 @@
+transaction_id,fraud_score,prediction,ml_fraud_score,ml_prediction,decision_engine,llm_reviewed,llm_provider,llm_semantic_risk_score,llm_novelty_score,llm_recommendation,llm_rationale,llm_risk_indicators,llm_fallback,label,attack_bucket,attack_subtype,reason_codes
+txn_db40dd6ac6b0,0.06526414628578081,0,0.065264,0,ml_only,0,,,,,,,,0,,,customer payment cadence lowers risk;high generated risk score lowers risk;IP velocity lowers risk
+txn_8e9bbd6f9649,0.05771506005101166,0,0.057715,0,ml_only,0,,,,,,,,0,,,IP velocity lowers risk;event_hour lowers risk;high generated risk score lowers risk
+txn_4630543833df,0.09163827086164361,0,0.091638,0,ml_only,0,,,,,,,,0,,,high generated risk score lowers risk;IP velocity lowers risk;event_hour lowers risk
+txn_19557da8d6b5,0.03411615719570942,0,0.034116,0,ml_only,0,,,,,,,,0,,,high generated risk score lowers risk;IP velocity lowers risk;event_hour lowers risk
+txn_36f0d6e66df0,0.12496568753011157,0,0.124966,0,ml_only,0,,,,,,,,0,,,IP velocity lowers risk;event_hour lowers risk;session velocity lowers risk
+txn_05ac045f73fd,0.04171671174598963,0,0.041717,0,ml_only,0,,,,,,,,0,,,customer payment cadence lowers risk;high generated risk score lowers risk;IP velocity lowers risk
+txn_be8a71877ba7,0.07913934138695818,0,0.079139,0,ml_only,0,,,,,,,,0,,,high generated risk score lowers risk;IP velocity lowers risk;merchant chargeback behavior lowers risk
+txn_7e924e1464c3,0.053390739392378074,0,0.053391,0,ml_only,0,,,,,,,,0,,,high generated risk score lowers risk;IP velocity lowers risk;event_hour lowers risk
+txn_862d69330a80,0.0002830894033229349,0,0.000283,0,ml_only,0,,,,,,,,0,,,amount deviation from customer history lowers risk;IP velocity lowers risk;event_hour lowers risk
+txn_eb83195947e6,0.04202276026444177,0,0.042023,0,ml_only,0,,,,,,,,0,,,high generated risk score lowers risk;IP velocity lowers risk;event_hour lowers risk
+txn_392633974cf0,0.06020177543010453,0,0.060202,0,ml_only,0,,,,,,,,0,,,high generated risk score lowers risk;IP velocity lowers risk;event_hour lowers risk
+txn_7b88714cb486,0.031163758854008877,0,0.031164,0,ml_only,0,,,,,,,,0,,,customer payment cadence lowers risk;IP velocity lowers risk;event_hour lowers risk
+txn_875e9a72229c,0.12889671192498312,0,0.128897,0,ml_only,0,,,,,,,,0,,,IP velocity lowers risk;event_hour lowers risk;session velocity lowers risk
+txn_9be5c2eadf04,0.06255504013787808,0,0.062555,0,ml_only,0,,,,,,,,0,,,customer payment cadence lowers risk;IP velocity lowers risk;event_hour lowers risk
+txn_ff3bcf19dbcf,0.057133980170202936,0,0.057134,0,ml_only,0,,,,,,,,0,,,IP velocity lowers risk;event_hour lowers risk;high generated risk score lowers risk
+txn_94dc8e4876df,0.041985754115818244,0,0.041986,0,ml_only,0,,,,,,,,0,,,high generated risk score lowers risk;IP velocity lowers risk;merchant chargeback behavior lowers risk
+txn_480465febebb,0.1057335458164758,0,0.105734,0,ml_only,0,,,,,,,,0,,,IP velocity lowers risk;event_hour lowers risk;session velocity lowers risk
+txn_421042bd9643,0.020826947261800278,0,0.020827,0,ml_only,0,,,,,,,,0,,,amount deviation from customer history lowers risk;IP velocity lowers risk;event_hour lowers risk
+txn_9688bdb6a802,0.07381662494772515,0,0.073817,0,ml_only,0,,,,,,,,0,,,customer payment cadence lowers risk;IP velocity lowers risk;event_hour lowers risk
+txn_d3cf6bbf0362,0.12301026509354576,0,0.12301,0,ml_only,0,,,,,,,,0,,,merchant chargeback behavior lowers risk;IP velocity lowers risk;session velocity lowers risk
+txn_9d84fb2dc885,0.25206827441497043,1,0.252068,1,ml_only,0,,,,,,,,1,social_engineering_payment_fraud,ai_impersonation,customer payment cadence lowers risk;IP velocity lowers risk;session velocity lowers risk
+txn_fab8296787bd,0.16099983143379296,1,0.161,1,ml_only,0,,,,,,,,1,social_engineering_payment_fraud,ai_impersonation,IP velocity lowers risk;event_hour lowers risk;merchant chargeback behavior lowers risk
+txn_f7853645cfd2,0.24920012086248308,1,0.2492,1,ml_only,0,,,,,,,,1,social_engineering_payment_fraud,ai_impersonation,IP velocity lowers risk;session velocity raises risk;event_hour lowers risk
+txn_f91ed953515d,0.10065102789105279,0,0.100651,0,ml_only,0,,,,,,,,1,social_engineering_payment_fraud,ai_impersonation,IP velocity lowers risk;session velocity lowers risk;event_hour lowers risk
